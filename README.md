@@ -8,6 +8,7 @@ Due to time constraints, we provide instructions to run only one set of experime
 1. Standard linux tools, like `make`, `wget` etc. Please watch for errors and install any missing binaries. 
 2. Rust, installed with https://rustup.rs
 3. Any dependencies required to build [DuckDB](https://github.com/duckdb/duckdb#development), including [CMake](https://cmake.org), Python3 and a `C++11` compliant compiler. We include DuckDB's source code in this repository, with minimal modifiactions to produce machine-readable query plans. The Makefile builds DuckDB. 
+4. For plotting, install plotly and pandas (e.g. with pip/pip3). 
 
 # Building and Running Free Join
 Running `make` after installing the dependencies will build the code and prepare the benchmark data.
