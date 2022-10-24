@@ -1,0 +1,1 @@
+COPY (SELECT COUNT(*) FROM movie_info GROUP BY info_type_id) TO './tables/movie_info_info_type_id.csv' (HEADER, DELIMITER ',');

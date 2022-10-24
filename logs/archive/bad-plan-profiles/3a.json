@@ -1,0 +1,166 @@
+{
+   "name":  "Query", 
+   "result": 0.485031,
+   "timing": 0.485031,
+   "cardinality": 1,
+   "extra_info": "SELECT MIN(t.title) AS movie_title\nFROM keyword AS k,\n     movie_info AS mi,\n     movie_keyword AS mk,\n     title AS t\nWHERE k.keyword LIKE '%sequel%'\n  AND mi.info IN ('Sweden',\n                  'Norway',\n                  'Germany',\n                  'Denmark',\n                  'Swedish',\n                  'Denish',\n                  'Norwegian',\n                  'German')\n  AND t.production_year > 2005\n  AND t.id = mi.movie_id\n  AND t.id = mk.movie_id\n  AND mk.movie_id = mi.movie_id\n  AND k.id = mk.keyword_id;", 
+   "timings": [
+
+   ],
+   "children": [
+    {
+      "name": "SIMPLE_AGGREGATE",
+      "timing":0.000004,
+      "cardinality":1,
+      "extra_info": "min(#0)",
+      "timings": [
+      ],
+      "children": [
+       {
+         "name": "PROJECTION",
+         "timing":0.000000,
+         "cardinality":206,
+         "extra_info": "t.title\n",
+         "timings": [
+         ],
+         "children": [
+          {
+            "name": "HASH_JOIN",
+            "timing":0.004045,
+            "cardinality":206,
+            "extra_info": "INNER\nk.id = mk.keyword_id\n",
+            "timings": [
+            ],
+            "children": [
+             {
+               "name": "PROJECTION",
+               "timing":0.000000,
+               "cardinality":30,
+               "extra_info": "#1\n",
+               "timings": [
+               ],
+               "children": [
+                {
+                  "name": "FILTER",
+                  "timing":0.002726,
+                  "cardinality":30,
+                  "extra_info": "contains(k.keyword, 'sequel')",
+                  "timings": [
+                  ],
+                  "children": [
+                   {
+                     "name": "SEQ_SCAN",
+                     "timing":0.000983,
+                     "cardinality":134170,
+                     "extra_info": "keyword\n[INFOSEPARATOR]\nkeyword\nid",
+                     "timings": [
+                     ],
+                     "children": [
+                     ]
+                   }
+                  ]
+                }
+               ]
+             }
+,
+             {
+               "name": "HASH_JOIN",
+               "timing":0.052620,
+               "cardinality":167111,
+               "extra_info": "INNER\nmi.movie_id = t.id\nmi.movie_id = mk.movie_id\n",
+               "timings": [
+               ],
+               "children": [
+                {
+                  "name": "PROJECTION",
+                  "timing":0.000027,
+                  "cardinality":153897,
+                  "extra_info": "#1\n",
+                  "timings": [
+                  ],
+                  "children": [
+                   {
+                     "name": "FILTER",
+                     "timing":0.008436,
+                     "cardinality":153897,
+                     "extra_info": "IN (...)",
+                     "timings": [
+                     ],
+                     "children": [
+                      {
+                        "name": "HASH_JOIN",
+                        "timing":0.205712,
+                        "cardinality":14835720,
+                        "extra_info": "MARK\nmi.info = #0\n",
+                        "timings": [
+                        ],
+                        "children": [
+                         {
+                           "name": "SEQ_SCAN",
+                           "timing":0.086355,
+                           "cardinality":14835720,
+                           "extra_info": "movie_info\n[INFOSEPARATOR]\ninfo\nmovie_id",
+                           "timings": [
+                           ],
+                           "children": [
+                           ]
+                         }
+,
+                         {
+                           "name": "CHUNK_SCAN",
+                           "timing":0.000000,
+                           "cardinality":8,
+                           "extra_info": "",
+                           "timings": [
+                           ],
+                           "children": [
+                           ]
+                         }
+                        ]
+                      }
+                     ]
+                   }
+                  ]
+                }
+,
+                {
+                  "name": "HASH_JOIN",
+                  "timing":0.058958,
+                  "cardinality":1253091,
+                  "extra_info": "INNER\nmk.movie_id = t.id\n",
+                  "timings": [
+                  ],
+                  "children": [
+                   {
+                     "name": "SEQ_SCAN",
+                     "timing":0.001090,
+                     "cardinality":4523930,
+                     "extra_info": "movie_keyword\n[INFOSEPARATOR]\nmovie_id\nkeyword_id",
+                     "timings": [
+                     ],
+                     "children": [
+                     ]
+                   }
+,
+                   {
+                     "name": "SEQ_SCAN",
+                     "timing":0.030843,
+                     "cardinality":1012920,
+                     "extra_info": "title\n[INFOSEPARATOR]\nproduction_year\nid\ntitle\n[INFOSEPARATOR]\nFilters: production_year>2005 AND production_year IS NOT NULL\n",
+                     "timings": [
+                     ],
+                     "children": [
+                     ]
+                   }
+                  ]
+                }
+               ]
+             }
+            ]
+          }
+         ]
+       }
+      ]
+    }
+   ]
+}

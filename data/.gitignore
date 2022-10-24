@@ -1,0 +1,9 @@
+*
+*/
+!r.parquet
+!s.parquet
+!t.parquet
+!.gitignore
+!imdb
+!imdb/import.*
+!imdb/Makefile

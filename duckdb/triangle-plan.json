@@ -1,0 +1,64 @@
+{
+   "name":  "Query", 
+   "result": 0.000299,
+   "timing": 0.000299,
+   "cardinality": 13,
+   "extra_info": "select r.x, s.y, t.z from r, s, t where r.x = t.x and r.y = s.y and s.z = t.z;", 
+   "timings": [
+
+   ],
+   "children": [
+    {
+      "name": "HASH_JOIN",
+      "timing":0.000015,
+      "cardinality":13,
+      "extra_info": "INNER\nr.x = t.x\nr.y = s.y\n",
+      "timings": [
+      ],
+      "children": [
+       {
+         "name": "SEQ_SCAN",
+         "timing":0.000001,
+         "cardinality":9,
+         "extra_info": "r\n[INFOSEPARATOR]\nx\ny",
+         "timings": [
+         ],
+         "children": [
+         ]
+       }
+,
+       {
+         "name": "HASH_JOIN",
+         "timing":0.000029,
+         "cardinality":29,
+         "extra_info": "INNER\ns.z = t.z\n",
+         "timings": [
+         ],
+         "children": [
+          {
+            "name": "SEQ_SCAN",
+            "timing":0.000002,
+            "cardinality":9,
+            "extra_info": "s\n[INFOSEPARATOR]\ny\nz",
+            "timings": [
+            ],
+            "children": [
+            ]
+          }
+,
+          {
+            "name": "SEQ_SCAN",
+            "timing":0.000003,
+            "cardinality":9,
+            "extra_info": "t\n[INFOSEPARATOR]\nx\nz",
+            "timings": [
+            ],
+            "children": [
+            ]
+          }
+         ]
+       }
+      ]
+    }
+   ]
+}

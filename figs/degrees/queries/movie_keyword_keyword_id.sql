@@ -1,0 +1,1 @@
+COPY (SELECT COUNT(*) FROM movie_keyword GROUP BY keyword_id) TO './tables/movie_keyword_keyword_id.csv' (HEADER, DELIMITER ',');

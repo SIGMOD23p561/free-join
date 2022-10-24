@@ -1,0 +1,1 @@
+COPY (SELECT COUNT(*) FROM title GROUP BY kind_id) TO './tables/title_kind_id.csv' (HEADER, DELIMITER ',');

@@ -1,0 +1,65 @@
+# name: test/sql/overflow/test_numeric_overflow.test
+# description: Test handling of overflows in float/double
+# group: [overflow]
+
+statement ok
+PRAGMA enable_verification
+
+query I
+SELECT 1e1000
+----
+inf
+
+# overflow on cast from double to real results in an error
+statement error
+SELECT 1e308::REAL
+
+# except we can cast inf -> inf
+query I
+SELECT 1e1000::REAL
+----
+inf
+
+# test string casts
+query I
+SELECT '1e1000'::DOUBLE
+----
+inf
+
+query I
+SELECT '1e100'::REAL
+----
+inf
+
+# overflow in SUM/AVG results in an error
+statement error
+SELECT SUM(i) FROM (VALUES (1e308), (1e308)) tbl(i)
+
+statement error
+SELECT AVG(i) FROM (VALUES (1e308), (1e308)) tbl(i)
+
+# overflow in arithmetic as well
+statement error
+SELECT 1e308+1e308
+
+statement error
+SELECT 1e308*2
+
+statement error
+SELECT -1e308-1e308
+
+statement error
+SELECT 1e308/0.1
+
+statement error
+SELECT 2e38::REAL+2e38::REAL
+
+statement error
+SELECT 2e38::REAL*2
+
+statement error
+SELECT -2e38::REAL-2e38::REAL
+
+statement error
+SELECT 2e38::REAL/0.1::REAL
+

@@ -1,0 +1,126 @@
+{
+   "name":  "Query", 
+   "result": 0.012541,
+   "timing": 0.012541,
+   "cardinality": 1,
+   "extra_info": "SELECT MIN(t.title) AS american_movie\n FROM mi, mc, info_type AS it, ct, t, \nWHERE t.id = mi.movie_id\nAND t.id = mc.movie_id\nAND mc.movie_id = mi.movie_id\nAND ct.id = mc.company_type_id\nAND it.id = mi.info_type_id\n;", 
+   "timings": [
+
+   ],
+   "children": [
+    {
+      "name": "SIMPLE_AGGREGATE",
+      "timing":0.000014,
+      "cardinality":1,
+      "extra_info": "min(#0)",
+      "timings": [
+      ],
+      "children": [
+       {
+         "name": "PROJECTION",
+         "timing":0.000000,
+         "cardinality":669,
+         "extra_info": "title\n",
+         "timings": [
+         ],
+         "children": [
+          {
+            "name": "HASH_JOIN",
+            "timing":0.012438,
+            "cardinality":669,
+            "extra_info": "INNER\nid = movie_id\nmovie_id = movie_id\n",
+            "timings": [
+            ],
+            "children": [
+             {
+               "name": "HASH_JOIN",
+               "timing":0.007497,
+               "cardinality":767,
+               "extra_info": "INNER\nid = movie_id\n",
+               "timings": [
+               ],
+               "children": [
+                {
+                  "name": "SEQ_SCAN",
+                  "timing":0.021844,
+                  "cardinality":1749032,
+                  "extra_info": "t\n[INFOSEPARATOR]\nid\ntitle",
+                  "timings": [
+                  ],
+                  "children": [
+                  ]
+                }
+,
+                {
+                  "name": "HASH_JOIN",
+                  "timing":0.000205,
+                  "cardinality":798,
+                  "extra_info": "INNER\ncompany_type_id = id\n",
+                  "timings": [
+                  ],
+                  "children": [
+                   {
+                     "name": "SEQ_SCAN",
+                     "timing":0.000225,
+                     "cardinality":295628,
+                     "extra_info": "mc\n[INFOSEPARATOR]\nmovie_id\ncompany_type_id",
+                     "timings": [
+                     ],
+                     "children": [
+                     ]
+                   }
+,
+                   {
+                     "name": "SEQ_SCAN",
+                     "timing":0.000003,
+                     "cardinality":1,
+                     "extra_info": "ct\n[INFOSEPARATOR]\nid",
+                     "timings": [
+                     ],
+                     "children": [
+                     ]
+                   }
+                  ]
+                }
+               ]
+             }
+,
+             {
+               "name": "HASH_JOIN",
+               "timing":0.001083,
+               "cardinality":706674,
+               "extra_info": "INNER\ninfo_type_id = id\n",
+               "timings": [
+               ],
+               "children": [
+                {
+                  "name": "SEQ_SCAN",
+                  "timing":0.001283,
+                  "cardinality":706674,
+                  "extra_info": "mi\n[INFOSEPARATOR]\nmovie_id\ninfo_type_id",
+                  "timings": [
+                  ],
+                  "children": [
+                  ]
+                }
+,
+                {
+                  "name": "SEQ_SCAN",
+                  "timing":0.000002,
+                  "cardinality":113,
+                  "extra_info": "info_type\n[INFOSEPARATOR]\nid",
+                  "timings": [
+                  ],
+                  "children": [
+                  ]
+                }
+               ]
+             }
+            ]
+          }
+         ]
+       }
+      ]
+    }
+   ]
+}

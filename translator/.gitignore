@@ -1,0 +1,5 @@
+/target
+/.idea
+/input
+/output/*
+!/output/res.txt

@@ -1,0 +1,10 @@
+temp
+temp.sql
+.vscode
+gj/*.log
+gj/.idea
+plot.png
+plot.pdf
+gj/out.json
+gj/gj.json
+logs/plan-profiles

@@ -1,0 +1,187 @@
+{
+   "name":  "Query", 
+   "result": 0.002403,
+   "timing": 0.002403,
+   "cardinality": 0,
+   "extra_info": "export database 'star3' (format parquet);", 
+   "timings": [
+   {
+   "annotation": "optimizer", 
+   "timing": 0.000112
+   },
+   {
+   "annotation": "optimizer > column_lifetime", 
+   "timing": 0.000002
+   },
+   {
+   "annotation": "optimizer > common_aggregate", 
+   "timing": 0.000001
+   },
+   {
+   "annotation": "optimizer > common_subexpressions", 
+   "timing": 0.000001
+   },
+   {
+   "annotation": "optimizer > deliminator", 
+   "timing": 0.000000
+   },
+   {
+   "annotation": "optimizer > expression_rewriter", 
+   "timing": 0.000004
+   },
+   {
+   "annotation": "optimizer > filter_pullup", 
+   "timing": 0.000000
+   },
+   {
+   "annotation": "optimizer > filter_pushdown", 
+   "timing": 0.000002
+   },
+   {
+   "annotation": "optimizer > in_clause", 
+   "timing": 0.000000
+   },
+   {
+   "annotation": "optimizer > join_order", 
+   "timing": 0.000004
+   },
+   {
+   "annotation": "optimizer > regex_range", 
+   "timing": 0.000000
+   },
+   {
+   "annotation": "optimizer > reorder_filter", 
+   "timing": 0.000005
+   },
+   {
+   "annotation": "optimizer > statistics_propagation", 
+   "timing": 0.000080
+   },
+   {
+   "annotation": "optimizer > top_n", 
+   "timing": 0.000001
+   },
+   {
+   "annotation": "optimizer > unused_columns", 
+   "timing": 0.000003
+   },
+   {
+   "annotation": "physical_planner", 
+   "timing": 0.000015
+   },
+   {
+   "annotation": "physical_planner > column_binding", 
+   "timing": 0.000003
+   },
+   {
+   "annotation": "physical_planner > create_plan", 
+   "timing": 0.000007
+   },
+   {
+   "annotation": "physical_planner > resolve_types", 
+   "timing": 0.000001
+   },
+   {
+   "annotation": "planner", 
+   "timing": 0.000072
+   },
+   {
+   "annotation": "planner > binder", 
+   "timing": 0.000071
+   }
+   ],
+   "children": [
+    {
+      "name": "EXPORT",
+      "timing":0.000464,
+      "cardinality":0,
+      "extra_info": "",
+      "timings": [
+      ],
+      "children": [
+       {
+         "name": "UNION",
+         "timing":0.000000,
+         "cardinality":3,
+         "extra_info": "",
+         "timings": [
+         ],
+         "children": [
+          {
+            "name": "UNION",
+            "timing":0.000000,
+            "cardinality":2,
+            "extra_info": "",
+            "timings": [
+            ],
+            "children": [
+             {
+               "name": "COPY_TO_FILE",
+               "timing":0.000006,
+               "cardinality":1,
+               "extra_info": "",
+               "timings": [
+               ],
+               "children": [
+                {
+                  "name": "SEQ_SCAN",
+                  "timing":0.000010,
+                  "cardinality":1001,
+                  "extra_info": "st\n[INFOSEPARATOR]\nx\ny",
+                  "timings": [
+                  ],
+                  "children": [
+                  ]
+                }
+               ]
+             }
+,
+             {
+               "name": "COPY_TO_FILE",
+               "timing":0.000004,
+               "cardinality":1,
+               "extra_info": "",
+               "timings": [
+               ],
+               "children": [
+                {
+                  "name": "SEQ_SCAN",
+                  "timing":0.000007,
+                  "cardinality":1001,
+                  "extra_info": "ss\n[INFOSEPARATOR]\nx\ny",
+                  "timings": [
+                  ],
+                  "children": [
+                  ]
+                }
+               ]
+             }
+            ]
+          }
+,
+          {
+            "name": "COPY_TO_FILE",
+            "timing":0.000002,
+            "cardinality":1,
+            "extra_info": "",
+            "timings": [
+            ],
+            "children": [
+             {
+               "name": "SEQ_SCAN",
+               "timing":0.000005,
+               "cardinality":1001,
+               "extra_info": "sr\n[INFOSEPARATOR]\nx\ny",
+               "timings": [
+               ],
+               "children": [
+               ]
+             }
+            ]
+          }
+         ]
+       }
+      ]
+    }
+   ]
+}

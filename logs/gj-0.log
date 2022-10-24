@@ -1,0 +1,2985 @@
+running query 1a: IMDBQ001 
+DUCKDB total time: 0.30475
+DUCKDB filter time: 0.000079
+DUCKDB join time: 0.304671
+Loading t to DB
+Loading mi_idx to DB
+Loading it to DB
+Loading mc to DB
+Loading ct to DB
+Building takes 0.13759233
+Running join with 2 tables
+Join took 0.39179337
+Iter takes 0.5294073
+Building takes 0.20299883
+Running join with 4 tables
+Join took 0.007709541
+Iter takes 0.21073183
+Bushy join takes 0.74014026
+output [Str("(A Warner Bros.-First National Picture) (presents)"), Str("A Clockwork Orange"), Num(1934)]
+Total takes 0.7402333
+running query 1b: IMDBQ002 
+DUCKDB total time: 0.423328
+DUCKDB filter time: 0.053947
+DUCKDB join time: 0.36938099999999996
+Loading mi_idx to DB
+Loading it to DB
+Loading mc to DB
+Loading ct to DB
+Loading t to DB
+Building takes 0.1344672
+Running join with 2 tables
+Join took 0.10758554
+Iter takes 0.24207057
+Building takes 0.046110455
+Running join with 4 tables
+Join took 0.11345138
+Iter takes 0.15958191
+Bushy join takes 0.40165353
+output [Str("(Set Decoration Rentals) (uncredited)"), Str("Disaster Movie"), Num(2008)]
+Total takes 0.40166786
+running query 1c: IMDBQ003 
+DUCKDB total time: 0.162153
+DUCKDB filter time: 0.045638
+DUCKDB join time: 0.116515
+Loading mi_idx to DB
+Loading t to DB
+Loading mc to DB
+Loading ct to DB
+Loading it to DB
+Building takes 0.13406229
+Running join with 2 tables
+Join took 0.050424583
+Iter takes 0.18450257
+Building takes 0.013743375
+Running join with 4 tables
+Join took 0.001581416
+Iter takes 0.015337416
+Bushy join takes 0.19984108
+output [Str("(co-production)"), Str("Intouchables"), Num(2011)]
+Total takes 0.19984964
+running query 1d: IMDBQ004 
+DUCKDB total time: 0.440184
+DUCKDB filter time: 0.050535000000000004
+DUCKDB join time: 0.389649
+Loading t to DB
+Loading mc to DB
+Loading ct to DB
+Loading mi_idx to DB
+Loading it to DB
+Building takes 0.13458487
+Running join with 2 tables
+Join took 0.19919732
+Iter takes 0.33379775
+Building takes 0.0877375
+Running join with 4 tables
+Join took 0.14275764
+Iter takes 0.23051164
+Bushy join takes 0.56431055
+output [Str("(Set Decoration Rentals) (uncredited)"), Str("Disaster Movie"), Num(2004)]
+Total takes 0.56432337
+running query 2a: IMDBQ005 
+DUCKDB total time: 0.931433
+DUCKDB filter time: 0.008215
+DUCKDB join time: 0.923218
+Loading mk to DB
+Loading mc to DB
+Loading t to DB
+Loading cn to DB
+Loading k to DB
+Building takes 1.0515939
+Running join with 5 tables
+Join took 0.37631178
+Iter takes 1.4279307
+Bushy join takes 1.4279313
+output [Str("'Doc'")]
+Total takes 1.4283774
+running query 2b: IMDBQ006 
+DUCKDB total time: 0.953035
+DUCKDB filter time: 0.008424
+DUCKDB join time: 0.944611
+Loading mk to DB
+Loading mc to DB
+Loading t to DB
+Loading k to DB
+Loading cn to DB
+Building takes 1.00018
+Running join with 5 tables
+Join took 0.37186977
+Iter takes 1.3720745
+Bushy join takes 1.3720753
+output [Str("'Doc'")]
+Total takes 1.3722852
+running query 2d: IMDBQ008 
+DUCKDB total time: 0.882546
+DUCKDB filter time: 0.008806000000000001
+DUCKDB join time: 0.8737400000000001
+Loading mk to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading k to DB
+Building takes 1.5000248
+Running join with 5 tables
+Join took 0.5019299
+Iter takes 2.00199
+Bushy join takes 2.0019908
+output [Str("& Teller")]
+Total takes 2.0034237
+running query 3a: IMDBQ009 
+DUCKDB total time: 0.7698
+DUCKDB filter time: 0.049425
+DUCKDB join time: 0.720375
+Loading mk to DB
+Loading mi to DB
+Loading t to DB
+Loading k to DB
+Building takes 0.24846879
+Running join with 2 tables
+Join took 0.5264757
+Iter takes 0.7749735
+Building takes 0.1728513
+Running join with 3 tables
+Join took 0.014038583
+Iter takes 0.18691559
+Bushy join takes 0.9618903
+output [Str("2 Days in New York")]
+Total takes 0.96193373
+running query 3b: IMDBQ010 
+DUCKDB total time: 0.402309
+DUCKDB filter time: 0.050159
+DUCKDB join time: 0.35215
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading mi to DB
+Building takes 0.056707375
+Running join with 2 tables
+Join took 0.32639766
+Iter takes 0.3831297
+Building takes 0.033783417
+Running join with 3 tables
+Join took 0.000125458
+Iter takes 0.033927623
+Bushy join takes 0.41705853
+output [Str("300: Rise of an Empire")]
+Total takes 0.4170669
+running query 3c: IMDBQ011 
+DUCKDB total time: 1.091166
+DUCKDB filter time: 0.048145
+DUCKDB join time: 1.043021
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading mi to DB
+Building takes 0.40371746
+Running join with 2 tables
+Join took 0.5626092
+Iter takes 0.96635014
+Building takes 0.38067335
+Running join with 3 tables
+Join took 0.10520529
+Iter takes 0.4859221
+Bushy join takes 1.4522737
+output [Str("& Teller 2")]
+Total takes 1.4526179
+running query 4a: IMDBQ012 
+DUCKDB total time: 0.312723
+DUCKDB filter time: 0.093524
+DUCKDB join time: 0.21919899999999998
+Loading mk to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading it to DB
+Loading k to DB
+Building takes 0.3158716
+Running join with 5 tables
+Join took 0.25213364
+Iter takes 0.56803703
+Bushy join takes 0.5680377
+output [Str("5.1"), Str("& Teller 2")]
+Total takes 0.56827134
+running query 4b: IMDBQ013 
+DUCKDB total time: 0.144858
+DUCKDB filter time: 0.08690300000000001
+DUCKDB join time: 0.05795499999999998
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading it to DB
+Building takes 0.05334304
+Running join with 5 tables
+Join took 0.19335042
+Iter takes 0.24672209
+Bushy join takes 0.24672258
+output [Str("9.1"), Str("Batman: Arkham City")]
+Total takes 0.246733
+running query 4c: IMDBQ014 
+DUCKDB total time: 0.479013
+DUCKDB filter time: 0.09225399999999999
+DUCKDB join time: 0.386759
+Loading mk to DB
+Loading mi_idx to DB
+Loading t to DB
+Loading it to DB
+Loading k to DB
+Building takes 0.54650193
+Running join with 5 tables
+Join took 0.3043807
+Iter takes 0.8509071
+Bushy join takes 0.85090756
+output [Str("2.1"), Str("& Teller 2")]
+Total takes 0.85118467
+running query 5c: IMDBQ017 
+DUCKDB total time: 0.793018
+DUCKDB filter time: 0.047765
+DUCKDB join time: 0.7452529999999999
+Loading t to DB
+Loading mc to DB
+Loading ct to DB
+Loading mi to DB
+Loading it to DB
+Building takes 0.35472816
+Running join with 5 tables
+Join took 0.100555874
+Iter takes 0.45530713
+Bushy join takes 0.4553077
+output [Str("11,830,420")]
+Total takes 0.45534387
+running query 6a: IMDBQ018 
+DUCKDB total time: 0.277614
+DUCKDB filter time: 0.047897999999999996
+DUCKDB join time: 0.22971600000000003
+Loading ci to DB
+Loading n to DB
+Loading t to DB
+Loading mk to DB
+Loading k to DB
+Building takes 0.08366713
+Running join with 3 tables
+Join took 0.23018587
+Iter takes 0.31388083
+Building takes 0.000014916
+Running join with 3 tables
+Join took 2.1080756
+Iter takes 2.108132
+Bushy join takes 2.4220138
+output [Str("marvel-cinematic-universe"), Str("Downey Jr., Robert"), Str("Iron Man 3")]
+Total takes 2.4220476
+running query 6b: IMDBQ019 
+DUCKDB total time: 0.210314
+DUCKDB filter time: 0.006889
+DUCKDB join time: 0.203425
+Loading ci to DB
+Loading t to DB
+Loading n to DB
+Loading mk to DB
+Loading k to DB
+Building takes 0.000042083
+Running join with 3 tables
+Join took 0.21672183
+Iter takes 0.21680057
+Building takes 0.000014416
+Running join with 3 tables
+Join took 1.5160251
+Iter takes 1.516061
+Bushy join takes 1.7328628
+output [Str("based-on-comic"), Str("Downey Jr., Robert"), Str("The Avengers 2")]
+Total takes 1.7328753
+running query 6c: IMDBQ020 
+DUCKDB total time: 0.207401
+DUCKDB filter time: 0.009604
+DUCKDB join time: 0.197797
+Loading ci to DB
+Loading mk to DB
+Loading t to DB
+Loading k to DB
+Loading n to DB
+Building takes 0.00004375
+Running join with 3 tables
+Join took 0.21397687
+Iter takes 0.21404268
+Building takes 0.000006583
+Running join with 3 tables
+Join took 1.6061921
+Iter takes 1.6062227
+Bushy join takes 1.8202666
+output [Str("marvel-cinematic-universe"), Str("Downey Jr., Robert"), Str("The Avengers 2")]
+Total takes 1.8202777
+running query 6d: IMDBQ021 
+DUCKDB total time: 0.339579
+DUCKDB filter time: 0.049404
+DUCKDB join time: 0.290175
+Loading ci to DB
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading n to DB
+Building takes 0.29678026
+Running join with 3 tables
+Join took 0.2614887
+Iter takes 0.5582878
+Building takes 0.001663625
+Running join with 3 tables
+Join took 1.7733773
+Iter takes 1.7750679
+Bushy join takes 2.3333569
+output [Str("based-on-comic"), Str("Downey Jr., Robert"), Str("2008 MTV Movie Awards")]
+Total takes 2.333386
+running query 6e: IMDBQ022 
+DUCKDB total time: 0.333825
+DUCKDB filter time: 0.051588
+DUCKDB join time: 0.28223699999999996
+Loading ci to DB
+Loading n to DB
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Building takes 0.29825872
+Running join with 3 tables
+Join took 0.30423558
+Iter takes 0.60251814
+Building takes 0.000011791
+Running join with 3 tables
+Join took 2.1353219
+Iter takes 2.135366
+Bushy join takes 2.7378852
+output [Str("marvel-cinematic-universe"), Str("Downey Jr., Robert"), Str("Iron Man 3")]
+Total takes 2.737905
+running query 6f: IMDBQ023 
+DUCKDB total time: 2.07172
+DUCKDB filter time: 0.049234
+DUCKDB join time: 2.022486
+Loading ci to DB
+Loading t to DB
+Loading n to DB
+Loading mk to DB
+Loading k to DB
+Building takes 0.30800542
+Running join with 3 tables
+Join took 0.26599374
+Iter takes 0.5740216
+Building takes 1.4035122
+Running join with 3 tables
+Join took 4.3620105
+Iter takes 5.765596
+Bushy join takes 6.339619
+output [Str("based-on-comic"), Str("\"Steff\", Stefanie Oxmann Mcgaha"), Str("& Teller 2")]
+Total takes 6.3873177
+running query 7a: IMDBQ024 
+DUCKDB total time: 0.60236
+DUCKDB filter time: 0.15544
+DUCKDB join time: 0.44692
+Loading ci to DB
+Loading t to DB
+Loading an to DB
+Loading pi to DB
+Loading ml to DB
+Loading lt to DB
+Loading n to DB
+Loading it to DB
+Building takes 0.000009833
+Running join with 3 tables
+Join took 0.038518082
+Iter takes 0.038544916
+Building takes 0.002378375
+Running join with 3 tables
+Join took 0.025863666
+Iter takes 0.028253332
+Building takes 0.064266
+Running join with 4 tables
+Join took 1.9785736
+Iter takes 2.0428686
+Bushy join takes 2.109673
+output [Str("Antonioni, Michelangelo"), Str("Dressed to Kill")]
+Total takes 2.1096902
+running query 7b: IMDBQ025 
+DUCKDB total time: 0.340754
+DUCKDB filter time: 0.093142
+DUCKDB join time: 0.247612
+Loading ci to DB
+Loading t to DB
+Loading n to DB
+Loading an to DB
+Loading ml to DB
+Loading lt to DB
+Loading pi to DB
+Loading it to DB
+Building takes 0.000009708
+Running join with 3 tables
+Join took 0.006269041
+Iter takes 0.006295958
+Building takes 0.0039335
+Running join with 3 tables
+Join took 0.005856708
+Iter takes 0.009803791
+Building takes 0.066277795
+Running join with 4 tables
+Join took 1.6617472
+Iter takes 1.7280576
+Bushy join takes 1.744159
+output [Str("De Palma, Brian"), Str("Dressed to Kill")]
+Total takes 1.7441728
+running query 7c: IMDBQ026 
+DUCKDB total time: 1.572528
+DUCKDB filter time: 0.08553300000000001
+DUCKDB join time: 1.4869949999999998
+Loading ci to DB
+Loading ml to DB
+Loading n to DB
+Loading pi to DB
+Loading it to DB
+Loading an to DB
+Loading t to DB
+Loading lt to DB
+Building takes 0.01581379
+Running join with 3 tables
+Join took 0.045724623
+Iter takes 0.061561663
+Building takes 0.003001541
+Running join with 3 tables
+Join took 0.07142508
+Iter takes 0.07444242
+Building takes 0.07031213
+Running join with 4 tables
+Join took 1.7453905
+Iter takes 1.8157387
+Bushy join takes 1.9517446
+output [Str("50 Cent"), Str("\"Boo\" Arnold was born Earl Arnold in Hattiesburg, Mississippi in 1966. His father gave him the nickname 'Boo' early in life and it stuck through grade school, high school, and college. He is still known as \"Boo\" to family and friends.  Raised in central Texas, Arnold played baseball at Texas Tech University where he graduated with a BA in Advertising and Marketing. While at Texas Tech he was also a member of the Texas Epsilon chapter of Phi Delta Theta fraternity. After college he worked with Young Life, an outreach to high school students, in San Antonio, Texas.  While with Young Life Arnold began taking extension courses through Fuller Theological Seminary and ultimately went full-time to Gordon-Conwell Theological Seminary in Boston, Massachusetts. At Gordon-Conwell he completed a Master's Degree in Divinity studying Theology, Philosophy, Church History, Biblical Languages (Hebrew & Greek), and Exegetical Methods. Following seminary he was involved with reconciliation efforts in the former Yugoslavia shortly after the war ended there in1995.  Arnold started acting in his early thirties in Texas. After an encouraging visit to Los Angeles where he spent time with childhood friend George Eads (of CSI Las Vegas) he decided to move to Los Angeles in 2001 to pursue acting full-time. While in Los Angeles he has studied acting with Judith Weston at Judith Weston Studio for Actors and Directors.  Arnold's acting career has been one of steady development, booking co-star and guest-star roles in nighttime television. He guest-starred opposite of Jane Seymour on the night time television drama Justice. He played the lead, Michael Hollister, in the film The Seer, written and directed by Patrick Masset (Friday Night Lights).  He was nominated Best Actor in the168 Film Festival for the role of Phil Stevens in the short-film Useless. In Useless he played a US Marshal who must choose between mercy and justice as he confronts the man who murdered his father. Arnold's performance in Useless confirmed his ability to carry lead roles, and he continues to work toward solidifying himself as a male lead in film and television.  Arnold married fellow Texan Stacy Rudd of San Antonio in 2003 and they are now raising their three children in the Los Angeles area.")]
+Total takes 1.9532988
+running query 8a: IMDBQ027 
+DUCKDB total time: 0.823697
+DUCKDB filter time: 0.431608
+DUCKDB join time: 0.392089
+Loading t to DB
+Loading ci to DB
+Loading n1 to DB
+Loading rt to DB
+Loading mc to DB
+Loading cn to DB
+Loading an1 to DB
+Building takes 0.000368916
+Running join with 2 tables
+Join took 0.004706625
+Iter takes 0.005092875
+Building takes 0.6799813
+Running join with 6 tables
+Join took 0.0045035
+Iter takes 0.68450385
+Bushy join takes 0.689598
+output [Str("Chambers, Linda"), Str(".hack//Quantum")]
+Total takes 0.68961304
+running query 8b: IMDBQ028 
+DUCKDB total time: 0.694905
+DUCKDB filter time: 0.48198
+DUCKDB join time: 0.21292499999999998
+Loading an to DB
+Loading ci to DB
+Loading t to DB
+Loading rt to DB
+Loading n to DB
+Loading mc to DB
+Loading cn to DB
+Building takes 0.000464416
+Running join with 2 tables
+Join took 0.000946333
+Iter takes 0.001426541
+Building takes 0.13522458
+Running join with 6 tables
+Join took 0.004418125
+Iter takes 0.13965942
+Bushy join takes 0.14108717
+output [Str("Chambers, Linda"), Str("Dragon Ball Z: Shin Budokai")]
+Total takes 0.1410992
+running query 8c: IMDBQ029 
+DUCKDB total time: 3.374738
+DUCKDB filter time: 0.006488
+DUCKDB join time: 3.3682499999999997
+Loading ci to DB
+Loading t to DB
+Loading a1 to DB
+Loading rt to DB
+Loading n1 to DB
+Loading mc to DB
+Loading cn to DB
+Building takes 0.007443583
+Running join with 2 tables
+Join took 0.28172052
+Iter takes 0.28920335
+Building takes 2.034302
+Running join with 6 tables
+Join took 6.271753
+Iter takes 8.306099
+Bushy join takes 8.595304
+output [Str("\"A.J.\""), Str("#1 Cheerleader Camp")]
+Total takes 8.652953
+running query 8d: IMDBQ030 
+DUCKDB total time: 2.795201
+DUCKDB filter time: 0.006574999999999999
+DUCKDB join time: 2.788626
+Loading ci to DB
+Loading n1 to DB
+Loading mc to DB
+Loading an1 to DB
+Loading rt to DB
+Loading cn to DB
+Loading t to DB
+Building takes 0.008975583
+Running join with 2 tables
+Join took 0.39952525
+Iter takes 0.40853795
+Building takes 2.020767
+Running join with 6 tables
+Join took 5.322514
+Iter takes 7.343311
+Bushy join takes 7.75185
+output [Str("\"Jenny from the Block\""), Str("#1 Cheerleader Camp")]
+Total takes 7.7733545
+running query 9a: IMDBQ031 
+DUCKDB total time: 1.304741
+DUCKDB filter time: 0.087364
+DUCKDB join time: 1.217377
+Loading chn to DB
+Loading ci to DB
+Loading rt to DB
+Loading an to DB
+Loading n to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Building takes 0.005358375
+Running join with 2 tables
+Join took 0.065564334
+Iter takes 0.070943505
+Building takes 1.1156808
+Running join with 7 tables
+Join took 0.03769879
+Iter takes 1.1534168
+Bushy join takes 1.2243614
+output [Str("AJ"), Str("Airport Announcer"), Str("Blue Harvest")]
+Total takes 1.2243856
+running query 9b: IMDBQ032 
+DUCKDB total time: 0.93697
+DUCKDB filter time: 0.526678
+DUCKDB join time: 0.410292
+Loading chn to DB
+Loading an to DB
+Loading ci to DB
+Loading mc to DB
+Loading n to DB
+Loading t to DB
+Loading rt to DB
+Loading cn to DB
+Building takes 0.005125958
+Running join with 2 tables
+Join took 0.022600207
+Iter takes 0.027743166
+Building takes 0.8876089
+Running join with 7 tables
+Join took 0.02714854
+Iter takes 0.9147885
+Bushy join takes 0.94253296
+output [Str("AJ"), Str("Airport Announcer"), Str("Bassett, Angela"), Str("Blue Harvest")]
+Total takes 0.9425508
+running query 9c: IMDBQ033 
+DUCKDB total time: 1.332127
+DUCKDB filter time: 0.036964
+DUCKDB join time: 1.295163
+Loading chn to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading ci to DB
+Loading n to DB
+Loading rt to DB
+Loading an to DB
+Building takes 0.006039041
+Running join with 2 tables
+Join took 0.2764362
+Iter takes 0.28249335
+Building takes 1.5350932
+Running join with 7 tables
+Join took 0.04448796
+Iter takes 1.5796051
+Bushy join takes 1.8620996
+output [Str("'Annette'"), Str("2nd Balladeer"), Str("Alborg, Ana Esther"), Str("(1975-01-20)")]
+Total takes 1.862675
+running query 9d: IMDBQ034 
+DUCKDB total time: 1.491369
+DUCKDB filter time: 0.035357
+DUCKDB join time: 1.4560119999999999
+Loading chn to DB
+Loading an to DB
+Loading ci to DB
+Loading rt to DB
+Loading mc to DB
+Loading cn to DB
+Loading n to DB
+Loading t to DB
+Building takes 0.00498175
+Running join with 2 tables
+Join took 0.26682386
+Iter takes 0.27182308
+Building takes 1.5987788
+Running join with 7 tables
+Join took 0.11184142
+Iter takes 1.7106438
+Bushy join takes 1.9824679
+output [Str("!!!, Toy"), Str("\"Cockamamie's\" Salesgirl"), Str("Aaron, Caroline"), Str("$15,000.00 Error")]
+Total takes 1.9955474
+running query 10a: IMDBQ035 
+DUCKDB total time: 1.117047
+DUCKDB filter time: 0.058286
+DUCKDB join time: 1.0587609999999998
+Loading chn to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading t to DB
+Loading ci to DB
+Loading rt to DB
+Building takes 0.19908096
+Running join with 4 tables
+Join took 0.21708941
+Iter takes 0.41618952
+Building takes 0.66722536
+Running join with 4 tables
+Join took 0.001740916
+Iter takes 0.6689846
+Bushy join takes 1.0851753
+output [Str("Actor"), Str("12 Rounds")]
+Total takes 1.0851996
+running query 10c: IMDBQ037 
+DUCKDB total time: 1.475044
+DUCKDB filter time: 0.05564
+DUCKDB join time: 1.419404
+Loading chn to DB
+Loading ci to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading t to DB
+Loading rt to DB
+Building takes 0.32752925
+Running join with 4 tables
+Join took 0.41276178
+Iter takes 0.74031025
+Building takes 0.81850684
+Running join with 4 tables
+Join took 1.8041e-5
+Iter takes 0.8185474
+Bushy join takes 1.5588589
+output [Str("Himself"), Str("Evil Eyes: Behind the Scenes")]
+Total takes 1.558871
+running query 11a: IMDBQ038 
+DUCKDB total time: 0.259255
+DUCKDB filter time: 0.055236
+DUCKDB join time: 0.204019
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading ml to DB
+Loading lt to DB
+Loading t to DB
+Building takes 0.002191541
+Running join with 2 tables
+Join took 0.07749671
+Iter takes 0.07970696
+Building takes 0.2584143
+Running join with 7 tables
+Join took 0.21329966
+Iter takes 0.4717405
+Bushy join takes 0.55144864
+output [Str("Churchill Films"), Str("followed by"), Str("Batman Beyond")]
+Total takes 0.5514722
+running query 11b: IMDBQ039 
+DUCKDB total time: 0.161365
+DUCKDB filter time: 0.0463
+DUCKDB join time: 0.115065
+Loading mk to DB
+Loading k to DB
+Loading ml to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Loading lt to DB
+Loading ct to DB
+Building takes 0.002159458
+Running join with 2 tables
+Join took 6.5e-6
+Iter takes 0.002176666
+Building takes 0.26137275
+Running join with 7 tables
+Join took 0.20436405
+Iter takes 0.46575946
+Bushy join takes 0.46793735
+output [Str("Filmlance International AB"), Str("follows"), Str("The Money Man")]
+Total takes 0.4679568
+running query 11c: IMDBQ040 
+DUCKDB total time: 0.391118
+DUCKDB filter time: 0.045412
+DUCKDB join time: 0.345706
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading ml to DB
+Loading lt to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Building takes 0.002311666
+Running join with 2 tables
+Join took 0.18386613
+Iter takes 0.1861934
+Building takes 0.27156472
+Running join with 7 tables
+Join took 0.21563733
+Iter takes 0.48723063
+Bushy join takes 0.6734255
+output [Str("20th Century Fox Home Entertainment"), Str("(1997-2002) (worldwide) (all media)"), Str("24")]
+Total takes 0.67358214
+running query 11d: IMDBQ041 
+DUCKDB total time: 0.405071
+DUCKDB filter time: 0.045174
+DUCKDB join time: 0.359897
+Loading mk to DB
+Loading mc to DB
+Loading k to DB
+Loading cn to DB
+Loading ml to DB
+Loading ct to DB
+Loading t to DB
+Loading lt to DB
+Building takes 0.001877875
+Running join with 2 tables
+Join took 0.18272166
+Iter takes 0.18461512
+Building takes 0.29065967
+Running join with 7 tables
+Join took 0.20977226
+Iter takes 0.50045574
+Bushy join takes 0.68507206
+output [Str("13th Street"), Str("(1954) (UK) (TV)"), Str("...denn sie wissen nicht, was sie tun")]
+Total takes 0.685404
+running query 12a: IMDBQ042 
+DUCKDB total time: 0.546037
+DUCKDB filter time: 0.10511100000000001
+DUCKDB join time: 0.440926
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading mi to DB
+Loading it1 to DB
+Loading it2 to DB
+Loading ct to DB
+Building takes 0.005330416
+Running join with 2 tables
+Join took 0.039812624
+Iter takes 0.045158457
+Building takes 0.5053247
+Running join with 7 tables
+Join took 0.012827458
+Iter takes 0.51818204
+Bushy join takes 0.56334156
+output [Str("10th Grade Reunion Films"), Str("8.1"), Str("3:20")]
+Total takes 0.5633816
+running query 12b: IMDBQ043 
+DUCKDB total time: 0.590954
+DUCKDB filter time: 0.055899
+DUCKDB join time: 0.535055
+Loading mi to DB
+Loading mi_idx to DB
+Loading it1 to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading it2 to DB
+Building takes 0.144463
+Running join with 2 tables
+Join took 0.000963458
+Iter takes 0.14544716
+Building takes 0.5828545
+Running join with 7 tables
+Join took 1.42754
+Iter takes 2.010425
+Bushy join takes 2.1558933
+output [Str("$10,000"), Str("Birdemic: Shock and Terror")]
+Total takes 2.1559246
+running query 12c: IMDBQ044 
+DUCKDB total time: 0.62364
+DUCKDB filter time: 0.10520299999999999
+DUCKDB join time: 0.518437
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading mi to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading t to DB
+Loading it1 to DB
+Building takes 0.021245332
+Running join with 2 tables
+Join took 0.097003795
+Iter takes 0.11826483
+Building takes 0.47910622
+Running join with 7 tables
+Join took 0.022789208
+Iter takes 0.50192213
+Bushy join takes 0.62018806
+output [Str("\"Oh That Gus!\""), Str("7.1"), Str("$1.11")]
+Total takes 0.62042797
+running query 13a: IMDBQ045 
+DUCKDB total time: 11.559378
+DUCKDB filter time: 0.005894
+DUCKDB join time: 11.553484000000001
+Loading mi to DB
+Loading it2 to DB
+Loading mc to DB
+Loading t to DB
+Loading kt to DB
+Loading ct to DB
+Loading miidx to DB
+Loading it to DB
+Loading cn to DB
+Building takes 0.2538014
+Running join with 2 tables
+Join took 0.4515607
+Iter takes 0.70694524
+Building takes 1.1386125
+Running join with 8 tables
+Join took 3.5181546
+Iter takes 4.6568203
+Bushy join takes 5.363769
+output [Str("Afghanistan:24 June 2012"), Str("1.0"), Str("&Me")]
+Total takes 5.3792877
+running query 13b: IMDBQ046 
+DUCKDB total time: 0.35592
+DUCKDB filter time: 0.009698
+DUCKDB join time: 0.34622200000000003
+Loading mi to DB
+Loading miidx to DB
+Loading it to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading it2 to DB
+Loading t to DB
+Loading kt to DB
+Building takes 0.14397366
+Running join with 2 tables
+Join took 0.00051925
+Iter takes 0.1445058
+Building takes 0.51308584
+Running join with 8 tables
+Join took 0.76589537
+Iter takes 1.2790146
+Bushy join takes 1.4235222
+output [Str("501audio"), Str("1.8"), Str("5 Time Champion")]
+Total takes 1.4236081
+running query 13c: IMDBQ047 
+DUCKDB total time: 0.302914
+DUCKDB filter time: 0.009469
+DUCKDB join time: 0.293445
+Loading mi to DB
+Loading t to DB
+Loading kt to DB
+Loading miidx to DB
+Loading it to DB
+Loading it2 to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Building takes 0.14365783
+Running join with 2 tables
+Join took 8.2e-5
+Iter takes 0.14375551
+Building takes 0.49752197
+Running join with 8 tables
+Join took 0.6431041
+Iter takes 1.1406548
+Bushy join takes 1.2844118
+output [Str("DL Sites"), Str("1.8"), Str("Champion")]
+Total takes 1.2844329
+running query 13d: IMDBQ048 
+DUCKDB total time: 10.766896
+DUCKDB filter time: 0.009770000000000001
+DUCKDB join time: 10.757126
+Loading mi to DB
+Loading it2 to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading kt to DB
+Loading ct to DB
+Loading miidx to DB
+Loading it to DB
+Building takes 0.19401354
+Running join with 2 tables
+Join took 0.4392923
+Iter takes 0.6333327
+Building takes 0.9287136
+Running join with 8 tables
+Join took 2.833242
+Iter takes 3.7619996
+Bushy join takes 4.3953333
+output [Str("\"O\" Films"), Str("1.0"), Str("#54 Meets #47")]
+Total takes 4.4284797
+running query 14a: IMDBQ049 
+DUCKDB total time: 0.92568
+DUCKDB filter time: 0.08862900000000001
+DUCKDB join time: 0.837051
+Loading mk to DB
+Loading k to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mi to DB
+Loading t to DB
+Loading kt to DB
+Loading it1 to DB
+Building takes 0.19982941
+Running join with 3 tables
+Join took 0.39875254
+Iter takes 0.5986006
+Building takes 0.07749058
+Running join with 6 tables
+Join took 0.042051706
+Iter takes 0.119566455
+Bushy join takes 0.7181684
+output [Str("1.0"), Str("$lowdown")]
+Total takes 0.71821266
+running query 14b: IMDBQ050 
+DUCKDB total time: 0.674584
+DUCKDB filter time: 0.09012799999999999
+DUCKDB join time: 0.584456
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading kt to DB
+Loading mi to DB
+Loading it1 to DB
+Loading it2 to DB
+Building takes 0.054918375
+Running join with 3 tables
+Join took 0.35014558
+Iter takes 0.40508163
+Building takes 0.000072625
+Running join with 6 tables
+Join took 0.032022
+Iter takes 0.03212304
+Bushy join takes 0.4372059
+output [Str("6.4"), Str("Of Dolls and Murder")]
+Total takes 0.43723327
+running query 14c: IMDBQ051 
+DUCKDB total time: 1.42379
+DUCKDB filter time: 0.092048
+DUCKDB join time: 1.331742
+Loading mk to DB
+Loading t to DB
+Loading mi to DB
+Loading it1 to DB
+Loading kt to DB
+Loading k to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Building takes 0.3143157
+Running join with 3 tables
+Join took 0.55292046
+Iter takes 0.86726516
+Building takes 0.36823162
+Running join with 6 tables
+Join took 0.06530971
+Iter takes 0.43357337
+Bushy join takes 1.3008397
+output [Str("1.0"), Str("$lowdown")]
+Total takes 1.3013372
+running query 15a: IMDBQ052 
+DUCKDB total time: 0.741893
+DUCKDB filter time: 0.44162599999999996
+DUCKDB join time: 0.30026700000000006
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading at to DB
+Loading cn to DB
+Loading mc to DB
+Loading ct to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.2579312
+Running join with 2 tables
+Join took 0.4537503
+Iter takes 0.7117037
+Building takes 0.30639935
+Running join with 8 tables
+Join took 0.001111208
+Iter takes 0.3075408
+Bushy join takes 1.0192462
+output [Str("USA:1 June 2007"), Str("Battlestar Galactica: The Resistance")]
+Total takes 1.0192726
+running query 15b: IMDBQ053 
+DUCKDB total time: 0.693247
+DUCKDB filter time: 0.45708
+DUCKDB join time: 0.23616699999999996
+Loading mk to DB
+Loading t to DB
+Loading mc to DB
+Loading mi to DB
+Loading cn to DB
+Loading ct to DB
+Loading it1 to DB
+Loading at to DB
+Loading k to DB
+Building takes 0.12982659
+Running join with 2 tables
+Join took 0.4565241
+Iter takes 0.5863706
+Building takes 0.18878911
+Running join with 8 tables
+Join took 0.000692416
+Iter takes 0.18950616
+Bushy join takes 0.77587795
+output [Str("USA:27 April 2007"), Str("RoboCop vs Terminator")]
+Total takes 0.77589357
+running query 15c: IMDBQ054 
+DUCKDB total time: 0.811354
+DUCKDB filter time: 0.055757
+DUCKDB join time: 0.7555970000000001
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading at to DB
+Loading mi to DB
+Loading it1 to DB
+Loading cn to DB
+Loading t to DB
+Loading ct to DB
+Building takes 0.43484542
+Running join with 2 tables
+Join took 0.5794159
+Iter takes 1.0142864
+Building takes 1.0027168
+Running join with 8 tables
+Join took 0.0032075
+Iter takes 1.0059524
+Bushy join takes 2.02024
+output [Str("USA:1 April 2003"), Str("24: Day Six - Debrief")]
+Total takes 2.020323
+running query 15d: IMDBQ055 
+DUCKDB total time: 0.581364
+DUCKDB filter time: 0.054412
+DUCKDB join time: 0.526952
+Loading mk to DB
+Loading mc to DB
+Loading at to DB
+Loading k to DB
+Loading ct to DB
+Loading mi to DB
+Loading cn to DB
+Loading t to DB
+Loading it1 to DB
+Building takes 0.42597884
+Running join with 2 tables
+Join took 0.6000875
+Iter takes 1.0260874
+Building takes 0.96993
+Running join with 8 tables
+Join took 0.011302333
+Iter takes 0.98126155
+Bushy join takes 2.0073502
+output [Str("(Not So) Instant Photo"), Str("06/05")]
+Total takes 2.0076065
+running query 16a: IMDBQ056 
+DUCKDB total time: 0.691704
+DUCKDB filter time: 0.045173
+DUCKDB join time: 0.646531
+Loading ci to DB
+Loading mk to DB
+Loading mc to DB
+Loading cn to DB
+Loading n to DB
+Loading an to DB
+Loading t to DB
+Loading k to DB
+Building takes 0.5092837
+Running join with 5 tables
+Join took 0.21865712
+Iter takes 0.7279859
+Building takes 0.85560787
+Running join with 4 tables
+Join took 3.2191749
+Iter takes 4.0748267
+Bushy join takes 4.802814
+output [Str("Adams, Stan"), Str("Carol Burnett vs. Anthony Perkins")]
+Total takes 4.8030467
+running query 16b: IMDBQ057 
+DUCKDB total time: 2.41748
+DUCKDB filter time: 0.00904
+DUCKDB join time: 2.4084399999999997
+Loading ci to DB
+Loading mk to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Loading an to DB
+Loading n to DB
+Loading k to DB
+Building takes 1.1898556
+Running join with 5 tables
+Join took 0.56729823
+Iter takes 1.7571833
+Building takes 0.9287202
+Running join with 4 tables
+Join took 3.8395815
+Iter takes 4.768353
+Bushy join takes 6.525538
+output [Str("!!!, Toy"), Str("& Teller")]
+Total takes 6.5984635
+running query 16c: IMDBQ058 
+DUCKDB total time: 1.041111
+DUCKDB filter time: 0.044488
+DUCKDB join time: 0.9966229999999999
+Loading ci to DB
+Loading mk to DB
+Loading k to DB
+Loading n to DB
+Loading an to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Building takes 0.7467063
+Running join with 5 tables
+Join took 0.2632396
+Iter takes 1.0099845
+Building takes 0.68899864
+Running join with 4 tables
+Join took 2.9221592
+Iter takes 3.6111877
+Bushy join takes 4.621174
+output [Str("\"Brooklyn\" Tony Danza"), Str("(#1.5)")]
+Total takes 4.632964
+running query 16d: IMDBQ059 
+DUCKDB total time: 0.975888
+DUCKDB filter time: 0.047026000000000005
+DUCKDB join time: 0.928862
+Loading ci to DB
+Loading t to DB
+Loading n to DB
+Loading an to DB
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cn to DB
+Building takes 0.52056086
+Running join with 5 tables
+Join took 0.23768868
+Iter takes 0.7582709
+Building takes 0.62809116
+Running join with 4 tables
+Join took 3.1760917
+Iter takes 3.8042102
+Bushy join takes 4.5624824
+output [Str("\"Brooklyn\" Tony Danza"), Str("(#1.5)")]
+Total takes 4.569186
+running query 17a: IMDBQ060 
+DUCKDB total time: 1.152429
+DUCKDB filter time: 0.032226
+DUCKDB join time: 1.1202029999999998
+Loading ci to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading n to DB
+Loading mk to DB
+Loading k to DB
+Building takes 0.6692876
+Running join with 5 tables
+Join took 0.3962064
+Iter takes 1.0655161
+Building takes 0.055239167
+Running join with 3 tables
+Join took 1.7127554
+Iter takes 1.7680178
+Bushy join takes 2.8335352
+output [Str("B, Khaz")]
+Total takes 2.8365881
+running query 17b: IMDBQ061 
+DUCKDB total time: 0.968565
+DUCKDB filter time: 0.044472
+DUCKDB join time: 0.924093
+Loading ci to DB
+Loading n to DB
+Loading t to DB
+Loading mk to DB
+Loading mc to DB
+Loading cn to DB
+Loading k to DB
+Building takes 0.6837544
+Running join with 5 tables
+Join took 0.40928018
+Iter takes 1.0930551
+Building takes 0.014717625
+Running join with 3 tables
+Join took 1.60518
+Iter takes 1.6199197
+Bushy join takes 2.7129762
+output [Str("Z'Dar, Robert")]
+Total takes 2.7135682
+running query 17c: IMDBQ062 
+DUCKDB total time: 0.918187
+DUCKDB filter time: 0.045676
+DUCKDB join time: 0.8725109999999999
+Loading ci to DB
+Loading n to DB
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Building takes 0.67986107
+Running join with 5 tables
+Join took 0.4235563
+Iter takes 1.1034398
+Building takes 0.012220666
+Running join with 3 tables
+Join took 1.7094101
+Iter takes 1.7216514
+Bushy join takes 2.8250926
+output [Str("X'Volaitis, John")]
+Total takes 2.8251307
+running query 17d: IMDBQ063 
+DUCKDB total time: 0.998499
+DUCKDB filter time: 0.002577
+DUCKDB join time: 0.995922
+Loading ci to DB
+Loading mk to DB
+Loading mc to DB
+Loading cn to DB
+Loading k to DB
+Loading t to DB
+Loading n to DB
+Building takes 0.70001876
+Running join with 5 tables
+Join took 0.40576756
+Iter takes 1.1058143
+Building takes 0.011810208
+Running join with 3 tables
+Join took 1.5931747
+Iter takes 1.6050131
+Bushy join takes 2.7108288
+output [Str("Abrahamsson, Bertil")]
+Total takes 2.7109587
+running query 17e: IMDBQ064 
+DUCKDB total time: 2.323544
+DUCKDB filter time: 0.008683
+DUCKDB join time: 2.314861
+Loading ci to DB
+Loading mc to DB
+Loading mk to DB
+Loading k to DB
+Loading cn to DB
+Loading n to DB
+Loading t to DB
+Building takes 0.81812525
+Running join with 5 tables
+Join took 0.5429917
+Iter takes 1.3611699
+Building takes 1.3252096
+Running join with 3 tables
+Join took 3.8971252
+Iter takes 5.2223663
+Bushy join takes 6.5835376
+output [Str("$hort, Too")]
+Total takes 6.6365848
+running query 17f: IMDBQ065 
+DUCKDB total time: 1.484135
+DUCKDB filter time: 0.002565
+DUCKDB join time: 1.48157
+Loading ci to DB
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cn to DB
+Loading n to DB
+Loading t to DB
+Building takes 0.6839672
+Running join with 5 tables
+Join took 0.43256116
+Iter takes 1.1165472
+Building takes 0.104788624
+Running join with 3 tables
+Join took 1.935088
+Iter takes 2.0399039
+Bushy join takes 3.1564524
+output [Str("'El Galgo PornoStar', Blanquito")]
+Total takes 3.1710322
+running query 18a: IMDBQ066 
+DUCKDB total time: 4.001101
+DUCKDB filter time: 0.06261900000000001
+DUCKDB join time: 3.938482
+Loading mi to DB
+Loading ci to DB
+Loading n to DB
+Loading t to DB
+Loading it1 to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Building takes 0.16473985
+Running join with 2 tables
+Join took 0.4517477
+Iter takes 0.61651367
+Building takes 0.22274825
+Running join with 4 tables
+Join took 2.8787146
+Iter takes 3.1014855
+Building takes 0.006891166
+Running join with 3 tables
+Join took 0.117033586
+Iter takes 0.12394629
+Bushy join takes 3.8419473
+output [Str("$1,000"), Str("10"), Str("40 Days and 40 Nights")]
+Total takes 3.84376
+running query 18b: IMDBQ067 
+DUCKDB total time: 1.373931
+DUCKDB filter time: 0.10510299999999999
+DUCKDB join time: 1.268828
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Loading t to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Building takes 0.00518675
+Running join with 2 tables
+Join took 0.067627124
+Iter takes 0.07282992
+Building takes 0.002146
+Running join with 4 tables
+Join took 0.006702833
+Iter takes 0.008861833
+Building takes 0.107358165
+Running join with 3 tables
+Join took 0.05487517
+Iter takes 0.16225496
+Bushy join takes 0.24394841
+output [Str("Horror"), Str("8.1"), Str("Agorable")]
+Total takes 0.24396236
+running query 18c: IMDBQ068 
+DUCKDB total time: 1.733733
+DUCKDB filter time: 0.026717
+DUCKDB join time: 1.7070159999999999
+Loading t to DB
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Building takes 0.13986933
+Running join with 2 tables
+Join took 0.39276674
+Iter takes 0.5326538
+Building takes 0.20099925
+Running join with 4 tables
+Join took 0.0713967
+Iter takes 0.27241686
+Building takes 0.2021082
+Running join with 3 tables
+Join took 0.08247496
+Iter takes 0.28460437
+Bushy join takes 1.0896769
+output [Str("Action"), Str("10"), Str("#PostModem")]
+Total takes 1.0921035
+running query 19a: IMDBQ069 
+DUCKDB total time: 1.6306
+DUCKDB filter time: 0.09170700000000001
+DUCKDB join time: 1.538893
+Loading chn to DB
+Loading an to DB
+Loading ci to DB
+Loading n to DB
+Loading rt to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading mi to DB
+Loading it to DB
+Building takes 0.08588833
+Running join with 4 tables
+Join took 0.065556295
+Iter takes 0.15146483
+Building takes 0.5198789
+Running join with 7 tables
+Join took 0.040347293
+Iter takes 0.5602545
+Bushy join takes 0.7117206
+output [Str("Angeline, Moriah"), Str("Blue Harvest")]
+Total takes 0.7117472
+running query 19b: IMDBQ070 
+DUCKDB total time: 1.243555
+DUCKDB filter time: 0.523154
+DUCKDB join time: 0.720401
+Loading chn to DB
+Loading ci to DB
+Loading n to DB
+Loading mi to DB
+Loading an to DB
+Loading mc to DB
+Loading cn to DB
+Loading it to DB
+Loading rt to DB
+Loading t to DB
+Building takes 0.029011458
+Running join with 4 tables
+Join took 0.009564333
+Iter takes 0.038593333
+Building takes 0.40779757
+Running join with 7 tables
+Join took 0.033438668
+Iter takes 0.4412688
+Bushy join takes 0.4798633
+output [Str("Jolie, Angelina"), Str("Kung Fu Panda")]
+Total takes 0.4798861
+running query 19c: IMDBQ071 
+DUCKDB total time: 1.670426
+DUCKDB filter time: 0.08507300000000001
+DUCKDB join time: 1.585353
+Loading chn to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading an to DB
+Loading ci to DB
+Loading rt to DB
+Loading n to DB
+Loading mi to DB
+Loading it to DB
+Building takes 0.40381053
+Running join with 4 tables
+Join took 0.114852495
+Iter takes 0.51868397
+Building takes 0.72327554
+Running join with 7 tables
+Join took 0.043525167
+Iter takes 0.76683307
+Bushy join takes 1.2855183
+output [Str("Alborg, Ana Esther"), Str(".hack//Akusei heni vol. 2")]
+Total takes 1.2855978
+running query 19d: IMDBQ072 
+DUCKDB total time: 2.744704
+DUCKDB filter time: 0.08599699999999999
+DUCKDB join time: 2.658707
+Loading mi to DB
+Loading it to DB
+Loading chn to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading an to DB
+Loading ci to DB
+Loading rt to DB
+Loading n to DB
+Building takes 0.51996034
+Running join with 4 tables
+Join took 2.2657409
+Iter takes 2.7857265
+Building takes 1.1773113
+Running join with 7 tables
+Join took 0.11032979
+Iter takes 1.2876747
+Bushy join takes 4.0734024
+output [Str("Aaron, Caroline"), Str("$9.99")]
+Total takes 4.093081
+running query 20a: IMDBQ073 
+DUCKDB total time: 2.222558
+DUCKDB filter time: 0.04568
+DUCKDB join time: 2.176878
+Loading ci to DB
+Loading n to DB
+Loading chn to DB
+Loading mk to DB
+Loading cc to DB
+Loading cct1 to DB
+Loading cct2 to DB
+Loading k to DB
+Loading t to DB
+Loading kt to DB
+Building takes 0.000006041
+Running join with 3 tables
+Join took 0.0143505
+Iter takes 0.014385666
+Building takes 0.74989265
+Running join with 4 tables
+Join took 0.6176359
+Iter takes 1.3675601
+Building takes 0.5655861
+Running join with 5 tables
+Join took 1.6898377
+Iter takes 2.2554533
+Bushy join takes 3.6374013
+output [Str("Disaster Movie")]
+Total takes 3.6374302
+running query 20b: IMDBQ074 
+DUCKDB total time: 0.477634
+DUCKDB filter time: 0.049583
+DUCKDB join time: 0.428051
+Loading ci to DB
+Loading n to DB
+Loading mk to DB
+Loading k to DB
+Loading chn to DB
+Loading t to DB
+Loading cc to DB
+Loading cct1 to DB
+Loading cct2 to DB
+Loading kt to DB
+Building takes 0.000003958
+Running join with 3 tables
+Join took 0.014502208
+Iter takes 0.014530416
+Building takes 0.33632886
+Running join with 4 tables
+Join took 0.36609337
+Iter takes 0.70244026
+Building takes 0.010755708
+Running join with 5 tables
+Join took 0.7800802
+Iter takes 0.79086095
+Bushy join takes 1.5078334
+output [Str("Iron Man")]
+Total takes 1.5078473
+running query 20c: IMDBQ075 
+DUCKDB total time: 1.694602
+DUCKDB filter time: 0.050099000000000005
+DUCKDB join time: 1.6445029999999998
+Loading ci to DB
+Loading chn to DB
+Loading mk to DB
+Loading t to DB
+Loading kt to DB
+Loading k to DB
+Loading n to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Building takes 0.000007625
+Running join with 3 tables
+Join took 0.013224041
+Iter takes 0.013256958
+Building takes 0.46491545
+Running join with 4 tables
+Join took 0.39355528
+Iter takes 0.85850537
+Building takes 1.2059596
+Running join with 5 tables
+Join took 1.6809311
+Iter takes 2.886921
+Bushy join takes 3.758685
+output [Str("Abell, Alistair"), Str("...And Then I...")]
+Total takes 3.7642848
+running query 21a: IMDBQ076 
+DUCKDB total time: 0.785215
+DUCKDB filter time: 0.054358
+DUCKDB join time: 0.730857
+Loading mk to DB
+Loading k to DB
+Loading mi to DB
+Loading ml to DB
+Loading lt to DB
+Loading t to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Building takes 0.002116875
+Running join with 2 tables
+Join took 0.06816438
+Iter takes 0.07029842
+Building takes 0.000975083
+Running join with 2 tables
+Join took 0.32647434
+Iter takes 0.32746238
+Building takes 0.25147566
+Running join with 7 tables
+Join took 0.007146541
+Iter takes 0.25864482
+Bushy join takes 0.6564072
+output [Str("Det Danske Filminstitut"), Str("followed by"), Str("Der Serienkiller - Klinge des Todes")]
+Total takes 0.65645057
+running query 21b: IMDBQ077 
+DUCKDB total time: 0.623925
+DUCKDB filter time: 0.060559999999999996
+DUCKDB join time: 0.563365
+Loading mk to DB
+Loading mc to DB
+Loading mi to DB
+Loading ml to DB
+Loading lt to DB
+Loading t to DB
+Loading ct to DB
+Loading k to DB
+Loading cn to DB
+Building takes 0.002327083
+Running join with 2 tables
+Join took 0.093091875
+Iter takes 0.095435336
+Building takes 0.000971375
+Running join with 2 tables
+Join took 0.37464952
+Iter takes 0.37563384
+Building takes 0.2773262
+Running join with 7 tables
+Join took 0.005364291
+Iter takes 0.28271377
+Bushy join takes 0.7537848
+output [Str("Filmlance International AB"), Str("followed by"), Str("Hämndens pris")]
+Total takes 0.75380254
+running query 21c: IMDBQ078 
+DUCKDB total time: 0.892185
+DUCKDB filter time: 0.0516
+DUCKDB join time: 0.840585
+Loading mk to DB
+Loading ml to DB
+Loading lt to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading k to DB
+Loading mi to DB
+Building takes 0.001983
+Running join with 2 tables
+Join took 0.15817016
+Iter takes 0.16017096
+Building takes 0.001902291
+Running join with 2 tables
+Join took 0.35781133
+Iter takes 0.359728
+Building takes 0.26719317
+Running join with 7 tables
+Join took 0.042960707
+Iter takes 0.31017888
+Bushy join takes 0.8300796
+output [Str("Churchill Films"), Str("followed by"), Str("Batman Beyond")]
+Total takes 0.8301414
+running query 22a: IMDBQ079 
+DUCKDB total time: 0.666343
+DUCKDB filter time: 0.090656
+DUCKDB join time: 0.5756870000000001
+Loading mk to DB
+Loading k to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mi to DB
+Loading it1 to DB
+Loading t to DB
+Loading kt to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Building takes 0.17022724
+Running join with 4 tables
+Join took 0.087028496
+Iter takes 0.25727385
+Building takes 0.017522292
+Running join with 4 tables
+Join took 0.024558665
+Iter takes 0.04209954
+Building takes 0.000717833
+Running join with 3 tables
+Join took 0.19823559
+Iter takes 0.19896984
+Building takes 0.000298083
+Running join with 3 tables
+Join took 0.03735396
+Iter takes 0.03767804
+Bushy join takes 0.53602344
+output [Str("01 Distribution"), Str("2.1"), Str("12 Rounds")]
+Total takes 0.53615314
+running query 22b: IMDBQ080 
+DUCKDB total time: 0.64951
+DUCKDB filter time: 0.08778899999999999
+DUCKDB join time: 0.561721
+Loading mk to DB
+Loading k to DB
+Loading mi_idx to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading it2 to DB
+Loading t to DB
+Loading kt to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.18366688
+Running join with 4 tables
+Join took 0.07557371
+Iter takes 0.2592627
+Building takes 0.018951625
+Running join with 4 tables
+Join took 0.024177875
+Iter takes 0.04315
+Building takes 0.00005475
+Running join with 3 tables
+Join took 0.2056349
+Iter takes 0.20570733
+Building takes 0.000026458
+Running join with 3 tables
+Join took 0.03766025
+Iter takes 0.037712418
+Bushy join takes 0.54583496
+output [Str("Boll Kino Beteiligungs GmbH & Co. KG"), Str("3.0"), Str("A Small Act")]
+Total takes 0.5458593
+running query 22c: IMDBQ081 
+DUCKDB total time: 0.890878
+DUCKDB filter time: 0.09120199999999999
+DUCKDB join time: 0.7996759999999999
+Loading mk to DB
+Loading k to DB
+Loading mi_idx to DB
+Loading mi to DB
+Loading mc to DB
+Loading it1 to DB
+Loading ct to DB
+Loading it2 to DB
+Loading t to DB
+Loading kt to DB
+Loading cn to DB
+Building takes 0.20059112
+Running join with 4 tables
+Join took 0.16225046
+Iter takes 0.36286023
+Building takes 0.028602958
+Running join with 4 tables
+Join took 0.040336665
+Iter takes 0.06896187
+Building takes 0.006216041
+Running join with 3 tables
+Join took 0.21521938
+Iter takes 0.22145738
+Building takes 0.002241083
+Running join with 3 tables
+Join took 0.052144833
+Iter takes 0.054415293
+Bushy join takes 0.7076972
+output [Str("01 Distribution"), Str("1.9"), Str("(#1.1)")]
+Total takes 0.7084552
+running query 22d: IMDBQ082 
+DUCKDB total time: 0.930495
+DUCKDB filter time: 0.09150399999999999
+DUCKDB join time: 0.8389909999999999
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading t to DB
+Loading kt to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.20106046
+Running join with 4 tables
+Join took 0.16679722
+Iter takes 0.36787626
+Building takes 0.031581666
+Running join with 4 tables
+Join took 0.27791378
+Iter takes 0.30952182
+Building takes 0.024769085
+Running join with 3 tables
+Join took 0.22125
+Iter takes 0.24604213
+Building takes 0.00576325
+Running join with 3 tables
+Join took 0.049824208
+Iter takes 0.055621665
+Bushy join takes 0.9790644
+output [Str("01 Distribution"), Str("1.6"), Str("(#1.1)")]
+Total takes 0.98027915
+running query 23a: IMDBQ083 
+DUCKDB total time: 0.830753
+DUCKDB filter time: 0.056521999999999996
+DUCKDB join time: 0.774231
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cc to DB
+Loading cn to DB
+Loading t to DB
+Loading mi to DB
+Loading it1 to DB
+Loading ct to DB
+Loading kt to DB
+Loading cct1 to DB
+Building takes 0.00000325
+Running join with 2 tables
+Join took 0.011076958
+Iter takes 0.011093416
+Building takes 0.27150288
+Running join with 2 tables
+Join took 0.539202
+Iter takes 0.81071967
+Building takes 0.8727664
+Running join with 9 tables
+Join took 0.001875666
+Iter takes 0.87466913
+Bushy join takes 1.6964841
+output [Str("movie"), Str("The Analysts")]
+Total takes 1.6965102
+running query 23b: IMDBQ084 
+DUCKDB total time: 0.775057
+DUCKDB filter time: 0.4410029999999999
+DUCKDB join time: 0.3340540000000001
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cc to DB
+Loading cn to DB
+Loading ct to DB
+Loading cct1 to DB
+Loading t to DB
+Loading kt to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000003333
+Running join with 2 tables
+Join took 0.011461
+Iter takes 0.011477583
+Building takes 0.2859174
+Running join with 2 tables
+Join took 0.5491417
+Iter takes 0.8350744
+Building takes 0.88226825
+Running join with 9 tables
+Join took 0.001049333
+Iter takes 0.8833468
+Bushy join takes 1.7299008
+output [Str("movie"), Str("The Big Mope")]
+Total takes 1.729918
+running query 23c: IMDBQ085 
+DUCKDB total time: 0.901334
+DUCKDB filter time: 0.055284
+DUCKDB join time: 0.84605
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading t to DB
+Loading kt to DB
+Loading cc to DB
+Loading cct1 to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.0000035
+Running join with 2 tables
+Join took 0.010765916
+Iter takes 0.010791416
+Building takes 0.34741968
+Running join with 2 tables
+Join took 0.620034
+Iter takes 0.96747077
+Building takes 1.0234002
+Running join with 9 tables
+Join took 0.002224666
+Iter takes 1.0256517
+Bushy join takes 2.0039158
+output [Str("movie"), Str("Dirt Merchant")]
+Total takes 2.0039437
+running query 24a: IMDBQ086 
+DUCKDB total time: 1.839647
+DUCKDB filter time: 0.081522
+DUCKDB join time: 1.758125
+Loading mk to DB
+Loading k to DB
+Loading chn to DB
+Loading ci to DB
+Loading mc to DB
+Loading t to DB
+Loading cn to DB
+Loading mi to DB
+Loading it to DB
+Loading an to DB
+Loading n to DB
+Loading rt to DB
+Building takes 0.06476396
+Running join with 2 tables
+Join took 0.3474577
+Iter takes 0.41224596
+Building takes 0.42190745
+Running join with 6 tables
+Join took 0.01979254
+Iter takes 0.4417379
+Building takes 0.07410613
+Running join with 2 tables
+Join took 0.005344458
+Iter takes 0.07946521
+Building takes 0.7025683
+Running join with 5 tables
+Join took 0.074296586
+Iter takes 0.77691066
+Bushy join takes 1.7103621
+output [Str("Additional Voices"), Str("Baker, Andrea"), Str("Baiohazâdo 6")]
+Total takes 1.7103896
+running query 24b: IMDBQ087 
+DUCKDB total time: 1.663951
+DUCKDB filter time: 0.080638
+DUCKDB join time: 1.583313
+Loading mk to DB
+Loading k to DB
+Loading chn to DB
+Loading mc to DB
+Loading cn to DB
+Loading an to DB
+Loading ci to DB
+Loading n to DB
+Loading rt to DB
+Loading mi to DB
+Loading t to DB
+Loading it to DB
+Building takes 0.000003875
+Running join with 2 tables
+Join took 0.31322315
+Iter takes 0.3132448
+Building takes 0.38621613
+Running join with 6 tables
+Join took 0.012144333
+Iter takes 0.3983813
+Building takes 0.068313
+Running join with 2 tables
+Join took 0.004744916
+Iter takes 0.07306917
+Building takes 0.7229287
+Running join with 5 tables
+Join took 0.07718342
+Iter takes 0.8001498
+Bushy join takes 1.5848472
+output [Str("Tigress"), Str("Jolie, Angelina"), Str("Kung Fu Panda 2")]
+Total takes 1.5848687
+running query 25a: IMDBQ088 
+DUCKDB total time: 2.844526
+DUCKDB filter time: 0.321533
+DUCKDB join time: 2.522993
+Loading mk to DB
+Loading ci to DB
+Loading t to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mi to DB
+Loading it1 to DB
+Loading k to DB
+Building takes 0.85065
+Running join with 3 tables
+Join took 1.5413932
+Iter takes 2.3920765
+Building takes 2.7429018
+Running join with 5 tables
+Join took 0.13411112
+Iter takes 2.8776875
+Building takes 0.53738695
+Running join with 3 tables
+Join took 0.08729108
+Iter takes 0.6247188
+Bushy join takes 5.894486
+output [Str("Horror"), Str("10"), Str("Abdallah, Damon"), Str("-- And Now the Screaming Starts!")]
+Total takes 5.902263
+running query 25b: IMDBQ089 
+DUCKDB total time: 1.287669
+DUCKDB filter time: 0.35949800000000004
+DUCKDB join time: 0.9281709999999999
+Loading mk to DB
+Loading k to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mi to DB
+Loading it1 to DB
+Loading ci to DB
+Loading t to DB
+Loading n to DB
+Building takes 0.16857392
+Running join with 3 tables
+Join took 0.34538957
+Iter takes 0.5139832
+Building takes 0.000056666
+Running join with 5 tables
+Join took 0.002686375
+Iter takes 0.002761041
+Building takes 0.3851072
+Running join with 3 tables
+Join took 0.073549
+Iter takes 0.45868933
+Bushy join takes 0.9754355
+output [Str("Horror"), Str("138"), Str("Campbell, Jeremiah"), Str("Vampire Boys")]
+Total takes 0.9754551
+running query 25c: IMDBQ090 
+DUCKDB total time: 3.595908
+DUCKDB filter time: 0.056649
+DUCKDB join time: 3.539259
+Loading mk to DB
+Loading k to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading ci to DB
+Loading t to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.999154
+Running join with 3 tables
+Join took 1.5957762
+Iter takes 2.5949636
+Building takes 2.6896281
+Running join with 5 tables
+Join took 0.45962775
+Iter takes 3.1493204
+Building takes 0.5582031
+Running join with 3 tables
+Join took 0.09944442
+Iter takes 0.6576911
+Bushy join takes 6.401981
+output [Str("Action"), Str("10"), Str("Aakeson, Kim Fupz"), Str("$")]
+Total takes 6.4167504
+running query 26a: IMDBQ091 
+DUCKDB total time: 1.15355
+DUCKDB filter time: 0.09305000000000001
+DUCKDB join time: 1.0605
+Loading ci to DB
+Loading n to DB
+Loading chn to DB
+Loading mk to DB
+Loading t to DB
+Loading kt to DB
+Loading mi_idx to DB
+Loading k to DB
+Loading it2 to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Building takes 0.000004333
+Running join with 3 tables
+Join took 0.017424416
+Iter takes 0.017460208
+Building takes 0.015415333
+Running join with 3 tables
+Join took 0.020844458
+Iter takes 0.03628129
+Building takes 0.002069458
+Running join with 3 tables
+Join took 0.1448622
+Iter takes 0.14696553
+Building takes 0.000109541
+Running join with 3 tables
+Join took 0.28196087
+Iter takes 0.28212342
+Building takes 1.2087462
+Running join with 4 tables
+Join took 1.7268337
+Iter takes 2.9356217
+Bushy join takes 3.4184592
+output [Str("'Agua' Man"), Str("7.1"), Str("Acereda, Hermie"), Str("3:10 to Yuma")]
+Total takes 3.4218607
+running query 26b: IMDBQ092 
+DUCKDB total time: 0.936318
+DUCKDB filter time: 0.09173800000000001
+DUCKDB join time: 0.84458
+Loading ci to DB
+Loading n to DB
+Loading chn to DB
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading kt to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Building takes 0.000004875
+Running join with 3 tables
+Join took 0.012706291
+Iter takes 0.012738625
+Building takes 0.010541041
+Running join with 3 tables
+Join took 0.004698291
+Iter takes 0.015263916
+Building takes 0.00048925
+Running join with 3 tables
+Join took 0.078317165
+Iter takes 0.07882625
+Building takes 0.000014083
+Running join with 3 tables
+Join took 0.21191628
+Iter takes 0.21195763
+Building takes 0.56692183
+Running join with 4 tables
+Join took 1.5419079
+Iter takes 2.1088555
+Bushy join takes 2.4276447
+output [Str("Bank Manager"), Str("8.2"), Str("Inception")]
+Total takes 2.42768
+running query 26c: IMDBQ093 
+DUCKDB total time: 0.949828
+DUCKDB filter time: 0.049852
+DUCKDB join time: 0.899976
+Loading ci to DB
+Loading n to DB
+Loading chn to DB
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading kt to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading cc to DB
+Loading cct1 to DB
+Loading cct2 to DB
+Building takes 0.000003916
+Running join with 3 tables
+Join took 0.015377291
+Iter takes 0.01540375
+Building takes 0.010510125
+Running join with 3 tables
+Join took 0.13895841
+Iter takes 0.14949004
+Building takes 0.009328583
+Running join with 3 tables
+Join took 0.12446704
+Iter takes 0.13381629
+Building takes 0.000525583
+Running join with 3 tables
+Join took 0.22073504
+Iter takes 0.22128616
+Building takes 0.5182266
+Running join with 4 tables
+Join took 1.4828845
+Iter takes 2.0011456
+Bushy join takes 2.5211449
+output [Str("'Agua' Man"), Str("1.9"), Str("12 Rounds")]
+Total takes 2.5214388
+running query 27a: IMDBQ094 
+DUCKDB total time: 0.510888
+DUCKDB filter time: 0.054549
+DUCKDB join time: 0.456339
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading t to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Loading mi to DB
+Loading ml to DB
+Loading lt to DB
+Building takes 0.000003458
+Running join with 2 tables
+Join took 0.002223041
+Iter takes 0.002239541
+Building takes 0.000171541
+Running join with 4 tables
+Join took 0.009421875
+Iter takes 0.009601916
+Building takes 0.000023375
+Running join with 2 tables
+Join took 0.07863558
+Iter takes 0.07867104
+Building takes 0.005232583
+Running join with 4 tables
+Join took 0.09297887
+Iter takes 0.09824513
+Building takes 0.000053916
+Running join with 3 tables
+Join took 0.21162958
+Iter takes 0.2117127
+Building takes 0.000037625
+Running join with 2 tables
+Join took 0.00630125
+Iter takes 0.006354291
+Bushy join takes 0.40682855
+output [Str("Det Danske Filminstitut"), Str("followed by"), Str("Spår i mörker")]
+Total takes 0.40686002
+running query 27b: IMDBQ095 
+DUCKDB total time: 0.497407
+DUCKDB filter time: 0.045807
+DUCKDB join time: 0.4516
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading cc to DB
+Loading cct1 to DB
+Loading ml to DB
+Loading cct2 to DB
+Loading t to DB
+Loading mi to DB
+Loading lt to DB
+Building takes 0.000003208
+Running join with 2 tables
+Join took 0.002021375
+Iter takes 0.002036958
+Building takes 0.000166458
+Running join with 4 tables
+Join took 0.008722125
+Iter takes 0.008895416
+Building takes 0.000023375
+Running join with 2 tables
+Join took 0.003408
+Iter takes 0.003438083
+Building takes 0.004937541
+Running join with 4 tables
+Join took 0.07803992
+Iter takes 0.08299866
+Building takes 0.000021375
+Running join with 3 tables
+Join took 0.18457489
+Iter takes 0.18461496
+Building takes 0.000021875
+Running join with 2 tables
+Join took 0.005365666
+Iter takes 0.005399166
+Bushy join takes 0.28738633
+output [Str("Filmlance International AB"), Str("followed by"), Str("Vita nätter")]
+Total takes 0.28740865
+running query 27c: IMDBQ096 
+DUCKDB total time: 0.67017
+DUCKDB filter time: 0.051142
+DUCKDB join time: 0.619028
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading mi to DB
+Loading cc to DB
+Loading ml to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Loading lt to DB
+Building takes 0.000003416
+Running join with 2 tables
+Join took 0.002100833
+Iter takes 0.002116541
+Building takes 0.000227875
+Running join with 4 tables
+Join took 0.007689958
+Iter takes 0.007927458
+Building takes 0.000026666
+Running join with 2 tables
+Join took 0.14456159
+Iter takes 0.14460109
+Building takes 0.005751166
+Running join with 4 tables
+Join took 0.08743908
+Iter takes 0.093214
+Building takes 0.000041708
+Running join with 3 tables
+Join took 0.19873774
+Iter takes 0.19880009
+Building takes 0.000032833
+Running join with 2 tables
+Join took 0.040387664
+Iter takes 0.040449332
+Bushy join takes 0.48711196
+output [Str("Det Danske Filminstitut"), Str("followed by"), Str("Spår i mörker")]
+Total takes 0.48715568
+running query 28a: IMDBQ097 
+DUCKDB total time: 0.803551
+DUCKDB filter time: 0.091182
+DUCKDB join time: 0.712369
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading kt to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mi to DB
+Loading it1 to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading cc to DB
+Loading cct1 to DB
+Loading cct2 to DB
+Building takes 0.000003291
+Running join with 3 tables
+Join took 0.011770375
+Iter takes 0.011792125
+Building takes 0.004527291
+Running join with 3 tables
+Join took 0.11827158
+Iter takes 0.122814335
+Building takes 0.003080791
+Running join with 3 tables
+Join took 0.14376964
+Iter takes 0.14686662
+Building takes 0.015165291
+Running join with 4 tables
+Join took 0.025044832
+Iter takes 0.04024
+Building takes 0.000992125
+Running join with 3 tables
+Join took 0.200524
+Iter takes 0.20153788
+Building takes 0.000458583
+Running join with 3 tables
+Join took 0.03904033
+Iter takes 0.039521124
+Bushy join takes 0.56277573
+output [Str("01 Distribuzione"), Str("2.9"), Str("(#1.1)")]
+Total takes 0.56293786
+running query 28b: IMDBQ098 
+DUCKDB total time: 0.630248
+DUCKDB filter time: 0.09377400000000001
+DUCKDB join time: 0.536474
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading kt to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000003666
+Running join with 3 tables
+Join took 0.0111585
+Iter takes 0.011178041
+Building takes 0.004392208
+Running join with 3 tables
+Join took 0.028351707
+Iter takes 0.032760333
+Building takes 0.001617875
+Running join with 3 tables
+Join took 0.08500013
+Iter takes 0.08663604
+Building takes 0.013314416
+Running join with 4 tables
+Join took 0.02299854
+Iter takes 0.036339793
+Building takes 0.000416541
+Running join with 3 tables
+Join took 0.1905835
+Iter takes 0.1910213
+Building takes 0.000139625
+Running join with 3 tables
+Join took 0.006179666
+Iter takes 0.006336291
+Bushy join takes 0.364275
+output [Str("20th Century Fox"), Str("6.6"), Str("(#1.1)")]
+Total takes 0.36429852
+running query 28c: IMDBQ099 
+DUCKDB total time: 0.806701
+DUCKDB filter time: 0.091437
+DUCKDB join time: 0.715264
+Loading mk to DB
+Loading k to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading t to DB
+Loading kt to DB
+Loading mi to DB
+Loading it1 to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading cct1 to DB
+Building takes 0.000003375
+Running join with 3 tables
+Join took 0.014178041
+Iter takes 0.014199416
+Building takes 0.008598125
+Running join with 3 tables
+Join took 0.124269284
+Iter takes 0.13288571
+Building takes 0.005203583
+Running join with 3 tables
+Join took 0.096854664
+Iter takes 0.102076754
+Building takes 0.014614666
+Running join with 4 tables
+Join took 0.025999708
+Iter takes 0.04064221
+Building takes 0.001319958
+Running join with 3 tables
+Join took 0.20062605
+Iter takes 0.20196883
+Building takes 0.000790666
+Running join with 3 tables
+Join took 0.041649085
+Iter takes 0.042465918
+Bushy join takes 0.53424215
+output [Str("01 Distribuzione"), Str("1.9"), Str("(#1.1)")]
+Total takes 0.5344621
+running query 29a: IMDBQ100 
+DUCKDB total time: 1.520102
+DUCKDB filter time: 0.14751999999999998
+DUCKDB join time: 1.372582
+Loading mk to DB
+Loading k to DB
+Loading pi to DB
+Loading it3 to DB
+Loading mc to DB
+Loading cn to DB
+Loading an to DB
+Loading ci to DB
+Loading n to DB
+Loading chn to DB
+Loading rt to DB
+Loading mi to DB
+Loading it to DB
+Loading cc to DB
+Loading t to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Building takes 0.000003958
+Running join with 3 tables
+Join took 0.012121666
+Iter takes 0.012145125
+Building takes 0.002325541
+Running join with 2 tables
+Join took 1.958e-6
+Iter takes 0.00233475
+Building takes 0.005140833
+Running join with 3 tables
+Join took 0.15261991
+Iter takes 0.157776
+Building takes 0.000008125
+Running join with 3 tables
+Join took 0.19401413
+Iter takes 0.19404183
+Building takes 0.000009083
+Running join with 3 tables
+Join took 0.024134666
+Iter takes 0.02415854
+Building takes 0.07481634
+Running join with 3 tables
+Join took 0.21895626
+Iter takes 0.2937881
+Building takes 0.040816333
+Running join with 2 tables
+Join took 0.006131083
+Iter takes 0.04696171
+Building takes 0.000820666
+Running join with 5 tables
+Join took 0.039651375
+Iter takes 0.0405205
+Bushy join takes 0.77173156
+output [Str("Queen"), Str("Andrews, Julie"), Str("Shrek 2")]
+Total takes 0.7717823
+running query 29b: IMDBQ101 
+DUCKDB total time: 1.345662
+DUCKDB filter time: 0.48700299999999996
+DUCKDB join time: 0.858659
+Loading mk to DB
+Loading k to DB
+Loading pi to DB
+Loading it3 to DB
+Loading mc to DB
+Loading cn to DB
+Loading an to DB
+Loading ci to DB
+Loading chn to DB
+Loading n to DB
+Loading rt to DB
+Loading mi to DB
+Loading t to DB
+Loading it to DB
+Loading cc to DB
+Loading cct1 to DB
+Loading cct2 to DB
+Building takes 0.000003458
+Running join with 3 tables
+Join took 0.012036375
+Iter takes 0.012055708
+Building takes 0.001984416
+Running join with 2 tables
+Join took 1.291e-6
+Iter takes 0.001992583
+Building takes 0.004220625
+Running join with 3 tables
+Join took 0.15043233
+Iter takes 0.15466654
+Building takes 0.000006708
+Running join with 3 tables
+Join took 0.19437242
+Iter takes 0.19439705
+Building takes 0.000010208
+Running join with 3 tables
+Join took 0.02103304
+Iter takes 0.021058377
+Building takes 0.072058246
+Running join with 3 tables
+Join took 0.18523951
+Iter takes 0.25731128
+Building takes 0.008334916
+Running join with 2 tables
+Join took 0.004024
+Iter takes 0.012374708
+Building takes 0.000256625
+Running join with 5 tables
+Join took 0.03584721
+Iter takes 0.036141623
+Bushy join takes 0.6900027
+output [Str("Queen"), Str("Andrews, Julie"), Str("Shrek 2")]
+Total takes 0.69002277
+running query 29c: IMDBQ102 
+DUCKDB total time: 1.778278
+DUCKDB filter time: 0.08955400000000001
+DUCKDB join time: 1.6887240000000001
+Loading mk to DB
+Loading k to DB
+Loading chn to DB
+Loading pi to DB
+Loading it3 to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading an to DB
+Loading ci to DB
+Loading rt to DB
+Loading n to DB
+Loading mi to DB
+Loading it to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Building takes 0.000003833
+Running join with 3 tables
+Join took 0.011930791
+Iter takes 0.011956416
+Building takes 0.002149541
+Running join with 2 tables
+Join took 0.08232308
+Iter takes 0.08448425
+Building takes 0.006551
+Running join with 3 tables
+Join took 0.16594975
+Iter takes 0.17251596
+Building takes 0.000715541
+Running join with 3 tables
+Join took 0.21241733
+Iter takes 0.21315221
+Building takes 0.000025333
+Running join with 3 tables
+Join took 0.026757084
+Iter takes 0.026797624
+Building takes 0.07971896
+Running join with 3 tables
+Join took 0.21944663
+Iter takes 0.29918188
+Building takes 0.042121585
+Running join with 2 tables
+Join took 0.005965333
+Iter takes 0.048101623
+Building takes 0.6685932
+Running join with 5 tables
+Join took 0.07620217
+Iter takes 0.74484104
+Bushy join takes 1.6010358
+output [Str("Lola"), Str("Andrews, Julie"), Str("Hoodwinked!")]
+Total takes 1.6012038
+running query 30a: IMDBQ103 
+DUCKDB total time: 1.377571
+DUCKDB filter time: 0.10836100000000001
+DUCKDB join time: 1.2692100000000002
+Loading mk to DB
+Loading k to DB
+Loading n to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading ci to DB
+Loading cc to DB
+Loading cct1 to DB
+Loading cct2 to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.0000035
+Running join with 3 tables
+Join took 0.012211
+Iter takes 0.012228833
+Building takes 0.002444041
+Running join with 3 tables
+Join took 0.11884638
+Iter takes 0.12130396
+Building takes 0.00275825
+Running join with 2 tables
+Join took 0.10666729
+Iter takes 0.10944075
+Building takes 0.000237125
+Running join with 3 tables
+Join took 0.20391433
+Iter takes 0.20417063
+Building takes 0.000211041
+Running join with 3 tables
+Join took 0.006898416
+Iter takes 0.007125416
+Building takes 0.3299258
+Running join with 3 tables
+Join took 0.065437876
+Iter takes 0.395395
+Bushy join takes 0.849668
+output [Str("Horror"), Str("100356"), Str("Abrams, J.J."), Str("16 Blocks")]
+Total takes 0.84984654
+running query 30b: IMDBQ104 
+DUCKDB total time: 1.369425
+DUCKDB filter time: 0.10758100000000001
+DUCKDB join time: 1.261844
+Loading mk to DB
+Loading k to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading ci to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Loading t to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000003541
+Running join with 3 tables
+Join took 0.01238025
+Iter takes 0.012399541
+Building takes 0.002164458
+Running join with 3 tables
+Join took 0.119462706
+Iter takes 0.12164017
+Building takes 0.002609
+Running join with 2 tables
+Join took 4.1541e-5
+Iter takes 0.002671083
+Building takes 0.000014625
+Running join with 3 tables
+Join took 0.21117654
+Iter takes 0.21126428
+Building takes 0.000014416
+Running join with 3 tables
+Join took 0.007030458
+Iter takes 0.007061416
+Building takes 0.3440139
+Running join with 3 tables
+Join took 0.07264304
+Iter takes 0.4166841
+Bushy join takes 0.7717278
+output [Str("Horror"), Str("194782"), Str("Shannon, Damian"), Str("Freddy vs. Jason")]
+Total takes 0.771748
+running query 30c: IMDBQ105 
+DUCKDB total time: 1.612226
+DUCKDB filter time: 0.056462
+DUCKDB join time: 1.555764
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Building takes 0.000003583
+Running join with 3 tables
+Join took 0.012517083
+Iter takes 0.012539958
+Building takes 0.001872625
+Running join with 3 tables
+Join took 0.120066755
+Iter takes 0.121954165
+Building takes 0.001886416
+Running join with 2 tables
+Join took 0.19856267
+Iter takes 0.20046276
+Building takes 0.002030708
+Running join with 3 tables
+Join took 0.20609592
+Iter takes 0.20815109
+Building takes 0.001342041
+Running join with 3 tables
+Join took 0.020777958
+Iter takes 0.02213754
+Building takes 0.33917198
+Running join with 3 tables
+Join took 0.07264455
+Iter takes 0.41184193
+Bushy join takes 0.9770906
+output [Str("Action"), Str("100356"), Str("Abernathy, Lewis"), Str("$")]
+Total takes 0.9776578
+running query 31a: IMDBQ106 
+DUCKDB total time: 5.013766
+DUCKDB filter time: 0.062868
+DUCKDB join time: 4.9508980000000005
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.86746913
+Running join with 3 tables
+Join took 1.7216719
+Iter takes 2.589172
+Building takes 3.4464266
+Running join with 7 tables
+Join took 0.1723262
+Iter takes 3.6188483
+Building takes 0.50527316
+Running join with 3 tables
+Join took 0.08954966
+Iter takes 0.59487003
+Bushy join takes 6.802892
+output [Str("Horror"), Str("1040"), Str("Agnew, Jim"), Str("2001 Maniacs")]
+Total takes 6.803998
+running query 31b: IMDBQ107 
+DUCKDB total time: 1.490557
+DUCKDB filter time: 0.115289
+DUCKDB join time: 1.375268
+Loading mk to DB
+Loading k to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Loading mc to DB
+Loading t to DB
+Loading cn to DB
+Building takes 0.13538004
+Running join with 3 tables
+Join took 0.31375596
+Iter takes 0.44916126
+Building takes 0.001252583
+Running join with 7 tables
+Join took 0.006075708
+Iter takes 0.007350916
+Building takes 0.377712
+Running join with 3 tables
+Join took 0.0712925
+Iter takes 0.44903663
+Bushy join takes 0.9055507
+output [Str("Horror"), Str("129755"), Str("Bousman, Darren Lynn"), Str("Saw")]
+Total takes 0.90557903
+running query 31c: IMDBQ108 
+DUCKDB total time: 6.598483
+DUCKDB filter time: 0.007123
+DUCKDB join time: 6.59136
+Loading mk to DB
+Loading k to DB
+Loading n to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.9331388
+Running join with 3 tables
+Join took 1.7731183
+Iter takes 2.7062824
+Building takes 3.3943157
+Running join with 7 tables
+Join took 0.2498334
+Iter takes 3.6442394
+Building takes 1.6517227
+Running join with 3 tables
+Join took 0.12588283
+Iter takes 1.7776539
+Bushy join takes 8.128178
+output [Str("Action"), Str("1008"), Str("Abraham, Brad"), Str("11:14")]
+Total takes 8.1344385
+running query 32b: IMDBQ110 
+DUCKDB total time: 0.32717
+DUCKDB filter time: 0.00256
+DUCKDB join time: 0.32461
+Loading mk to DB
+Loading k to DB
+Loading t1 to DB
+Loading t2 to DB
+Loading ml to DB
+Loading lt to DB
+Building takes 0.5624791
+Running join with 3 tables
+Join took 0.22406046
+Iter takes 0.78656006
+Building takes 0.002962541
+Running join with 4 tables
+Join took 0.20886584
+Iter takes 0.21184425
+Bushy join takes 0.998406
+output [Str("alternate language version of"), Str("12 oz. Mouse"), Str("'Angel': Season 2 Overview")]
+Total takes 0.9996033
+running query 33a: IMDBQ111 
+DUCKDB total time: 0.243654
+DUCKDB filter time: 0.10693
+DUCKDB join time: 0.136724
+Loading mc2 to DB
+Loading mc1 to DB
+Loading cn2 to DB
+Loading cn1 to DB
+Loading t1 to DB
+Loading kt1 to DB
+Loading mi_idx1 to DB
+Loading it1 to DB
+Loading mi_idx2 to DB
+Loading it2 to DB
+Loading t2 to DB
+Loading kt2 to DB
+Loading ml to DB
+Loading lt to DB
+Building takes 0.000003333
+Running join with 2 tables
+Join took 0.002458083
+Iter takes 0.002474
+Building takes 0.000195958
+Running join with 3 tables
+Join took 0.12420142
+Iter takes 0.12440992
+Building takes 0.000211916
+Running join with 3 tables
+Join took 0.058272246
+Iter takes 0.058499623
+Building takes 0.000016291
+Running join with 3 tables
+Join took 0.2082485
+Iter takes 0.20828463
+Building takes 0.000012791
+Running join with 3 tables
+Join took 0.03663454
+Iter takes 0.03666229
+Building takes 0.011142041
+Running join with 3 tables
+Join took 0.1648365
+Iter takes 0.17600533
+Building takes 0.03667617
+Running join with 3 tables
+Join took 0.18229084
+Iter takes 0.21899143
+Bushy join takes 0.82533115
+output [Str("495 Productions"), Str("495 Productions"), Str("3.3"), Str("2.7"), Str("A Double Shot at Love"), Str("A Shot at Love with Tila Tequila")]
+Total takes 0.8253629
+running query 33b: IMDBQ112 
+DUCKDB total time: 0.222286
+DUCKDB filter time: 0.09733900000000001
+DUCKDB join time: 0.124947
+Loading mc2 to DB
+Loading mc1 to DB
+Loading cn1 to DB
+Loading cn2 to DB
+Loading t1 to DB
+Loading kt1 to DB
+Loading mi_idx1 to DB
+Loading it1 to DB
+Loading mi_idx2 to DB
+Loading it2 to DB
+Loading t2 to DB
+Loading kt2 to DB
+Loading ml to DB
+Loading lt to DB
+Building takes 0.000003416
+Running join with 2 tables
+Join took 0.002249291
+Iter takes 0.002268875
+Building takes 0.000183375
+Running join with 3 tables
+Join took 0.11717983
+Iter takes 0.117372334
+Building takes 0.000182458
+Running join with 3 tables
+Join took 0.050680585
+Iter takes 0.050875247
+Building takes 0.000013208
+Running join with 3 tables
+Join took 0.1924478
+Iter takes 0.19247738
+Building takes 0.000012208
+Running join with 3 tables
+Join took 0.008817666
+Iter takes 0.008843416
+Building takes 0.000213166
+Running join with 3 tables
+Join took 0.11557434
+Iter takes 0.11580266
+Building takes 0.035508
+Running join with 3 tables
+Join took 0.17441384
+Iter takes 0.20994559
+Bushy join takes 0.69758916
+output [Str("MTV Netherlands"), Str("495 Productions"), Str("3.3"), Str("2.7"), Str("A Double Shot at Love"), Str("A Shot at Love with Tila Tequila")]
+Total takes 0.6976107
+running query 33c: IMDBQ113 
+DUCKDB total time: 0.256189
+DUCKDB filter time: 0.097816
+DUCKDB join time: 0.15837299999999999
+Loading mc2 to DB
+Loading mc1 to DB
+Loading cn2 to DB
+Loading cn1 to DB
+Loading t1 to DB
+Loading kt1 to DB
+Loading mi_idx1 to DB
+Loading it1 to DB
+Loading t2 to DB
+Loading kt2 to DB
+Loading mi_idx2 to DB
+Loading it2 to DB
+Loading ml to DB
+Loading lt to DB
+Building takes 0.000003333
+Running join with 2 tables
+Join took 0.001995416
+Iter takes 0.002008416
+Building takes 0.000176541
+Running join with 3 tables
+Join took 0.098776415
+Iter takes 0.098962456
+Building takes 0.000182416
+Running join with 3 tables
+Join took 0.045392085
+Iter takes 0.045587793
+Building takes 0.000017666
+Running join with 3 tables
+Join took 0.18234283
+Iter takes 0.18238
+Building takes 0.000031541
+Running join with 3 tables
+Join took 0.08572483
+Iter takes 0.08578925
+Building takes 0.015447916
+Running join with 3 tables
+Join took 0.1531073
+Iter takes 0.16858278
+Building takes 0.0290835
+Running join with 3 tables
+Join took 0.16297984
+Iter takes 0.19209084
+Bushy join takes 0.77543235
+output [Str("2BE"), Str("495 Productions"), Str("1.3"), Str("1.0"), Str("A Double Shot at Love"), Str("A Double Shot at Love")]
+Total takes 0.7754738

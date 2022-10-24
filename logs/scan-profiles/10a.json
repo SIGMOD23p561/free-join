@@ -1,0 +1,168 @@
+{
+   "name":  "Query", 
+   "result": 0.063100,
+   "timing": 0.063100,
+   "cardinality": 1,
+   "extra_info": "SELECT MIN(chn.name) AS uncredited_voiced_character, MIN(t.title) AS russian_movie\n FROM char_name AS chn, ci, t, movie_companies AS mc, company_type AS ct, cn, rt, \nWHERE t.id = mc.movie_id\nAND t.id = ci.movie_id\nAND ci.movie_id = mc.movie_id\nAND chn.id = ci.person_role_id\nAND rt.id = ci.role_id\nAND cn.id = mc.company_id\nAND ct.id = mc.company_type_id\n;", 
+   "timings": [
+
+   ],
+   "children": [
+    {
+      "name": "SIMPLE_AGGREGATE",
+      "timing":0.000011,
+      "cardinality":1,
+      "extra_info": "min(#0)\nmin(#1)",
+      "timings": [
+      ],
+      "children": [
+       {
+         "name": "PROJECTION",
+         "timing":0.000006,
+         "cardinality":104,
+         "extra_info": "name\ntitle\n",
+         "timings": [
+         ],
+         "children": [
+          {
+            "name": "HASH_JOIN",
+            "timing":0.009120,
+            "cardinality":104,
+            "extra_info": "INNER\nid = person_role_id\n",
+            "timings": [
+            ],
+            "children": [
+             {
+               "name": "SEQ_SCAN",
+               "timing":0.269109,
+               "cardinality":3140339,
+               "extra_info": "char_name\n[INFOSEPARATOR]\nid\nname",
+               "timings": [
+               ],
+               "children": [
+               ]
+             }
+,
+             {
+               "name": "HASH_JOIN",
+               "timing":0.000570,
+               "cardinality":112,
+               "extra_info": "INNER\nmovie_id = movie_id\nid = movie_id\n",
+               "timings": [
+               ],
+               "children": [
+                {
+                  "name": "HASH_JOIN",
+                  "timing":0.052234,
+                  "cardinality":4539,
+                  "extra_info": "INNER\nmovie_id = id\n",
+                  "timings": [
+                  ],
+                  "children": [
+                   {
+                     "name": "HASH_JOIN",
+                     "timing":0.004944,
+                     "cardinality":8790,
+                     "extra_info": "INNER\ncompany_id = id\n",
+                     "timings": [
+                     ],
+                     "children": [
+                      {
+                        "name": "HASH_JOIN",
+                        "timing":0.003295,
+                        "cardinality":2609129,
+                        "extra_info": "INNER\ncompany_type_id = id\n",
+                        "timings": [
+                        ],
+                        "children": [
+                         {
+                           "name": "SEQ_SCAN",
+                           "timing":0.053681,
+                           "cardinality":2609129,
+                           "extra_info": "movie_companies\n[INFOSEPARATOR]\nmovie_id\ncompany_id\ncompany_type_id",
+                           "timings": [
+                           ],
+                           "children": [
+                           ]
+                         }
+,
+                         {
+                           "name": "SEQ_SCAN",
+                           "timing":0.000001,
+                           "cardinality":4,
+                           "extra_info": "company_type\n[INFOSEPARATOR]\nid",
+                           "timings": [
+                           ],
+                           "children": [
+                           ]
+                         }
+                        ]
+                      }
+,
+                      {
+                        "name": "SEQ_SCAN",
+                        "timing":0.000010,
+                        "cardinality":1361,
+                        "extra_info": "cn\n[INFOSEPARATOR]\nid",
+                        "timings": [
+                        ],
+                        "children": [
+                        ]
+                      }
+                     ]
+                   }
+,
+                   {
+                     "name": "SEQ_SCAN",
+                     "timing":0.013742,
+                     "cardinality":1012920,
+                     "extra_info": "t\n[INFOSEPARATOR]\nid\ntitle",
+                     "timings": [
+                     ],
+                     "children": [
+                     ]
+                   }
+                  ]
+                }
+,
+                {
+                  "name": "HASH_JOIN",
+                  "timing":0.000036,
+                  "cardinality":25874,
+                  "extra_info": "INNER\nrole_id = id\n",
+                  "timings": [
+                  ],
+                  "children": [
+                   {
+                     "name": "SEQ_SCAN",
+                     "timing":0.000071,
+                     "cardinality":32288,
+                     "extra_info": "ci\n[INFOSEPARATOR]\nmovie_id\nperson_role_id\nrole_id",
+                     "timings": [
+                     ],
+                     "children": [
+                     ]
+                   }
+,
+                   {
+                     "name": "SEQ_SCAN",
+                     "timing":0.000001,
+                     "cardinality":1,
+                     "extra_info": "rt\n[INFOSEPARATOR]\nid",
+                     "timings": [
+                     ],
+                     "children": [
+                     ]
+                   }
+                  ]
+                }
+               ]
+             }
+            ]
+          }
+         ]
+       }
+      ]
+    }
+   ]
+}

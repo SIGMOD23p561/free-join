@@ -1,0 +1,2685 @@
+running query 1a: IMDBQ001 
+Loading t to DB
+Loading mi_idx to DB
+Loading it to DB
+Loading mc to DB
+Loading ct to DB
+Building takes 0.12123641
+Running join
+Join took 0.23739512
+Iter takes 0.35867876
+Building takes 0.18837105
+Running join
+Join took 0.003609333
+Iter takes 0.19203058
+Bushy join takes 0.5507137
+output [Str("(A Warner Bros.-First National Picture) (presents)"), Str("A Clockwork Orange"), Num(1934)]
+Total takes 0.55073476
+running query 1b: IMDBQ002 
+Loading mi_idx to DB
+Loading it to DB
+Loading mc to DB
+Loading ct to DB
+Loading t to DB
+Building takes 0.119752705
+Running join
+Join took 0.06263959
+Iter takes 0.18244483
+Building takes 0.040988
+Running join
+Join took 0.04686075
+Iter takes 0.08788862
+Bushy join takes 0.2703387
+output [Str("(Set Decoration Rentals) (uncredited)"), Str("Disaster Movie"), Num(2008)]
+Total takes 0.27035445
+running query 1c: IMDBQ003 
+Loading mi_idx to DB
+Loading t to DB
+Loading mc to DB
+Loading ct to DB
+Loading it to DB
+Building takes 0.11874491
+Running join
+Join took 0.027888376
+Iter takes 0.14667974
+Building takes 0.013008166
+Running join
+Join took 0.000569625
+Iter takes 0.01361
+Bushy join takes 0.1602945
+output [Str("(co-production)"), Str("Intouchables"), Num(2011)]
+Total takes 0.16030511
+running query 1d: IMDBQ004 
+Loading t to DB
+Loading mc to DB
+Loading ct to DB
+Loading mi_idx to DB
+Loading it to DB
+Building takes 0.118443586
+Running join
+Join took 0.11845275
+Iter takes 0.23694216
+Building takes 0.078231126
+Running join
+Join took 0.07174354
+Iter takes 0.15001878
+Bushy join takes 0.38696578
+output [Str("(Set Decoration Rentals) (uncredited)"), Str("Disaster Movie"), Num(2004)]
+Total takes 0.3869821
+running query 2a: IMDBQ005 
+Loading mk to DB
+Loading mc to DB
+Loading t to DB
+Loading cn to DB
+Loading k to DB
+Building takes 0.8264511
+Running join
+Join took 0.28620115
+Iter takes 1.112695
+Bushy join takes 1.1126976
+output [Str("'Doc'")]
+Total takes 1.1128325
+running query 2b: IMDBQ006 
+Loading mk to DB
+Loading mc to DB
+Loading t to DB
+Loading k to DB
+Loading cn to DB
+Building takes 0.82675064
+Running join
+Join took 0.28514218
+Iter takes 1.1119391
+Bushy join takes 1.1119418
+output [Str("'Doc'")]
+Total takes 1.1120131
+running query 2d: IMDBQ008 
+Loading mk to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading k to DB
+Building takes 0.8282594
+Running join
+Join took 0.30109903
+Iter takes 1.1293966
+Bushy join takes 1.1293993
+output [Str("& Teller")]
+Total takes 1.1300431
+running query 3a: IMDBQ009 
+Loading mk to DB
+Loading mi to DB
+Loading t to DB
+Loading k to DB
+Building takes 0.16805455
+Running join
+Join took 0.18673478
+Iter takes 0.35482934
+Building takes 0.136925
+Running join
+Join took 0.007343166
+Iter takes 0.14430888
+Bushy join takes 0.4991439
+output [Str("2 Days in New York")]
+Total takes 0.49915776
+running query 3b: IMDBQ010 
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading mi to DB
+Building takes 0.052883126
+Running join
+Join took 0.11750125
+Iter takes 0.17043184
+Building takes 0.032088622
+Running join
+Join took 6.9708e-5
+Iter takes 0.032196667
+Bushy join takes 0.20263542
+output [Str("300: Rise of an Empire")]
+Total takes 0.20264888
+running query 3c: IMDBQ011 
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading mi to DB
+Building takes 0.30542335
+Running join
+Join took 0.29546028
+Iter takes 0.6009476
+Building takes 0.30872756
+Running join
+Join took 0.066452086
+Iter takes 0.37523657
+Bushy join takes 0.9761953
+output [Str("& Teller 2")]
+Total takes 0.9763158
+running query 4a: IMDBQ012 
+Loading mk to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading it to DB
+Loading k to DB
+Building takes 0.26204014
+Running join
+Join took 0.13960646
+Iter takes 0.40170512
+Bushy join takes 0.40171108
+output [Str("5.1"), Str("& Teller 2")]
+Total takes 0.40175092
+running query 4b: IMDBQ013 
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading it to DB
+Building takes 0.050649
+Running join
+Join took 0.1063235
+Iter takes 0.15703759
+Bushy join takes 0.15704167
+output [Str("9.1"), Str("Batman: Arkham City")]
+Total takes 0.15705663
+running query 4c: IMDBQ014 
+Loading mk to DB
+Loading mi_idx to DB
+Loading t to DB
+Loading it to DB
+Loading k to DB
+Building takes 0.42315602
+Running join
+Join took 0.19924933
+Iter takes 0.6224529
+Bushy join takes 0.62245536
+output [Str("2.1"), Str("& Teller 2")]
+Total takes 0.62260336
+running query 5c: IMDBQ017 
+Loading t to DB
+Loading mc to DB
+Loading ct to DB
+Loading mi to DB
+Loading it to DB
+Building takes 0.32631102
+Running join
+Join took 0.08554737
+Iter takes 0.4119083
+Bushy join takes 0.4119106
+output [Str("11,830,420")]
+Total takes 0.41193548
+running query 6a: IMDBQ018 
+Loading ci to DB
+Loading n to DB
+Loading t to DB
+Loading mk to DB
+Loading k to DB
+Building takes 0.0530345
+Running join
+Join took 0.10734729
+Iter takes 0.1604407
+Building takes 0.000008041
+Running join
+Join took 0.6785999
+Iter takes 0.67866904
+Bushy join takes 0.8391202
+output [Str("marvel-cinematic-universe"), Str("Downey Jr., Robert"), Str("Iron Man 3")]
+Total takes 0.8391502
+running query 6b: IMDBQ019 
+Loading ci to DB
+Loading t to DB
+Loading n to DB
+Loading mk to DB
+Loading k to DB
+Building takes 0.000042708
+Running join
+Join took 0.09476087
+Iter takes 0.09486583
+Building takes 0.000017541
+Running join
+Join took 0.68147707
+Iter takes 0.6815438
+Bushy join takes 0.77642226
+output [Str("based-on-comic"), Str("Downey Jr., Robert"), Str("The Avengers 2")]
+Total takes 0.7764394
+running query 6c: IMDBQ020 
+Loading ci to DB
+Loading mk to DB
+Loading t to DB
+Loading k to DB
+Loading n to DB
+Building takes 0.000039125
+Running join
+Join took 0.09604908
+Iter takes 0.09613491
+Building takes 0.000005541
+Running join
+Join took 0.67831486
+Iter takes 0.67836493
+Bushy join takes 0.77451414
+output [Str("marvel-cinematic-universe"), Str("Downey Jr., Robert"), Str("The Avengers 2")]
+Total takes 0.7745313
+running query 6d: IMDBQ021 
+Loading ci to DB
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading n to DB
+Building takes 0.23789924
+Running join
+Join took 0.15973987
+Iter takes 0.3976992
+Building takes 0.001606916
+Running join
+Join took 0.6819346
+Iter takes 0.68359226
+Bushy join takes 1.0813048
+output [Str("based-on-comic"), Str("Downey Jr., Robert"), Str("2008 MTV Movie Awards")]
+Total takes 1.0813538
+running query 6e: IMDBQ022 
+Loading ci to DB
+Loading n to DB
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Building takes 0.24116296
+Running join
+Join took 0.15839042
+Iter takes 0.399604
+Building takes 0.000012791
+Running join
+Join took 0.6785591
+Iter takes 0.67962265
+Bushy join takes 1.0792462
+output [Str("marvel-cinematic-universe"), Str("Downey Jr., Robert"), Str("Iron Man 3")]
+Total takes 1.079268
+running query 6f: IMDBQ023 
+Loading ci to DB
+Loading t to DB
+Loading n to DB
+Loading mk to DB
+Loading k to DB
+Building takes 0.24895075
+Running join
+Join took 0.15997992
+Iter takes 0.41029608
+Building takes 0.96534973
+Running join
+Join took 2.6217415
+Iter takes 3.5871549
+Bushy join takes 3.9974668
+output [Str("based-on-comic"), Str("\"Steff\", Stefanie Oxmann Mcgaha"), Str("& Teller 2")]
+Total takes 4.016201
+running query 7a: IMDBQ024 
+Loading ci to DB
+Loading t to DB
+Loading an to DB
+Loading pi to DB
+Loading ml to DB
+Loading lt to DB
+Loading n to DB
+Loading it to DB
+Building takes 0.00000925
+Running join
+Join took 0.011083875
+Iter takes 0.011139416
+Building takes 0.002581
+Running join
+Join took 0.007185958
+Iter takes 0.009792083
+Building takes 0.05463804
+Running join
+Join took 1.0667543
+Iter takes 1.1214474
+Bushy join takes 1.1423934
+output [Str("Antonioni, Michelangelo"), Str("Dressed to Kill")]
+Total takes 1.1424224
+running query 7b: IMDBQ025 
+Loading ci to DB
+Loading t to DB
+Loading n to DB
+Loading an to DB
+Loading ml to DB
+Loading lt to DB
+Loading pi to DB
+Loading it to DB
+Building takes 0.000008875
+Running join
+Join took 0.001878875
+Iter takes 0.00192825
+Building takes 0.002460416
+Running join
+Join took 0.001612041
+Iter takes 0.004093083
+Building takes 0.05415804
+Running join
+Join took 0.7393257
+Iter takes 0.7935344
+Bushy join takes 0.79956836
+output [Str("De Palma, Brian"), Str("Dressed to Kill")]
+Total takes 0.79959315
+running query 7c: IMDBQ026 
+Loading ci to DB
+Loading ml to DB
+Loading n to DB
+Loading pi to DB
+Loading it to DB
+Loading an to DB
+Loading t to DB
+Loading lt to DB
+Building takes 0.011791958
+Running join
+Join took 0.016561832
+Iter takes 0.028406292
+Building takes 0.002216541
+Running join
+Join took 0.03181404
+Iter takes 0.03405554
+Building takes 0.050130125
+Running join
+Join took 0.8027064
+Iter takes 0.8528757
+Bushy join takes 0.915345
+output [Str("50 Cent"), Str("\"Boo\" Arnold was born Earl Arnold in Hattiesburg, Mississippi in 1966. His father gave him the nickname 'Boo' early in life and it stuck through grade school, high school, and college. He is still known as \"Boo\" to family and friends.  Raised in central Texas, Arnold played baseball at Texas Tech University where he graduated with a BA in Advertising and Marketing. While at Texas Tech he was also a member of the Texas Epsilon chapter of Phi Delta Theta fraternity. After college he worked with Young Life, an outreach to high school students, in San Antonio, Texas.  While with Young Life Arnold began taking extension courses through Fuller Theological Seminary and ultimately went full-time to Gordon-Conwell Theological Seminary in Boston, Massachusetts. At Gordon-Conwell he completed a Master's Degree in Divinity studying Theology, Philosophy, Church History, Biblical Languages (Hebrew & Greek), and Exegetical Methods. Following seminary he was involved with reconciliation efforts in the former Yugoslavia shortly after the war ended there in1995.  Arnold started acting in his early thirties in Texas. After an encouraging visit to Los Angeles where he spent time with childhood friend George Eads (of CSI Las Vegas) he decided to move to Los Angeles in 2001 to pursue acting full-time. While in Los Angeles he has studied acting with Judith Weston at Judith Weston Studio for Actors and Directors.  Arnold's acting career has been one of steady development, booking co-star and guest-star roles in nighttime television. He guest-starred opposite of Jane Seymour on the night time television drama Justice. He played the lead, Michael Hollister, in the film The Seer, written and directed by Patrick Masset (Friday Night Lights).  He was nominated Best Actor in the168 Film Festival for the role of Phil Stevens in the short-film Useless. In Useless he played a US Marshal who must choose between mercy and justice as he confronts the man who murdered his father. Arnold's performance in Useless confirmed his ability to carry lead roles, and he continues to work toward solidifying himself as a male lead in film and television.  Arnold married fellow Texan Stacy Rudd of San Antonio in 2003 and they are now raising their three children in the Los Angeles area.")]
+Total takes 0.9158512
+running query 8a: IMDBQ027 
+Loading t to DB
+Loading ci to DB
+Loading n1 to DB
+Loading rt to DB
+Loading mc to DB
+Loading cn to DB
+Loading an1 to DB
+Building takes 0.000350291
+Running join
+Join took 0.002741
+Iter takes 0.003122208
+Building takes 0.5988993
+Running join
+Join took 0.002121875
+Iter takes 0.6010547
+Bushy join takes 0.60418105
+output [Str("Chambers, Linda"), Str(".hack//Quantum")]
+Total takes 0.6041973
+running query 8b: IMDBQ028 
+Loading an to DB
+Loading ci to DB
+Loading t to DB
+Loading rt to DB
+Loading n to DB
+Loading mc to DB
+Loading cn to DB
+Building takes 0.000323666
+Running join
+Join took 0.00042625
+Iter takes 0.000784041
+Building takes 0.114854164
+Running join
+Join took 0.002046708
+Iter takes 0.116933875
+Bushy join takes 0.11772229
+output [Str("Chambers, Linda"), Str("Dragon Ball Z: Shin Budokai")]
+Total takes 0.117739245
+running query 8c: IMDBQ029 
+Loading ci to DB
+Loading t to DB
+Loading a1 to DB
+Loading rt to DB
+Loading n1 to DB
+Loading mc to DB
+Loading cn to DB
+Building takes 0.0073245
+Running join
+Join took 0.13329075
+Iter takes 0.14100754
+Building takes 1.4705923
+Running join
+Join took 5.034029
+Iter takes 6.5050244
+Bushy join takes 6.646045
+output [Str("\"A.J.\""), Str("#1 Cheerleader Camp")]
+Total takes 6.726802
+running query 8d: IMDBQ030 
+Loading ci to DB
+Loading n1 to DB
+Loading mc to DB
+Loading an1 to DB
+Loading rt to DB
+Loading cn to DB
+Loading t to DB
+Building takes 0.005066
+Running join
+Join took 0.12608679
+Iter takes 0.13159154
+Building takes 1.4216936
+Running join
+Join took 3.84203
+Iter takes 5.2637897
+Bushy join takes 5.3953924
+output [Str("\"Jenny from the Block\""), Str("#1 Cheerleader Camp")]
+Total takes 5.40777
+running query 9a: IMDBQ031 
+Loading chn to DB
+Loading ci to DB
+Loading rt to DB
+Loading an to DB
+Loading n to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Building takes 0.005123833
+Running join
+Join took 0.033787377
+Iter takes 0.038970754
+Building takes 0.9704764
+Running join
+Join took 0.019497
+Iter takes 0.9900287
+Bushy join takes 1.0290097
+output [Str("AJ"), Str("Airport Announcer"), Str("Blue Harvest")]
+Total takes 1.0290332
+running query 9b: IMDBQ032 
+Loading chn to DB
+Loading an to DB
+Loading ci to DB
+Loading mc to DB
+Loading n to DB
+Loading t to DB
+Loading rt to DB
+Loading cn to DB
+Building takes 0.004830291
+Running join
+Join took 0.010621208
+Iter takes 0.01550625
+Building takes 0.8160495
+Running join
+Join took 0.014937541
+Iter takes 0.83103275
+Bushy join takes 0.8465488
+output [Str("AJ"), Str("Airport Announcer"), Str("Bassett, Angela"), Str("Blue Harvest")]
+Total takes 0.8465689
+running query 9c: IMDBQ033 
+Loading chn to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading ci to DB
+Loading n to DB
+Loading rt to DB
+Loading an to DB
+Building takes 0.004888875
+Running join
+Join took 0.117121205
+Iter takes 0.122061625
+Building takes 1.3649528
+Running join
+Join took 0.021086292
+Iter takes 1.386096
+Bushy join takes 1.5081662
+output [Str("'Annette'"), Str("2nd Balladeer"), Str("Alborg, Ana Esther"), Str("(1975-01-20)")]
+Total takes 1.5084076
+running query 9d: IMDBQ034 
+Loading chn to DB
+Loading an to DB
+Loading ci to DB
+Loading rt to DB
+Loading mc to DB
+Loading cn to DB
+Loading n to DB
+Loading t to DB
+Building takes 0.0046635
+Running join
+Join took 0.11838034
+Iter takes 0.12309029
+Building takes 1.515867
+Running join
+Join took 0.08875513
+Iter takes 1.6046776
+Bushy join takes 1.7277771
+output [Str("!!!, Toy"), Str("\"Cockamamie's\" Salesgirl"), Str("Aaron, Caroline"), Str("$15,000.00 Error")]
+Total takes 1.7391715
+running query 10a: IMDBQ035 
+Loading chn to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading t to DB
+Loading ci to DB
+Loading rt to DB
+Building takes 0.17048104
+Running join
+Join took 0.16327804
+Iter takes 0.33381853
+Building takes 0.6052467
+Running join
+Join took 0.001366875
+Iter takes 0.6066541
+Bushy join takes 0.9404833
+output [Str("Actor"), Str("12 Rounds")]
+Total takes 0.9405022
+running query 10c: IMDBQ037 
+Loading chn to DB
+Loading ci to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading t to DB
+Loading rt to DB
+Building takes 0.3127421
+Running join
+Join took 0.3642277
+Iter takes 0.6770348
+Building takes 0.68460697
+Running join
+Join took 1.0291e-5
+Iter takes 0.684666
+Bushy join takes 1.3617077
+output [Str("Himself"), Str("Evil Eyes: Behind the Scenes")]
+Total takes 1.3617225
+running query 11a: IMDBQ038 
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading ml to DB
+Loading lt to DB
+Loading t to DB
+Building takes 0.001901875
+Running join
+Join took 0.024923831
+Iter takes 0.026880458
+Building takes 0.23489374
+Running join
+Join took 0.09770796
+Iter takes 0.33266455
+Bushy join takes 0.3595541
+output [Str("Churchill Films"), Str("followed by"), Str("Batman Beyond")]
+Total takes 0.35958138
+running query 11b: IMDBQ039 
+Loading mk to DB
+Loading k to DB
+Loading ml to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Loading lt to DB
+Loading ct to DB
+Building takes 0.001862208
+Running join
+Join took 3.041e-6
+Iter takes 0.001894541
+Building takes 0.22795145
+Running join
+Join took 0.09307091
+Iter takes 0.32108408
+Bushy join takes 0.32298666
+output [Str("Filmlance International AB"), Str("follows"), Str("The Money Man")]
+Total takes 0.3230053
+running query 11c: IMDBQ040 
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading ml to DB
+Loading lt to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Building takes 0.001815791
+Running join
+Join took 0.06260579
+Iter takes 0.064479165
+Building takes 0.25787422
+Running join
+Join took 0.10214808
+Iter takes 0.3600676
+Bushy join takes 0.42457297
+output [Str("20th Century Fox Home Entertainment"), Str("(1997-2002) (worldwide) (all media)"), Str("24")]
+Total takes 0.4246852
+running query 11d: IMDBQ041 
+Loading mk to DB
+Loading mc to DB
+Loading k to DB
+Loading cn to DB
+Loading ml to DB
+Loading ct to DB
+Loading t to DB
+Loading lt to DB
+Building takes 0.001864166
+Running join
+Join took 0.06323659
+Iter takes 0.06514717
+Building takes 0.27953666
+Running join
+Join took 0.10307725
+Iter takes 0.38265604
+Bushy join takes 0.44780868
+output [Str("13th Street"), Str("(1954) (UK) (TV)"), Str("...denn sie wissen nicht, was sie tun")]
+Total takes 0.44803986
+running query 12a: IMDBQ042 
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading mi to DB
+Loading it1 to DB
+Loading it2 to DB
+Loading ct to DB
+Building takes 0.004933416
+Running join
+Join took 0.013867458
+Iter takes 0.01884375
+Building takes 0.465897
+Running join
+Join took 0.007492916
+Iter takes 0.47343513
+Bushy join takes 0.49228516
+output [Str("10th Grade Reunion Films"), Str("8.1"), Str("3:20")]
+Total takes 0.492323
+running query 12b: IMDBQ043 
+Loading mi to DB
+Loading mi_idx to DB
+Loading it1 to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading it2 to DB
+Building takes 0.13312729
+Running join
+Join took 0.001544916
+Iter takes 0.13511641
+Building takes 0.47688317
+Running join
+Join took 0.48753282
+Iter takes 0.9644769
+Bushy join takes 1.0996042
+output [Str("$10,000"), Str("Birdemic: Shock and Terror")]
+Total takes 1.099625
+running query 12c: IMDBQ044 
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading mi to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading t to DB
+Loading it1 to DB
+Building takes 0.019425584
+Running join
+Join took 0.041763417
+Iter takes 0.061240666
+Building takes 0.45919767
+Running join
+Join took 0.01643925
+Iter takes 0.4757
+Bushy join takes 0.53695524
+output [Str("\"Oh That Gus!\""), Str("7.1"), Str("$1.11")]
+Total takes 0.53718156
+running query 13a: IMDBQ045 
+Loading mi to DB
+Loading it2 to DB
+Loading mc to DB
+Loading t to DB
+Loading kt to DB
+Loading ct to DB
+Loading miidx to DB
+Loading it to DB
+Loading cn to DB
+Building takes 0.14629078
+Running join
+Join took 0.28137738
+Iter takes 0.4279422
+Building takes 0.82734585
+Running join
+Join took 2.0303009
+Iter takes 2.8577137
+Bushy join takes 3.2856677
+output [Str("Afghanistan:24 June 2012"), Str("1.0"), Str("&Me")]
+Total takes 3.2952783
+running query 13b: IMDBQ046 
+Loading mi to DB
+Loading miidx to DB
+Loading it to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading it2 to DB
+Loading t to DB
+Loading kt to DB
+Building takes 0.1292788
+Running join
+Join took 0.000363916
+Iter takes 0.12967913
+Building takes 0.4551915
+Running join
+Join took 0.37855914
+Iter takes 0.8338092
+Bushy join takes 0.96349674
+output [Str("501audio"), Str("1.8"), Str("5 Time Champion")]
+Total takes 0.96353275
+running query 13c: IMDBQ047 
+Loading mi to DB
+Loading t to DB
+Loading kt to DB
+Loading miidx to DB
+Loading it to DB
+Loading it2 to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Building takes 0.1347707
+Running join
+Join took 7.8791e-5
+Iter takes 0.13489142
+Building takes 0.45382053
+Running join
+Join took 0.32481843
+Iter takes 0.7786979
+Bushy join takes 0.9135979
+output [Str("DL Sites"), Str("1.8"), Str("Champion")]
+Total takes 0.9136212
+running query 13d: IMDBQ048 
+Loading mi to DB
+Loading it2 to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading kt to DB
+Loading ct to DB
+Loading miidx to DB
+Loading it to DB
+Building takes 0.13110279
+Running join
+Join took 0.25508055
+Iter takes 0.38623616
+Building takes 0.70792407
+Running join
+Join took 2.055237
+Iter takes 2.7637432
+Bushy join takes 3.1499953
+output [Str("\"O\" Films"), Str("1.0"), Str("#54 Meets #47")]
+Total takes 3.180959
+running query 14a: IMDBQ049 
+Loading mk to DB
+Loading k to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mi to DB
+Loading t to DB
+Loading kt to DB
+Loading it1 to DB
+Building takes 0.18058857
+Running join
+Join took 0.13429317
+Iter takes 0.3149407
+Building takes 0.06525679
+Running join
+Join took 0.021962376
+Iter takes 0.08725996
+Bushy join takes 0.4022059
+output [Str("1.0"), Str("$lowdown")]
+Total takes 0.40224808
+running query 14b: IMDBQ050 
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading kt to DB
+Loading mi to DB
+Loading it1 to DB
+Loading it2 to DB
+Building takes 0.04468429
+Running join
+Join took 0.085996285
+Iter takes 0.13072112
+Building takes 0.00006525
+Running join
+Join took 0.014762875
+Iter takes 0.014858583
+Bushy join takes 0.14558421
+output [Str("6.4"), Str("Of Dolls and Murder")]
+Total takes 0.14559683
+running query 14c: IMDBQ051 
+Loading mk to DB
+Loading t to DB
+Loading mi to DB
+Loading it1 to DB
+Loading kt to DB
+Loading k to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Building takes 0.30362737
+Running join
+Join took 0.26128516
+Iter takes 0.5649533
+Building takes 0.31396106
+Running join
+Join took 0.039664753
+Iter takes 0.35367242
+Bushy join takes 0.91863453
+output [Str("1.0"), Str("$lowdown")]
+Total takes 0.9187933
+running query 15a: IMDBQ052 
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading at to DB
+Loading cn to DB
+Loading mc to DB
+Loading ct to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.23910159
+Running join
+Join took 0.24401668
+Iter takes 0.48316988
+Building takes 0.255878
+Running join
+Join took 0.000349791
+Iter takes 0.25627697
+Bushy join takes 0.7394583
+output [Str("USA:1 June 2007"), Str("Battlestar Galactica: The Resistance")]
+Total takes 0.7394849
+running query 15b: IMDBQ053 
+Loading mk to DB
+Loading t to DB
+Loading mc to DB
+Loading mi to DB
+Loading cn to DB
+Loading ct to DB
+Loading it1 to DB
+Loading at to DB
+Loading k to DB
+Building takes 0.10724291
+Running join
+Join took 0.17931083
+Iter takes 0.2866123
+Building takes 0.15696575
+Running join
+Join took 0.000213708
+Iter takes 0.15723588
+Bushy join takes 0.4438552
+output [Str("USA:27 April 2007"), Str("RoboCop vs Terminator")]
+Total takes 0.44387433
+running query 15c: IMDBQ054 
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading at to DB
+Loading mi to DB
+Loading it1 to DB
+Loading cn to DB
+Loading t to DB
+Loading ct to DB
+Building takes 0.30434334
+Running join
+Join took 0.30178735
+Iter takes 0.6061953
+Building takes 0.8198159
+Running join
+Join took 0.000806041
+Iter takes 0.82096857
+Bushy join takes 1.4271717
+output [Str("USA:1 April 2003"), Str("24: Day Six - Debrief")]
+Total takes 1.4272089
+running query 15d: IMDBQ055 
+Loading mk to DB
+Loading mc to DB
+Loading at to DB
+Loading k to DB
+Loading ct to DB
+Loading mi to DB
+Loading cn to DB
+Loading t to DB
+Loading it1 to DB
+Building takes 0.30576557
+Running join
+Join took 0.3063332
+Iter takes 0.6121518
+Building takes 0.87552696
+Running join
+Join took 0.003476583
+Iter takes 0.8794105
+Bushy join takes 1.4915726
+output [Str("(Not So) Instant Photo"), Str("06/05")]
+Total takes 1.4916916
+running query 16a: IMDBQ056 
+Loading ci to DB
+Loading mk to DB
+Loading mc to DB
+Loading cn to DB
+Loading n to DB
+Loading an to DB
+Loading t to DB
+Loading k to DB
+Building takes 0.4400123
+Running join
+Join took 0.09663413
+Iter takes 0.5367039
+Building takes 0.724617
+Running join
+Join took 2.735735
+Iter takes 3.4608297
+Bushy join takes 3.9975452
+output [Str("Adams, Stan"), Str("Carol Burnett vs. Anthony Perkins")]
+Total takes 3.9977267
+running query 16b: IMDBQ057 
+Loading ci to DB
+Loading mk to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Loading an to DB
+Loading n to DB
+Loading k to DB
+Building takes 0.92827874
+Running join
+Join took 0.30676493
+Iter takes 1.235458
+Building takes 0.6819493
+Running join
+Join took 2.646474
+Iter takes 3.3284907
+Bushy join takes 4.563957
+output [Str("!!!, Toy"), Str("& Teller")]
+Total takes 4.6302724
+running query 16c: IMDBQ058 
+Loading ci to DB
+Loading mk to DB
+Loading k to DB
+Loading n to DB
+Loading an to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Building takes 0.5950014
+Running join
+Join took 0.11794963
+Iter takes 0.7133677
+Building takes 0.652653
+Running join
+Join took 2.2728455
+Iter takes 2.9255576
+Bushy join takes 3.638936
+output [Str("\"Brooklyn\" Tony Danza"), Str("(#1.5)")]
+Total takes 3.6447794
+running query 16d: IMDBQ059 
+Loading ci to DB
+Loading t to DB
+Loading n to DB
+Loading an to DB
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cn to DB
+Building takes 0.47545934
+Running join
+Join took 0.11339413
+Iter takes 0.589264
+Building takes 0.6454175
+Running join
+Join took 2.3286936
+Iter takes 2.974176
+Bushy join takes 3.5634515
+output [Str("\"Brooklyn\" Tony Danza"), Str("(#1.5)")]
+Total takes 3.567824
+running query 17a: IMDBQ060 
+Loading ci to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading n to DB
+Loading mk to DB
+Loading k to DB
+Building takes 0.61983687
+Running join
+Join took 0.29662356
+Iter takes 0.91652024
+Building takes 0.049046
+Running join
+Join took 0.8706134
+Iter takes 0.91970783
+Bushy join takes 1.8362434
+output [Str("B, Khaz")]
+Total takes 1.8384202
+running query 17b: IMDBQ061 
+Loading ci to DB
+Loading n to DB
+Loading t to DB
+Loading mk to DB
+Loading mc to DB
+Loading cn to DB
+Loading k to DB
+Building takes 0.62395126
+Running join
+Join took 0.30742344
+Iter takes 0.9314366
+Building takes 0.012960833
+Running join
+Join took 0.7077254
+Iter takes 0.7207361
+Bushy join takes 1.6521834
+output [Str("Z'Dar, Robert")]
+Total takes 1.6525954
+running query 17c: IMDBQ062 
+Loading ci to DB
+Loading n to DB
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Building takes 0.6276574
+Running join
+Join took 0.30949554
+Iter takes 0.9372059
+Building takes 0.010135875
+Running join
+Join took 0.68637747
+Iter takes 0.69657683
+Bushy join takes 1.6337956
+output [Str("X'Volaitis, John")]
+Total takes 1.6338322
+running query 17d: IMDBQ063 
+Loading ci to DB
+Loading mk to DB
+Loading mc to DB
+Loading cn to DB
+Loading k to DB
+Loading t to DB
+Loading n to DB
+Building takes 0.6304457
+Running join
+Join took 0.31541154
+Iter takes 0.9462894
+Building takes 0.011231208
+Running join
+Join took 0.71991587
+Iter takes 0.73120403
+Bushy join takes 1.6775044
+output [Str("Abrahamsson, Bertil")]
+Total takes 1.6776116
+running query 17e: IMDBQ064 
+Loading ci to DB
+Loading mc to DB
+Loading mk to DB
+Loading k to DB
+Loading cn to DB
+Loading n to DB
+Loading t to DB
+Building takes 0.6883065
+Running join
+Join took 0.31552887
+Iter takes 1.0042635
+Building takes 1.0277647
+Running join
+Join took 3.147574
+Iter takes 4.1754045
+Bushy join takes 5.1796803
+output [Str("$hort, Too")]
+Total takes 5.2347503
+running query 17f: IMDBQ065 
+Loading ci to DB
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cn to DB
+Loading n to DB
+Loading t to DB
+Building takes 0.63698024
+Running join
+Join took 0.3046309
+Iter takes 0.9420273
+Building takes 0.09250334
+Running join
+Join took 1.0211124
+Iter takes 1.1136732
+Bushy join takes 2.0557125
+output [Str("'El Galgo PornoStar', Blanquito")]
+Total takes 2.0655253
+running query 18a: IMDBQ066 
+Loading mi to DB
+Loading ci to DB
+Loading n to DB
+Loading t to DB
+Loading it1 to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Building takes 0.12700342
+Running join
+Join took 0.23552671
+Iter takes 0.36258754
+Building takes 0.18537974
+Running join
+Join took 1.6816671
+Iter takes 1.8671016
+Building takes 0.005380541
+Running join
+Join took 0.04663821
+Iter takes 0.052068084
+Bushy join takes 2.2817814
+output [Str("$1,000"), Str("10"), Str("40 Days and 40 Nights")]
+Total takes 2.2819836
+running query 18b: IMDBQ067 
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Loading t to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Building takes 0.004820541
+Running join
+Join took 0.024269417
+Iter takes 0.02914604
+Building takes 0.001731708
+Running join
+Join took 0.002653833
+Iter takes 0.004411166
+Building takes 0.08436983
+Running join
+Join took 0.028728876
+Iter takes 0.11314325
+Bushy join takes 0.14671567
+output [Str("Horror"), Str("8.1"), Str("Agorable")]
+Total takes 0.14673229
+running query 18c: IMDBQ068 
+Loading t to DB
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Building takes 0.12766717
+Running join
+Join took 0.2367385
+Iter takes 0.36446977
+Building takes 0.18152091
+Running join
+Join took 0.052743584
+Iter takes 0.23432758
+Building takes 0.16722909
+Running join
+Join took 0.05511033
+Iter takes 0.2223902
+Bushy join takes 0.8211966
+output [Str("Action"), Str("10"), Str("#PostModem")]
+Total takes 0.82249737
+running query 19a: IMDBQ069 
+Loading chn to DB
+Loading an to DB
+Loading ci to DB
+Loading n to DB
+Loading rt to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading mi to DB
+Loading it to DB
+Building takes 0.16022016
+Running join
+Join took 0.07312146
+Iter takes 0.23338437
+Building takes 0.38052136
+Running join
+Join took 0.019307915
+Iter takes 0.39987725
+Bushy join takes 0.63326645
+output [Str("Angeline, Moriah"), Str("Blue Harvest")]
+Total takes 0.6332906
+running query 19b: IMDBQ070 
+Loading chn to DB
+Loading ci to DB
+Loading n to DB
+Loading mi to DB
+Loading an to DB
+Loading mc to DB
+Loading cn to DB
+Loading it to DB
+Loading rt to DB
+Loading t to DB
+Building takes 0.02463525
+Running join
+Join took 0.001425458
+Iter takes 0.026090331
+Building takes 0.36972275
+Running join
+Join took 0.014652083
+Iter takes 0.3844156
+Bushy join takes 0.41051003
+output [Str("Jolie, Angelina"), Str("Kung Fu Panda")]
+Total takes 0.41052717
+running query 19c: IMDBQ071 
+Loading chn to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading an to DB
+Loading ci to DB
+Loading rt to DB
+Loading n to DB
+Loading mi to DB
+Loading it to DB
+Building takes 0.6085956
+Running join
+Join took 0.14629205
+Iter takes 0.75492823
+Building takes 0.40481108
+Running join
+Join took 0.020064875
+Iter takes 0.42493168
+Bushy join takes 1.1798646
+output [Str("Alborg, Ana Esther"), Str(".hack//Akusei heni vol. 2")]
+Total takes 1.1799617
+running query 19d: IMDBQ072 
+Loading mi to DB
+Loading it to DB
+Loading chn to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading an to DB
+Loading ci to DB
+Loading rt to DB
+Loading n to DB
+Building takes 0.6095852
+Running join
+Join took 1.4918413
+Iter takes 2.1014874
+Building takes 0.71481484
+Running join
+Join took 0.06333642
+Iter takes 0.77864033
+Bushy join takes 2.8801363
+output [Str("Aaron, Caroline"), Str("$9.99")]
+Total takes 2.8902645
+running query 20a: IMDBQ073 
+Loading ci to DB
+Loading n to DB
+Loading chn to DB
+Loading mk to DB
+Loading cc to DB
+Loading cct1 to DB
+Loading cct2 to DB
+Loading k to DB
+Loading t to DB
+Loading kt to DB
+Building takes 0.000003458
+Running join
+Join took 0.008170375
+Iter takes 0.008593625
+Building takes 0.62058383
+Running join
+Join took 0.43628043
+Iter takes 1.0569245
+Building takes 0.5288103
+Running join
+Join took 1.2976575
+Iter takes 1.8265336
+Bushy join takes 2.8920698
+output [Str("Disaster Movie")]
+Total takes 2.8920906
+running query 20b: IMDBQ074 
+Loading ci to DB
+Loading n to DB
+Loading mk to DB
+Loading k to DB
+Loading chn to DB
+Loading t to DB
+Loading cc to DB
+Loading cct1 to DB
+Loading cct2 to DB
+Loading kt to DB
+Building takes 0.00000325
+Running join
+Join took 0.007835333
+Iter takes 0.007889541
+Building takes 0.313969
+Running join
+Join took 0.248384
+Iter takes 0.56241053
+Building takes 0.008466875
+Running join
+Join took 0.35674867
+Iter takes 0.36529347
+Bushy join takes 0.9356074
+output [Str("Iron Man")]
+Total takes 0.93563783
+running query 20c: IMDBQ075 
+Loading ci to DB
+Loading chn to DB
+Loading mk to DB
+Loading t to DB
+Loading kt to DB
+Loading k to DB
+Loading n to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Building takes 0.000003041
+Running join
+Join took 0.00810375
+Iter takes 0.008253666
+Building takes 0.33784744
+Running join
+Join took 0.25118434
+Iter takes 0.58909196
+Building takes 1.0145596
+Running join
+Join took 1.1651785
+Iter takes 2.1798036
+Bushy join takes 2.7771685
+output [Str("Abell, Alistair"), Str("...And Then I...")]
+Total takes 2.777965
+running query 21a: IMDBQ076 
+Loading mk to DB
+Loading k to DB
+Loading mi to DB
+Loading ml to DB
+Loading lt to DB
+Loading t to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Building takes 0.002033666
+Running join
+Join took 0.025548875
+Iter takes 0.027633458
+Building takes 0.000874416
+Running join
+Join took 0.092733
+Iter takes 0.09364017
+Building takes 0.24560496
+Running join
+Join took 0.004350333
+Iter takes 0.25001413
+Bushy join takes 0.37129807
+output [Str("Det Danske Filminstitut"), Str("followed by"), Str("Der Serienkiller - Klinge des Todes")]
+Total takes 0.37134302
+running query 21b: IMDBQ077 
+Loading mk to DB
+Loading mc to DB
+Loading mi to DB
+Loading ml to DB
+Loading lt to DB
+Loading t to DB
+Loading ct to DB
+Loading k to DB
+Loading cn to DB
+Building takes 0.001909083
+Running join
+Join took 0.028429624
+Iter takes 0.030373877
+Building takes 0.0007995
+Running join
+Join took 0.090772375
+Iter takes 0.09159846
+Building takes 0.239246
+Running join
+Join took 0.002488625
+Iter takes 0.24176951
+Bushy join takes 0.36375287
+output [Str("Filmlance International AB"), Str("followed by"), Str("Hämndens pris")]
+Total takes 0.36376908
+running query 21c: IMDBQ078 
+Loading mk to DB
+Loading ml to DB
+Loading lt to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading k to DB
+Loading mi to DB
+Building takes 0.001897333
+Running join
+Join took 0.052909248
+Iter takes 0.05484496
+Building takes 0.001675541
+Running join
+Join took 0.0975527
+Iter takes 0.099256754
+Building takes 0.25288934
+Running join
+Join took 0.021597084
+Iter takes 0.27453226
+Bushy join takes 0.4286417
+output [Str("Churchill Films"), Str("followed by"), Str("Batman Beyond")]
+Total takes 0.42871088
+running query 22a: IMDBQ079 
+Loading mk to DB
+Loading k to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mi to DB
+Loading it1 to DB
+Loading t to DB
+Loading kt to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Building takes 0.15555437
+Running join
+Join took 0.055685624
+Iter takes 0.21127766
+Building takes 0.016681459
+Running join
+Join took 0.021710208
+Iter takes 0.038436122
+Building takes 0.000625083
+Running join
+Join took 0.09352904
+Iter takes 0.09418371
+Building takes 0.000248916
+Running join
+Join took 0.025061876
+Iter takes 0.025352707
+Bushy join takes 0.36926246
+output [Str("01 Distribution"), Str("2.1"), Str("12 Rounds")]
+Total takes 0.36937657
+running query 22b: IMDBQ080 
+Loading mk to DB
+Loading k to DB
+Loading mi_idx to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading it2 to DB
+Loading t to DB
+Loading kt to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.15951371
+Running join
+Join took 0.04420421
+Iter takes 0.20376457
+Building takes 0.016536416
+Running join
+Join took 0.020267377
+Iter takes 0.036844794
+Building takes 0.000045125
+Running join
+Join took 0.092621416
+Iter takes 0.09269842
+Building takes 0.00001375
+Running join
+Join took 0.023656
+Iter takes 0.023705332
+Bushy join takes 0.3570258
+output [Str("Boll Kino Beteiligungs GmbH & Co. KG"), Str("3.0"), Str("A Small Act")]
+Total takes 0.3570582
+running query 22c: IMDBQ081 
+Loading mk to DB
+Loading k to DB
+Loading mi_idx to DB
+Loading mi to DB
+Loading mc to DB
+Loading it1 to DB
+Loading ct to DB
+Loading it2 to DB
+Loading t to DB
+Loading kt to DB
+Loading cn to DB
+Building takes 0.16996121
+Running join
+Join took 0.09849208
+Iter takes 0.26849687
+Building takes 0.023553666
+Running join
+Join took 0.031254333
+Iter takes 0.05485583
+Building takes 0.004943833
+Running join
+Join took 0.09297792
+Iter takes 0.097962126
+Building takes 0.001919458
+Running join
+Join took 0.03369204
+Iter takes 0.035658292
+Bushy join takes 0.4569836
+output [Str("01 Distribution"), Str("1.9"), Str("(#1.1)")]
+Total takes 0.45772094
+running query 22d: IMDBQ082 
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading t to DB
+Loading kt to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.17005908
+Running join
+Join took 0.09814875
+Iter takes 0.26824674
+Building takes 0.02390104
+Running join
+Join took 0.20153166
+Iter takes 0.22547041
+Building takes 0.019981915
+Running join
+Join took 0.09679817
+Iter takes 0.11681983
+Building takes 0.004574666
+Running join
+Join took 0.03308275
+Iter takes 0.037702333
+Bushy join takes 0.6482503
+output [Str("01 Distribution"), Str("1.6"), Str("(#1.1)")]
+Total takes 0.6494594
+running query 23a: IMDBQ083 
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cc to DB
+Loading cn to DB
+Loading t to DB
+Loading mi to DB
+Loading it1 to DB
+Loading ct to DB
+Loading kt to DB
+Loading cct1 to DB
+Building takes 0.000002958
+Running join
+Join took 0.003804875
+Iter takes 0.003842083
+Building takes 0.001762375
+Running join
+Join took 0.03628425
+Iter takes 0.038074333
+Building takes 0.005318875
+Running join
+Join took 0.15470454
+Iter takes 0.16005509
+Building takes 0.007248541
+Running join
+Join took 0.273804
+Iter takes 0.28109407
+Building takes 0.053639706
+Running join
+Join took 0.000107666
+Iter takes 0.053782582
+Bushy join takes 0.5368596
+output [Str("movie"), Str("The Analysts")]
+Total takes 0.53688556
+running query 23b: IMDBQ084 
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cc to DB
+Loading cn to DB
+Loading ct to DB
+Loading cct1 to DB
+Loading t to DB
+Loading kt to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000002708
+Running join
+Join took 0.003628666
+Iter takes 0.003662041
+Building takes 0.002067708
+Running join
+Join took 0.0357725
+Iter takes 0.037872877
+Building takes 0.005113958
+Running join
+Join took 0.15481621
+Iter takes 0.15996563
+Building takes 0.000496875
+Running join
+Join took 0.08770117
+Iter takes 0.088228665
+Building takes 0.000048083
+Running join
+Join took 7.2958e-5
+Iter takes 0.00014325
+Bushy join takes 0.28988743
+output [Str("movie"), Str("The Big Mope")]
+Total takes 0.2899032
+running query 23c: IMDBQ085 
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading t to DB
+Loading kt to DB
+Loading cc to DB
+Loading cct1 to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000003
+Running join
+Join took 0.003843708
+Iter takes 0.003876833
+Building takes 0.002173833
+Running join
+Join took 0.046974875
+Iter takes 0.049176794
+Building takes 0.004889916
+Running join
+Join took 0.1559538
+Iter takes 0.16088371
+Building takes 0.009162166
+Running join
+Join took 0.34416717
+Iter takes 0.35338122
+Building takes 0.13216433
+Running join
+Join took 0.00012125
+Iter takes 0.13232242
+Bushy join takes 0.6996546
+output [Str("movie"), Str("Dirt Merchant")]
+Total takes 0.6996784
+running query 24a: IMDBQ086 
+Loading mk to DB
+Loading k to DB
+Loading chn to DB
+Loading ci to DB
+Loading mc to DB
+Loading t to DB
+Loading cn to DB
+Loading mi to DB
+Loading it to DB
+Loading an to DB
+Loading n to DB
+Loading rt to DB
+Building takes 0.050674457
+Running join
+Join took 0.11783687
+Iter takes 0.16854595
+Building takes 0.39932194
+Running join
+Join took 0.012673583
+Iter takes 0.41204
+Building takes 0.062138166
+Running join
+Join took 0.002261666
+Iter takes 0.06442291
+Building takes 0.6369155
+Running join
+Join took 0.06282521
+Iter takes 0.7009306
+Bushy join takes 1.345952
+output [Str("Additional Voices"), Str("Baker, Andrea"), Str("Baiohazâdo 6")]
+Total takes 1.345979
+running query 24b: IMDBQ087 
+Loading mk to DB
+Loading k to DB
+Loading chn to DB
+Loading mc to DB
+Loading cn to DB
+Loading an to DB
+Loading ci to DB
+Loading n to DB
+Loading rt to DB
+Loading mi to DB
+Loading t to DB
+Loading it to DB
+Building takes 0.000004
+Running join
+Join took 0.08333134
+Iter takes 0.08339146
+Building takes 0.36404017
+Running join
+Join took 0.006242916
+Iter takes 0.37032828
+Building takes 0.06278333
+Running join
+Join took 0.002314333
+Iter takes 0.06513179
+Building takes 0.63464516
+Running join
+Join took 0.062365122
+Iter takes 0.6970835
+Bushy join takes 1.2159542
+output [Str("Tigress"), Str("Jolie, Angelina"), Str("Kung Fu Panda 2")]
+Total takes 1.2159766
+running query 25a: IMDBQ088 
+Loading mk to DB
+Loading ci to DB
+Loading t to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mi to DB
+Loading it1 to DB
+Loading k to DB
+Building takes 0.63040215
+Running join
+Join took 0.77374566
+Iter takes 1.4045553
+Building takes 1.4624662
+Running join
+Join took 0.024027877
+Iter takes 1.4865571
+Building takes 0.40903932
+Running join
+Join took 0.061264
+Iter takes 0.47037885
+Bushy join takes 3.3615077
+output [Str("Horror"), Str("10"), Str("Abdallah, Damon"), Str("-- And Now the Screaming Starts!")]
+Total takes 3.3626308
+running query 25b: IMDBQ089 
+Loading mk to DB
+Loading k to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mi to DB
+Loading it1 to DB
+Loading ci to DB
+Loading t to DB
+Loading n to DB
+Building takes 0.13136266
+Running join
+Join took 0.086099505
+Iter takes 0.21750742
+Building takes 0.000039083
+Running join
+Join took 0.000649958
+Iter takes 0.000709041
+Building takes 0.34237036
+Running join
+Join took 0.04523783
+Iter takes 0.38808003
+Bushy join takes 0.6063084
+output [Str("Horror"), Str("138"), Str("Campbell, Jeremiah"), Str("Vampire Boys")]
+Total takes 0.60632664
+running query 25c: IMDBQ090 
+Loading mk to DB
+Loading k to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading ci to DB
+Loading t to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.6989811
+Running join
+Join took 0.76930076
+Iter takes 1.4687269
+Building takes 1.4449499
+Running join
+Join took 0.14454187
+Iter takes 1.5895665
+Building takes 0.36780038
+Running join
+Join took 0.056299586
+Iter takes 0.42415968
+Bushy join takes 3.4824681
+output [Str("Action"), Str("10"), Str("Aakeson, Kim Fupz"), Str("$")]
+Total takes 3.495969
+running query 26a: IMDBQ091 
+Loading ci to DB
+Loading n to DB
+Loading chn to DB
+Loading mk to DB
+Loading t to DB
+Loading kt to DB
+Loading mi_idx to DB
+Loading k to DB
+Loading it2 to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Building takes 0.000003583
+Running join
+Join took 0.008311458
+Iter takes 0.008651666
+Building takes 0.009621666
+Running join
+Join took 0.011645916
+Iter takes 0.021320166
+Building takes 0.00202325
+Running join
+Join took 0.037158754
+Iter takes 0.039218377
+Building takes 0.000079916
+Running join
+Join took 0.1037627
+Iter takes 0.10388345
+Building takes 1.0831565
+Running join
+Join took 1.3426894
+Iter takes 2.4259264
+Bushy join takes 2.5990198
+output [Str("'Agua' Man"), Str("7.1"), Str("Acereda, Hermie"), Str("3:10 to Yuma")]
+Total takes 2.6018915
+running query 26b: IMDBQ092 
+Loading ci to DB
+Loading n to DB
+Loading chn to DB
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading kt to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Building takes 0.000003416
+Running join
+Join took 0.008612833
+Iter takes 0.009032458
+Building takes 0.009207625
+Running join
+Join took 0.002029416
+Iter takes 0.011271833
+Building takes 0.000254125
+Running join
+Join took 0.026639165
+Iter takes 0.026921792
+Building takes 0.000016833
+Running join
+Join took 0.08839796
+Iter takes 0.08845554
+Building takes 0.59707475
+Running join
+Join took 1.2115886
+Iter takes 1.8087574
+Bushy join takes 1.9444654
+output [Str("Bank Manager"), Str("8.2"), Str("Inception")]
+Total takes 1.9445006
+running query 26c: IMDBQ093 
+Loading ci to DB
+Loading n to DB
+Loading chn to DB
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading kt to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading cc to DB
+Loading cct1 to DB
+Loading cct2 to DB
+Building takes 0.000002958
+Running join
+Join took 0.008193666
+Iter takes 0.008324708
+Building takes 0.008304916
+Running join
+Join took 0.049577914
+Iter takes 0.057934918
+Building takes 0.007392
+Running join
+Join took 0.03855175
+Iter takes 0.04598654
+Building takes 0.00044825
+Running join
+Join took 0.09030079
+Iter takes 0.09079354
+Building takes 0.5723407
+Running join
+Join took 1.1977113
+Iter takes 1.7701318
+Bushy join takes 1.973192
+output [Str("'Agua' Man"), Str("1.9"), Str("12 Rounds")]
+Total takes 1.973592
+running query 27a: IMDBQ094 
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading t to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Loading mi to DB
+Loading ml to DB
+Loading lt to DB
+Building takes 0.00000275
+Running join
+Join took 0.00067325
+Iter takes 0.000718
+Building takes 0.000160208
+Running join
+Join took 0.007916875
+Iter takes 0.008093833
+Building takes 0.000018208
+Running join
+Join took 0.022574916
+Iter takes 0.022620209
+Building takes 0.004729958
+Running join
+Join took 0.06540112
+Iter takes 0.07018234
+Building takes 0.000039625
+Running join
+Join took 0.08898158
+Iter takes 0.089058496
+Building takes 0.000033416
+Running join
+Join took 0.002463458
+Iter takes 0.002520875
+Bushy join takes 0.19321984
+output [Str("Det Danske Filminstitut"), Str("followed by"), Str("Spår i mörker")]
+Total takes 0.19326828
+running query 27b: IMDBQ095 
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading cc to DB
+Loading cct1 to DB
+Loading ml to DB
+Loading cct2 to DB
+Loading t to DB
+Loading mi to DB
+Loading lt to DB
+Building takes 0.000004416
+Running join
+Join took 0.00065525
+Iter takes 0.00068575
+Building takes 0.000152041
+Running join
+Join took 0.007797958
+Iter takes 0.007964541
+Building takes 0.000018416
+Running join
+Join took 0.001134291
+Iter takes 0.00116375
+Building takes 0.004508791
+Running join
+Join took 0.06316617
+Iter takes 0.06773729
+Building takes 0.000021375
+Running join
+Join took 0.086453415
+Iter takes 0.0865107
+Building takes 0.000034958
+Running join
+Join took 0.00240675
+Iter takes 0.002462875
+Bushy join takes 0.16654974
+output [Str("Filmlance International AB"), Str("followed by"), Str("Vita nätter")]
+Total takes 0.16657484
+running query 27c: IMDBQ096 
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading mi to DB
+Loading cc to DB
+Loading ml to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Loading lt to DB
+Building takes 0.00000275
+Running join
+Join took 0.000671625
+Iter takes 0.000714291
+Building takes 0.000159291
+Running join
+Join took 0.006079541
+Iter takes 0.006256083
+Building takes 0.000019791
+Running join
+Join took 0.037689
+Iter takes 0.037736375
+Building takes 0.004831875
+Running join
+Join took 0.06447159
+Iter takes 0.069356285
+Building takes 0.000046375
+Running join
+Join took 0.086781874
+Iter takes 0.0868647
+Building takes 0.00002775
+Running join
+Join took 0.017228875
+Iter takes 0.017290832
+Bushy join takes 0.21824163
+output [Str("Det Danske Filminstitut"), Str("followed by"), Str("Spår i mörker")]
+Total takes 0.21828343
+running query 28a: IMDBQ097 
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading kt to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mi to DB
+Loading it1 to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading cc to DB
+Loading cct1 to DB
+Loading cct2 to DB
+Building takes 0.00000325
+Running join
+Join took 0.005510958
+Iter takes 0.00556
+Building takes 0.003837208
+Running join
+Join took 0.043182917
+Iter takes 0.0470615
+Building takes 0.002468375
+Running join
+Join took 0.069005795
+Iter takes 0.071515
+Building takes 0.014131583
+Running join
+Join took 0.021078458
+Iter takes 0.035263624
+Building takes 0.000888875
+Running join
+Join took 0.09147583
+Iter takes 0.09240979
+Building takes 0.000406583
+Running join
+Join took 0.026008958
+Iter takes 0.026458832
+Bushy join takes 0.27830026
+output [Str("01 Distribuzione"), Str("2.9"), Str("(#1.1)")]
+Total takes 0.27850792
+running query 28b: IMDBQ098 
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading kt to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000003458
+Running join
+Join took 0.005262916
+Iter takes 0.00531225
+Building takes 0.004078875
+Running join
+Join took 0.014576666
+Iter takes 0.018691124
+Building takes 0.001654041
+Running join
+Join took 0.040092707
+Iter takes 0.041788246
+Building takes 0.013763583
+Running join
+Join took 0.0208785
+Iter takes 0.03470025
+Building takes 0.000404625
+Running join
+Join took 0.091256544
+Iter takes 0.09170137
+Building takes 0.000153333
+Running join
+Join took 0.003715583
+Iter takes 0.003894666
+Bushy join takes 0.19611405
+output [Str("20th Century Fox"), Str("6.6"), Str("(#1.1)")]
+Total takes 0.19616337
+running query 28c: IMDBQ099 
+Loading mk to DB
+Loading k to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading t to DB
+Loading kt to DB
+Loading mi to DB
+Loading it1 to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading cct1 to DB
+Building takes 0.000003291
+Running join
+Join took 0.007359625
+Iter takes 0.007411666
+Building takes 0.006931416
+Running join
+Join took 0.045036
+Iter takes 0.05201404
+Building takes 0.004358
+Running join
+Join took 0.04551004
+Iter takes 0.049920876
+Building takes 0.013190458
+Running join
+Join took 0.021944666
+Iter takes 0.03518421
+Building takes 0.001198458
+Running join
+Join took 0.09116159
+Iter takes 0.09239383
+Building takes 0.000737541
+Running join
+Join took 0.02861475
+Iter takes 0.029387623
+Bushy join takes 0.26633325
+output [Str("01 Distribuzione"), Str("1.9"), Str("(#1.1)")]
+Total takes 0.26666406
+running query 29a: IMDBQ100 
+Loading mk to DB
+Loading k to DB
+Loading pi to DB
+Loading it3 to DB
+Loading mc to DB
+Loading cn to DB
+Loading an to DB
+Loading ci to DB
+Loading n to DB
+Loading chn to DB
+Loading rt to DB
+Loading mi to DB
+Loading it to DB
+Loading cc to DB
+Loading t to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Building takes 0.000003291
+Running join
+Join took 0.005268166
+Iter takes 0.005307541
+Building takes 0.001682833
+Running join
+Join took 5.41e-7
+Iter takes 0.0016955
+Building takes 0.0038435
+Running join
+Join took 0.09730091
+Iter takes 0.10117266
+Building takes 0.000009708
+Running join
+Join took 0.086469665
+Iter takes 0.08650929
+Building takes 0.000008291
+Running join
+Join took 0.017419
+Iter takes 0.017447665
+Building takes 0.06490967
+Running join
+Join took 0.15232608
+Iter takes 0.21727875
+Building takes 0.034124248
+Running join
+Join took 0.00269575
+Iter takes 0.036846332
+Building takes 0.000555041
+Running join
+Join took 0.016333625
+Iter takes 0.016935665
+Bushy join takes 0.48321265
+output [Str("Queen"), Str("Andrews, Julie"), Str("Shrek 2")]
+Total takes 0.48324522
+running query 29b: IMDBQ101 
+Loading mk to DB
+Loading k to DB
+Loading pi to DB
+Loading it3 to DB
+Loading mc to DB
+Loading cn to DB
+Loading an to DB
+Loading ci to DB
+Loading chn to DB
+Loading n to DB
+Loading rt to DB
+Loading mi to DB
+Loading t to DB
+Loading it to DB
+Loading cc to DB
+Loading cct1 to DB
+Loading cct2 to DB
+Building takes 0.000003291
+Running join
+Join took 0.00525325
+Iter takes 0.005289583
+Building takes 0.001871416
+Running join
+Join took 5.83e-7
+Iter takes 0.001883833
+Building takes 0.004307208
+Running join
+Join took 0.097712874
+Iter takes 0.10204792
+Building takes 0.000011083
+Running join
+Join took 0.08676267
+Iter takes 0.086802796
+Building takes 0.000008416
+Running join
+Join took 0.014489875
+Iter takes 0.014518833
+Building takes 0.06555321
+Running join
+Join took 0.13599712
+Iter takes 0.20158195
+Building takes 0.007478625
+Running join
+Join took 0.001383625
+Iter takes 0.008891708
+Building takes 0.000145625
+Running join
+Join took 0.016548125
+Iter takes 0.016736874
+Bushy join takes 0.4377767
+output [Str("Queen"), Str("Andrews, Julie"), Str("Shrek 2")]
+Total takes 0.43779632
+running query 29c: IMDBQ102 
+Loading mk to DB
+Loading k to DB
+Loading chn to DB
+Loading pi to DB
+Loading it3 to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading an to DB
+Loading ci to DB
+Loading rt to DB
+Loading n to DB
+Loading mi to DB
+Loading it to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Building takes 0.000003208
+Running join
+Join took 0.005379041
+Iter takes 0.005417875
+Building takes 0.001872041
+Running join
+Join took 0.021855166
+Iter takes 0.023757916
+Building takes 0.00462
+Running join
+Join took 0.0982815
+Iter takes 0.10293687
+Building takes 0.000584708
+Running join
+Join took 0.08628525
+Iter takes 0.086912334
+Building takes 0.000019916
+Running join
+Join took 0.01706304
+Iter takes 0.017113209
+Building takes 0.06792958
+Running join
+Join took 0.15344825
+Iter takes 0.22142509
+Building takes 0.03340225
+Running join
+Join took 0.002793833
+Iter takes 0.036230914
+Building takes 0.61156255
+Running join
+Join took 0.063402295
+Iter takes 0.6750428
+Bushy join takes 1.1688802
+output [Str("Lola"), Str("Andrews, Julie"), Str("Hoodwinked!")]
+Total takes 1.169036
+running query 30a: IMDBQ103 
+Loading mk to DB
+Loading k to DB
+Loading n to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading ci to DB
+Loading cc to DB
+Loading cct1 to DB
+Loading cct2 to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000003291
+Running join
+Join took 0.006513291
+Iter takes 0.006550416
+Building takes 0.001878833
+Running join
+Join took 0.039898247
+Iter takes 0.041829664
+Building takes 0.002038791
+Running join
+Join took 0.028336084
+Iter takes 0.030398
+Building takes 0.000204625
+Running join
+Join took 0.09722766
+Iter takes 0.09746513
+Building takes 0.000192291
+Running join
+Join took 0.003345208
+Iter takes 0.003558375
+Building takes 0.31299445
+Running join
+Join took 0.046206
+Iter takes 0.3592401
+Bushy join takes 0.5390624
+output [Str("Horror"), Str("100356"), Str("Abrams, J.J."), Str("16 Blocks")]
+Total takes 0.5392337
+running query 30b: IMDBQ104 
+Loading mk to DB
+Loading k to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading ci to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Loading t to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000003333
+Running join
+Join took 0.006649875
+Iter takes 0.00669125
+Building takes 0.001929375
+Running join
+Join took 0.04022004
+Iter takes 0.042178918
+Building takes 0.002088125
+Running join
+Join took 1.5625e-5
+Iter takes 0.0021195
+Building takes 0.000007833
+Running join
+Join took 0.095686205
+Iter takes 0.0957275
+Building takes 0.000009458
+Running join
+Join took 0.002809625
+Iter takes 0.002839791
+Building takes 0.31124866
+Running join
+Join took 0.044387583
+Iter takes 0.35567337
+Bushy join takes 0.5052441
+output [Str("Horror"), Str("194782"), Str("Shannon, Damian"), Str("Freddy vs. Jason")]
+Total takes 0.5052674
+running query 30c: IMDBQ105 
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Loading cc to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Building takes 0.000003458
+Running join
+Join took 0.005130208
+Iter takes 0.005162791
+Building takes 0.001918041
+Running join
+Join took 0.03896904
+Iter takes 0.04091104
+Building takes 0.001712916
+Running join
+Join took 0.0532065
+Iter takes 0.054944832
+Building takes 0.001866166
+Running join
+Join took 0.10065734
+Iter takes 0.102558285
+Building takes 0.00116975
+Running join
+Join took 0.01035725
+Iter takes 0.0115545
+Building takes 0.31670028
+Running join
+Join took 0.047733583
+Iter takes 0.36447293
+Bushy join takes 0.57962286
+output [Str("Action"), Str("100356"), Str("Abernathy, Lewis"), Str("$")]
+Total takes 0.58052194
+running query 31a: IMDBQ106 
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.65579194
+Running join
+Join took 0.74753803
+Iter takes 1.4036936
+Building takes 1.8476675
+Running join
+Join took 0.055213876
+Iter takes 1.9029598
+Building takes 0.35341567
+Running join
+Join took 0.061363082
+Iter takes 0.4148455
+Bushy join takes 3.7215142
+output [Str("Horror"), Str("1040"), Str("Agnew, Jim"), Str("2001 Maniacs")]
+Total takes 3.7219584
+running query 31b: IMDBQ107 
+Loading mk to DB
+Loading k to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Loading mc to DB
+Loading t to DB
+Loading cn to DB
+Building takes 0.12906317
+Running join
+Join took 0.09527213
+Iter takes 0.22439146
+Building takes 0.001975666
+Running join
+Join took 0.001639416
+Iter takes 0.003643458
+Building takes 0.31506336
+Running join
+Join took 0.045173585
+Iter takes 0.36028582
+Bushy join takes 0.58833694
+output [Str("Horror"), Str("129755"), Str("Bousman, Darren Lynn"), Str("Saw")]
+Total takes 0.5883641
+running query 31c: IMDBQ108 
+Loading mk to DB
+Loading k to DB
+Loading n to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.6819013
+Running join
+Join took 0.7368009
+Iter takes 1.4191184
+Building takes 1.7945361
+Running join
+Join took 0.0607515
+Iter takes 1.8553481
+Building takes 1.131151
+Running join
+Join took 0.08949004
+Iter takes 1.2207133
+Bushy join takes 4.495199
+output [Str("Action"), Str("1008"), Str("Abraham, Brad"), Str("11:14")]
+Total takes 4.496406
+running query 32b: IMDBQ110 
+Loading mk to DB
+Loading k to DB
+Loading t1 to DB
+Loading t2 to DB
+Loading ml to DB
+Loading lt to DB
+Building takes 0.48763725
+Running join
+Join took 0.08030663
+Iter takes 0.5679913
+Building takes 0.00261425
+Running join
+Join took 0.09598229
+Iter takes 0.098627
+Bushy join takes 0.66662395
+output [Str("alternate language version of"), Str("12 oz. Mouse"), Str("'Angel': Season 2 Overview")]
+Total takes 0.6670668
+running query 33a: IMDBQ111 
+Loading mc2 to DB
+Loading mc1 to DB
+Loading cn2 to DB
+Loading cn1 to DB
+Loading t1 to DB
+Loading kt1 to DB
+Loading mi_idx1 to DB
+Loading it1 to DB
+Loading mi_idx2 to DB
+Loading it2 to DB
+Loading t2 to DB
+Loading kt2 to DB
+Loading ml to DB
+Loading lt to DB
+Building takes 0.000003041
+Running join
+Join took 0.000696791
+Iter takes 0.000735583
+Building takes 0.0001575
+Running join
+Join took 0.03611204
+Iter takes 0.036304917
+Building takes 0.000183333
+Running join
+Join took 0.015405083
+Iter takes 0.015617625
+Building takes 0.000016333
+Running join
+Join took 0.054804415
+Iter takes 0.054858793
+Building takes 0.000012958
+Running join
+Join took 0.009749916
+Iter takes 0.00978625
+Building takes 0.009015916
+Running join
+Join took 0.09723408
+Iter takes 0.106301
+Building takes 0.030655708
+Running join
+Join took 0.13794214
+Iter takes 0.16873537
+Bushy join takes 0.39237157
+output [Str("495 Productions"), Str("495 Productions"), Str("3.3"), Str("2.7"), Str("A Double Shot at Love"), Str("A Shot at Love with Tila Tequila")]
+Total takes 0.39240417
+running query 33b: IMDBQ112 
+Loading mc2 to DB
+Loading mc1 to DB
+Loading cn1 to DB
+Loading cn2 to DB
+Loading t1 to DB
+Loading kt1 to DB
+Loading mi_idx1 to DB
+Loading it1 to DB
+Loading mi_idx2 to DB
+Loading it2 to DB
+Loading t2 to DB
+Loading kt2 to DB
+Loading ml to DB
+Loading lt to DB
+Building takes 0.000002666
+Running join
+Join took 0.000693708
+Iter takes 0.000730708
+Building takes 0.0001875
+Running join
+Join took 0.036123168
+Iter takes 0.03634596
+Building takes 0.000186541
+Running join
+Join took 0.017505623
+Iter takes 0.017725792
+Building takes 0.000012458
+Running join
+Join took 0.054388378
+Iter takes 0.05443279
+Building takes 0.000013875
+Running join
+Join took 0.003276375
+Iter takes 0.003308333
+Building takes 0.000217
+Running join
+Join took 0.05800496
+Iter takes 0.058266625
+Building takes 0.035111584
+Running join
+Join took 0.14359795
+Iter takes 0.17916566
+Bushy join takes 0.35000694
+output [Str("MTV Netherlands"), Str("495 Productions"), Str("3.3"), Str("2.7"), Str("A Double Shot at Love"), Str("A Shot at Love with Tila Tequila")]
+Total takes 0.35003203
+running query 33c: IMDBQ113 
+Loading mc2 to DB
+Loading mc1 to DB
+Loading cn2 to DB
+Loading cn1 to DB
+Loading t1 to DB
+Loading kt1 to DB
+Loading mi_idx1 to DB
+Loading it1 to DB
+Loading t2 to DB
+Loading kt2 to DB
+Loading mi_idx2 to DB
+Loading it2 to DB
+Loading ml to DB
+Loading lt to DB
+Building takes 0.0000035
+Running join
+Join took 0.000747625
+Iter takes 0.001002166
+Building takes 0.000158458
+Running join
+Join took 0.038750794
+Iter takes 0.038942084
+Building takes 0.00017025
+Running join
+Join took 0.016707333
+Iter takes 0.016907291
+Building takes 0.000014583
+Running join
+Join took 0.08408296
+Iter takes 0.08413992
+Building takes 0.000014041
+Running join
+Join took 0.038480874
+Iter takes 0.038528167
+Building takes 0.015657166
+Running join
+Join took 0.113413125
+Iter takes 0.12913314
+Building takes 0.03371196
+Running join
+Join took 0.14453055
+Iter takes 0.17831805
+Bushy join takes 0.48700905
+output [Str("2BE"), Str("495 Productions"), Str("1.3"), Str("1.0"), Str("A Double Shot at Love"), Str("A Double Shot at Love")]
+Total takes 0.4870547

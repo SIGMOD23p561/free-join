@@ -1,0 +1,1 @@
+COPY (SELECT COUNT(*) FROM complete_cast GROUP BY subject_id) TO './tables/complete_cast_subject_id.csv' (HEADER, DELIMITER ',');

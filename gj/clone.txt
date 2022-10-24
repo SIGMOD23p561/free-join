@@ -1,0 +1,306 @@
+running query 31c: IMDBQ108 
+Loading mk to DB
+Loading k to DB
+Loading n to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+building flat table on mk
+building table takes 0.000006875s
+building table on t
+building table takes 0.56495744
+building table on mi_idx
+building table takes 0.16062179
+bushy join takes 9.802716
+building flat table on mi
+building table takes 0.000029666s
+building table on intermediate
+building table takes 2.4640205
+building table on mc
+building table takes 0.48646525
+building table on k
+building table takes 0.000004916
+building table on it2
+building table takes 0.000006916
+building table on it1
+building table takes 0.000003208
+building table on cn
+building table takes 0.000009291
+bushy join takes 0.31962487
+building flat table on ci
+building table takes 0.000886875s
+building table on n
+building table takes 1.2612547
+building table on intermediate
+building table takes 0.000404208
+bushy join takes 0.34579778
+join takes: 20.53647
+output: Str("Action")Str("1008")Str("Abraham, Brad")Str("11:14")
+total takes: 20.53658
+running query 31b: IMDBQ107 
+Loading mk to DB
+Loading k to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Loading mc to DB
+Loading t to DB
+Loading cn to DB
+building flat table on mk
+building table takes 0.00000675s
+building table on t
+building table takes 0.000061291
+building table on mi_idx
+building table takes 0.15898313
+bushy join takes 0.73521125
+building flat table on mi
+building table takes 0.000022s
+building table on intermediate
+building table takes 0.000559041
+building table on mc
+building table takes 0.000617166
+building table on k
+building table takes 0.0000035
+building table on it2
+building table takes 0.000003416
+building table on it1
+building table takes 0.000002916
+building table on cn
+building table takes 0.000003375
+bushy join takes 0.016723542
+building flat table on ci
+building table takes 0.000007791s
+building table on n
+building table takes 0.35533336
+building table on intermediate
+building table takes 0.000020916
+bushy join takes 0.24630904
+join takes: 2.2893388
+output: Str("Horror")Str("129755")Str("Bousman, Darren Lynn")Str("Saw")
+total takes: 2.289383
+running query 25c: IMDBQ090 
+Loading mk to DB
+Loading k to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading ci to DB
+Loading t to DB
+Loading mi to DB
+Loading it1 to DB
+building flat table on mk
+building table takes 0.000008458s
+building table on t
+building table takes 0.5720715
+building table on mi_idx
+building table takes 0.17139392
+bushy join takes 9.972928
+building flat table on mi
+building table takes 0.000021958s
+building table on intermediate
+building table takes 2.4630325
+building table on k
+building table takes 0.000006291
+building table on it2
+building table takes 0.000005916
+building table on it1
+building table takes 0.000005375
+bushy join takes 0.53197855
+building flat table on ci
+building table takes 0.000433958s
+building table on n
+building table takes 0.40095946
+building table on intermediate
+building table takes 0.014892291
+bushy join takes 0.33371955
+join takes: 18.111185
+output: Str("Action")Str("10")Str("Aakeson, Kim Fupz")Str("$")
+total takes: 18.111925
+running query 25a: IMDBQ088 
+Loading mk to DB
+Loading ci to DB
+Loading t to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mi to DB
+Loading it1 to DB
+Loading k to DB
+building flat table on mk
+building table takes 0.000006041s
+building table on t
+building table takes 0.55939007
+building table on mi_idx
+building table takes 0.15950029
+bushy join takes 9.913392
+building flat table on mi
+building table takes 0.000034375s
+building table on intermediate
+building table takes 2.6111727
+building table on k
+building table takes 0.000010666
+building table on it2
+building table takes 0.0000055
+building table on it1
+building table takes 0.000006625
+bushy join takes 0.14868984
+building flat table on ci
+building table takes 0.000443458s
+building table on n
+building table takes 0.40457293
+building table on intermediate
+building table takes 0.002480666
+bushy join takes 0.28655052
+join takes: 17.970654
+output: Str("Horror")Str("10")Str("Abdallah, Damon")Str("-- And Now the Screaming Starts!")
+total takes: 17.97084
+running query 8c: IMDBQ029 
+Loading ci to DB
+Loading t to DB
+Loading a1 to DB
+Loading rt to DB
+Loading n1 to DB
+Loading mc to DB
+Loading cn to DB
+building flat table on mc
+building table takes 0.000010041s
+building table on cn
+building table takes 0.007105958
+bushy join takes 1.085777
+building flat table on ci
+building table takes 0.000011708s
+building table on n1
+building table takes 0.56764793
+building table on a1
+building table takes 0.14771092
+building table on intermediate
+building table takes 0.1715317
+building table on t
+building table takes 0.73807186
+building table on rt
+building table takes 0.000011041
+bushy join takes 17.725117
+join takes: 21.656624
+output: Str("\"A.J.\"")Str("#1 Cheerleader Camp")
+total takes: 21.709705
+running query 17e: IMDBQ064 
+Loading ci to DB
+Loading mc to DB
+Loading mk to DB
+Loading k to DB
+Loading cn to DB
+Loading n to DB
+Loading t to DB
+building flat table on mk
+building table takes 0.000023291s
+building table on t
+building table takes 0.26964957
+building table on mc
+building table takes 0.40972966
+building table on k
+building table takes 0.00000475
+building table on cn
+building table takes 0.004198583
+bushy join takes 1.274061
+building flat table on ci
+building table takes 0.000027625s
+building table on n
+building table takes 1.0541742
+building table on intermediate
+building table takes 0.00479775
+bushy join takes 13.389778
+join takes: 18.023413
+output: Str("$hort, Too")
+total takes: 18.040897
+running query 16b: IMDBQ057 
+Loading ci to DB
+Loading mk to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Loading an to DB
+Loading n to DB
+Loading k to DB
+building flat table on mk
+building table takes 0.000007041s
+building table on t
+building table takes 0.6001992
+building table on mc
+building table takes 0.42773354
+building table on k
+building table takes 0.000005125
+building table on cn
+building table takes 0.004434666
+bushy join takes 1.3130285
+building flat table on ci
+building table takes 0.000041833s
+building table on n
+building table takes 0.5283394
+building table on an
+building table takes 0.14979501
+building table on intermediate
+building table takes 0.006901666
+bushy join takes 13.445747
+join takes: 17.7143
+output: Str("!!!, Toy")Str("& Teller")
+total takes: 17.767664
+running query 8d: IMDBQ030 
+Loading ci to DB
+Loading n1 to DB
+Loading mc to DB
+Loading an1 to DB
+Loading rt to DB
+Loading cn to DB
+Loading t to DB
+building flat table on mc
+building table takes 0.000026375s
+building table on cn
+building table takes 0.004260375
+bushy join takes 1.070257
+building flat table on ci
+building table takes 0.000016875s
+building table on n1
+building table takes 0.586901
+building table on an1
+building table takes 0.14798088
+building table on intermediate
+building table takes 0.16034308
+building table on t
+building table takes 0.64226437
+building table on rt
+building table takes 0.000010916
+bushy join takes 13.724559
+join takes: 17.54363
+output: Str("\"Jenny from the Block\"")Str("#1 Cheerleader Camp")
+total takes: 17.550795
+running query 6f: IMDBQ023 
+Loading ci to DB
+Loading t to DB
+Loading n to DB
+Loading mk to DB
+Loading k to DB
+building flat table on mk
+building table takes 0.000007s
+building table on t
+building table takes 0.29195064
+building table on k
+building table takes 0.000007958
+bushy join takes 0.9139231
+building flat table on ci
+building table takes 0.000022541s
+building table on n
+building table takes 1.0605907
+building table on intermediate
+building table takes 0.002562916
+bushy join takes 11.301618
+join takes: 15.476712
+output: Str("based-on-comic")Str("\"Steff\", Stefanie Oxmann Mcgaha")Str("& Teller 2")
+total takes: 15.496632

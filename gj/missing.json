@@ -1,0 +1,212 @@
+{
+  "gj": [
+    {
+      "query": "13a",
+      "vectorize": 1000,
+      "optimize": 0,
+      "strategy": 2,
+      "time": [
+        1.3324670410000001
+      ]
+    },
+    {
+      "query": "13a",
+      "vectorize": 1000,
+      "optimize": 1,
+      "strategy": 2,
+      "time": [
+        1.293823541
+      ]
+    },
+    {
+      "query": "13a",
+      "vectorize": 1000,
+      "optimize": 2,
+      "strategy": 2,
+      "time": [
+        1.302747708
+      ]
+    },
+    {
+      "query": "13a",
+      "vectorize": 1000,
+      "optimize": 1,
+      "strategy": 0,
+      "time": [
+        7.022311166
+      ]
+    },
+    {
+      "query": "13a",
+      "vectorize": 1000,
+      "optimize": 1,
+      "strategy": 1,
+      "time": [
+        1.872392958
+      ]
+    },
+    {
+      "query": "13a",
+      "vectorize": 1000,
+      "optimize": 1,
+      "strategy": 2,
+      "time": [
+        1.286963291
+      ]
+    },
+    {
+      "query": "13a",
+      "vectorize": 1,
+      "optimize": 1,
+      "strategy": 2,
+      "time": [
+        2.037377416
+      ]
+    },
+    {
+      "query": "13a",
+      "vectorize": 10,
+      "optimize": 1,
+      "strategy": 2,
+      "time": [
+        1.380145166
+      ]
+    },
+    {
+      "query": "13a",
+      "vectorize": 100,
+      "optimize": 1,
+      "strategy": 2,
+      "time": [
+        1.3217719159999999
+      ]
+    },
+    {
+      "query": "13a",
+      "vectorize": 1000,
+      "optimize": 1,
+      "strategy": 2,
+      "time": [
+        1.305477625
+      ]
+    },
+    {
+      "query": "13a",
+      "vectorize": 1,
+      "optimize": 0,
+      "strategy": 0,
+      "time": [
+        7.786970666
+      ]
+    },
+    {
+      "query": "13d",
+      "vectorize": 1000,
+      "optimize": 0,
+      "strategy": 2,
+      "time": [
+        1.311079291
+      ]
+    },
+    {
+      "query": "13d",
+      "vectorize": 1000,
+      "optimize": 1,
+      "strategy": 2,
+      "time": [
+        1.306708666
+      ]
+    },
+    {
+      "query": "13d",
+      "vectorize": 1000,
+      "optimize": 2,
+      "strategy": 2,
+      "time": [
+        1.33968525
+      ]
+    },
+    {
+      "query": "13d",
+      "vectorize": 1000,
+      "optimize": 1,
+      "strategy": 0,
+      "time": [
+        5.725987625
+      ]
+    },
+    {
+      "query": "13d",
+      "vectorize": 1000,
+      "optimize": 1,
+      "strategy": 1,
+      "time": [
+        1.917627875
+      ]
+    },
+    {
+      "query": "13d",
+      "vectorize": 1000,
+      "optimize": 1,
+      "strategy": 2,
+      "time": [
+        1.3204675
+      ]
+    },
+    {
+      "query": "13d",
+      "vectorize": 1,
+      "optimize": 1,
+      "strategy": 2,
+      "time": [
+        2.296953666
+      ]
+    },
+    {
+      "query": "13d",
+      "vectorize": 10,
+      "optimize": 1,
+      "strategy": 2,
+      "time": [
+        2.283977541
+      ]
+    },
+    {
+      "query": "13d",
+      "vectorize": 100,
+      "optimize": 1,
+      "strategy": 2,
+      "time": [
+        1.646225375
+      ]
+    },
+    {
+      "query": "13d",
+      "vectorize": 1000,
+      "optimize": 1,
+      "strategy": 2,
+      "time": [
+        1.3443245
+      ]
+    },
+    {
+      "query": "13d",
+      "vectorize": 1,
+      "optimize": 0,
+      "strategy": 0,
+      "time": [
+        6.535382291
+      ]
+    }
+  ],
+  "duckdb": [
+    {
+      "query": "13a",
+      "time": 10.481296
+    },
+    {
+      "query": "13d",
+      "time": 9.569220999999999
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+numpy>=1.14
+pybind11>=2.6.0
+setuptools_scm>=6.3
+setuptools>=58
+pytest
+pandas
+pyarrow
+mypy
+psutil>=5.9.0
+ibis-framework[duckdb]
+ibis-substrait

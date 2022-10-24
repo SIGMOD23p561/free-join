@@ -1,0 +1,10798 @@
+running query 1a: IMDBQ001 
+Loading t to DB
+Loading mi_idx to DB
+Loading it to DB
+Loading mc to DB
+Loading ct to DB
+["ct", "mc", "mi_idx", "it", "t"]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "mc", attr_name: "company_type_id" }, Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "note" }]
+[Attribute { table_name: "mi_idx", attr_name: "movie_id" }, Attribute { table_name: "mi_idx", attr_name: "info_type_id" }]
+[Attribute { table_name: "it", attr_name: "id" }]
+[Attribute { table_name: "t", attr_name: "production_year" }, Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "production_year",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.000068583s
+building table on mi_idx
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.19164479
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "production_year",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+building flat table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "note",
+        },
+    ),
+]
+building table takes 0.000086166s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        3,
+    ),
+]
+Data cols [
+    Idx(
+        1,
+    ),
+    Idx(
+        2,
+    ),
+]
+building table takes 0.79666734
+building table on it
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000030625
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000025625
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "production_year",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "production_year",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "note",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "it",
+        attr_name: "id",
+    },
+    5,
+)
+join takes: 3.0396726
+output: Str("(A Warner Bros.-First National Picture) (presents)")Str("A Clockwork Orange")Num(1934)
+total takes: 3.0397024
+running query 1b: IMDBQ002 
+Loading mi_idx to DB
+Loading it to DB
+Loading mc to DB
+Loading ct to DB
+Loading t to DB
+["mc", "it", "mi_idx", "ct", "t"]
+[Attribute { table_name: "mc", attr_name: "note" }, Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "company_type_id" }]
+[Attribute { table_name: "it", attr_name: "id" }]
+[Attribute { table_name: "mi_idx", attr_name: "info_type_id" }, Attribute { table_name: "mi_idx", attr_name: "movie_id" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "t", attr_name: "production_year" }, Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "production_year",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.000041416s
+building table on mi_idx
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.17655163
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "production_year",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+building flat table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "note",
+        },
+    ),
+]
+building table takes 0.000053166s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        3,
+    ),
+]
+Data cols [
+    Idx(
+        1,
+    ),
+    Idx(
+        2,
+    ),
+]
+building table takes 0.20254457
+building table on it
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000022916
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000015666
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "production_year",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "production_year",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "it",
+        attr_name: "id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "note",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    4,
+)
+join takes: 1.3861821
+output: Str("(Set Decoration Rentals) (uncredited)")Str("Disaster Movie")Num(2008)
+total takes: 1.3862153
+running query 1c: IMDBQ003 
+Loading mi_idx to DB
+Loading t to DB
+Loading mc to DB
+Loading ct to DB
+Loading it to DB
+["t", "mi_idx", "ct", "it", "mc"]
+[Attribute { table_name: "t", attr_name: "title" }, Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "production_year" }]
+[Attribute { table_name: "mi_idx", attr_name: "info_type_id" }, Attribute { table_name: "mi_idx", attr_name: "movie_id" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "it", attr_name: "id" }]
+[Attribute { table_name: "mc", attr_name: "company_type_id" }, Attribute { table_name: "mc", attr_name: "note" }, Attribute { table_name: "mc", attr_name: "movie_id" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "production_year",
+        },
+    ),
+]
+building table takes 0.000041416s
+building table on mi_idx
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.18049005
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "production_year",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    3,
+)
+building flat table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "note",
+        },
+    ),
+]
+building table takes 0.000070208s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        3,
+    ),
+]
+Data cols [
+    Idx(
+        2,
+    ),
+    Idx(
+        1,
+    ),
+]
+building table takes 0.07306496
+building table on it
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000018166
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000014958
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "it",
+        attr_name: "id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "note",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "production_year",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    4,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "production_year",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    3,
+)
+join takes: 0.61464936
+output: Str("(co-production)")Str("Intouchables")Num(2011)
+total takes: 0.614678
+running query 1d: IMDBQ004 
+Loading t to DB
+Loading mc to DB
+Loading ct to DB
+Loading mi_idx to DB
+Loading it to DB
+["mc", "t", "mi_idx", "ct", "it"]
+[Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "company_type_id" }, Attribute { table_name: "mc", attr_name: "note" }]
+[Attribute { table_name: "t", attr_name: "production_year" }, Attribute { table_name: "t", attr_name: "title" }, Attribute { table_name: "t", attr_name: "id" }]
+[Attribute { table_name: "mi_idx", attr_name: "movie_id" }, Attribute { table_name: "mi_idx", attr_name: "info_type_id" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "it", attr_name: "id" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "production_year",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.00004325s
+building table on mi_idx
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.18108246
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "production_year",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+building flat table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "note",
+        },
+    ),
+]
+building table takes 0.000070333s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        3,
+    ),
+]
+Data cols [
+    Idx(
+        1,
+    ),
+    Idx(
+        2,
+    ),
+]
+building table takes 0.37712827
+building table on it
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000022458
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.00001575
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "it",
+        attr_name: "id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "note",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "production_year",
+    },
+    8,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "production_year",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+join takes: 2.067054
+output: Str("(Set Decoration Rentals) (uncredited)")Str("Disaster Movie")Num(2004)
+total takes: 2.0670934
+running query 2a: IMDBQ005 
+Loading mk to DB
+Loading mc to DB
+Loading t to DB
+Loading cn to DB
+Loading k to DB
+["cn", "k", "mc", "mk", "t"]
+[Attribute { table_name: "cn", attr_name: "id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "company_id" }]
+[Attribute { table_name: "mk", attr_name: "movie_id" }, Attribute { table_name: "mk", attr_name: "keyword_id" }]
+[Attribute { table_name: "t", attr_name: "title" }, Attribute { table_name: "t", attr_name: "id" }]
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000028958s
+building table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.6806103
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.41198742
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000020125
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000978958
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+join takes: 3.4157798
+output: Str("'Doc'")
+total takes: 3.4158695
+running query 2b: IMDBQ006 
+Loading mk to DB
+Loading mc to DB
+Loading t to DB
+Loading k to DB
+Loading cn to DB
+["cn", "mk", "mc", "t", "k"]
+[Attribute { table_name: "cn", attr_name: "id" }]
+[Attribute { table_name: "mk", attr_name: "movie_id" }, Attribute { table_name: "mk", attr_name: "keyword_id" }]
+[Attribute { table_name: "mc", attr_name: "company_id" }, Attribute { table_name: "mc", attr_name: "movie_id" }]
+[Attribute { table_name: "t", attr_name: "title" }, Attribute { table_name: "t", attr_name: "id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000047s
+building table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.68281704
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.41036347
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000035208
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000589125
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    0,
+)
+join takes: 3.3903143
+output: Str("'Doc'")
+total takes: 3.390377
+running query 2d: IMDBQ008 
+Loading mk to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading k to DB
+["mc", "cn", "t", "k", "mk"]
+[Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "company_id" }]
+[Attribute { table_name: "cn", attr_name: "id" }]
+[Attribute { table_name: "t", attr_name: "title" }, Attribute { table_name: "t", attr_name: "id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "mk", attr_name: "movie_id" }, Attribute { table_name: "mk", attr_name: "keyword_id" }]
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000048375s
+building table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.67928326
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.40321466
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000025458
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.005677333
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    3,
+)
+join takes: 3.4770215
+output: Str("& Teller")
+total takes: 3.4774103
+running query 3a: IMDBQ009 
+Loading mk to DB
+Loading mi to DB
+Loading t to DB
+Loading k to DB
+["k", "t", "mk", "mi"]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+[Attribute { table_name: "mk", attr_name: "movie_id" }, Attribute { table_name: "mk", attr_name: "keyword_id" }]
+[Attribute { table_name: "mi", attr_name: "movie_id" }]
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000031958s
+building table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.25157154
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+]
+building table takes 0.000044375s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        1,
+    ),
+]
+Data cols [
+    Idx(
+        2,
+    ),
+]
+building table takes 0.68366665
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000026833
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    3,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+join takes: 3.1489599
+output: Str("2 Days in New York")
+total takes: 3.1489918
+running query 3b: IMDBQ010 
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading mi to DB
+["t", "mk", "mi", "k"]
+[Attribute { table_name: "t", attr_name: "title" }, Attribute { table_name: "t", attr_name: "id" }]
+[Attribute { table_name: "mk", attr_name: "movie_id" }, Attribute { table_name: "mk", attr_name: "keyword_id" }]
+[Attribute { table_name: "mi", attr_name: "movie_id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000031s
+building table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.08162434
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+]
+building table takes 0.000042416s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        1,
+    ),
+]
+Data cols [
+    Idx(
+        2,
+    ),
+]
+building table takes 0.16096605
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000025958
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    4,
+)
+join takes: 1.3731713
+output: Str("300: Rise of an Empire")
+total takes: 1.3731933
+running query 3c: IMDBQ011 
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading mi to DB
+["mi", "t", "mk", "k"]
+[Attribute { table_name: "mi", attr_name: "movie_id" }]
+[Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+[Attribute { table_name: "mk", attr_name: "movie_id" }, Attribute { table_name: "mk", attr_name: "keyword_id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000044791s
+building table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.46903864
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+]
+building table takes 0.000055375s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        1,
+    ),
+]
+Data cols [
+    Idx(
+        2,
+    ),
+]
+building table takes 1.5386558
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000037791
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    5,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+join takes: 5.9620357
+output: Str("& Teller 2")
+total takes: 5.962127
+running query 4a: IMDBQ012 
+Loading mk to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading it to DB
+Loading k to DB
+["k", "t", "mk", "it", "mi_idx"]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "t", attr_name: "title" }, Attribute { table_name: "t", attr_name: "id" }]
+[Attribute { table_name: "mk", attr_name: "keyword_id" }, Attribute { table_name: "mk", attr_name: "movie_id" }]
+[Attribute { table_name: "it", attr_name: "id" }]
+[Attribute { table_name: "mi_idx", attr_name: "movie_id" }, Attribute { table_name: "mi_idx", attr_name: "info" }, Attribute { table_name: "mi_idx", attr_name: "info_type_id" }]
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000051375s
+building table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.26037627
+building table on mi_idx
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info",
+        },
+    ),
+]
+building table takes 0.116291285
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000044083
+building table on it
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000015708
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "it",
+        attr_name: "id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+join takes: 1.7405481
+output: Str("5.1")Str("& Teller 2")
+total takes: 1.7405891
+running query 4b: IMDBQ013 
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading it to DB
+["k", "mi_idx", "it", "mk", "t"]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "mi_idx", attr_name: "info" }, Attribute { table_name: "mi_idx", attr_name: "movie_id" }, Attribute { table_name: "mi_idx", attr_name: "info_type_id" }]
+[Attribute { table_name: "it", attr_name: "id" }]
+[Attribute { table_name: "mk", attr_name: "movie_id" }, Attribute { table_name: "mk", attr_name: "keyword_id" }]
+[Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000028333s
+building table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.08018304
+building table on mi_idx
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info",
+        },
+    ),
+]
+building table takes 0.001773041
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000017666
+building table on it
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000015
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "it",
+        attr_name: "id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+join takes: 0.8866685
+output: Str("9.1")Str("Batman: Arkham City")
+total takes: 0.88669235
+running query 4c: IMDBQ014 
+Loading mk to DB
+Loading mi_idx to DB
+Loading t to DB
+Loading it to DB
+Loading k to DB
+["t", "mi_idx", "it", "k", "mk"]
+[Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+[Attribute { table_name: "mi_idx", attr_name: "movie_id" }, Attribute { table_name: "mi_idx", attr_name: "info_type_id" }, Attribute { table_name: "mi_idx", attr_name: "info" }]
+[Attribute { table_name: "it", attr_name: "id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "mk", attr_name: "movie_id" }, Attribute { table_name: "mk", attr_name: "keyword_id" }]
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000026875s
+building table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.44491628
+building table on mi_idx
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info",
+        },
+    ),
+]
+building table takes 0.17097788
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000026125
+building table on it
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000017833
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "it",
+        attr_name: "id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+join takes: 2.498037
+output: Str("2.1")Str("& Teller 2")
+total takes: 2.4981222
+running query 5c: IMDBQ017 
+Loading t to DB
+Loading mc to DB
+Loading ct to DB
+Loading mi to DB
+Loading it to DB
+["mc", "it", "ct", "t", "mi"]
+[Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "company_type_id" }]
+[Attribute { table_name: "it", attr_name: "id" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "t", attr_name: "title" }, Attribute { table_name: "t", attr_name: "id" }]
+[Attribute { table_name: "mi", attr_name: "info_type_id" }, Attribute { table_name: "mi", attr_name: "movie_id" }]
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.000028208s
+building table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.433472
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+]
+building table takes 0.031707957
+building table on it
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000032791
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000015083
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info_type_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "it",
+        attr_name: "id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    0,
+)
+join takes: 1.3271598
+output: Str("11,830,420")
+total takes: 1.3271859
+running query 11a: IMDBQ038 
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading ml to DB
+Loading lt to DB
+Loading t to DB
+["cn", "k", "mc", "mk", "ct", "ml", "t", "lt"]
+[Attribute { table_name: "cn", attr_name: "id" }, Attribute { table_name: "cn", attr_name: "name" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "company_id" }, Attribute { table_name: "mc", attr_name: "company_type_id" }]
+[Attribute { table_name: "mk", attr_name: "keyword_id" }, Attribute { table_name: "mk", attr_name: "movie_id" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "ml", attr_name: "link_type_id" }, Attribute { table_name: "ml", attr_name: "movie_id" }]
+[Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+[Attribute { table_name: "lt", attr_name: "link" }, Attribute { table_name: "lt", attr_name: "id" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.000029958s
+building table on ml
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ml",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "ml",
+            attr_name: "link_type_id",
+        },
+    ),
+]
+building table takes 0.002816916
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000028458s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        2,
+    ),
+]
+Data cols [
+    Idx(
+        1,
+    ),
+]
+building table takes 0.006787375
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.2595857
+building table on lt
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "lt",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "lt",
+            attr_name: "link",
+        },
+    ),
+]
+building table takes 0.000033875
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.0000175
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000014125
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "name",
+        },
+    ),
+]
+building table takes 0.007741583
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "name",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "lt",
+        attr_name: "link",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "lt",
+        attr_name: "id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    3,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+join takes: 1.3942865
+output: Str("Churchill Films")Str("followed by")Str("Batman Beyond")
+total takes: 1.3943353
+running query 11b: IMDBQ039 
+Loading mk to DB
+Loading k to DB
+Loading ml to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Loading lt to DB
+Loading ct to DB
+["cn", "mk", "k", "ct", "lt", "ml", "t", "mc"]
+[Attribute { table_name: "cn", attr_name: "id" }, Attribute { table_name: "cn", attr_name: "name" }]
+[Attribute { table_name: "mk", attr_name: "movie_id" }, Attribute { table_name: "mk", attr_name: "keyword_id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "lt", attr_name: "id" }, Attribute { table_name: "lt", attr_name: "link" }]
+[Attribute { table_name: "ml", attr_name: "link_type_id" }, Attribute { table_name: "ml", attr_name: "movie_id" }]
+[Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+[Attribute { table_name: "mc", attr_name: "company_id" }, Attribute { table_name: "mc", attr_name: "company_type_id" }, Attribute { table_name: "mc", attr_name: "movie_id" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.00002975s
+building table on ml
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ml",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "ml",
+            attr_name: "link_type_id",
+        },
+    ),
+]
+building table takes 0.002745208
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000027416s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        2,
+    ),
+]
+Data cols [
+    Idx(
+        1,
+    ),
+]
+building table takes 0.000033833
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.2510098
+building table on lt
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "lt",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "lt",
+            attr_name: "link",
+        },
+    ),
+]
+building table takes 0.000041208
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000017708
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000014041
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "name",
+        },
+    ),
+]
+building table takes 0.007544458
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "lt",
+        attr_name: "id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "lt",
+        attr_name: "link",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "name",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    5,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+join takes: 1.1644181
+output: Str("Filmlance International AB")Str("follows")Str("The Money Man")
+total takes: 1.1644558
+running query 11c: IMDBQ040 
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading ml to DB
+Loading lt to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+["ct", "mk", "lt", "k", "t", "cn", "ml", "mc"]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "mk", attr_name: "keyword_id" }, Attribute { table_name: "mk", attr_name: "movie_id" }]
+[Attribute { table_name: "lt", attr_name: "id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+[Attribute { table_name: "cn", attr_name: "name" }, Attribute { table_name: "cn", attr_name: "id" }]
+[Attribute { table_name: "ml", attr_name: "link_type_id" }, Attribute { table_name: "ml", attr_name: "movie_id" }]
+[Attribute { table_name: "mc", attr_name: "company_id" }, Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "note" }, Attribute { table_name: "mc", attr_name: "company_type_id" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.000030375s
+building table on ml
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ml",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "ml",
+            attr_name: "link_type_id",
+        },
+    ),
+]
+building table takes 0.002830666
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000027625s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        2,
+    ),
+]
+Data cols [
+    Idx(
+        1,
+    ),
+]
+building table takes 0.014757333
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "note",
+        },
+    ),
+]
+building table takes 0.36531335
+building table on lt
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "lt",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000020875
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000021083
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000015
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "name",
+        },
+    ),
+]
+building table takes 0.000045333
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "note",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "name",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "lt",
+        attr_name: "id",
+    },
+    4,
+)
+join takes: 2.1364024
+output: Str("20th Century Fox Home Entertainment")Str("(1997-2002) (worldwide) (all media)")Str("24")
+total takes: 2.1366374
+running query 11d: IMDBQ041 
+Loading mk to DB
+Loading mc to DB
+Loading k to DB
+Loading cn to DB
+Loading ml to DB
+Loading ct to DB
+Loading t to DB
+Loading lt to DB
+["cn", "lt", "ct", "mc", "t", "ml", "k", "mk"]
+[Attribute { table_name: "cn", attr_name: "id" }, Attribute { table_name: "cn", attr_name: "name" }]
+[Attribute { table_name: "lt", attr_name: "id" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "company_id" }, Attribute { table_name: "mc", attr_name: "note" }, Attribute { table_name: "mc", attr_name: "company_type_id" }]
+[Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+[Attribute { table_name: "ml", attr_name: "movie_id" }, Attribute { table_name: "ml", attr_name: "link_type_id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "mk", attr_name: "keyword_id" }, Attribute { table_name: "mk", attr_name: "movie_id" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.000067083s
+building table on ml
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ml",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "ml",
+            attr_name: "link_type_id",
+        },
+    ),
+]
+building table takes 0.002852041
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000028958s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        2,
+    ),
+]
+Data cols [
+    Idx(
+        1,
+    ),
+]
+building table takes 0.014821416
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "note",
+        },
+    ),
+]
+building table takes 0.35854045
+building table on lt
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "lt",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000024625
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000016
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000014916
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "name",
+        },
+    ),
+]
+building table takes 0.03935254
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "name",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "lt",
+        attr_name: "id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "note",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    3,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+join takes: 2.249813
+output: Str("13th Street")Str("(1954) (UK) (TV)")Str("...denn sie wissen nicht, was sie tun")
+total takes: 2.250232
+running query 12a: IMDBQ042 
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading mi to DB
+Loading it1 to DB
+Loading it2 to DB
+Loading ct to DB
+["it1", "t", "cn", "ct", "it2", "mc", "mi", "mi_idx"]
+[Attribute { table_name: "it1", attr_name: "id" }]
+[Attribute { table_name: "t", attr_name: "title" }, Attribute { table_name: "t", attr_name: "id" }]
+[Attribute { table_name: "cn", attr_name: "id" }, Attribute { table_name: "cn", attr_name: "name" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "it2", attr_name: "id" }]
+[Attribute { table_name: "mc", attr_name: "company_id" }, Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "company_type_id" }]
+[Attribute { table_name: "mi", attr_name: "movie_id" }, Attribute { table_name: "mi", attr_name: "info_type_id" }]
+[Attribute { table_name: "mi_idx", attr_name: "movie_id" }, Attribute { table_name: "mi_idx", attr_name: "info_type_id" }, Attribute { table_name: "mi_idx", attr_name: "info" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.000031666s
+building table on mi_idx
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info",
+        },
+    ),
+]
+building table takes 0.007546416
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    3,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.000031916s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        2,
+    ),
+]
+Data cols [
+    Idx(
+        1,
+    ),
+    Idx(
+        3,
+    ),
+]
+building table takes 0.006536875
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.51691127
+building table on it2
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it2",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000021541
+building table on it1
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it1",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000018958
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000015208
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "name",
+        },
+    ),
+]
+building table takes 0.014077166
+MAPPPP
+in view (
+    Attribute {
+        table_name: "it1",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "it2",
+        attr_name: "id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "name",
+    },
+    11,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    4,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    3,
+)
+join takes: 1.1212339
+output: Str("10th Grade Reunion Films")Str("8.1")Str("3:20")
+total takes: 1.1212999
+running query 12b: IMDBQ043 
+Loading mi to DB
+Loading mi_idx to DB
+Loading it1 to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading it2 to DB
+["it1", "mc", "cn", "mi_idx", "it2", "ct", "mi", "t"]
+[Attribute { table_name: "it1", attr_name: "id" }]
+[Attribute { table_name: "mc", attr_name: "company_id" }, Attribute { table_name: "mc", attr_name: "company_type_id" }, Attribute { table_name: "mc", attr_name: "movie_id" }]
+[Attribute { table_name: "cn", attr_name: "id" }]
+[Attribute { table_name: "mi_idx", attr_name: "movie_id" }, Attribute { table_name: "mi_idx", attr_name: "info_type_id" }]
+[Attribute { table_name: "it2", attr_name: "id" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "mi", attr_name: "movie_id" }, Attribute { table_name: "mi", attr_name: "info_type_id" }, Attribute { table_name: "mi", attr_name: "info" }]
+[Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.00003425s
+building table on mi_idx
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.18769725
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    2,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info",
+        },
+    ),
+]
+building table takes 0.000051583s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        2,
+    ),
+]
+Data cols [
+    Idx(
+        1,
+    ),
+]
+building table takes 0.00183125
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.49388233
+building table on it2
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it2",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000022958
+building table on it1
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it1",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000018458
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000015625
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.005450666
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "it1",
+        attr_name: "id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "it2",
+        attr_name: "id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info_type_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    3,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    2,
+)
+join takes: 5.134408
+output: Str("$10,000")Str("Birdemic: Shock and Terror")
+total takes: 5.1344576
+running query 12c: IMDBQ044 
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading mi to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading t to DB
+Loading it1 to DB
+["t", "ct", "it2", "it1", "mi", "cn", "mc", "mi_idx"]
+[Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "it2", attr_name: "id" }]
+[Attribute { table_name: "it1", attr_name: "id" }]
+[Attribute { table_name: "mi", attr_name: "movie_id" }, Attribute { table_name: "mi", attr_name: "info_type_id" }]
+[Attribute { table_name: "cn", attr_name: "id" }, Attribute { table_name: "cn", attr_name: "name" }]
+[Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "company_id" }, Attribute { table_name: "mc", attr_name: "company_type_id" }]
+[Attribute { table_name: "mi_idx", attr_name: "movie_id" }, Attribute { table_name: "mi_idx", attr_name: "info_type_id" }, Attribute { table_name: "mi_idx", attr_name: "info" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.000031625s
+building table on mi_idx
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info",
+        },
+    ),
+]
+building table takes 0.030987708
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    3,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.000038375s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        2,
+    ),
+]
+Data cols [
+    Idx(
+        1,
+    ),
+    Idx(
+        3,
+    ),
+]
+building table takes 0.053214084
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.49974427
+building table on it2
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it2",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000017958
+building table on it1
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it1",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000015416
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000014541
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "name",
+        },
+    ),
+]
+building table takes 0.013909375
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    3,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "it1",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "name",
+    },
+    11,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "it2",
+        attr_name: "id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    4,
+)
+join takes: 1.4626069
+output: Str("\"Oh That Gus!\"")Str("7.1")Str("$1.11")
+total takes: 1.4627588
+running query 13a: IMDBQ045 
+Loading mi to DB
+Loading it2 to DB
+Loading mc to DB
+Loading t to DB
+Loading kt to DB
+Loading ct to DB
+Loading miidx to DB
+Loading it to DB
+Loading cn to DB
+["it", "mi", "cn", "mc", "it2", "kt", "t", "miidx", "ct"]
+[Attribute { table_name: "it", attr_name: "id" }]
+[Attribute { table_name: "mi", attr_name: "info" }, Attribute { table_name: "mi", attr_name: "movie_id" }, Attribute { table_name: "mi", attr_name: "info_type_id" }]
+[Attribute { table_name: "cn", attr_name: "id" }]
+[Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "company_type_id" }, Attribute { table_name: "mc", attr_name: "company_id" }]
+[Attribute { table_name: "it2", attr_name: "id" }]
+[Attribute { table_name: "kt", attr_name: "id" }]
+[Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }, Attribute { table_name: "t", attr_name: "kind_id" }]
+[Attribute { table_name: "miidx", attr_name: "info" }, Attribute { table_name: "miidx", attr_name: "info_type_id" }, Attribute { table_name: "miidx", attr_name: "movie_id" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "kind_id",
+        },
+    ),
+]
+building table takes 0.000070416s
+building table on miidx
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "miidx",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "miidx",
+            attr_name: "info",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "miidx",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.22765255
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info_type_id",
+    },
+    4,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info",
+        },
+    ),
+]
+building table takes 0.000115041s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        2,
+    ),
+    Idx(
+        4,
+    ),
+]
+Data cols [
+    Idx(
+        1,
+    ),
+    Idx(
+        3,
+    ),
+]
+building table takes 0.89730644
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.5761417
+building table on kt
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "kt",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000037458
+building table on it2
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it2",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000028125
+building table on it
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.0000265
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000026875
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000978666
+MAPPPP
+in view (
+    Attribute {
+        table_name: "kt",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "it",
+        attr_name: "id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info_type_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    12,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info",
+    },
+    11,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info",
+    },
+    13,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info_type_id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "movie_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "it2",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    5,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info_type_id",
+    },
+    4,
+)
+join takes: 11.261947
+output: Str("Afghanistan:24 June 2012")Str("1.0")Str("&Me")
+total takes: 11.2645445
+running query 13b: IMDBQ046 
+Loading mi to DB
+Loading miidx to DB
+Loading it to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading it2 to DB
+Loading t to DB
+Loading kt to DB
+["it", "mi", "it2", "cn", "t", "miidx", "ct", "kt", "mc"]
+[Attribute { table_name: "it", attr_name: "id" }]
+[Attribute { table_name: "mi", attr_name: "movie_id" }, Attribute { table_name: "mi", attr_name: "info_type_id" }]
+[Attribute { table_name: "it2", attr_name: "id" }]
+[Attribute { table_name: "cn", attr_name: "id" }, Attribute { table_name: "cn", attr_name: "name" }]
+[Attribute { table_name: "t", attr_name: "title" }, Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "kind_id" }]
+[Attribute { table_name: "miidx", attr_name: "info" }, Attribute { table_name: "miidx", attr_name: "movie_id" }, Attribute { table_name: "miidx", attr_name: "info_type_id" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "kt", attr_name: "id" }]
+[Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "company_id" }, Attribute { table_name: "mc", attr_name: "company_type_id" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "kind_id",
+        },
+    ),
+]
+building table takes 0.000071041s
+building table on miidx
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "miidx",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "miidx",
+            attr_name: "info",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "miidx",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.22093901
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info_type_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    2,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.000089375s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        2,
+    ),
+    Idx(
+        4,
+    ),
+]
+Data cols [
+    Idx(
+        1,
+    ),
+    Idx(
+        3,
+    ),
+]
+building table takes 0.000718458
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.4951546
+building table on kt
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "kt",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000034083
+building table on it2
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it2",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000027125
+building table on it
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000026208
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000025875
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "name",
+        },
+    ),
+]
+building table takes 0.014412291
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info_type_id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "kt",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info",
+    },
+    12,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "movie_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    11,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "it",
+        attr_name: "id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "it2",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info_type_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "name",
+    },
+    13,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info_type_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    2,
+)
+join takes: 3.6829371
+output: Str("501audio")Str("1.8")Str("5 Time Champion")
+total takes: 3.6829915
+running query 13c: IMDBQ047 
+Loading mi to DB
+Loading t to DB
+Loading kt to DB
+Loading miidx to DB
+Loading it to DB
+Loading it2 to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+["it2", "mc", "it", "miidx", "kt", "t", "cn", "ct", "mi"]
+[Attribute { table_name: "it2", attr_name: "id" }]
+[Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "company_type_id" }, Attribute { table_name: "mc", attr_name: "company_id" }]
+[Attribute { table_name: "it", attr_name: "id" }]
+[Attribute { table_name: "miidx", attr_name: "info_type_id" }, Attribute { table_name: "miidx", attr_name: "info" }, Attribute { table_name: "miidx", attr_name: "movie_id" }]
+[Attribute { table_name: "kt", attr_name: "id" }]
+[Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "kind_id" }, Attribute { table_name: "t", attr_name: "title" }]
+[Attribute { table_name: "cn", attr_name: "id" }, Attribute { table_name: "cn", attr_name: "name" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "mi", attr_name: "movie_id" }, Attribute { table_name: "mi", attr_name: "info_type_id" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "kind_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.000071625s
+building table on miidx
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "miidx",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "miidx",
+            attr_name: "info_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "miidx",
+            attr_name: "info",
+        },
+    ),
+]
+building table takes 0.21102117
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info_type_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.000088416s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        1,
+    ),
+    Idx(
+        3,
+    ),
+]
+Data cols [
+    Idx(
+        4,
+    ),
+    Idx(
+        2,
+    ),
+]
+building table takes 0.000197625
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.5134585
+building table on kt
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "kt",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000037333
+building table on it2
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it2",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000030708
+building table on it
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000026458
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000026166
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "name",
+        },
+    ),
+]
+building table takes 0.015852375
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info_type_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info_type_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "name",
+    },
+    13,
+)
+in view (
+    Attribute {
+        table_name: "kt",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "it",
+        attr_name: "id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info",
+    },
+    11,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    12,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "movie_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info_type_id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "it2",
+        attr_name: "id",
+    },
+    7,
+)
+join takes: 3.5750928
+output: Str("DL Sites")Str("1.8")Str("Champion")
+total takes: 3.575141
+running query 13d: IMDBQ048 
+Loading mi to DB
+Loading it2 to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading kt to DB
+Loading ct to DB
+Loading miidx to DB
+Loading it to DB
+["mc", "cn", "mi", "miidx", "it2", "kt", "t", "ct", "it"]
+[Attribute { table_name: "mc", attr_name: "company_type_id" }, Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "company_id" }]
+[Attribute { table_name: "cn", attr_name: "name" }, Attribute { table_name: "cn", attr_name: "id" }]
+[Attribute { table_name: "mi", attr_name: "info_type_id" }, Attribute { table_name: "mi", attr_name: "movie_id" }]
+[Attribute { table_name: "miidx", attr_name: "movie_id" }, Attribute { table_name: "miidx", attr_name: "info" }, Attribute { table_name: "miidx", attr_name: "info_type_id" }]
+[Attribute { table_name: "it2", attr_name: "id" }]
+[Attribute { table_name: "kt", attr_name: "id" }]
+[Attribute { table_name: "t", attr_name: "kind_id" }, Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "it", attr_name: "id" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "kind_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.000079416s
+building table on miidx
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "miidx",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "miidx",
+            attr_name: "info",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "miidx",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.22339213
+MAPPPP
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info_type_id",
+    },
+    4,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.000070875s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        1,
+    ),
+    Idx(
+        4,
+    ),
+]
+Data cols [
+    Idx(
+        2,
+    ),
+    Idx(
+        3,
+    ),
+]
+building table takes 0.8648827
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.53307986
+building table on kt
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "kt",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000038583
+building table on it2
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it2",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000029
+building table on it
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000026958
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.00002675
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "name",
+        },
+    ),
+]
+building table takes 0.014546916
+MAPPPP
+in view (
+    Attribute {
+        table_name: "kt",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "name",
+    },
+    13,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info_type_id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "it",
+        attr_name: "id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    11,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info_type_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info",
+    },
+    12,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "movie_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "it2",
+        attr_name: "id",
+    },
+    7,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "miidx",
+        attr_name: "info_type_id",
+    },
+    4,
+)
+join takes: 11.201884
+output: Str("\"O\" Films")Str("1.0")Str("#54 Meets #47")
+total takes: 11.219178
+running query 14a: IMDBQ049 
+Loading mk to DB
+Loading k to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mi to DB
+Loading t to DB
+Loading kt to DB
+Loading it1 to DB
+["it2", "it1", "mi_idx", "t", "k", "mk", "kt", "mi"]
+[Attribute { table_name: "it2", attr_name: "id" }]
+[Attribute { table_name: "it1", attr_name: "id" }]
+[Attribute { table_name: "mi_idx", attr_name: "info_type_id" }, Attribute { table_name: "mi_idx", attr_name: "info" }, Attribute { table_name: "mi_idx", attr_name: "movie_id" }]
+[Attribute { table_name: "t", attr_name: "title" }, Attribute { table_name: "t", attr_name: "kind_id" }, Attribute { table_name: "t", attr_name: "id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "mk", attr_name: "movie_id" }, Attribute { table_name: "mk", attr_name: "keyword_id" }]
+[Attribute { table_name: "kt", attr_name: "id" }]
+[Attribute { table_name: "mi", attr_name: "movie_id" }, Attribute { table_name: "mi", attr_name: "info_type_id" }]
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000052708s
+building table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "kind_id",
+        },
+    ),
+]
+building table takes 0.086823285
+building table on mi_idx
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info",
+        },
+    ),
+]
+building table takes 0.20257738
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.00008375s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        3,
+    ),
+    Idx(
+        1,
+    ),
+    Idx(
+        4,
+    ),
+]
+Data cols [
+    Idx(
+        2,
+    ),
+    Idx(
+        5,
+    ),
+]
+building table takes 0.48235258
+building table on kt
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "kt",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000034125
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000026875
+building table on it2
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it2",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000027666
+building table on it1
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it1",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000026958
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "kt",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info_type_id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    12,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    11,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "it2",
+        attr_name: "id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "it1",
+        attr_name: "id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    7,
+)
+join takes: 2.6262178
+output: Str("1.0")Str("$lowdown")
+total takes: 2.62629
+running query 14b: IMDBQ050 
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading kt to DB
+Loading mi to DB
+Loading it1 to DB
+Loading it2 to DB
+["kt", "k", "mk", "mi", "t", "it1", "it2", "mi_idx"]
+[Attribute { table_name: "kt", attr_name: "id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "mk", attr_name: "keyword_id" }, Attribute { table_name: "mk", attr_name: "movie_id" }]
+[Attribute { table_name: "mi", attr_name: "movie_id" }, Attribute { table_name: "mi", attr_name: "info_type_id" }]
+[Attribute { table_name: "t", attr_name: "title" }, Attribute { table_name: "t", attr_name: "kind_id" }, Attribute { table_name: "t", attr_name: "id" }]
+[Attribute { table_name: "it1", attr_name: "id" }]
+[Attribute { table_name: "it2", attr_name: "id" }]
+[Attribute { table_name: "mi_idx", attr_name: "info" }, Attribute { table_name: "mi_idx", attr_name: "info_type_id" }, Attribute { table_name: "mi_idx", attr_name: "movie_id" }]
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000054s
+building table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "kind_id",
+        },
+    ),
+]
+building table takes 0.000148833
+building table on mi_idx
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.076406375
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.000074708s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        3,
+    ),
+    Idx(
+        1,
+    ),
+    Idx(
+        5,
+    ),
+]
+Data cols [
+    Idx(
+        4,
+    ),
+    Idx(
+        2,
+    ),
+]
+building table takes 0.000417
+building table on kt
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "kt",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.00002625
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000026083
+building table on it2
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it2",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000026
+building table on it1
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it1",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000025916
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "it1",
+        attr_name: "id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "kt",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "it2",
+        attr_name: "id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    11,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    12,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info_type_id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    6,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+join takes: 1.0406519
+output: Str("6.4")Str("Of Dolls and Murder")
+total takes: 1.0406696
+running query 14c: IMDBQ051 
+Loading mk to DB
+Loading t to DB
+Loading mi to DB
+Loading it1 to DB
+Loading kt to DB
+Loading k to DB
+Loading mi_idx to DB
+Loading it2 to DB
+["t", "it1", "k", "mk", "it2", "kt", "mi_idx", "mi"]
+[Attribute { table_name: "t", attr_name: "kind_id" }, Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+[Attribute { table_name: "it1", attr_name: "id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "mk", attr_name: "keyword_id" }, Attribute { table_name: "mk", attr_name: "movie_id" }]
+[Attribute { table_name: "it2", attr_name: "id" }]
+[Attribute { table_name: "kt", attr_name: "id" }]
+[Attribute { table_name: "mi_idx", attr_name: "info" }, Attribute { table_name: "mi_idx", attr_name: "movie_id" }, Attribute { table_name: "mi_idx", attr_name: "info_type_id" }]
+[Attribute { table_name: "mi", attr_name: "info_type_id" }, Attribute { table_name: "mi", attr_name: "movie_id" }]
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000053458s
+building table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "kind_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.2581918
+building table on mi_idx
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi_idx",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.21218713
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    3,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.000076666s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        2,
+    ),
+    Idx(
+        1,
+    ),
+    Idx(
+        5,
+    ),
+]
+Data cols [
+    Idx(
+        4,
+    ),
+    Idx(
+        3,
+    ),
+]
+building table takes 2.289102
+building table on kt
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "kt",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000036
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000026708
+building table on it2
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it2",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000029791
+building table on it1
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it1",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000026208
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    3,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "it2",
+        attr_name: "id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "it1",
+        attr_name: "id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "movie_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info_type_id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info",
+    },
+    11,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    12,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "kt",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "mi_idx",
+        attr_name: "info_type_id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "kind_id",
+    },
+    7,
+)
+join takes: 7.0302916
+output: Str("1.0")Str("$lowdown")
+total takes: 7.0303793
+running query 15a: IMDBQ052 
+Loading mk to DB
+Loading k to DB
+Loading t to DB
+Loading at to DB
+Loading cn to DB
+Loading mc to DB
+Loading ct to DB
+Loading mi to DB
+Loading it1 to DB
+["mk", "at", "k", "mc", "mi", "t", "it1", "ct", "cn"]
+[Attribute { table_name: "mk", attr_name: "keyword_id" }, Attribute { table_name: "mk", attr_name: "movie_id" }]
+[Attribute { table_name: "at", attr_name: "movie_id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "company_id" }, Attribute { table_name: "mc", attr_name: "company_type_id" }]
+[Attribute { table_name: "mi", attr_name: "info_type_id" }, Attribute { table_name: "mi", attr_name: "info" }, Attribute { table_name: "mi", attr_name: "movie_id" }]
+[Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+[Attribute { table_name: "it1", attr_name: "id" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "cn", attr_name: "id" }]
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000032208s
+building table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.3594065
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info",
+        },
+    ),
+]
+building table takes 0.000076083s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        1,
+    ),
+]
+Data cols [
+    Idx(
+        2,
+    ),
+]
+building table takes 1.076128
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.009845333
+building table on at
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "at",
+            attr_name: "movie_id",
+        },
+    ),
+]
+building table takes 0.026901793
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.010605291
+building table on it1
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it1",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000020125
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000022958
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.00559775
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "at",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info_type_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "it1",
+        attr_name: "id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info",
+    },
+    8,
+)
+join takes: 4.5306053
+output: Str("USA:1 June 2007")Str("Battlestar Galactica: The Resistance")
+total takes: 4.53065
+running query 15b: IMDBQ053 
+Loading mk to DB
+Loading t to DB
+Loading mc to DB
+Loading mi to DB
+Loading cn to DB
+Loading ct to DB
+Loading it1 to DB
+Loading at to DB
+Loading k to DB
+["cn", "ct", "t", "mc", "k", "it1", "mi", "mk", "at"]
+[Attribute { table_name: "cn", attr_name: "id" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+[Attribute { table_name: "mc", attr_name: "company_id" }, Attribute { table_name: "mc", attr_name: "company_type_id" }, Attribute { table_name: "mc", attr_name: "movie_id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "it1", attr_name: "id" }]
+[Attribute { table_name: "mi", attr_name: "info" }, Attribute { table_name: "mi", attr_name: "movie_id" }, Attribute { table_name: "mi", attr_name: "info_type_id" }]
+[Attribute { table_name: "mk", attr_name: "movie_id" }, Attribute { table_name: "mk", attr_name: "keyword_id" }]
+[Attribute { table_name: "at", attr_name: "movie_id" }]
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000032458s
+building table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.16875437
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info",
+        },
+    ),
+]
+building table takes 0.000056875s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        1,
+    ),
+]
+Data cols [
+    Idx(
+        2,
+    ),
+]
+building table takes 0.6279071
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.009166041
+building table on at
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "at",
+            attr_name: "movie_id",
+        },
+    ),
+]
+building table takes 0.026017
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.010546541
+building table on it1
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it1",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.0000185
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000018041
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000015125
+MAPPPP
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info_type_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "at",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "it1",
+        attr_name: "id",
+    },
+    5,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+join takes: 2.8765006
+output: Str("USA:27 April 2007")Str("RoboCop vs Terminator")
+total takes: 2.876533
+running query 15c: IMDBQ054 
+Loading mk to DB
+Loading k to DB
+Loading mc to DB
+Loading at to DB
+Loading mi to DB
+Loading it1 to DB
+Loading cn to DB
+Loading t to DB
+Loading ct to DB
+["k", "it1", "mk", "mi", "ct", "at", "mc", "t", "cn"]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "it1", attr_name: "id" }]
+[Attribute { table_name: "mk", attr_name: "keyword_id" }, Attribute { table_name: "mk", attr_name: "movie_id" }]
+[Attribute { table_name: "mi", attr_name: "movie_id" }, Attribute { table_name: "mi", attr_name: "info_type_id" }, Attribute { table_name: "mi", attr_name: "info" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "at", attr_name: "movie_id" }]
+[Attribute { table_name: "mc", attr_name: "company_id" }, Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "company_type_id" }]
+[Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+[Attribute { table_name: "cn", attr_name: "id" }]
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000030833s
+building table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.4478422
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info",
+        },
+    ),
+]
+building table takes 0.000061416s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        1,
+    ),
+]
+Data cols [
+    Idx(
+        2,
+    ),
+]
+building table takes 1.5158436
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.5086662
+building table on at
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "at",
+            attr_name: "movie_id",
+        },
+    ),
+]
+building table takes 0.02521854
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.010494458
+building table on it1
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it1",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000021833
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000015
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.005508416
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "it1",
+        attr_name: "id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info_type_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "at",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+join takes: 6.7260995
+output: Str("USA:1 April 2003")Str("24: Day Six - Debrief")
+total takes: 6.726183
+running query 15d: IMDBQ055 
+Loading mk to DB
+Loading mc to DB
+Loading at to DB
+Loading k to DB
+Loading ct to DB
+Loading mi to DB
+Loading cn to DB
+Loading t to DB
+Loading it1 to DB
+["at", "ct", "mk", "cn", "it1", "k", "mc", "t", "mi"]
+[Attribute { table_name: "at", attr_name: "movie_id" }, Attribute { table_name: "at", attr_name: "title" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "mk", attr_name: "keyword_id" }, Attribute { table_name: "mk", attr_name: "movie_id" }]
+[Attribute { table_name: "cn", attr_name: "id" }]
+[Attribute { table_name: "it1", attr_name: "id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "mc", attr_name: "company_id" }, Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "company_type_id" }]
+[Attribute { table_name: "t", attr_name: "title" }, Attribute { table_name: "t", attr_name: "id" }]
+[Attribute { table_name: "mi", attr_name: "info_type_id" }, Attribute { table_name: "mi", attr_name: "movie_id" }]
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000030875s
+building table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.44902772
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "info_type_id",
+        },
+    ),
+]
+building table takes 0.000044s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        1,
+    ),
+]
+Data cols [
+    Idx(
+        2,
+    ),
+]
+building table takes 1.5068617
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.515868
+building table on at
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "at",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "at",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.066379294
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.010910041
+building table on it1
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "it1",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000031166
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000029041
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.005674416
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "it1",
+        attr_name: "id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "at",
+        attr_name: "title",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "info_type_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "at",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    4,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    0,
+)
+join takes: 6.8718615
+output: Str("(Not So) Instant Photo")Str("06/05")
+total takes: 6.8720536
+running query 21a: IMDBQ076 
+Loading mk to DB
+Loading k to DB
+Loading mi to DB
+Loading ml to DB
+Loading lt to DB
+Loading t to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+["mk", "k", "ml", "mc", "cn", "lt", "ct", "mi", "t"]
+[Attribute { table_name: "mk", attr_name: "movie_id" }, Attribute { table_name: "mk", attr_name: "keyword_id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "ml", attr_name: "link_type_id" }, Attribute { table_name: "ml", attr_name: "movie_id" }]
+[Attribute { table_name: "mc", attr_name: "movie_id" }, Attribute { table_name: "mc", attr_name: "company_id" }, Attribute { table_name: "mc", attr_name: "company_type_id" }]
+[Attribute { table_name: "cn", attr_name: "name" }, Attribute { table_name: "cn", attr_name: "id" }]
+[Attribute { table_name: "lt", attr_name: "id" }, Attribute { table_name: "lt", attr_name: "link" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "mi", attr_name: "movie_id" }]
+[Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.000053333s
+building table on ml
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ml",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "ml",
+            attr_name: "link_type_id",
+        },
+    ),
+]
+building table takes 0.002853333
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.00005575s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+]
+Data cols [
+    Idx(
+        2,
+    ),
+    Idx(
+        1,
+    ),
+]
+building table takes 0.006669166
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    3,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+]
+building table takes 0.0000355s
+building table on intermediate
+ID cols [
+    Idx(
+        3,
+    ),
+    Idx(
+        5,
+    ),
+    Idx(
+        4,
+    ),
+]
+Data cols [
+    Idx(
+        6,
+    ),
+]
+building table takes 0.13365667
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.25430593
+building table on lt
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "lt",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "lt",
+            attr_name: "link",
+        },
+    ),
+]
+building table takes 0.000059375
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000027
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000026083
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "name",
+        },
+    ),
+]
+building table takes 0.008424041
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    3,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    12,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    11,
+)
+in view (
+    Attribute {
+        table_name: "lt",
+        attr_name: "id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "lt",
+        attr_name: "link",
+    },
+    13,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "name",
+    },
+    14,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    11,
+)
+join takes: 1.7833033
+output: Str("Det Danske Filminstitut")Str("followed by")Str("Der Serienkiller - Klinge des Todes")
+total takes: 1.7833842
+running query 21b: IMDBQ077 
+Loading mk to DB
+Loading mc to DB
+Loading mi to DB
+Loading ml to DB
+Loading lt to DB
+Loading t to DB
+Loading ct to DB
+Loading k to DB
+Loading cn to DB
+["mi", "t", "ct", "mc", "ml", "cn", "lt", "k", "mk"]
+[Attribute { table_name: "mi", attr_name: "movie_id" }]
+[Attribute { table_name: "t", attr_name: "title" }, Attribute { table_name: "t", attr_name: "id" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+[Attribute { table_name: "mc", attr_name: "company_id" }, Attribute { table_name: "mc", attr_name: "company_type_id" }, Attribute { table_name: "mc", attr_name: "movie_id" }]
+[Attribute { table_name: "ml", attr_name: "movie_id" }, Attribute { table_name: "ml", attr_name: "link_type_id" }]
+[Attribute { table_name: "cn", attr_name: "id" }, Attribute { table_name: "cn", attr_name: "name" }]
+[Attribute { table_name: "lt", attr_name: "link" }, Attribute { table_name: "lt", attr_name: "id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "mk", attr_name: "movie_id" }, Attribute { table_name: "mk", attr_name: "keyword_id" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.000052041s
+building table on ml
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ml",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "ml",
+            attr_name: "link_type_id",
+        },
+    ),
+]
+building table takes 0.00285625
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    2,
+)
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000052958s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+]
+Data cols [
+    Idx(
+        1,
+    ),
+    Idx(
+        2,
+    ),
+]
+building table takes 0.006349208
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    3,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    2,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+]
+building table takes 0.000034708s
+building table on intermediate
+ID cols [
+    Idx(
+        3,
+    ),
+    Idx(
+        6,
+    ),
+    Idx(
+        4,
+    ),
+]
+Data cols [
+    Idx(
+        5,
+    ),
+]
+building table takes 0.091296665
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.2605049
+building table on lt
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "lt",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "lt",
+            attr_name: "link",
+        },
+    ),
+]
+building table takes 0.000058875
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000027625
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.00002675
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "name",
+        },
+    ),
+]
+building table takes 0.00808375
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    3,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    2,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "lt",
+        attr_name: "link",
+    },
+    13,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "name",
+    },
+    14,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    12,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    11,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "lt",
+        attr_name: "id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    11,
+)
+join takes: 1.7223753
+output: Str("Filmlance International AB")Str("followed by")Str("Hämndens pris")
+total takes: 1.7224269
+running query 21c: IMDBQ078 
+Loading mk to DB
+Loading ml to DB
+Loading lt to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading k to DB
+Loading mi to DB
+["t", "mc", "cn", "k", "mi", "ml", "lt", "mk", "ct"]
+[Attribute { table_name: "t", attr_name: "id" }, Attribute { table_name: "t", attr_name: "title" }]
+[Attribute { table_name: "mc", attr_name: "company_type_id" }, Attribute { table_name: "mc", attr_name: "company_id" }, Attribute { table_name: "mc", attr_name: "movie_id" }]
+[Attribute { table_name: "cn", attr_name: "name" }, Attribute { table_name: "cn", attr_name: "id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "mi", attr_name: "movie_id" }]
+[Attribute { table_name: "ml", attr_name: "link_type_id" }, Attribute { table_name: "ml", attr_name: "movie_id" }]
+[Attribute { table_name: "lt", attr_name: "link" }, Attribute { table_name: "lt", attr_name: "id" }]
+[Attribute { table_name: "mk", attr_name: "keyword_id" }, Attribute { table_name: "mk", attr_name: "movie_id" }]
+[Attribute { table_name: "ct", attr_name: "id" }]
+building flat table on t
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.000054166s
+building table on ml
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ml",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "ml",
+            attr_name: "link_type_id",
+        },
+    ),
+]
+building table takes 0.00286225
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    2,
+)
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000058333s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+]
+Data cols [
+    Idx(
+        1,
+    ),
+    Idx(
+        2,
+    ),
+]
+building table takes 0.012127458
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    3,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    2,
+)
+building flat table on mi
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mi",
+            attr_name: "movie_id",
+        },
+    ),
+]
+building table takes 0.000032s
+building table on intermediate
+ID cols [
+    Idx(
+        3,
+    ),
+    Idx(
+        6,
+    ),
+    Idx(
+        4,
+    ),
+]
+Data cols [
+    Idx(
+        5,
+    ),
+]
+building table takes 0.21809267
+building table on mc
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_type_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mc",
+            attr_name: "company_id",
+        },
+    ),
+]
+building table takes 0.2542914
+building table on lt
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "lt",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "lt",
+            attr_name: "link",
+        },
+    ),
+]
+building table takes 0.000058416
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000027041
+building table on ct
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ct",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.000026625
+building table on cn
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "cn",
+            attr_name: "name",
+        },
+    ),
+]
+building table takes 0.00855825
+MAPPPP
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "ct",
+        attr_name: "id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "mi",
+        attr_name: "movie_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "lt",
+        attr_name: "id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_type_id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "lt",
+        attr_name: "link",
+    },
+    13,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    12,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "company_id",
+    },
+    11,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "name",
+    },
+    14,
+)
+in view (
+    Attribute {
+        table_name: "mc",
+        attr_name: "movie_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "cn",
+        attr_name: "id",
+    },
+    11,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    3,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    3,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "title",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    2,
+)
+join takes: 2.2468412
+output: Str("Churchill Films")Str("followed by")Str("Batman Beyond")
+total takes: 2.2469566
+running query 32b: IMDBQ110 
+Loading mk to DB
+Loading k to DB
+Loading t1 to DB
+Loading t2 to DB
+Loading ml to DB
+Loading lt to DB
+["t2", "mk", "k", "ml", "lt", "t1"]
+[Attribute { table_name: "t2", attr_name: "title" }, Attribute { table_name: "t2", attr_name: "id" }]
+[Attribute { table_name: "mk", attr_name: "movie_id" }, Attribute { table_name: "mk", attr_name: "keyword_id" }]
+[Attribute { table_name: "k", attr_name: "id" }]
+[Attribute { table_name: "ml", attr_name: "link_type_id" }, Attribute { table_name: "ml", attr_name: "linked_movie_id" }, Attribute { table_name: "ml", attr_name: "movie_id" }]
+[Attribute { table_name: "lt", attr_name: "id" }, Attribute { table_name: "lt", attr_name: "link" }]
+[Attribute { table_name: "t1", attr_name: "id" }, Attribute { table_name: "t1", attr_name: "title" }]
+building flat table on t1
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t1",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t1",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.000056166s
+building table on ml
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "ml",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "ml",
+            attr_name: "linked_movie_id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "ml",
+            attr_name: "link_type_id",
+        },
+    ),
+]
+building table takes 0.004001125
+building table on t2
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "t2",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "t2",
+            attr_name: "title",
+        },
+    ),
+]
+building table takes 0.69591755
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t1",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t2",
+        attr_name: "title",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "linked_movie_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t1",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t2",
+        attr_name: "id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    3,
+)
+building flat table on mk
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "movie_id",
+        },
+    ),
+    Attr(
+        Attribute {
+            table_name: "mk",
+            attr_name: "keyword_id",
+        },
+    ),
+]
+building table takes 0.000093875s
+building table on intermediate
+ID cols [
+    Idx(
+        0,
+    ),
+    Idx(
+        3,
+    ),
+]
+Data cols [
+    Idx(
+        2,
+    ),
+    Idx(
+        4,
+    ),
+    Idx(
+        1,
+    ),
+]
+building table takes 0.0220355
+building table on lt
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "lt",
+            attr_name: "id",
+        },
+    ),
+]
+Data cols [
+    Attr(
+        Attribute {
+            table_name: "lt",
+            attr_name: "link",
+        },
+    ),
+]
+building table takes 0.000058208
+building table on k
+ID cols [
+    Attr(
+        Attribute {
+            table_name: "k",
+            attr_name: "id",
+        },
+    ),
+]
+building table takes 0.00002675
+MAPPPP
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t1",
+        attr_name: "title",
+    },
+    2,
+)
+in view (
+    Attribute {
+        table_name: "t2",
+        attr_name: "title",
+    },
+    4,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "linked_movie_id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "t1",
+        attr_name: "id",
+    },
+    0,
+)
+in view (
+    Attribute {
+        table_name: "t2",
+        attr_name: "id",
+    },
+    1,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    3,
+)
+MAPPPP
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "movie_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "t1",
+        attr_name: "id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "lt",
+        attr_name: "id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "k",
+        attr_name: "id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "movie_id",
+    },
+    5,
+)
+in view (
+    Attribute {
+        table_name: "mk",
+        attr_name: "keyword_id",
+    },
+    7,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "link_type_id",
+    },
+    6,
+)
+in view (
+    Attribute {
+        table_name: "ml",
+        attr_name: "linked_movie_id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "t1",
+        attr_name: "title",
+    },
+    8,
+)
+in view (
+    Attribute {
+        table_name: "t2",
+        attr_name: "id",
+    },
+    10,
+)
+in view (
+    Attribute {
+        table_name: "t2",
+        attr_name: "title",
+    },
+    9,
+)
+in view (
+    Attribute {
+        table_name: "lt",
+        attr_name: "link",
+    },
+    11,
+)
+join takes: 2.9503288
+output: Str("alternate language version of")Str("12 oz. Mouse")Str("'Angel': Season 2 Overview")
+total takes: 2.95044

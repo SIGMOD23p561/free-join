@@ -1,0 +1,5286 @@
+running query 1a 
+DUCKDB total time: 0.261366
+DUCKDB filter time: 0.000014000000000000001
+DUCKDB join time: 0.261352
+Loading t to DB
+Loading mi_idx to DB
+Loading it to DB
+Loading mc to DB
+Loading ct to DB
+Building takes 0.000003333
+Running join with 2 tables
+n instructions: 1
+Join took 0.21835184
+Iter takes 0.2183905
+Building takes 0.037503663
+Running join with 2 tables
+n instructions: 1
+Join took 0.021772832
+Iter takes 0.059331
+Building takes 0.002017291
+Running join with 2 tables
+n instructions: 1
+Join took 0.000258166
+Iter takes 0.002291833
+Building takes 0.000007416
+Running join with 2 tables
+n instructions: 1
+Join took 7.875e-6
+Iter takes 2.4958e-5
+Bushy join takes 0.2800505
+out rows: 142
+output [Str("(A Warner Bros.-First National Picture) (presents)"), Str("A Clockwork Orange"), Num(1934)]
+Total building takes 0.039531704
+Total joining takes 0.2403907
+Total takes 0.28012976
+running query 1b 
+DUCKDB total time: 0.253816
+DUCKDB filter time: 0.035008
+DUCKDB join time: 0.218808
+Loading mi_idx to DB from cache (cache=5 cols)
+Loading it to DB
+Loading mc to DB
+Loading ct to DB
+Loading t to DB
+Building takes 0.000002375
+Running join with 2 tables
+n instructions: 1
+Join took 0.056901876
+Iter takes 0.056945875
+Building takes 0.010062333
+Running join with 2 tables
+n instructions: 1
+Join took 0.054586083
+Iter takes 0.064693294
+Building takes 0.02107654
+Running join with 2 tables
+n instructions: 1
+Join took 0.0026405
+Iter takes 0.023743166
+Building takes 0.000009041
+Running join with 2 tables
+n instructions: 1
+Join took 3.25e-6
+Iter takes 2.1875e-5
+Bushy join takes 0.14541249
+out rows: 3
+output [Str("(Set Decoration Rentals) (uncredited)"), Str("Disaster Movie"), Num(2008)]
+Total building takes 0.03115029
+Total joining takes 0.11413171
+Total takes 0.14542846
+running query 1c 
+DUCKDB total time: 0.10397
+DUCKDB filter time: 0.026542
+DUCKDB join time: 0.07742800000000001
+Loading mi_idx to DB from cache (cache=5 cols)
+Loading t to DB
+Loading mc to DB
+Loading ct to DB
+Loading it to DB
+Building takes 0.000002791
+Running join with 2 tables
+n instructions: 1
+Join took 0.031536292
+Iter takes 0.031568624
+Building takes 0.003814291
+Running join with 2 tables
+n instructions: 1
+Join took 0.001972833
+Iter takes 0.005813333
+Building takes 0.000122916
+Running join with 2 tables
+n instructions: 1
+Join took 3.4416e-5
+Iter takes 0.000167333
+Building takes 0.000001958
+Running join with 2 tables
+n instructions: 1
+Join took 3.041e-6
+Iter takes 1.45e-5
+Bushy join takes 0.03757175
+out rows: 3
+output [Str("(co-production)"), Str("Intouchables"), Num(2011)]
+Total building takes 0.003941956
+Total joining takes 0.03354658
+Total takes 0.03758779
+running query 1d 
+DUCKDB total time: 0.321359
+DUCKDB filter time: 0.030946
+DUCKDB join time: 0.29041300000000003
+Loading t to DB
+Loading mc to DB
+Loading ct to DB
+Loading mi_idx to DB from cache (cache=5 cols)
+Loading it to DB
+Building takes 0.000001958
+Running join with 2 tables
+n instructions: 1
+Join took 0.10502783
+Iter takes 0.10506067
+Building takes 0.017688377
+Running join with 2 tables
+n instructions: 1
+Join took 0.086591505
+Iter takes 0.10432925
+Building takes 0.03639954
+Running join with 2 tables
+n instructions: 1
+Join took 0.005220833
+Iter takes 0.04164829
+Building takes 0.000010791
+Running join with 2 tables
+n instructions: 1
+Join took 4.083e-6
+Iter takes 2.6791e-5
+Bushy join takes 0.25107738
+out rows: 4
+output [Str("(Set Decoration Rentals) (uncredited)"), Str("Disaster Movie"), Num(2004)]
+Total building takes 0.054100662
+Total joining takes 0.19684425
+Total takes 0.25109178
+running query 2a 
+DUCKDB total time: 2.319065
+DUCKDB filter time: 0.003136
+DUCKDB join time: 2.315929
+Loading mk to DB
+Loading mc to DB
+Loading t to DB from cache (cache=9 cols)
+Loading cn to DB
+Loading k to DB
+Building takes 0.000003458
+Running join with 2 tables
+n instructions: 1
+Join took 0.30385208
+Iter takes 0.30389434
+Building takes 0.06485971
+Running join with 2 tables
+n instructions: 1
+Join took 0.83039206
+Iter takes 0.8961569
+Building takes 1.1274478
+Running join with 2 tables
+n instructions: 1
+Join took 0.40826783
+Iter takes 1.5357997
+Building takes 0.004419875
+Running join with 2 tables
+n instructions: 1
+Join took 0.003043708
+Iter takes 0.007487208
+Bushy join takes 2.743364
+out rows: 7825
+output [Str("'Doc'")]
+Total building takes 1.1967309
+Total joining takes 1.5455556
+Total takes 2.7513034
+running query 2b 
+DUCKDB total time: 2.090011
+DUCKDB filter time: 0.00304
+DUCKDB join time: 2.086971
+Loading mk to DB from cache (cache=9 cols)
+Loading mc to DB from cache (cache=9 cols)
+Loading t to DB from cache (cache=9 cols)
+Loading k to DB
+Loading cn to DB
+Building takes 0.000002
+Running join with 2 tables
+n instructions: 1
+Join took 0.32058886
+Iter takes 0.32061878
+Building takes 0.06529237
+Running join with 2 tables
+n instructions: 1
+Join took 0.7807991
+Iter takes 0.84613895
+Building takes 0.42665043
+Running join with 2 tables
+n instructions: 1
+Join took 0.36123854
+Iter takes 0.7879316
+Building takes 0.006023208
+Running join with 2 tables
+n instructions: 1
+Join took 0.002921458
+Iter takes 0.008972625
+Bushy join takes 1.9636707
+out rows: 5226
+output [Str("'Doc'")]
+Total building takes 0.497968
+Total joining takes 1.465548
+Total takes 1.964434
+running query 2d 
+DUCKDB total time: 2.123977
+DUCKDB filter time: 0.003783
+DUCKDB join time: 2.120194
+Loading mk to DB from cache (cache=9 cols)
+Loading mc to DB from cache (cache=9 cols)
+Loading cn to DB
+Loading t to DB from cache (cache=9 cols)
+Loading k to DB
+Building takes 0.000002416
+Running join with 2 tables
+n instructions: 1
+Join took 0.30463946
+Iter takes 0.3046671
+Building takes 0.064981624
+Running join with 2 tables
+n instructions: 1
+Join took 0.7772191
+Iter takes 0.84224325
+Building takes 0.43681878
+Running join with 2 tables
+n instructions: 1
+Join took 0.3250043
+Iter takes 0.7618704
+Building takes 0.0041525
+Running join with 2 tables
+n instructions: 1
+Join took 0.007509416
+Iter takes 0.011702333
+Bushy join takes 1.9204981
+out rows: 67820
+output [Str("& Teller")]
+Total building takes 0.50595534
+Total joining takes 1.4143724
+Total takes 1.9254308
+running query 3a 
+DUCKDB total time: 0.485031
+DUCKDB filter time: 0.030843
+DUCKDB join time: 0.454188
+Loading mk to DB from cache (cache=9 cols)
+Loading mi to DB
+Loading t to DB
+Loading k to DB
+Building takes 0.000003041
+Running join with 2 tables
+n instructions: 1
+Join took 0.12076259
+Iter takes 0.12080696
+Building takes 0.018962707
+Running join with 2 tables
+n instructions: 1
+Join took 0.022109415
+Iter takes 0.041131
+Building takes 0.002314875
+Running join with 2 tables
+n instructions: 1
+Join took 0.002867791
+Iter takes 0.005214916
+Bushy join takes 0.16716354
+out rows: 206
+output [Str("2 Days in New York")]
+Total building takes 0.021280624
+Total joining takes 0.1457398
+Total takes 0.16718954
+running query 3b 
+DUCKDB total time: 0.192049
+DUCKDB filter time: 0.026601
+DUCKDB join time: 0.16544799999999998
+Loading mk to DB from cache (cache=9 cols)
+Loading k to DB
+Loading t to DB
+Loading mi to DB
+Building takes 0.000002166
+Running join with 2 tables
+n instructions: 1
+Join took 0.058940414
+Iter takes 0.05897833
+Building takes 0.005890125
+Running join with 2 tables
+n instructions: 1
+Join took 0.00343025
+Iter takes 0.009363291
+Building takes 0.000017458
+Running join with 2 tables
+n instructions: 1
+Join took 2.5e-5
+Iter takes 5.8333e-5
+Bushy join takes 0.06841496
+out rows: 5
+output [Str("300: Rise of an Empire")]
+Total building takes 0.005909749
+Total joining takes 0.062395666
+Total takes 0.068437755
+running query 3c 
+DUCKDB total time: 0.758198
+DUCKDB filter time: 0.029427
+DUCKDB join time: 0.7287710000000001
+Loading mk to DB from cache (cache=9 cols)
+Loading k to DB
+Loading t to DB
+Loading mi to DB
+Building takes 0.0000025
+Running join with 2 tables
+n instructions: 1
+Join took 0.20760909
+Iter takes 0.20765407
+Building takes 0.037827
+Running join with 2 tables
+n instructions: 1
+Join took 0.105698794
+Iter takes 0.14358316
+Building takes 0.033949
+Running join with 2 tables
+n instructions: 1
+Join took 0.030787708
+Iter takes 0.06478925
+Bushy join takes 0.41603974
+out rows: 7250
+output [Str("& Teller 2")]
+Total building takes 0.0717785
+Total joining takes 0.3440956
+Total takes 0.41620955
+running query 4a 
+DUCKDB total time: 0.334678
+DUCKDB filter time: 0.045233999999999996
+DUCKDB join time: 0.289444
+Loading mk to DB from cache (cache=9 cols)
+Loading t to DB
+Loading mi_idx to DB
+Loading it to DB
+Loading k to DB
+Building takes 0.00000325
+Running join with 2 tables
+n instructions: 1
+Join took 0.11796304
+Iter takes 0.11799496
+Building takes 0.018698292
+Running join with 2 tables
+n instructions: 1
+Join took 0.048509456
+Iter takes 0.06724729
+Building takes 0.019849459
+Running join with 2 tables
+n instructions: 1
+Join took 0.016786458
+Iter takes 0.036682207
+Building takes 0.000031708
+Running join with 2 tables
+n instructions: 1
+Join took 3.0875e-5
+Iter takes 7.4875e-5
+Bushy join takes 0.22200888
+out rows: 740
+output [Str("5.1"), Str("& Teller 2")]
+Total building takes 0.03858271
+Total joining takes 0.18328983
+Total takes 0.22204874
+running query 4b 
+DUCKDB total time: 0.097221
+DUCKDB filter time: 0.037777
+DUCKDB join time: 0.059444000000000004
+Loading mk to DB from cache (cache=9 cols)
+Loading k to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading it to DB
+Building takes 0.000002625
+Running join with 2 tables
+n instructions: 1
+Join took 0.057287168
+Iter takes 0.05731954
+Building takes 0.005727208
+Running join with 2 tables
+n instructions: 1
+Join took 0.003790541
+Iter takes 0.009545875
+Building takes 0.000132958
+Running join with 2 tables
+n instructions: 1
+Join took 0.000176416
+Iter takes 0.00032175
+Building takes 0.000002958
+Running join with 2 tables
+n instructions: 1
+Join took 3.25e-6
+Iter takes 1.5916e-5
+Bushy join takes 0.067215584
+out rows: 6
+output [Str("9.1"), Str("Batman: Arkham City")]
+Total building takes 0.005865749
+Total joining takes 0.061257374
+Total takes 0.06722896
+running query 4c 
+DUCKDB total time: 0.593003
+DUCKDB filter time: 0.043496
+DUCKDB join time: 0.549507
+Loading mk to DB from cache (cache=9 cols)
+Loading mi_idx to DB
+Loading t to DB
+Loading it to DB
+Loading k to DB
+Building takes 0.000002166
+Running join with 2 tables
+n instructions: 1
+Join took 0.1990985
+Iter takes 0.19912608
+Building takes 0.038878832
+Running join with 2 tables
+n instructions: 1
+Join took 0.1361993
+Iter takes 0.17512646
+Building takes 0.07594987
+Running join with 2 tables
+n instructions: 1
+Join took 0.045055624
+Iter takes 0.12104629
+Building takes 0.000144666
+Running join with 2 tables
+n instructions: 1
+Join took 0.000146333
+Iter takes 0.000304125
+Bushy join takes 0.49561617
+out rows: 4700
+output [Str("2.1"), Str("& Teller 2")]
+Total building takes 0.114975534
+Total joining takes 0.38049975
+Total takes 0.49579567
+running query 5c 
+DUCKDB total time: 0.561266
+DUCKDB filter time: 0.029372
+DUCKDB join time: 0.5318940000000001
+Loading t to DB
+Loading mc to DB
+Loading ct to DB
+Loading mi to DB
+Loading it to DB
+Building takes 0.000002208
+Running join with 2 tables
+n instructions: 1
+Join took 0.11064083
+Iter takes 0.110673
+Building takes 0.013876208
+Running join with 2 tables
+n instructions: 1
+Join took 0.024940332
+Iter takes 0.038865376
+Building takes 0.002760291
+Running join with 2 tables
+n instructions: 1
+Join took 0.004092458
+Iter takes 0.006880708
+Building takes 0.002346083
+Running join with 2 tables
+n instructions: 1
+Join took 0.000383708
+Iter takes 0.002753041
+Bushy join takes 0.1591813
+out rows: 669
+output [Str("11,830,420")]
+Total building takes 0.01898479
+Total joining takes 0.14005733
+Total takes 0.15921366
+running query 6a 
+DUCKDB total time: 0.232022
+DUCKDB filter time: 0.027921
+DUCKDB join time: 0.204101
+Loading ci to DB
+Loading n to DB
+Loading t to DB
+Loading mk to DB from cache (cache=12 cols)
+Loading k to DB
+Building takes 0.000002041
+Running join with 2 tables
+n instructions: 1
+Join took 0.059250414
+Iter takes 0.059284914
+Building takes 0.005296666
+Running join with 2 tables
+n instructions: 1
+Join took 0.005427916
+Iter takes 0.010764375
+Building takes 0.000004625
+Running join with 3 tables
+n instructions: 1
+Join took 0.18589163
+Iter takes 0.18592854
+Bushy join takes 0.25599167
+out rows: 6
+output [Str("marvel-cinematic-universe"), Str("Downey Jr., Robert"), Str("Iron Man 3")]
+Total building takes 0.005303332
+Total joining takes 0.25056994
+Total takes 0.25602463
+running query 6b 
+DUCKDB total time: 0.175149
+DUCKDB filter time: 0.003731
+DUCKDB join time: 0.171418
+Loading ci to DB from cache (cache=12 cols)
+Loading t to DB
+Loading n to DB
+Loading mk to DB from cache (cache=12 cols)
+Loading k to DB
+Building takes 0.000003125
+Running join with 2 tables
+n instructions: 1
+Join took 0.036779415
+Iter takes 0.036801085
+Building takes 0.000017291
+Running join with 2 tables
+n instructions: 1
+Join took 2.825e-5
+Iter takes 5.5583e-5
+Building takes 0.000003666
+Running join with 3 tables
+n instructions: 1
+Join took 0.18335436
+Iter takes 0.18338037
+Bushy join takes 0.22024329
+out rows: 12
+output [Str("based-on-comic"), Str("Downey Jr., Robert"), Str("The Avengers 2")]
+Total building takes 0.000024082
+Total joining takes 0.22016205
+Total takes 0.22026108
+running query 6c 
+DUCKDB total time: 0.172355
+DUCKDB filter time: 0.00514
+DUCKDB join time: 0.167215
+Loading ci to DB from cache (cache=12 cols)
+Loading mk to DB from cache (cache=12 cols)
+Loading t to DB
+Loading k to DB
+Loading n to DB
+Building takes 0.000002375
+Running join with 2 tables
+n instructions: 1
+Join took 0.036988754
+Iter takes 0.037010793
+Building takes 0.000017083
+Running join with 2 tables
+n instructions: 1
+Join took 2.7583e-5
+Iter takes 8.8208e-5
+Building takes 0.000004583
+Running join with 3 tables
+n instructions: 1
+Join took 0.17295805
+Iter takes 0.17303833
+Bushy join takes 0.21018371
+out rows: 2
+output [Str("marvel-cinematic-universe"), Str("Downey Jr., Robert"), Str("The Avengers 2")]
+Total building takes 0.000024041
+Total joining takes 0.20997436
+Total takes 0.21020329
+running query 6d 
+DUCKDB total time: 0.317893
+DUCKDB filter time: 0.030816
+DUCKDB join time: 0.28707699999999997
+Loading ci to DB from cache (cache=12 cols)
+Loading mk to DB from cache (cache=12 cols)
+Loading k to DB
+Loading t to DB
+Loading n to DB
+Building takes 0.000002625
+Running join with 2 tables
+n instructions: 1
+Join took 0.16083787
+Iter takes 0.16087104
+Building takes 0.031227209
+Running join with 2 tables
+n instructions: 1
+Join took 0.031565085
+Iter takes 0.06283188
+Building takes 0.000186458
+Running join with 3 tables
+n instructions: 1
+Join took 0.17357717
+Iter takes 0.17380008
+Bushy join takes 0.3975101
+out rows: 88
+output [Str("based-on-comic"), Str("Downey Jr., Robert"), Str("2008 MTV Movie Awards")]
+Total building takes 0.031416293
+Total joining takes 0.36598012
+Total takes 0.39753747
+running query 6e 
+DUCKDB total time: 0.312775
+DUCKDB filter time: 0.032271999999999995
+DUCKDB join time: 0.28050300000000006
+Loading ci to DB from cache (cache=12 cols)
+Loading n to DB
+Loading mk to DB from cache (cache=12 cols)
+Loading k to DB
+Loading t to DB
+Building takes 0.000002625
+Running join with 2 tables
+n instructions: 1
+Join took 0.16314504
+Iter takes 0.16319278
+Building takes 0.028833916
+Running join with 2 tables
+n instructions: 1
+Join took 0.028336458
+Iter takes 0.057215456
+Building takes 0.000005666
+Running join with 3 tables
+n instructions: 1
+Join took 0.17441371
+Iter takes 0.17445278
+Bushy join takes 0.39487228
+out rows: 6
+output [Str("marvel-cinematic-universe"), Str("Downey Jr., Robert"), Str("Iron Man 3")]
+Total building takes 0.028842209
+Total joining takes 0.3658952
+Total takes 0.39489186
+running query 6f 
+DUCKDB total time: 2.006236
+DUCKDB filter time: 0.03085
+DUCKDB join time: 1.9753859999999999
+Loading ci to DB from cache (cache=12 cols)
+Loading t to DB
+Loading n to DB
+Loading mk to DB from cache (cache=14 cols)
+Loading k to DB
+Building takes 0.000002708
+Running join with 2 tables
+n instructions: 1
+Join took 0.16151166
+Iter takes 0.1615478
+Building takes 0.0276105
+Running join with 2 tables
+n instructions: 1
+Join took 0.028941832
+Iter takes 0.05659
+Building takes 0.000198166
+Running join with 3 tables
+n instructions: 1
+Join took 0.8478758
+Iter takes 0.8481079
+Bushy join takes 1.0662527
+out rows: 785477
+output [Str("based-on-comic"), Str("\"Steff\", Stefanie Oxmann Mcgaha"), Str("& Teller 2")]
+Total building takes 0.027811375
+Total joining takes 1.0383292
+Total takes 1.1039225
+running query 7a 
+DUCKDB total time: 0.553017
+DUCKDB filter time: 0.07414699999999999
+DUCKDB join time: 0.47887
+Loading ci to DB from cache (cache=14 cols)
+Loading t to DB
+Loading an to DB
+Loading pi to DB
+Loading ml to DB
+Loading lt to DB
+Loading n to DB
+Loading it to DB
+Building takes 0.000002541
+Running join with 2 tables
+n instructions: 1
+Join took 0.004322625
+Iter takes 0.004348875
+Building takes 0.000005083
+Running join with 2 tables
+n instructions: 1
+Join took 5.75e-6
+Iter takes 2.6958e-5
+Building takes 0.000001291
+Running join with 2 tables
+n instructions: 1
+Join took 0.009606666
+Iter takes 0.009627291
+Building takes 0.000058541
+Running join with 2 tables
+n instructions: 1
+Join took 6.6791e-5
+Iter takes 0.000138
+Building takes 0.000017
+Running join with 3 tables
+n instructions: 1
+Join took 0.4228958
+Iter takes 0.4229543
+Building takes 0.000010791
+Running join with 2 tables
+n instructions: 1
+Join took 0.0026745
+Iter takes 0.002700708
+Bushy join takes 0.43981174
+out rows: 32
+output [Str("Antonioni, Michelangelo"), Str("Dressed to Kill")]
+Total building takes 0.000095247
+Total joining takes 0.43957213
+Total takes 0.43983284
+running query 7b 
+DUCKDB total time: 0.290505
+DUCKDB filter time: 0.042543000000000004
+DUCKDB join time: 0.24796200000000002
+Loading ci to DB from cache (cache=16 cols)
+Loading t to DB
+Loading n to DB
+Loading an to DB
+Loading ml to DB from cache (cache=16 cols)
+Loading lt to DB
+Loading pi to DB
+Loading it to DB
+Building takes 0.000002791
+Running join with 2 tables
+n instructions: 1
+Join took 0.00075175
+Iter takes 0.000765666
+Building takes 0.000001916
+Running join with 2 tables
+n instructions: 1
+Join took 2.583e-6
+Iter takes 1.1833e-5
+Building takes 0.000000791
+Running join with 2 tables
+n instructions: 1
+Join took 0.002671125
+Iter takes 0.002683875
+Building takes 0.000016458
+Running join with 2 tables
+n instructions: 1
+Join took 2.2041e-5
+Iter takes 4.7166e-5
+Building takes 0.000006958
+Running join with 3 tables
+n instructions: 1
+Join took 0.19368063
+Iter takes 0.19372629
+Building takes 0.00000725
+Running join with 2 tables
+n instructions: 1
+Join took 0.002599708
+Iter takes 0.002622416
+Bushy join takes 0.19986929
+out rows: 16
+output [Str("De Palma, Brian"), Str("Dressed to Kill")]
+Total building takes 0.000036164
+Total joining takes 0.19972783
+Total takes 0.19989017
+running query 7c 
+DUCKDB total time: 1.536571
+DUCKDB filter time: 0.040443
+DUCKDB join time: 1.496128
+Loading ci to DB from cache (cache=16 cols)
+Loading ml to DB from cache (cache=16 cols)
+Loading n to DB
+Loading pi to DB
+Loading it to DB
+Loading an to DB
+Loading t to DB
+Loading lt to DB
+Building takes 0.000002375
+Running join with 2 tables
+n instructions: 1
+Join took 0.008790708
+Iter takes 0.008825083
+Building takes 0.000439291
+Running join with 2 tables
+n instructions: 1
+Join took 0.000421208
+Iter takes 0.000878583
+Building takes 0.000001916
+Running join with 2 tables
+n instructions: 1
+Join took 0.021664623
+Iter takes 0.021685584
+Building takes 0.00014125
+Running join with 2 tables
+n instructions: 1
+Join took 0.00027675
+Iter takes 0.000436583
+Building takes 0.000603916
+Running join with 3 tables
+n instructions: 1
+Join took 0.22420055
+Iter takes 0.22483408
+Building takes 0.001109625
+Running join with 2 tables
+n instructions: 1
+Join took 0.005718541
+Iter takes 0.00685175
+Bushy join takes 0.26352495
+out rows: 68185
+output [Str("50 Cent"), Str("\"Boo\" Arnold was born Earl Arnold in Hattiesburg, Mississippi in 1966. His father gave him the nickname 'Boo' early in life and it stuck through grade school, high school, and college. He is still known as \"Boo\" to family and friends.  Raised in central Texas, Arnold played baseball at Texas Tech University where he graduated with a BA in Advertising and Marketing. While at Texas Tech he was also a member of the Texas Epsilon chapter of Phi Delta Theta fraternity. After college he worked with Young Life, an outreach to high school students, in San Antonio, Texas.  While with Young Life Arnold began taking extension courses through Fuller Theological Seminary and ultimately went full-time to Gordon-Conwell Theological Seminary in Boston, Massachusetts. At Gordon-Conwell he completed a Master's Degree in Divinity studying Theology, Philosophy, Church History, Biblical Languages (Hebrew & Greek), and Exegetical Methods. Following seminary he was involved with reconciliation efforts in the former Yugoslavia shortly after the war ended there in1995.  Arnold started acting in his early thirties in Texas. After an encouraging visit to Los Angeles where he spent time with childhood friend George Eads (of CSI Las Vegas) he decided to move to Los Angeles in 2001 to pursue acting full-time. While in Los Angeles he has studied acting with Judith Weston at Judith Weston Studio for Actors and Directors.  Arnold's acting career has been one of steady development, booking co-star and guest-star roles in nighttime television. He guest-starred opposite of Jane Seymour on the night time television drama Justice. He played the lead, Michael Hollister, in the film The Seer, written and directed by Patrick Masset (Friday Night Lights).  He was nominated Best Actor in the168 Film Festival for the role of Phil Stevens in the short-film Useless. In Useless he played a US Marshal who must choose between mercy and justice as he confronts the man who murdered his father. Arnold's performance in Useless confirmed his ability to carry lead roles, and he continues to work toward solidifying himself as a male lead in film and television.  Arnold married fellow Texan Stacy Rudd of San Antonio in 2003 and they are now raising their three children in the Los Angeles area.")]
+Total building takes 0.002298373
+Total joining takes 0.26107237
+Total takes 0.26433054
+running query 8a 
+DUCKDB total time: 0.404496
+DUCKDB filter time: 0.164988
+DUCKDB join time: 0.23950800000000003
+Loading t to DB from cache (cache=16 cols)
+Loading ci to DB
+Loading n1 to DB
+Loading rt to DB
+Loading mc to DB
+Loading cn to DB
+Loading an1 to DB
+Building takes 0.000001916
+Running join with 2 tables
+n instructions: 1
+Join took 0.001537625
+Iter takes 0.001561583
+Building takes 0.000191083
+Running join with 5 tables
+n instructions: 1
+Join took 0.048726663
+Iter takes 0.04894925
+Building takes 0.000007208
+Running join with 2 tables
+n instructions: 1
+Join took 0.007379875
+Iter takes 0.007410416
+Bushy join takes 0.057928167
+out rows: 62
+output [Str("Chambers, Linda"), Str(".hack//Quantum")]
+Total building takes 0.000200207
+Total joining takes 0.05764417
+Total takes 0.05794883
+running query 8b 
+DUCKDB total time: 0.322696
+DUCKDB filter time: 0.198988
+DUCKDB join time: 0.12370799999999998
+Loading an to DB
+Loading ci to DB
+Loading t to DB
+Loading rt to DB
+Loading n to DB
+Loading mc to DB
+Loading cn to DB
+Building takes 0.000002583
+Running join with 2 tables
+n instructions: 1
+Join took 0.00029025
+Iter takes 0.000304416
+Building takes 0.000045708
+Running join with 5 tables
+n instructions: 1
+Join took 0.001049875
+Iter takes 0.001107583
+Building takes 0.000009541
+Running join with 2 tables
+n instructions: 1
+Join took 0.006795833
+Iter takes 0.006833083
+Bushy join takes 0.0082525
+out rows: 6
+output [Str("Chambers, Linda"), Str("Dragon Ball Z: Shin Budokai")]
+Total building takes 0.000057832
+Total joining takes 0.008135958
+Total takes 0.008273375
+running query 8c 
+DUCKDB total time: 3.164154
+DUCKDB filter time: 0.0024100000000000002
+DUCKDB join time: 3.161744
+Loading ci to DB
+Loading t to DB from cache (cache=21 cols)
+Loading a1 to DB
+Loading rt to DB
+Loading n1 to DB
+Loading mc to DB from cache (cache=24 cols)
+Loading cn to DB
+Building takes 0.000002666
+Running join with 2 tables
+n instructions: 1
+Join took 0.070176706
+Iter takes 0.07021846
+Building takes 0.008050666
+Running join with 5 tables
+n instructions: 1
+Join took 1.1110649
+Iter takes 1.1191754
+Building takes 0.07340221
+Running join with 2 tables
+n instructions: 1
+Join took 0.1350135
+Iter takes 0.20847563
+Bushy join takes 1.3978817
+out rows: 2473604
+output [Str("\"A.J.\""), Str("#1 Cheerleader Camp")]
+Total building takes 0.081455536
+Total joining takes 1.3162551
+Total takes 1.4687524
+running query 8d 
+DUCKDB total time: 2.387191
+DUCKDB filter time: 0.002392
+DUCKDB join time: 2.384799
+Loading ci to DB from cache (cache=24 cols)
+Loading n1 to DB from cache (cache=24 cols)
+Loading mc to DB from cache (cache=24 cols)
+Loading an1 to DB from cache (cache=24 cols)
+Loading rt to DB
+Loading cn to DB
+Loading t to DB from cache (cache=24 cols)
+Building takes 0.000001833
+Running join with 2 tables
+n instructions: 1
+Join took 0.066206455
+Iter takes 0.06625366
+Building takes 0.008168708
+Running join with 5 tables
+n instructions: 1
+Join took 0.7530599
+Iter takes 0.7612768
+Building takes 0.011497208
+Running join with 2 tables
+n instructions: 1
+Join took 0.025287958
+Iter takes 0.03682633
+Bushy join takes 0.8643684
+out rows: 322526
+output [Str("\"Jenny from the Block\""), Str("#1 Cheerleader Camp")]
+Total building takes 0.019667748
+Total joining takes 0.8445543
+Total takes 0.87383056
+running query 9a 
+DUCKDB total time: 0.749522
+DUCKDB filter time: 0.042928
+DUCKDB join time: 0.706594
+Loading chn to DB
+Loading ci to DB
+Loading rt to DB
+Loading an to DB from cache (cache=26 cols)
+Loading n to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Building takes 0.000002375
+Running join with 2 tables
+n instructions: 1
+Join took 0.015104083
+Iter takes 0.015137291
+Building takes 0.004181666
+Running join with 5 tables
+n instructions: 1
+Join took 0.04585779
+Iter takes 0.050082833
+Building takes 0.000011375
+Running join with 2 tables
+n instructions: 1
+Join took 0.039878663
+Iter takes 0.039921377
+Building takes 0.000025708
+Running join with 2 tables
+n instructions: 1
+Join took 0.00719
+Iter takes 0.007251458
+Bushy join takes 0.11240217
+out rows: 121
+output [Str("AJ"), Str("Airport Announcer"), Str("Blue Harvest")]
+Total building takes 0.004221124
+Total joining takes 0.10803054
+Total takes 0.11243079
+running query 9b 
+DUCKDB total time: 0.411999
+DUCKDB filter time: 0.21249200000000001
+DUCKDB join time: 0.199507
+Loading chn to DB from cache (cache=26 cols)
+Loading an to DB from cache (cache=26 cols)
+Loading ci to DB
+Loading mc to DB
+Loading n to DB
+Loading t to DB
+Loading rt to DB
+Loading cn to DB
+Building takes 0.000002583
+Running join with 2 tables
+n instructions: 1
+Join took 0.005461666
+Iter takes 0.005484
+Building takes 0.001146833
+Running join with 5 tables
+n instructions: 1
+Join took 0.022172458
+Iter takes 0.023356084
+Building takes 0.000007291
+Running join with 2 tables
+n instructions: 1
+Join took 0.023383416
+Iter takes 0.023426125
+Building takes 0.000014041
+Running join with 2 tables
+n instructions: 1
+Join took 0.00967875
+Iter takes 0.009722875
+Bushy join takes 0.062005583
+out rows: 40
+output [Str("AJ"), Str("Airport Announcer"), Str("Bassett, Angela"), Str("Blue Harvest")]
+Total building takes 0.001170748
+Total joining takes 0.06069629
+Total takes 0.062029663
+running query 9c 
+DUCKDB total time: 0.84534
+DUCKDB filter time: 0.010527
+DUCKDB join time: 0.834813
+Loading chn to DB from cache (cache=26 cols)
+Loading mc to DB from cache (cache=26 cols)
+Loading cn to DB
+Loading t to DB from cache (cache=26 cols)
+Loading ci to DB
+Loading n to DB
+Loading rt to DB
+Loading an to DB from cache (cache=26 cols)
+Building takes 0.000003
+Running join with 2 tables
+n instructions: 1
+Join took 0.065171085
+Iter takes 0.06521296
+Building takes 0.007369416
+Running join with 5 tables
+n instructions: 1
+Join took 0.09284108
+Iter takes 0.100258626
+Building takes 0.000106208
+Running join with 2 tables
+n instructions: 1
+Join took 0.02393325
+Iter takes 0.024073793
+Building takes 0.00029675
+Running join with 2 tables
+n instructions: 1
+Join took 0.008133041
+Iter takes 0.008462375
+Bushy join takes 0.19802171
+out rows: 8102
+output [Str("'Annette'"), Str("2nd Balladeer"), Str("Alborg, Ana Esther"), Str("(1975-01-20)")]
+Total building takes 0.007775374
+Total joining takes 0.19007847
+Total takes 0.19834088
+running query 9d 
+DUCKDB total time: 1.145611
+DUCKDB filter time: 0.010666000000000002
+DUCKDB join time: 1.1349449999999999
+Loading chn to DB from cache (cache=26 cols)
+Loading an to DB from cache (cache=26 cols)
+Loading ci to DB
+Loading rt to DB
+Loading mc to DB from cache (cache=26 cols)
+Loading cn to DB
+Loading n to DB
+Loading t to DB from cache (cache=26 cols)
+Building takes 0.000002
+Running join with 2 tables
+n instructions: 1
+Join took 0.068097666
+Iter takes 0.068129875
+Building takes 0.007245
+Running join with 5 tables
+n instructions: 1
+Join took 0.15158671
+Iter takes 0.1588782
+Building takes 0.007069166
+Running join with 2 tables
+n instructions: 1
+Join took 0.060908586
+Iter takes 0.06802262
+Building takes 0.009388666
+Running join with 2 tables
+n instructions: 1
+Join took 0.03932454
+Iter takes 0.04875383
+Bushy join takes 0.34380224
+out rows: 481427
+output [Str("!!!, Toy"), Str("\"Cockamamie's\" Salesgirl"), Str("Aaron, Caroline"), Str("$15,000.00 Error")]
+Total building takes 0.023704832
+Total joining takes 0.3199175
+Total takes 0.35880038
+running query 10a 
+DUCKDB total time: 1.02023
+DUCKDB filter time: 0.059209
+DUCKDB join time: 0.961021
+Loading chn to DB from cache (cache=26 cols)
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading t to DB
+Loading ci to DB
+Loading rt to DB
+Building takes 0.000002958
+Running join with 2 tables
+n instructions: 1
+Join took 0.15024595
+Iter takes 0.15028079
+Building takes 0.021624584
+Running join with 2 tables
+n instructions: 1
+Join took 0.03321875
+Iter takes 0.05489154
+Building takes 0.02105825
+Running join with 2 tables
+n instructions: 1
+Join took 0.013537208
+Iter takes 0.034634124
+Building takes 0.000058125
+Running join with 3 tables
+n instructions: 1
+Join took 0.000444375
+Iter takes 0.000517458
+Building takes 0.000006125
+Running join with 2 tables
+n instructions: 1
+Join took 0.022802416
+Iter takes 0.022834
+Bushy join takes 0.26316938
+out rows: 104
+output [Str("Actor"), Str("12 Rounds")]
+Total building takes 0.04275004
+Total joining takes 0.2202487
+Total takes 0.26320076
+running query 10c 
+DUCKDB total time: 1.377213
+DUCKDB filter time: 0.031869999999999996
+DUCKDB join time: 1.345343
+Loading chn to DB from cache (cache=28 cols)
+Loading ci to DB
+Loading mc to DB from cache (cache=28 cols)
+Loading ct to DB from cache (cache=28 cols)
+Loading cn to DB
+Loading t to DB
+Loading rt to DB
+Building takes 0.000002625
+Running join with 2 tables
+n instructions: 1
+Join took 0.23593296
+Iter takes 0.23596278
+Building takes 0.038270418
+Running join with 2 tables
+n instructions: 1
+Join took 0.06299441
+Iter takes 0.10130283
+Building takes 0.0402555
+Running join with 2 tables
+n instructions: 1
+Join took 0.08475575
+Iter takes 0.12505792
+Building takes 0.023171332
+Running join with 3 tables
+n instructions: 1
+Join took 0.015315375
+Iter takes 0.038659457
+Building takes 0.000008875
+Running join with 2 tables
+n instructions: 1
+Join took 0.02190875
+Iter takes 0.021954166
+Bushy join takes 0.52295655
+out rows: 10
+output [Str("Himself"), Str("Evil Eyes: Behind the Scenes")]
+Total building takes 0.101708755
+Total joining takes 0.42090726
+Total takes 0.52298605
+running query 11a 
+DUCKDB total time: 0.302501
+DUCKDB filter time: 0.036475
+DUCKDB join time: 0.26602600000000004
+Loading mk to DB from cache (cache=29 cols)
+Loading k to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Loading ml to DB
+Loading lt to DB
+Loading t to DB
+Building takes 0.000001916
+Running join with 2 tables
+n instructions: 1
+Join took 0.017079793
+Iter takes 0.017127708
+Building takes 0.00010475
+Running join with 2 tables
+n instructions: 1
+Join took 0.035003584
+Iter takes 0.035144083
+Building takes 0.002992291
+Running join with 2 tables
+n instructions: 1
+Join took 0.031228209
+Iter takes 0.034262247
+Building takes 0.009851958
+Running join with 2 tables
+n instructions: 1
+Join took 0.003135583
+Iter takes 0.0130255
+Building takes 0.001115666
+Running join with 2 tables
+n instructions: 1
+Join took 0.000394541
+Iter takes 0.001532083
+Building takes 0.00001975
+Running join with 2 tables
+n instructions: 1
+Join took 2.6916e-5
+Iter takes 6.7041e-5
+Building takes 0.000018458
+Running join with 2 tables
+n instructions: 1
+Join took 0.000391208
+Iter takes 0.000427166
+Bushy join takes 0.10161287
+out rows: 310
+output [Str("Churchill Films"), Str("followed by"), Str("Batman Beyond")]
+Total building takes 0.014104789
+Total joining takes 0.08725983
+Total takes 0.10166134
+running query 11b 
+DUCKDB total time: 0.065098
+DUCKDB filter time: 0.025386000000000002
+DUCKDB join time: 0.039712
+Loading mk to DB from cache (cache=30 cols)
+Loading k to DB
+Loading ml to DB from cache (cache=30 cols)
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Loading lt to DB
+Loading ct to DB
+Building takes 0.000002541
+Running join with 2 tables
+n instructions: 1
+Join took 0.000208458
+Iter takes 0.000227083
+Building takes 0.000002458
+Running join with 2 tables
+n instructions: 1
+Join took 0.027903415
+Iter takes 0.027923623
+Building takes 0.00000825
+Running join with 2 tables
+n instructions: 1
+Join took 0.012034333
+Iter takes 0.012063541
+Building takes 0.000016041
+Running join with 2 tables
+n instructions: 1
+Join took 1.1291e-5
+Iter takes 3.8958e-5
+Building takes 0.000006083
+Running join with 2 tables
+n instructions: 1
+Join took 4.916e-6
+Iter takes 2.4416e-5
+Building takes 0.000004208
+Running join with 2 tables
+n instructions: 1
+Join took 3.708e-6
+Iter takes 1.7291e-5
+Building takes 0.0000045
+Running join with 2 tables
+n instructions: 1
+Join took 0.000385541
+Iter takes 0.000401
+Bushy join takes 0.040712293
+out rows: 14
+output [Str("Filmlance International AB"), Str("follows"), Str("The Money Man")]
+Total building takes 0.000044081
+Total joining takes 0.040551662
+Total takes 0.040733207
+running query 11c 
+DUCKDB total time: 1.650859
+DUCKDB filter time: 0.02664
+DUCKDB join time: 1.624219
+Loading mk to DB from cache (cache=30 cols)
+Loading k to DB
+Loading t to DB
+Loading ml to DB from cache (cache=30 cols)
+Loading lt to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Building takes 0.000002958
+Running join with 2 tables
+n instructions: 1
+Join took 0.051951084
+Iter takes 0.051980454
+Building takes 0.000260708
+Running join with 2 tables
+n instructions: 1
+Join took 0.041279875
+Iter takes 0.041564
+Building takes 0.005321916
+Running join with 2 tables
+n instructions: 1
+Join took 0.11253858
+Iter takes 0.117903545
+Building takes 0.08434825
+Running join with 2 tables
+n instructions: 1
+Join took 0.14227413
+Iter takes 0.22666241
+Building takes 0.091383755
+Running join with 2 tables
+n instructions: 1
+Join took 0.018579666
+Iter takes 0.110005714
+Building takes 0.000344
+Running join with 2 tables
+n instructions: 1
+Join took 0.00066825
+Iter takes 0.001028541
+Building takes 0.00036475
+Running join with 2 tables
+n instructions: 1
+Join took 0.000406083
+Iter takes 0.000785166
+Bushy join takes 0.5499452
+out rows: 6946
+output [Str("20th Century Fox Home Entertainment"), Str("(1997-2002) (worldwide) (all media)"), Str("24")]
+Total building takes 0.18202634
+Total joining takes 0.36769766
+Total takes 0.5500697
+running query 11d 
+DUCKDB total time: 1.557542
+DUCKDB filter time: 0.026721
+DUCKDB join time: 1.530821
+Loading mk to DB from cache (cache=31 cols)
+Loading mc to DB
+Loading k to DB
+Loading cn to DB
+Loading ml to DB from cache (cache=31 cols)
+Loading ct to DB
+Loading t to DB
+Loading lt to DB from cache (cache=31 cols)
+Building takes 0.000002833
+Running join with 2 tables
+n instructions: 1
+Join took 0.051908083
+Iter takes 0.05193804
+Building takes 0.000270875
+Running join with 2 tables
+n instructions: 1
+Join took 0.040641084
+Iter takes 0.040938124
+Building takes 0.005096416
+Running join with 2 tables
+n instructions: 1
+Join took 0.111793876
+Iter takes 0.11693487
+Building takes 0.08713642
+Running join with 2 tables
+n instructions: 1
+Join took 0.14228083
+Iter takes 0.22946095
+Building takes 0.08757446
+Running join with 2 tables
+n instructions: 1
+Join took 0.019069208
+Iter takes 0.106781416
+Building takes 0.000342416
+Running join with 2 tables
+n instructions: 1
+Join took 0.000666333
+Iter takes 0.001030375
+Building takes 0.000305041
+Running join with 2 tables
+n instructions: 1
+Join took 0.003858666
+Iter takes 0.004191083
+Bushy join takes 0.5512945
+out rows: 14899
+output [Str("13th Street"), Str("(1954) (UK) (TV)"), Str("...denn sie wissen nicht, was sie tun")]
+Total building takes 0.18072845
+Total joining takes 0.37021807
+Total takes 0.55151427
+running query 12a 
+DUCKDB total time: 0.387042
+DUCKDB filter time: 0.056991
+DUCKDB join time: 0.330051
+Loading mc to DB from cache (cache=31 cols)
+Loading cn to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading mi to DB
+Loading it1 to DB
+Loading it2 to DB
+Loading ct to DB
+Building takes 0.00000375
+Running join with 2 tables
+n instructions: 1
+Join took 0.01527375
+Iter takes 0.015311833
+Building takes 0.000202708
+Running join with 2 tables
+n instructions: 1
+Join took 0.002521583
+Iter takes 0.002737208
+Building takes 0.000034916
+Running join with 2 tables
+n instructions: 1
+Join took 0.025213877
+Iter takes 0.025276331
+Building takes 0.000341166
+Running join with 2 tables
+n instructions: 1
+Join took 0.000140041
+Iter takes 0.000501041
+Building takes 0.0000425
+Running join with 2 tables
+n instructions: 1
+Join took 0.000100125
+Iter takes 0.00015575
+Building takes 0.000040291
+Running join with 2 tables
+n instructions: 1
+Join took 4.5625e-5
+Iter takes 9.6583e-5
+Building takes 0.000018708
+Running join with 2 tables
+n instructions: 1
+Join took 0.0008155
+Iter takes 0.000845375
+Bushy join takes 0.044937916
+out rows: 397
+output [Str("10th Grade Reunion Films"), Str("8.1"), Str("3:20")]
+Total building takes 0.000684039
+Total joining takes 0.0441105
+Total takes 0.04498617
+running query 12b 
+DUCKDB total time: 0.417343
+DUCKDB filter time: 0.033095
+DUCKDB join time: 0.38424800000000003
+Loading mi to DB
+Loading mi_idx to DB from cache (cache=34 cols)
+Loading it1 to DB
+Loading t to DB
+Loading mc to DB from cache (cache=34 cols)
+Loading cn to DB
+Loading ct to DB
+Loading it2 to DB
+Building takes 0.000002875
+Running join with 2 tables
+n instructions: 1
+Join took 0.010892
+Iter takes 0.010924958
+Building takes 0.0000345
+Running join with 2 tables
+n instructions: 1
+Join took 0.28049916
+Iter takes 0.2805847
+Building takes 0.001557041
+Running join with 2 tables
+n instructions: 1
+Join took 0.058478415
+Iter takes 0.06008379
+Building takes 0.014640916
+Running join with 2 tables
+n instructions: 1
+Join took 0.001998625
+Iter takes 0.01668625
+Building takes 0.000100708
+Running join with 2 tables
+n instructions: 1
+Join took 3.5583e-5
+Iter takes 0.00015175
+Building takes 0.000004333
+Running join with 2 tables
+n instructions: 1
+Join took 5.333e-6
+Iter takes 2.4083e-5
+Building takes 0.000004708
+Running join with 2 tables
+n instructions: 1
+Join took 0.00036475
+Iter takes 0.000383666
+Bushy join takes 0.36886427
+out rows: 10
+output [Str("$10,000"), Str("Birdemic: Shock and Terror")]
+Total building takes 0.016345082
+Total joining takes 0.35227388
+Total takes 0.3688887
+running query 12c 
+DUCKDB total time: 0.382755
+DUCKDB filter time: 0.051163
+DUCKDB join time: 0.331592
+Loading mc to DB from cache (cache=34 cols)
+Loading cn to DB
+Loading ct to DB
+Loading mi to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading t to DB
+Loading it1 to DB
+Building takes 0.0000025
+Running join with 2 tables
+n instructions: 1
+Join took 0.050462417
+Iter takes 0.05050096
+Building takes 0.003021708
+Running join with 2 tables
+n instructions: 1
+Join took 0.006126958
+Iter takes 0.009194375
+Building takes 0.000393625
+Running join with 2 tables
+n instructions: 1
+Join took 0.049532376
+Iter takes 0.04996604
+Building takes 0.003331083
+Running join with 2 tables
+n instructions: 1
+Join took 0.002126458
+Iter takes 0.005497916
+Building takes 0.000976708
+Running join with 2 tables
+n instructions: 1
+Join took 0.001862
+Iter takes 0.002862
+Building takes 0.001117
+Running join with 2 tables
+n instructions: 1
+Join took 0.001045916
+Iter takes 0.002184666
+Building takes 0.000302
+Running join with 2 tables
+n instructions: 1
+Join took 0.001435666
+Iter takes 0.001757875
+Bushy join takes 0.12199121
+out rows: 4711
+output [Str("\"Oh That Gus!\""), Str("7.1"), Str("$1.11")]
+Total building takes 0.009144624
+Total joining takes 0.112591796
+Total takes 0.12261137
+running query 13b 
+DUCKDB total time: 0.269609
+DUCKDB filter time: 0.008403
+DUCKDB join time: 0.261206
+Loading mi to DB from cache (cache=34 cols)
+Loading miidx to DB
+Loading it to DB
+Loading mc to DB from cache (cache=37 cols)
+Loading ct to DB
+Loading cn to DB
+Loading it2 to DB
+Loading t to DB
+Loading kt to DB
+Building takes 0.000002541
+Running join with 2 tables
+n instructions: 1
+Join took 0.017510792
+Iter takes 0.01756754
+Building takes 0.00006475
+Running join with 2 tables
+n instructions: 1
+Join took 0.13500889
+Iter takes 0.135098
+Building takes 0.000255208
+Running join with 2 tables
+n instructions: 1
+Join took 0.032788083
+Iter takes 0.033070415
+Building takes 0.001751541
+Running join with 2 tables
+n instructions: 1
+Join took 0.00211575
+Iter takes 0.003888875
+Building takes 0.001198708
+Running join with 2 tables
+n instructions: 1
+Join took 0.000568416
+Iter takes 0.001782583
+Building takes 0.000175708
+Running join with 2 tables
+n instructions: 1
+Join took 0.000172166
+Iter takes 0.000358833
+Building takes 0.000071208
+Running join with 2 tables
+n instructions: 1
+Join took 3.2291e-5
+Iter takes 0.000114041
+Building takes 0.000020291
+Running join with 2 tables
+n instructions: 1
+Join took 0.001007208
+Iter takes 0.001042708
+Bushy join takes 0.19294384
+out rows: 372
+output [Str("501audio"), Str("1.8"), Str("5 Time Champion")]
+Total building takes 0.003539955
+Total joining takes 0.18920359
+Total takes 0.19297437
+running query 13c 
+DUCKDB total time: 0.123564
+DUCKDB filter time: 0.003561
+DUCKDB join time: 0.120003
+Loading mi to DB from cache (cache=37 cols)
+Loading t to DB
+Loading kt to DB
+Loading miidx to DB from cache (cache=37 cols)
+Loading it to DB
+Loading it2 to DB
+Loading mc to DB from cache (cache=37 cols)
+Loading cn to DB
+Loading ct to DB
+Building takes 0.000003041
+Running join with 2 tables
+n instructions: 1
+Join took 0.013663458
+Iter takes 0.013695041
+Building takes 0.000016208
+Running join with 2 tables
+n instructions: 1
+Join took 0.09690971
+Iter takes 0.09694608
+Building takes 0.000052666
+Running join with 2 tables
+n instructions: 1
+Join took 0.02383954
+Iter takes 0.02391325
+Building takes 0.000309666
+Running join with 2 tables
+n instructions: 1
+Join took 0.000408333
+Iter takes 0.000733208
+Building takes 0.000247958
+Running join with 2 tables
+n instructions: 1
+Join took 0.000125458
+Iter takes 0.000384208
+Building takes 0.000042875
+Running join with 2 tables
+n instructions: 1
+Join took 3.2666e-5
+Iter takes 8.5916e-5
+Building takes 0.000018125
+Running join with 2 tables
+n instructions: 1
+Join took 1.05e-5
+Iter takes 4.1541e-5
+Building takes 0.000008541
+Running join with 2 tables
+n instructions: 1
+Join took 0.000653875
+Iter takes 0.000677208
+Bushy join takes 0.13649246
+out rows: 53
+output [Str("DL Sites"), Str("1.8"), Str("Champion")]
+Total building takes 0.00069908
+Total joining takes 0.13564354
+Total takes 0.13651216
+running query 14a 
+DUCKDB total time: 0.925948
+DUCKDB filter time: 0.045826
+DUCKDB join time: 0.880122
+Loading mk to DB from cache (cache=37 cols)
+Loading k to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mi to DB
+Loading t to DB
+Loading kt to DB
+Loading it1 to DB
+Building takes 0.000002625
+Running join with 2 tables
+n instructions: 1
+Join took 0.062135752
+Iter takes 0.062165584
+Building takes 0.006864208
+Running join with 2 tables
+n instructions: 1
+Join took 0.0445435
+Iter takes 0.051454794
+Building takes 0.013776916
+Running join with 2 tables
+n instructions: 1
+Join took 0.025723584
+Iter takes 0.039545417
+Building takes 0.01199475
+Running join with 2 tables
+n instructions: 1
+Join took 0.012118041
+Iter takes 0.024154125
+Building takes 0.006961083
+Running join with 2 tables
+n instructions: 1
+Join took 0.004304541
+Iter takes 0.01129375
+Building takes 0.00006675
+Running join with 2 tables
+n instructions: 1
+Join took 4.0166e-5
+Iter takes 0.000119416
+Building takes 0.000025958
+Running join with 2 tables
+n instructions: 1
+Join took 3.7833e-5
+Iter takes 7.4875e-5
+Bushy join takes 0.18883255
+out rows: 761
+output [Str("1.0"), Str("$lowdown")]
+Total building takes 0.039692286
+Total joining takes 0.14890341
+Total takes 0.18914971
+running query 14b 
+DUCKDB total time: 0.392515
+DUCKDB filter time: 0.040978
+DUCKDB join time: 0.351537
+Loading mk to DB from cache (cache=37 cols)
+Loading k to DB
+Loading t to DB
+Loading mi_idx to DB
+Loading kt to DB
+Loading mi to DB
+Loading it1 to DB
+Loading it2 to DB
+Building takes 0.000002541
+Running join with 2 tables
+n instructions: 1
+Join took 0.02840725
+Iter takes 0.02844504
+Building takes 0.000020125
+Running join with 2 tables
+n instructions: 1
+Join took 0.00431025
+Iter takes 0.004355875
+Building takes 0.000018666
+Running join with 2 tables
+n instructions: 1
+Join took 0.004663875
+Iter takes 0.004700708
+Building takes 0.000013375
+Running join with 2 tables
+n instructions: 1
+Join took 6.125e-6
+Iter takes 3.2333e-5
+Building takes 0.0000025
+Running join with 2 tables
+n instructions: 1
+Join took 2.708e-6
+Iter takes 1.5125e-5
+Building takes 0.0000025
+Running join with 2 tables
+n instructions: 1
+Join took 2.333e-6
+Iter takes 1.4833e-5
+Building takes 0.000002875
+Running join with 2 tables
+n instructions: 1
+Join took 2.5e-6
+Iter takes 1.6e-5
+Bushy join takes 0.037594583
+out rows: 1
+output [Str("6.4"), Str("Of Dolls and Murder")]
+Total building takes 0.000062582
+Total joining takes 0.03739504
+Total takes 0.037610665
+running query 14c 
+DUCKDB total time: 1.760386
+DUCKDB filter time: 0.043183
+DUCKDB join time: 1.717203
+Loading mk to DB from cache (cache=37 cols)
+Loading t to DB
+Loading mi to DB
+Loading it1 to DB
+Loading kt to DB
+Loading k to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Building takes 0.000003958
+Running join with 2 tables
+n instructions: 1
+Join took 0.13997933
+Iter takes 0.14044441
+Building takes 0.04020121
+Running join with 2 tables
+n instructions: 1
+Join took 0.16661538
+Iter takes 0.20688404
+Building takes 0.06503666
+Running join with 2 tables
+n instructions: 1
+Join took 0.115960285
+Iter takes 0.18106854
+Building takes 0.067226544
+Running join with 2 tables
+n instructions: 1
+Join took 0.074547
+Iter takes 0.14184132
+Building takes 0.05370721
+Running join with 2 tables
+n instructions: 1
+Join took 0.027593875
+Iter takes 0.08136025
+Building takes 0.000336041
+Running join with 2 tables
+n instructions: 1
+Join took 0.000325375
+Iter takes 0.000681875
+Building takes 0.000109333
+Running join with 2 tables
+n instructions: 1
+Join took 0.000125416
+Iter takes 0.00025125
+Bushy join takes 0.7525673
+out rows: 4115
+output [Str("1.0"), Str("$lowdown")]
+Total building takes 0.22662096
+Total joining takes 0.52514666
+Total takes 0.7543878
+running query 15a 
+DUCKDB total time: 0.789842
+DUCKDB filter time: 0.572217
+DUCKDB join time: 0.21762500000000007
+Loading mk to DB from cache (cache=37 cols)
+Loading k to DB
+Loading t to DB
+Loading at to DB
+Loading cn to DB
+Loading mc to DB
+Loading ct to DB from cache (cache=39 cols)
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000003333
+Running join with 2 tables
+n instructions: 1
+Join took 0.15844
+Iter takes 0.15847613
+Building takes 0.030506292
+Running join with 2 tables
+n instructions: 1
+Join took 0.023410209
+Iter takes 0.05397183
+Building takes 0.000071208
+Running join with 2 tables
+n instructions: 1
+Join took 0.000722541
+Iter takes 0.000812
+Building takes 0.000033375
+Running join with 2 tables
+n instructions: 1
+Join took 0.001933208
+Iter takes 0.0019835
+Building takes 0.000034041
+Running join with 2 tables
+n instructions: 1
+Join took 7.3208e-5
+Iter takes 0.000121208
+Building takes 0.000037583
+Running join with 2 tables
+n instructions: 1
+Join took 6.8333e-5
+Iter takes 0.00012025
+Building takes 0.000033458
+Running join with 2 tables
+n instructions: 1
+Join took 0.000510416
+Iter takes 0.000561541
+Building takes 0.000032458
+Running join with 2 tables
+n instructions: 1
+Join took 0.002165708
+Iter takes 0.002218875
+Bushy join takes 0.21829137
+out rows: 328
+output [Str("USA:1 June 2007"), Str("Battlestar Galactica: The Resistance")]
+Total building takes 0.030751748
+Total joining takes 0.18732361
+Total takes 0.21832171
+running query 15b 
+DUCKDB total time: 0.356785
+DUCKDB filter time: 0.190975
+DUCKDB join time: 0.16581
+Loading mk to DB from cache (cache=39 cols)
+Loading t to DB
+Loading mc to DB
+Loading mi to DB
+Loading cn to DB
+Loading ct to DB from cache (cache=39 cols)
+Loading it1 to DB
+Loading at to DB from cache (cache=39 cols)
+Loading k to DB from cache (cache=39 cols)
+Building takes 0.000002416
+Running join with 2 tables
+n instructions: 1
+Join took 0.10446983
+Iter takes 0.104507
+Building takes 0.016353833
+Running join with 2 tables
+n instructions: 1
+Join took 0.013794625
+Iter takes 0.030189916
+Building takes 0.000057541
+Running join with 2 tables
+n instructions: 1
+Join took 0.000676208
+Iter takes 0.000745
+Building takes 0.000031416
+Running join with 2 tables
+n instructions: 1
+Join took 0.001506208
+Iter takes 0.001549333
+Building takes 0.000031833
+Running join with 2 tables
+n instructions: 1
+Join took 5.0208e-5
+Iter takes 9.5666e-5
+Building takes 0.000032625
+Running join with 2 tables
+n instructions: 1
+Join took 5.3125e-5
+Iter takes 9.575e-5
+Building takes 0.000032583
+Running join with 2 tables
+n instructions: 1
+Join took 2.8916e-5
+Iter takes 7.2166e-5
+Building takes 0.000009041
+Running join with 2 tables
+n instructions: 1
+Join took 0.003012708
+Iter takes 0.0030405
+Bushy join takes 0.14033796
+out rows: 37
+output [Str("USA:27 April 2007"), Str("RoboCop vs Terminator")]
+Total building takes 0.016551288
+Total joining takes 0.12359183
+Total takes 0.14035513
+running query 15c 
+DUCKDB total time: 0.606986
+DUCKDB filter time: 0.03174
+DUCKDB join time: 0.575246
+Loading mk to DB from cache (cache=39 cols)
+Loading k to DB from cache (cache=39 cols)
+Loading mc to DB from cache (cache=39 cols)
+Loading at to DB from cache (cache=39 cols)
+Loading mi to DB
+Loading it1 to DB
+Loading cn to DB
+Loading t to DB
+Loading ct to DB from cache (cache=39 cols)
+Building takes 0.000002125
+Running join with 2 tables
+n instructions: 1
+Join took 0.20984216
+Iter takes 0.20987125
+Building takes 0.041450456
+Running join with 2 tables
+n instructions: 1
+Join took 0.03224125
+Iter takes 0.07373675
+Building takes 0.0000765
+Running join with 2 tables
+n instructions: 1
+Join took 0.027221415
+Iter takes 0.027327292
+Building takes 0.000202583
+Running join with 2 tables
+n instructions: 1
+Join took 0.001397833
+Iter takes 0.001617625
+Building takes 0.000226666
+Running join with 2 tables
+n instructions: 1
+Join took 0.000375166
+Iter takes 0.000619458
+Building takes 0.000243291
+Running join with 2 tables
+n instructions: 1
+Join took 0.000440625
+Iter takes 0.000697541
+Building takes 0.000232833
+Running join with 2 tables
+n instructions: 1
+Join took 0.000967291
+Iter takes 0.001214
+Building takes 0.000147541
+Running join with 2 tables
+n instructions: 1
+Join took 0.001776875
+Iter takes 0.001939958
+Bushy join takes 0.31704235
+out rows: 2271
+output [Str("USA:1 April 2003"), Str("24: Day Six - Debrief")]
+Total building takes 0.042581998
+Total joining takes 0.27426264
+Total takes 0.3170891
+running query 15d 
+DUCKDB total time: 0.421238
+DUCKDB filter time: 0.031744
+DUCKDB join time: 0.389494
+Loading mk to DB from cache (cache=39 cols)
+Loading mc to DB from cache (cache=39 cols)
+Loading at to DB
+Loading k to DB from cache (cache=40 cols)
+Loading ct to DB from cache (cache=40 cols)
+Loading mi to DB
+Loading cn to DB
+Loading t to DB
+Loading it1 to DB
+Building takes 0.000009
+Running join with 2 tables
+n instructions: 1
+Join took 0.21314932
+Iter takes 0.21319254
+Building takes 0.04190217
+Running join with 2 tables
+n instructions: 1
+Join took 0.035895333
+Iter takes 0.07784883
+Building takes 0.000204333
+Running join with 2 tables
+n instructions: 1
+Join took 0.030897457
+Iter takes 0.031133331
+Building takes 0.001687916
+Running join with 2 tables
+n instructions: 1
+Join took 0.006134583
+Iter takes 0.007850916
+Building takes 0.001395875
+Running join with 2 tables
+n instructions: 1
+Join took 0.002224291
+Iter takes 0.003639875
+Building takes 0.001152333
+Running join with 2 tables
+n instructions: 1
+Join took 0.001583833
+Iter takes 0.002754916
+Building takes 0.00092175
+Running join with 2 tables
+n instructions: 1
+Join took 0.002797583
+Iter takes 0.003740958
+Building takes 0.000361
+Running join with 2 tables
+n instructions: 1
+Join took 0.005370041
+Iter takes 0.005765166
+Bushy join takes 0.3459502
+out rows: 11347
+output [Str("(Not So) Instant Photo"), Str("06/05")]
+Total building takes 0.04763437
+Total joining takes 0.29805246
+Total takes 0.34611407
+running query 16a 
+DUCKDB total time: 1.346331
+DUCKDB filter time: 0.029835
+DUCKDB join time: 1.3164959999999999
+Loading ci to DB from cache (cache=40 cols)
+Loading mk to DB from cache (cache=40 cols)
+Loading mc to DB from cache (cache=40 cols)
+Loading cn to DB
+Loading n to DB from cache (cache=40 cols)
+Loading an to DB from cache (cache=40 cols)
+Loading t to DB
+Loading k to DB
+Building takes 0.000002666
+Running join with 2 tables
+n instructions: 1
+Join took 0.030871166
+Iter takes 0.030896915
+Building takes 0.000227916
+Running join with 2 tables
+n instructions: 1
+Join took 0.028341876
+Iter takes 0.028594293
+Building takes 0.000062541
+Running join with 2 tables
+n instructions: 1
+Join took 6.5083e-5
+Iter takes 0.000142
+Building takes 0.000002833
+Running join with 2 tables
+n instructions: 1
+Join took 0.000537
+Iter takes 0.0005525
+Building takes 0.000003833
+Running join with 3 tables
+n instructions: 1
+Join took 0.2806469
+Iter takes 0.28068346
+Building takes 0.000015416
+Running join with 2 tables
+n instructions: 1
+Join took 0.009831083
+Iter takes 0.009876583
+Bushy join takes 0.3507583
+out rows: 385
+output [Str("Adams, Stan"), Str("Carol Burnett vs. Anthony Perkins")]
+Total building takes 0.000315205
+Total joining takes 0.3502931
+Total takes 0.3508555
+running query 16b 
+DUCKDB total time: 3.743449
+DUCKDB filter time: 0.003778
+DUCKDB join time: 3.739671
+Loading ci to DB from cache (cache=40 cols)
+Loading mk to DB from cache (cache=40 cols)
+Loading t to DB from cache (cache=40 cols)
+Loading mc to DB from cache (cache=40 cols)
+Loading cn to DB
+Loading an to DB from cache (cache=40 cols)
+Loading n to DB from cache (cache=40 cols)
+Loading k to DB
+Building takes 0.000002083
+Running join with 2 tables
+n instructions: 1
+Join took 0.3079125
+Iter takes 0.30793837
+Building takes 0.071114585
+Running join with 2 tables
+n instructions: 1
+Join took 0.92584866
+Iter takes 0.99802285
+Building takes 1.253445
+Running join with 2 tables
+n instructions: 1
+Join took 0.47018284
+Iter takes 1.7236996
+Building takes 0.005535958
+Running join with 2 tables
+n instructions: 1
+Join took 0.007267791
+Iter takes 0.012844791
+Building takes 0.001071208
+Running join with 3 tables
+n instructions: 1
+Join took 0.6378096
+Iter takes 0.63892645
+Building takes 0.07858104
+Running join with 2 tables
+n instructions: 1
+Join took 0.26406157
+Iter takes 0.34270933
+Bushy join takes 4.0241656
+out rows: 3705796
+output [Str("!!!, Toy"), Str("& Teller")]
+Total building takes 1.4097499
+Total joining takes 2.613083
+Total takes 4.103312
+running query 16c 
+DUCKDB total time: 1.013055
+DUCKDB filter time: 0.027419
+DUCKDB join time: 0.9856360000000001
+Loading ci to DB from cache (cache=40 cols)
+Loading mk to DB from cache (cache=40 cols)
+Loading k to DB
+Loading n to DB from cache (cache=40 cols)
+Loading an to DB from cache (cache=40 cols)
+Loading mc to DB from cache (cache=40 cols)
+Loading cn to DB
+Loading t to DB
+Building takes 0.00000225
+Running join with 2 tables
+n instructions: 1
+Join took 0.08624746
+Iter takes 0.086311
+Building takes 0.009764041
+Running join with 2 tables
+n instructions: 1
+Join took 0.06556733
+Iter takes 0.07539025
+Building takes 0.024434209
+Running join with 2 tables
+n instructions: 1
+Join took 0.022697458
+Iter takes 0.047188126
+Building takes 0.000133666
+Running join with 2 tables
+n instructions: 1
+Join took 0.000821375
+Iter takes 0.000974
+Building takes 0.000151291
+Running join with 3 tables
+n instructions: 1
+Join took 0.30144113
+Iter takes 0.30163023
+Building takes 0.004806583
+Running join with 2 tables
+n instructions: 1
+Join took 0.0221255
+Iter takes 0.026985958
+Bushy join takes 0.5385025
+out rows: 319932
+output [Str("\"Brooklyn\" Tony Danza"), Str("(#1.5)")]
+Total building takes 0.03929204
+Total joining takes 0.49890026
+Total takes 0.5443178
+running query 16d 
+DUCKDB total time: 0.939722
+DUCKDB filter time: 0.030285
+DUCKDB join time: 0.9094369999999999
+Loading ci to DB from cache (cache=40 cols)
+Loading t to DB
+Loading n to DB from cache (cache=40 cols)
+Loading an to DB from cache (cache=40 cols)
+Loading mk to DB from cache (cache=40 cols)
+Loading k to DB
+Loading mc to DB from cache (cache=40 cols)
+Loading cn to DB
+Building takes 0.00000225
+Running join with 2 tables
+n instructions: 1
+Join took 0.06833171
+Iter takes 0.068368286
+Building takes 0.007076708
+Running join with 2 tables
+n instructions: 1
+Join took 0.048201792
+Iter takes 0.05532075
+Building takes 0.01731925
+Running join with 2 tables
+n instructions: 1
+Join took 0.0141045
+Iter takes 0.031458125
+Building takes 0.000112791
+Running join with 2 tables
+n instructions: 1
+Join took 0.001363625
+Iter takes 0.001491083
+Building takes 0.000078833
+Running join with 3 tables
+n instructions: 1
+Join took 0.42521143
+Iter takes 0.42531896
+Building takes 0.003514083
+Running join with 2 tables
+n instructions: 1
+Join took 0.021004124
+Iter takes 0.0245635
+Bushy join takes 0.6065375
+out rows: 249455
+output [Str("\"Brooklyn\" Tony Danza"), Str("(#1.5)")]
+Total building takes 0.028103916
+Total joining takes 0.57821715
+Total takes 0.61147827
+running query 17a 
+DUCKDB total time: 1.590718
+DUCKDB filter time: 0.018430000000000002
+DUCKDB join time: 1.5722880000000001
+Loading ci to DB from cache (cache=40 cols)
+Loading mc to DB from cache (cache=40 cols)
+Loading cn to DB
+Loading t to DB from cache (cache=40 cols)
+Loading n to DB
+Loading mk to DB from cache (cache=40 cols)
+Loading k to DB
+Building takes 0.000003041
+Running join with 2 tables
+n instructions: 1
+Join took 0.13329263
+Iter takes 0.13332796
+Building takes 0.030490832
+Running join with 2 tables
+n instructions: 1
+Join took 0.6658759
+Iter takes 0.6964146
+Building takes 0.25773284
+Running join with 2 tables
+n instructions: 1
+Join took 0.30690786
+Iter takes 0.5647032
+Building takes 0.001190958
+Running join with 2 tables
+n instructions: 1
+Join took 0.00504975
+Iter takes 0.006269875
+Building takes 0.000461625
+Running join with 3 tables
+n instructions: 1
+Join took 0.24472387
+Iter takes 0.24521795
+Bushy join takes 1.6459596
+out rows: 257929
+output [Str("B, Khaz")]
+Total building takes 0.2898793
+Total joining takes 1.35585
+Total takes 1.6498582
+running query 17b 
+DUCKDB total time: 1.49162
+DUCKDB filter time: 0.026406
+DUCKDB join time: 1.465214
+Loading ci to DB from cache (cache=40 cols)
+Loading n to DB
+Loading t to DB from cache (cache=40 cols)
+Loading mk to DB from cache (cache=40 cols)
+Loading mc to DB from cache (cache=40 cols)
+Loading cn to DB
+Loading k to DB
+Building takes 0.000001833
+Running join with 2 tables
+n instructions: 1
+Join took 0.137712
+Iter takes 0.137748
+Building takes 0.027110709
+Running join with 2 tables
+n instructions: 1
+Join took 0.6626677
+Iter takes 0.6898346
+Building takes 0.2540557
+Running join with 2 tables
+n instructions: 1
+Join took 0.31487405
+Iter takes 0.5689881
+Building takes 0.001064875
+Running join with 2 tables
+n instructions: 1
+Join took 0.009161208
+Iter takes 0.010256166
+Building takes 0.001290916
+Running join with 3 tables
+n instructions: 1
+Join took 0.18599012
+Iter takes 0.18731897
+Bushy join takes 1.5941747
+out rows: 52244
+output [Str("Z'Dar, Robert")]
+Total building takes 0.28352404
+Total joining takes 1.310405
+Total takes 1.5946013
+running query 17c 
+DUCKDB total time: 1.474289
+DUCKDB filter time: 0.020845
+DUCKDB join time: 1.453444
+Loading ci to DB from cache (cache=41 cols)
+Loading n to DB
+Loading mk to DB from cache (cache=41 cols)
+Loading k to DB
+Loading mc to DB from cache (cache=41 cols)
+Loading cn to DB from cache (cache=41 cols)
+Loading t to DB from cache (cache=41 cols)
+Building takes 0.000007666
+Running join with 2 tables
+n instructions: 1
+Join took 0.13676009
+Iter takes 0.13679953
+Building takes 0.031845666
+Running join with 2 tables
+n instructions: 1
+Join took 0.67224526
+Iter takes 0.7041423
+Building takes 0.2683191
+Running join with 2 tables
+n instructions: 1
+Join took 0.31048355
+Iter takes 0.5788543
+Building takes 0.000955791
+Running join with 2 tables
+n instructions: 1
+Join took 0.009201541
+Iter takes 0.010189
+Building takes 0.001106958
+Running join with 3 tables
+n instructions: 1
+Join took 0.18226257
+Iter takes 0.18340704
+Bushy join takes 1.6134182
+out rows: 1918
+output [Str("X'Volaitis, John")]
+Total building takes 0.30223516
+Total joining takes 1.310953
+Total takes 1.6134593
+running query 17d 
+DUCKDB total time: 1.5232
+DUCKDB filter time: 0.001423
+DUCKDB join time: 1.5217770000000002
+Loading ci to DB from cache (cache=41 cols)
+Loading mk to DB from cache (cache=41 cols)
+Loading mc to DB from cache (cache=41 cols)
+Loading cn to DB from cache (cache=41 cols)
+Loading k to DB
+Loading t to DB from cache (cache=41 cols)
+Loading n to DB
+Building takes 0.000001666
+Running join with 2 tables
+n instructions: 1
+Join took 0.14088683
+Iter takes 0.14091699
+Building takes 0.02946704
+Running join with 2 tables
+n instructions: 1
+Join took 0.663917
+Iter takes 0.6934408
+Building takes 0.25612125
+Running join with 2 tables
+n instructions: 1
+Join took 0.30555493
+Iter takes 0.5617327
+Building takes 0.00151625
+Running join with 2 tables
+n instructions: 1
+Join took 0.009164625
+Iter takes 0.010706708
+Building takes 0.001127666
+Running join with 3 tables
+n instructions: 1
+Join took 0.19746712
+Iter takes 0.19863875
+Bushy join takes 1.6054561
+out rows: 11537
+output [Str("Abrahamsson, Bertil")]
+Total building takes 0.28823388
+Total joining takes 1.3169905
+Total takes 1.6055443
+running query 17e 
+DUCKDB total time: 2.389883
+DUCKDB filter time: 0.0037689999999999998
+DUCKDB join time: 2.386114
+Loading ci to DB from cache (cache=41 cols)
+Loading mc to DB from cache (cache=41 cols)
+Loading mk to DB from cache (cache=41 cols)
+Loading k to DB
+Loading cn to DB
+Loading n to DB from cache (cache=41 cols)
+Loading t to DB from cache (cache=41 cols)
+Building takes 0.000001875
+Running join with 2 tables
+n instructions: 1
+Join took 0.13768917
+Iter takes 0.1377178
+Building takes 0.029793415
+Running join with 2 tables
+n instructions: 1
+Join took 0.676033
+Iter takes 0.70587194
+Building takes 0.31065032
+Running join with 2 tables
+n instructions: 1
+Join took 0.31016332
+Iter takes 0.6208664
+Building takes 0.001204625
+Running join with 2 tables
+n instructions: 1
+Join took 0.00508025
+Iter takes 0.006305291
+Building takes 0.000473083
+Running join with 3 tables
+n instructions: 1
+Join took 1.0051194
+Iter takes 1.0056266
+Bushy join takes 2.4764042
+out rows: 2828092
+output [Str("$hort, Too")]
+Total building takes 0.3421233
+Total joining takes 2.1340852
+Total takes 2.5261786
+running query 17f 
+DUCKDB total time: 1.848855
+DUCKDB filter time: 0.001426
+DUCKDB join time: 1.847429
+Loading ci to DB from cache (cache=41 cols)
+Loading mk to DB from cache (cache=41 cols)
+Loading k to DB
+Loading mc to DB from cache (cache=41 cols)
+Loading cn to DB from cache (cache=41 cols)
+Loading n to DB
+Loading t to DB from cache (cache=41 cols)
+Building takes 0.000002708
+Running join with 2 tables
+n instructions: 1
+Join took 0.13185321
+Iter takes 0.13188587
+Building takes 0.026589459
+Running join with 2 tables
+n instructions: 1
+Join took 0.66666406
+Iter takes 0.6933
+Building takes 0.24472433
+Running join with 2 tables
+n instructions: 1
+Join took 0.32697734
+Iter takes 0.5717561
+Building takes 0.001479
+Running join with 2 tables
+n instructions: 1
+Join took 0.009979083
+Iter takes 0.011484541
+Building takes 0.001439541
+Running join with 3 tables
+n instructions: 1
+Join took 0.32924205
+Iter takes 0.33071172
+Bushy join takes 1.7391546
+out rows: 1112316
+output [Str("'El Galgo PornoStar', Blanquito")]
+Total building takes 0.27423504
+Total joining takes 1.4647157
+Total takes 1.7514644
+running query 18a 
+DUCKDB total time: 7.613289
+DUCKDB filter time: 0.018656
+DUCKDB join time: 7.594633
+Loading mi to DB from cache (cache=41 cols)
+Loading ci to DB
+Loading n to DB
+Loading t to DB from cache (cache=41 cols)
+Loading it1 to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Building takes 0.000002958
+Running join with 2 tables
+n instructions: 1
+Join took 0.2318709
+Iter takes 0.23190829
+Building takes 0.038921457
+Running join with 2 tables
+n instructions: 1
+Join took 1.3968704
+Iter takes 1.4362148
+Building takes 0.94895995
+Running join with 2 tables
+n instructions: 1
+Join took 0.88753814
+Iter takes 1.8365726
+Building takes 0.39485884
+Running join with 2 tables
+n instructions: 1
+Join took 0.04275654
+Iter takes 0.43767133
+Building takes 0.005602541
+Running join with 3 tables
+n instructions: 1
+Join took 0.019627793
+Iter takes 0.025294
+Bushy join takes 3.9676802
+out rows: 410
+output [Str("$1,000"), Str("10"), Str("40 Days and 40 Nights")]
+Total building takes 1.3883457
+Total joining takes 2.5786638
+Total takes 3.9709659
+running query 18b 
+DUCKDB total time: 0.71375
+DUCKDB filter time: 0.047559000000000004
+DUCKDB join time: 0.666191
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Loading t to DB
+Loading n to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Building takes 0.000003125
+Running join with 2 tables
+n instructions: 1
+Join took 0.0220545
+Iter takes 0.022094125
+Building takes 0.000298041
+Running join with 2 tables
+n instructions: 1
+Join took 0.001772458
+Iter takes 0.002086583
+Building takes 0.000029083
+Running join with 2 tables
+n instructions: 1
+Join took 2.1791e-5
+Iter takes 6.0791e-5
+Building takes 0.000011041
+Running join with 2 tables
+n instructions: 1
+Join took 1.525e-5
+Iter takes 3.625e-5
+Building takes 0.000011541
+Running join with 3 tables
+n instructions: 1
+Join took 0.01769525
+Iter takes 0.017745208
+Bushy join takes 0.042037293
+out rows: 11
+output [Str("Horror"), Str("8.1"), Str("Agorable")]
+Total building takes 0.000352831
+Total joining takes 0.04155925
+Total takes 0.042061415
+running query 18c 
+DUCKDB total time: 1.152825
+DUCKDB filter time: 0.007113
+DUCKDB join time: 1.145712
+Loading t to DB from cache (cache=42 cols)
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Loading n to DB
+Loading mi_idx to DB from cache (cache=42 cols)
+Loading it2 to DB
+Building takes 0.000004791
+Running join with 2 tables
+n instructions: 1
+Join took 0.22705609
+Iter takes 0.22709471
+Building takes 0.037076455
+Running join with 2 tables
+n instructions: 1
+Join took 0.04288075
+Iter takes 0.08001179
+Building takes 0.014307541
+Running join with 2 tables
+n instructions: 1
+Join took 0.009850666
+Iter takes 0.024196876
+Building takes 0.006985083
+Running join with 2 tables
+n instructions: 1
+Join took 0.008773833
+Iter takes 0.015801165
+Building takes 0.006992416
+Running join with 3 tables
+n instructions: 1
+Join took 0.033140916
+Iter takes 0.040175293
+Bushy join takes 0.38729477
+out rows: 28072
+output [Str("Action"), Str("10"), Str("#PostModem")]
+Total building takes 0.06536629
+Total joining takes 0.32170224
+Total takes 0.3904232
+running query 19a 
+DUCKDB total time: 1.135234
+DUCKDB filter time: 0.046335999999999995
+DUCKDB join time: 1.0888980000000001
+Loading chn to DB from cache (cache=42 cols)
+Loading an to DB from cache (cache=42 cols)
+Loading ci to DB
+Loading n to DB
+Loading rt to DB
+Loading mc to DB
+Loading cn to DB
+Loading t to DB
+Loading mi to DB
+Loading it to DB
+Building takes 0.000002875
+Running join with 2 tables
+n instructions: 1
+Join took 0.01066325
+Iter takes 0.010686041
+Building takes 0.000014333
+Running join with 2 tables
+n instructions: 1
+Join took 0.016024416
+Iter takes 0.016061833
+Building takes 0.00002025
+Running join with 2 tables
+n instructions: 1
+Join took 0.004248083
+Iter takes 0.004283041
+Building takes 0.0000095
+Running join with 2 tables
+n instructions: 1
+Join took 1.2333e-5
+Iter takes 3.3083e-5
+Building takes 0.000009833
+Running join with 3 tables
+n instructions: 2
+Join took 0.007845
+Iter takes 0.007883166
+Building takes 0.000002625
+Running join with 2 tables
+n instructions: 1
+Join took 0.034253582
+Iter takes 0.034279123
+Building takes 0.001829875
+Running join with 3 tables
+n instructions: 2
+Join took 0.006113375
+Iter takes 0.007977708
+Bushy join takes 0.08121913
+out rows: 77
+output [Str("Angeline, Moriah"), Str("Blue Harvest")]
+Total building takes 0.001889291
+Total joining takes 0.07916004
+Total takes 0.0812405
+running query 19b 
+DUCKDB total time: 0.755677
+DUCKDB filter time: 0.30555699999999997
+DUCKDB join time: 0.4501200000000001
+Loading chn to DB from cache (cache=42 cols)
+Loading ci to DB
+Loading n to DB
+Loading mi to DB
+Loading an to DB from cache (cache=42 cols)
+Loading mc to DB
+Loading cn to DB
+Loading it to DB
+Loading rt to DB
+Loading t to DB
+Building takes 0.000002583
+Running join with 2 tables
+n instructions: 1
+Join took 0.007745708
+Iter takes 0.007762083
+Building takes 0.000013
+Running join with 2 tables
+n instructions: 1
+Join took 0.01758154
+Iter takes 0.0176095
+Building takes 0.000013916
+Running join with 2 tables
+n instructions: 1
+Join took 0.007329375
+Iter takes 0.007366625
+Building takes 0.000006708
+Running join with 2 tables
+n instructions: 1
+Join took 9.625e-6
+Iter takes 2.6208e-5
+Building takes 0.000007583
+Running join with 3 tables
+n instructions: 2
+Join took 0.001397833
+Iter takes 0.001420458
+Building takes 0.000001166
+Running join with 2 tables
+n instructions: 1
+Join took 0.001354875
+Iter takes 0.001368208
+Building takes 0.000006208
+Running join with 3 tables
+n instructions: 2
+Join took 0.000355458
+Iter takes 0.000377
+Bushy join takes 0.035943665
+out rows: 15
+output [Str("Jolie, Angelina"), Str("Kung Fu Panda")]
+Total building takes 0.000051164
+Total joining takes 0.035774417
+Total takes 0.03596154
+running query 19c 
+DUCKDB total time: 1.217243
+DUCKDB filter time: 0.041525
+DUCKDB join time: 1.175718
+Loading chn to DB from cache (cache=42 cols)
+Loading mc to DB from cache (cache=42 cols)
+Loading cn to DB
+Loading t to DB
+Loading an to DB from cache (cache=42 cols)
+Loading ci to DB
+Loading rt to DB
+Loading n to DB
+Loading mi to DB
+Loading it to DB
+Building takes 0.00000375
+Running join with 2 tables
+n instructions: 1
+Join took 0.011098791
+Iter takes 0.011126708
+Building takes 0.000080083
+Running join with 2 tables
+n instructions: 1
+Join took 0.013673708
+Iter takes 0.013774458
+Building takes 0.000086791
+Running join with 2 tables
+n instructions: 1
+Join took 0.004671708
+Iter takes 0.004773083
+Building takes 0.000098
+Running join with 2 tables
+n instructions: 1
+Join took 0.000183041
+Iter takes 0.000298166
+Building takes 0.000104125
+Running join with 3 tables
+n instructions: 2
+Join took 0.00830475
+Iter takes 0.008432083
+Building takes 0.000002625
+Running join with 2 tables
+n instructions: 1
+Join took 0.18301213
+Iter takes 0.18303704
+Building takes 0.0241925
+Running join with 3 tables
+n instructions: 2
+Join took 0.04973671
+Iter takes 0.07397875
+Bushy join takes 0.29543513
+out rows: 2199
+output [Str("Alborg, Ana Esther"), Str(".hack//Akusei heni vol. 2")]
+Total building takes 0.024567874
+Total joining takes 0.27068084
+Total takes 0.29552978
+running query 19d 
+DUCKDB total time: 3.329412
+DUCKDB filter time: 0.041811
+DUCKDB join time: 3.287601
+Loading mi to DB from cache (cache=42 cols)
+Loading it to DB
+Loading chn to DB from cache (cache=42 cols)
+Loading mc to DB from cache (cache=42 cols)
+Loading cn to DB
+Loading t to DB
+Loading an to DB from cache (cache=42 cols)
+Loading ci to DB
+Loading rt to DB
+Loading n to DB
+Building takes 0.000002708
+Running join with 2 tables
+n instructions: 1
+Join took 0.04403021
+Iter takes 0.044073332
+Building takes 0.006401333
+Running join with 2 tables
+n instructions: 1
+Join took 0.04440896
+Iter takes 0.050846085
+Building takes 0.006570541
+Running join with 2 tables
+n instructions: 1
+Join took 0.02794804
+Iter takes 0.03455896
+Building takes 0.010492958
+Running join with 2 tables
+n instructions: 1
+Join took 0.013440875
+Iter takes 0.023977624
+Building takes 0.009913666
+Running join with 3 tables
+n instructions: 2
+Join took 0.14379616
+Iter takes 0.15375026
+Building takes 0.000003125
+Running join with 2 tables
+n instructions: 1
+Join took 0.18088876
+Iter takes 0.18092075
+Building takes 0.03419396
+Running join with 3 tables
+n instructions: 2
+Join took 0.08040708
+Iter takes 0.114654794
+Bushy join takes 0.60279787
+out rows: 263810
+output [Str("Aaron, Caroline"), Str("$9.99")]
+Total building takes 0.067578286
+Total joining takes 0.5349201
+Total takes 0.6086929
+running query 20a 
+DUCKDB total time: 3.463272
+DUCKDB filter time: 0.0274
+DUCKDB join time: 3.435872
+Loading ci to DB
+Loading n to DB from cache (cache=43 cols)
+Loading chn to DB
+Loading mk to DB from cache (cache=43 cols)
+Loading cc to DB
+Loading cct1 to DB
+Loading cct2 to DB
+Loading k to DB
+Loading t to DB
+Loading kt to DB
+Building takes 0.000002416
+Running join with 2 tables
+n instructions: 1
+Join took 0.30122772
+Iter takes 0.3012694
+Building takes 0.06952971
+Running join with 2 tables
+n instructions: 1
+Join took 0.074382246
+Iter takes 0.14397258
+Building takes 0.04163604
+Running join with 2 tables
+n instructions: 1
+Join took 0.03910633
+Iter takes 0.08079837
+Building takes 0.000189833
+Running join with 3 tables
+n instructions: 1
+Join took 0.3564621
+Iter takes 0.3566919
+Building takes 0.011728416
+Running join with 2 tables
+n instructions: 1
+Join took 0.012487416
+Iter takes 0.02426375
+Building takes 0.000008875
+Running join with 4 tables
+n instructions: 1
+Join took 0.0009235
+Iter takes 0.000954583
+Bushy join takes 0.9079843
+out rows: 33
+output [Str("Disaster Movie")]
+Total building takes 0.12309529
+Total joining takes 0.7845893
+Total takes 0.9080069
+running query 20b 
+DUCKDB total time: 0.989879
+DUCKDB filter time: 0.031188999999999998
+DUCKDB join time: 0.9586899999999999
+Loading ci to DB from cache (cache=46 cols)
+Loading n to DB
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading chn to DB
+Loading t to DB
+Loading cc to DB from cache (cache=46 cols)
+Loading cct1 to DB
+Loading cct2 to DB
+Loading kt to DB
+Building takes 0.000002291
+Running join with 2 tables
+n instructions: 1
+Join took 0.17207496
+Iter takes 0.172124
+Building takes 0.032874376
+Running join with 2 tables
+n instructions: 1
+Join took 0.036389332
+Iter takes 0.06931775
+Building takes 0.01965254
+Running join with 2 tables
+n instructions: 1
+Join took 0.017570458
+Iter takes 0.037274294
+Building takes 0.00008275
+Running join with 3 tables
+n instructions: 1
+Join took 0.11940983
+Iter takes 0.11952334
+Building takes 0.000011083
+Running join with 2 tables
+n instructions: 1
+Join took 1.1083e-5
+Iter takes 3.9208e-5
+Building takes 0.000010416
+Running join with 4 tables
+n instructions: 1
+Join took 0.000947833
+Iter takes 0.000976125
+Bushy join takes 0.3992764
+out rows: 17
+output [Str("Iron Man")]
+Total building takes 0.052633457
+Total joining takes 0.34640348
+Total takes 0.39930195
+running query 20c 
+DUCKDB total time: 2.151609
+DUCKDB filter time: 0.031178
+DUCKDB join time: 2.120431
+Loading ci to DB from cache (cache=46 cols)
+Loading chn to DB
+Loading mk to DB from cache (cache=46 cols)
+Loading t to DB
+Loading kt to DB
+Loading k to DB
+Loading n to DB from cache (cache=46 cols)
+Loading cc to DB from cache (cache=46 cols)
+Loading cct2 to DB
+Loading cct1 to DB
+Building takes 0.0000025
+Running join with 2 tables
+n instructions: 1
+Join took 0.17499097
+Iter takes 0.1750289
+Building takes 0.03443929
+Running join with 2 tables
+n instructions: 1
+Join took 0.034803584
+Iter takes 0.069296665
+Building takes 0.020722209
+Running join with 2 tables
+n instructions: 1
+Join took 0.017929709
+Iter takes 0.038700584
+Building takes 0.000065583
+Running join with 3 tables
+n instructions: 1
+Join took 0.4230643
+Iter takes 0.42317292
+Building takes 0.009769208
+Running join with 2 tables
+n instructions: 1
+Join took 0.007436583
+Iter takes 0.01725225
+Building takes 0.000267333
+Running join with 4 tables
+n instructions: 1
+Join took 0.001633083
+Iter takes 0.001922083
+Bushy join takes 0.72539806
+out rows: 5406
+output [Str("Abell, Alistair"), Str("...And Then I...")]
+Total building takes 0.065266125
+Total joining takes 0.65985817
+Total takes 0.72563267
+running query 21a 
+DUCKDB total time: 0.616913
+DUCKDB filter time: 0.035848000000000005
+DUCKDB join time: 0.581065
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading mi to DB
+Loading ml to DB from cache (cache=46 cols)
+Loading lt to DB
+Loading t to DB
+Loading mc to DB
+Loading ct to DB
+Loading cn to DB
+Building takes 0.000002625
+Running join with 2 tables
+n instructions: 1
+Join took 0.016930167
+Iter takes 0.016969124
+Building takes 0.000109291
+Running join with 2 tables
+n instructions: 1
+Join took 0.034743585
+Iter takes 0.034888916
+Building takes 0.003157041
+Running join with 2 tables
+n instructions: 1
+Join took 0.002609791
+Iter takes 0.005791833
+Building takes 0.000219208
+Running join with 2 tables
+n instructions: 1
+Join took 0.015229083
+Iter takes 0.015488791
+Building takes 0.001489333
+Running join with 2 tables
+n instructions: 1
+Join took 0.002713166
+Iter takes 0.004227708
+Building takes 0.000966
+Running join with 2 tables
+n instructions: 1
+Join took 0.000409041
+Iter takes 0.001393458
+Building takes 0.000063208
+Running join with 2 tables
+n instructions: 1
+Join took 0.000179625
+Iter takes 0.000261916
+Building takes 0.000062458
+Running join with 2 tables
+n instructions: 1
+Join took 0.000416333
+Iter takes 0.000500041
+Bushy join takes 0.07955842
+out rows: 1410
+output [Str("Det Danske Filminstitut"), Str("followed by"), Str("Der Serienkiller - Klinge des Todes")]
+Total building takes 0.006069164
+Total joining takes 0.07323078
+Total takes 0.079613626
+running query 21b 
+DUCKDB total time: 0.740764
+DUCKDB filter time: 0.036261999999999996
+DUCKDB join time: 0.704502
+Loading mk to DB from cache (cache=46 cols)
+Loading mc to DB
+Loading mi to DB
+Loading ml to DB from cache (cache=46 cols)
+Loading lt to DB
+Loading t to DB
+Loading ct to DB
+Loading k to DB
+Loading cn to DB
+Building takes 0.000002666
+Running join with 2 tables
+n instructions: 1
+Join took 0.0231555
+Iter takes 0.023197832
+Building takes 0.000099916
+Running join with 2 tables
+n instructions: 1
+Join took 0.032984123
+Iter takes 0.033119332
+Building takes 0.001820125
+Running join with 2 tables
+n instructions: 1
+Join took 0.00186075
+Iter takes 0.003701958
+Building takes 0.000279041
+Running join with 2 tables
+n instructions: 1
+Join took 0.014926
+Iter takes 0.015245166
+Building takes 0.00096
+Running join with 2 tables
+n instructions: 1
+Join took 0.000410375
+Iter takes 0.001391666
+Building takes 0.00010825
+Running join with 2 tables
+n instructions: 1
+Join took 5.6666e-5
+Iter takes 0.000186666
+Building takes 0.000007833
+Running join with 2 tables
+n instructions: 1
+Join took 9.5e-6
+Iter takes 3.3041e-5
+Building takes 0.000008208
+Running join with 2 tables
+n instructions: 1
+Join took 0.000368458
+Iter takes 0.000396625
+Bushy join takes 0.07730351
+out rows: 38
+output [Str("Filmlance International AB"), Str("followed by"), Str("Hämndens pris")]
+Total building takes 0.003286039
+Total joining takes 0.07377137
+Total takes 0.077331
+running query 21c 
+DUCKDB total time: 1.103372
+DUCKDB filter time: 0.032717
+DUCKDB join time: 1.070655
+Loading mk to DB from cache (cache=46 cols)
+Loading ml to DB from cache (cache=46 cols)
+Loading lt to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading k to DB
+Loading mi to DB
+Building takes 0.000003041
+Running join with 2 tables
+n instructions: 1
+Join took 0.050924707
+Iter takes 0.050971832
+Building takes 0.000204166
+Running join with 2 tables
+n instructions: 1
+Join took 0.036201753
+Iter takes 0.036443
+Building takes 0.005897
+Running join with 2 tables
+n instructions: 1
+Join took 0.014675833
+Iter takes 0.020625457
+Building takes 0.006033291
+Running join with 2 tables
+n instructions: 1
+Join took 0.03717054
+Iter takes 0.043264333
+Building takes 0.019942377
+Running join with 2 tables
+n instructions: 1
+Join took 0.007188333
+Iter takes 0.027187
+Building takes 0.003038375
+Running join with 2 tables
+n instructions: 1
+Join took 0.000941583
+Iter takes 0.004009291
+Building takes 0.000093125
+Running join with 2 tables
+n instructions: 1
+Join took 0.000133416
+Iter takes 0.000244958
+Building takes 0.000089791
+Running join with 2 tables
+n instructions: 1
+Join took 0.0004955
+Iter takes 0.000610291
+Bushy join takes 0.1833962
+out rows: 1874
+output [Str("Churchill Films"), Str("followed by"), Str("Batman Beyond")]
+Total building takes 0.035301164
+Total joining takes 0.14773166
+Total takes 0.183461
+running query 22a 
+DUCKDB total time: 1.421245
+DUCKDB filter time: 0.042062999999999996
+DUCKDB join time: 1.3791820000000001
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mi to DB
+Loading it1 to DB
+Loading t to DB
+Loading kt to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB from cache (cache=46 cols)
+Building takes 0.000002291
+Running join with 2 tables
+n instructions: 1
+Join took 0.010554333
+Iter takes 0.010592208
+Building takes 0.00000375
+Running join with 2 tables
+n instructions: 1
+Join took 0.012388291
+Iter takes 0.012432916
+Building takes 0.007734125
+Running join with 3 tables
+n instructions: 2
+Join took 0.04032321
+Iter takes 0.048115753
+Building takes 0.002306125
+Running join with 3 tables
+n instructions: 2
+Join took 0.020989375
+Iter takes 0.023352876
+Building takes 0.000003541
+Running join with 2 tables
+n instructions: 1
+Join took 0.23568206
+Iter takes 0.23571816
+Building takes 0.12985863
+Running join with 2 tables
+n instructions: 1
+Join took 0.118003875
+Iter takes 0.24791221
+Building takes 0.002678083
+Running join with 3 tables
+n instructions: 2
+Join took 0.001241416
+Iter takes 0.0039595
+Bushy join takes 0.582119
+out rows: 2851
+output [Str("01 Distribution"), Str("2.1"), Str("12 Rounds")]
+Total building takes 0.14258654
+Total joining takes 0.43918252
+Total takes 0.5822085
+running query 22b 
+DUCKDB total time: 1.377397
+DUCKDB filter time: 0.04107
+DUCKDB join time: 1.336327
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading mi_idx to DB
+Loading mc to DB
+Loading ct to DB from cache (cache=46 cols)
+Loading cn to DB
+Loading it2 to DB
+Loading t to DB
+Loading kt to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000002791
+Running join with 2 tables
+n instructions: 1
+Join took 0.01153325
+Iter takes 0.011573416
+Building takes 0.00000375
+Running join with 2 tables
+n instructions: 1
+Join took 0.013156333
+Iter takes 0.013201666
+Building takes 0.007604958
+Running join with 3 tables
+n instructions: 2
+Join took 0.043089293
+Iter takes 0.05075179
+Building takes 0.002224166
+Running join with 3 tables
+n instructions: 2
+Join took 0.016009375
+Iter takes 0.01828525
+Building takes 0.000003625
+Running join with 2 tables
+n instructions: 1
+Join took 0.23601037
+Iter takes 0.23604447
+Building takes 0.11620229
+Running join with 2 tables
+n instructions: 1
+Join took 0.118155755
+Iter takes 0.23441353
+Building takes 0.001965625
+Running join with 3 tables
+n instructions: 2
+Join took 0.00077275
+Iter takes 0.002768791
+Bushy join takes 0.56707233
+out rows: 31
+output [Str("Boll Kino Beteiligungs GmbH & Co. KG"), Str("3.0"), Str("A Small Act")]
+Total building takes 0.1280072
+Total joining takes 0.43872714
+Total takes 0.5670996
+running query 22c 
+DUCKDB total time: 1.721081
+DUCKDB filter time: 0.043303999999999995
+DUCKDB join time: 1.677777
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading mi_idx to DB
+Loading mi to DB
+Loading mc to DB
+Loading it1 to DB
+Loading ct to DB from cache (cache=46 cols)
+Loading it2 to DB
+Loading t to DB
+Loading kt to DB
+Loading cn to DB
+Building takes 0.000002458
+Running join with 2 tables
+n instructions: 1
+Join took 0.01184275
+Iter takes 0.011887666
+Building takes 0.000003625
+Running join with 2 tables
+n instructions: 1
+Join took 0.012531416
+Iter takes 0.0125715
+Building takes 0.007686791
+Running join with 3 tables
+n instructions: 2
+Join took 0.04551833
+Iter takes 0.05325783
+Building takes 0.00275475
+Running join with 3 tables
+n instructions: 2
+Join took 0.037655123
+Iter takes 0.040454876
+Building takes 0.000003583
+Running join with 2 tables
+n instructions: 1
+Join took 0.26213026
+Iter takes 0.262167
+Building takes 0.11912221
+Running join with 2 tables
+n instructions: 1
+Join took 0.13572979
+Iter takes 0.25490606
+Building takes 0.004055541
+Running join with 3 tables
+n instructions: 2
+Join took 0.003598541
+Iter takes 0.007693541
+Bushy join takes 0.6429689
+out rows: 21489
+output [Str("01 Distribution"), Str("1.9"), Str("(#1.1)")]
+Total building takes 0.13362896
+Total joining takes 0.5090062
+Total takes 0.64341646
+running query 22d 
+DUCKDB total time: 2.014415
+DUCKDB filter time: 0.043274
+DUCKDB join time: 1.971141
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading mc to DB from cache (cache=46 cols)
+Loading cn to DB
+Loading ct to DB from cache (cache=46 cols)
+Loading mi_idx to DB
+Loading it2 to DB
+Loading t to DB
+Loading kt to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000001958
+Running join with 2 tables
+n instructions: 1
+Join took 0.011708166
+Iter takes 0.011747625
+Building takes 0.000003875
+Running join with 2 tables
+n instructions: 1
+Join took 0.107257456
+Iter takes 0.10729425
+Building takes 0.024501458
+Running join with 3 tables
+n instructions: 2
+Join took 0.14637733
+Iter takes 0.17093912
+Building takes 0.008520583
+Running join with 3 tables
+n instructions: 2
+Join took 0.055041082
+Iter takes 0.063628085
+Building takes 0.000003958
+Running join with 2 tables
+n instructions: 1
+Join took 0.2585949
+Iter takes 0.25863013
+Building takes 0.12570691
+Running join with 2 tables
+n instructions: 1
+Join took 0.13077192
+Iter takes 0.25684482
+Building takes 0.007782791
+Running join with 3 tables
+n instructions: 2
+Join took 0.006907041
+Iter takes 0.014740666
+Bushy join takes 0.8838584
+out rows: 46281
+output [Str("01 Distribution"), Str("1.6"), Str("(#1.1)")]
+Total building takes 0.16652153
+Total joining takes 0.71665794
+Total takes 0.88500905
+running query 23a 
+DUCKDB total time: 1.173405
+DUCKDB filter time: 0.033577
+DUCKDB join time: 1.139828
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB from cache (cache=46 cols)
+Loading mc to DB from cache (cache=46 cols)
+Loading cc to DB from cache (cache=46 cols)
+Loading cn to DB
+Loading t to DB
+Loading mi to DB
+Loading it1 to DB
+Loading ct to DB from cache (cache=46 cols)
+Loading kt to DB
+Loading cct1 to DB
+Building takes 0.000002375
+Running join with 2 tables
+n instructions: 1
+Join took 0.05292396
+Iter takes 0.052960664
+Building takes 0.024086293
+Running join with 2 tables
+n instructions: 1
+Join took 0.08126446
+Iter takes 0.105401665
+Building takes 0.012630666
+Running join with 3 tables
+n instructions: 1
+Join took 0.0354605
+Iter takes 0.048145123
+Building takes 0.001460041
+Running join with 3 tables
+n instructions: 2
+Join took 0.015242041
+Iter takes 0.016743375
+Building takes 0.000003
+Running join with 2 tables
+n instructions: 1
+Join took 0.05049925
+Iter takes 0.050538585
+Building takes 0.000035
+Running join with 2 tables
+n instructions: 1
+Join took 0.0010655
+Iter takes 0.001121
+Building takes 0.000248541
+Running join with 3 tables
+n instructions: 2
+Join took 0.0002595
+Iter takes 0.000528083
+Bushy join takes 0.27546844
+out rows: 618
+output [Str("movie"), Str("The Analysts")]
+Total building takes 0.038465913
+Total joining takes 0.2367152
+Total takes 0.27549937
+running query 23b 
+DUCKDB total time: 1.123693
+DUCKDB filter time: 0.18105600000000002
+DUCKDB join time: 0.9426370000000001
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading mc to DB from cache (cache=46 cols)
+Loading cc to DB from cache (cache=46 cols)
+Loading cn to DB
+Loading ct to DB from cache (cache=46 cols)
+Loading cct1 to DB
+Loading t to DB
+Loading kt to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000002333
+Running join with 2 tables
+n instructions: 1
+Join took 0.05310083
+Iter takes 0.053147376
+Building takes 0.02421125
+Running join with 2 tables
+n instructions: 1
+Join took 0.08085813
+Iter takes 0.10515087
+Building takes 0.01182775
+Running join with 3 tables
+n instructions: 1
+Join took 0.03486479
+Iter takes 0.046750084
+Building takes 0.001162458
+Running join with 3 tables
+n instructions: 2
+Join took 0.015406125
+Iter takes 0.01661179
+Building takes 0.000003208
+Running join with 2 tables
+n instructions: 1
+Join took 0.050382294
+Iter takes 0.05042154
+Building takes 0.000050875
+Running join with 2 tables
+n instructions: 1
+Join took 8.8666e-5
+Iter takes 0.000156166
+Building takes 0.000211
+Running join with 3 tables
+n instructions: 2
+Join took 8.6041e-5
+Iter takes 0.000317875
+Bushy join takes 0.27259007
+out rows: 16
+output [Str("movie"), Str("The Big Mope")]
+Total building takes 0.037468873
+Total joining takes 0.23478688
+Total takes 0.27261618
+running query 23c 
+DUCKDB total time: 1.204688
+DUCKDB filter time: 0.032097999999999995
+DUCKDB join time: 1.17259
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB from cache (cache=46 cols)
+Loading mc to DB from cache (cache=46 cols)
+Loading ct to DB from cache (cache=46 cols)
+Loading cn to DB
+Loading t to DB
+Loading kt to DB
+Loading cc to DB from cache (cache=46 cols)
+Loading cct1 to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000002208
+Running join with 2 tables
+n instructions: 1
+Join took 0.050986085
+Iter takes 0.05102404
+Building takes 0.022855708
+Running join with 2 tables
+n instructions: 1
+Join took 0.08154917
+Iter takes 0.10445534
+Building takes 0.012164625
+Running join with 3 tables
+n instructions: 1
+Join took 0.034213085
+Iter takes 0.04643483
+Building takes 0.00110625
+Running join with 3 tables
+n instructions: 2
+Join took 0.023688331
+Iter takes 0.024835415
+Building takes 0.000003083
+Running join with 2 tables
+n instructions: 1
+Join took 0.049424455
+Iter takes 0.04946054
+Building takes 0.000033916
+Running join with 2 tables
+n instructions: 1
+Join took 0.000975708
+Iter takes 0.001026833
+Building takes 0.000790333
+Running join with 3 tables
+n instructions: 2
+Join took 0.000417916
+Iter takes 0.001228333
+Bushy join takes 0.27850044
+out rows: 628
+output [Str("movie"), Str("Dirt Merchant")]
+Total building takes 0.036956124
+Total joining takes 0.24125475
+Total takes 0.27853113
+running query 24a 
+DUCKDB total time: 1.602289
+DUCKDB filter time: 0.037143999999999996
+DUCKDB join time: 1.565145
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading chn to DB from cache (cache=46 cols)
+Loading ci to DB
+Loading mc to DB from cache (cache=46 cols)
+Loading t to DB
+Loading cn to DB
+Loading mi to DB
+Loading it to DB
+Loading an to DB from cache (cache=46 cols)
+Loading n to DB
+Loading rt to DB
+Building takes 0.0000025
+Running join with 2 tables
+n instructions: 1
+Join took 0.066885665
+Iter takes 0.06692313
+Building takes 0.00779675
+Running join with 2 tables
+n instructions: 1
+Join took 0.014138083
+Iter takes 0.021990208
+Building takes 0.000003625
+Running join with 2 tables
+n instructions: 1
+Join took 0.049212877
+Iter takes 0.04925075
+Building takes 0.020630209
+Running join with 2 tables
+n instructions: 1
+Join took 0.15951091
+Iter takes 0.18019587
+Building takes 0.031861458
+Running join with 2 tables
+n instructions: 1
+Join took 0.012904125
+Iter takes 0.044816375
+Building takes 0.003063791
+Running join with 3 tables
+n instructions: 2
+Join took 0.003218041
+Iter takes 0.006320541
+Building takes 0.000002541
+Running join with 2 tables
+n instructions: 1
+Join took 0.07187954
+Iter takes 0.071914494
+Building takes 0.010302625
+Running join with 2 tables
+n instructions: 1
+Join took 0.013514583
+Iter takes 0.02386225
+Building takes 0.000078041
+Running join with 3 tables
+n instructions: 2
+Join took 8.5875e-5
+Iter takes 0.0001845
+Bushy join takes 0.46549943
+out rows: 275
+output [Str("Additional Voices"), Str("Baker, Andrea"), Str("Baiohazâdo 6")]
+Total building takes 0.07374153
+Total joining takes 0.3913497
+Total takes 0.46555588
+running query 24b 
+DUCKDB total time: 1.539317
+DUCKDB filter time: 0.039221
+DUCKDB join time: 1.500096
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading chn to DB from cache (cache=46 cols)
+Loading mc to DB from cache (cache=46 cols)
+Loading cn to DB
+Loading an to DB from cache (cache=46 cols)
+Loading ci to DB
+Loading n to DB
+Loading rt to DB
+Loading mi to DB
+Loading t to DB
+Loading it to DB
+Building takes 0.000002416
+Running join with 2 tables
+n instructions: 1
+Join took 0.016855458
+Iter takes 0.01688275
+Building takes 0.000008333
+Running join with 2 tables
+n instructions: 1
+Join took 1.175e-5
+Iter takes 3.3791e-5
+Building takes 0.000002
+Running join with 2 tables
+n instructions: 1
+Join took 0.04932183
+Iter takes 0.049352918
+Building takes 0.021447958
+Running join with 2 tables
+n instructions: 1
+Join took 0.13307896
+Iter takes 0.15458696
+Building takes 0.03312621
+Running join with 2 tables
+n instructions: 1
+Join took 0.013233708
+Iter takes 0.046411753
+Building takes 0.000122708
+Running join with 3 tables
+n instructions: 2
+Join took 0.000161208
+Iter takes 0.000302541
+Building takes 0.000001791
+Running join with 2 tables
+n instructions: 1
+Join took 0.07201941
+Iter takes 0.07205258
+Building takes 0.009909125
+Running join with 2 tables
+n instructions: 1
+Join took 0.014278458
+Iter takes 0.024232792
+Building takes 0.000022791
+Running join with 3 tables
+n instructions: 2
+Join took 6.3458e-5
+Iter takes 0.000107333
+Bushy join takes 0.3639987
+out rows: 45
+output [Str("Tigress"), Str("Jolie, Angelina"), Str("Kung Fu Panda 2")]
+Total building takes 0.06464333
+Total joining takes 0.29902425
+Total takes 0.36402455
+running query 25a 
+DUCKDB total time: 2.001382
+DUCKDB filter time: 0.133555
+DUCKDB join time: 1.867827
+Loading mk to DB from cache (cache=46 cols)
+Loading ci to DB
+Loading t to DB from cache (cache=46 cols)
+Loading n to DB
+Loading mi_idx to DB from cache (cache=46 cols)
+Loading it2 to DB
+Loading mi to DB
+Loading it1 to DB
+Loading k to DB
+Building takes 0.000002541
+Running join with 2 tables
+n instructions: 1
+Join took 0.30817613
+Iter takes 0.30821255
+Building takes 0.06444679
+Running join with 2 tables
+n instructions: 1
+Join took 0.33097434
+Iter takes 0.39586425
+Building takes 0.22084196
+Running join with 2 tables
+n instructions: 1
+Join took 0.1407915
+Iter takes 0.3616901
+Building takes 0.043757793
+Running join with 2 tables
+n instructions: 1
+Join took 0.019226458
+Iter takes 0.06304404
+Building takes 0.001649958
+Running join with 2 tables
+n instructions: 1
+Join took 0.0007965
+Iter takes 0.002470041
+Building takes 0.000308666
+Running join with 2 tables
+n instructions: 1
+Join took 0.0006135
+Iter takes 0.0009455
+Building takes 0.000282
+Running join with 3 tables
+n instructions: 1
+Join took 0.060501125
+Iter takes 0.060837124
+Bushy join takes 1.1930964
+out rows: 4406
+output [Str("Horror"), Str("10"), Str("Abdallah, Damon"), Str("-- And Now the Screaming Starts!")]
+Total building takes 0.3312897
+Total joining takes 0.8610796
+Total takes 1.1935974
+running query 25b 
+DUCKDB total time: 0.679401
+DUCKDB filter time: 0.141572
+DUCKDB join time: 0.537829
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading mi_idx to DB from cache (cache=46 cols)
+Loading it2 to DB
+Loading mi to DB
+Loading it1 to DB
+Loading ci to DB
+Loading t to DB
+Loading n to DB
+Building takes 0.000002291
+Running join with 2 tables
+n instructions: 1
+Join took 0.028727166
+Iter takes 0.028767085
+Building takes 0.000010416
+Running join with 2 tables
+n instructions: 1
+Join took 0.013621708
+Iter takes 0.013661333
+Building takes 0.000012125
+Running join with 2 tables
+n instructions: 1
+Join took 0.000345416
+Iter takes 0.000372458
+Building takes 0.000009583
+Running join with 2 tables
+n instructions: 1
+Join took 1.0458e-5
+Iter takes 3.425e-5
+Building takes 0.000004041
+Running join with 2 tables
+n instructions: 1
+Join took 4.833e-6
+Iter takes 2.225e-5
+Building takes 0.000003291
+Running join with 2 tables
+n instructions: 1
+Join took 4.583e-6
+Iter takes 2.1333e-5
+Building takes 0.000004541
+Running join with 3 tables
+n instructions: 1
+Join took 0.046836793
+Iter takes 0.046880167
+Bushy join takes 0.089783
+out rows: 6
+output [Str("Horror"), Str("138"), Str("Campbell, Jeremiah"), Str("Vampire Boys")]
+Total building takes 0.000046288
+Total joining takes 0.08955095
+Total takes 0.08981192
+running query 25c 
+DUCKDB total time: 2.931717
+DUCKDB filter time: 0.016129
+DUCKDB join time: 2.915588
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading n to DB
+Loading mi_idx to DB from cache (cache=46 cols)
+Loading it2 to DB
+Loading ci to DB
+Loading t to DB from cache (cache=46 cols)
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000001958
+Running join with 2 tables
+n instructions: 1
+Join took 0.3066999
+Iter takes 0.30673507
+Building takes 0.070913285
+Running join with 2 tables
+n instructions: 1
+Join took 0.33222336
+Iter takes 0.403195
+Building takes 0.21425433
+Running join with 2 tables
+n instructions: 1
+Join took 0.36637062
+Iter takes 0.5807024
+Building takes 0.27970505
+Running join with 2 tables
+n instructions: 1
+Join took 0.11004325
+Iter takes 0.38983688
+Building takes 0.015559875
+Running join with 2 tables
+n instructions: 1
+Join took 0.007643625
+Iter takes 0.023259832
+Building takes 0.004300833
+Running join with 2 tables
+n instructions: 1
+Join took 0.009823208
+Iter takes 0.014173875
+Building takes 0.002950291
+Running join with 3 tables
+n instructions: 1
+Join took 0.073285
+Iter takes 0.076291285
+Bushy join takes 1.794228
+out rows: 26152
+output [Str("Action"), Str("10"), Str("Aakeson, Kim Fupz"), Str("$")]
+Total building takes 0.58768564
+Total joining takes 1.206089
+Total takes 1.7963388
+running query 26a 
+DUCKDB total time: 2.016553
+DUCKDB filter time: 0.043970999999999996
+DUCKDB join time: 1.972582
+Loading ci to DB from cache (cache=46 cols)
+Loading n to DB from cache (cache=46 cols)
+Loading chn to DB
+Loading mk to DB from cache (cache=46 cols)
+Loading t to DB
+Loading kt to DB
+Loading mi_idx to DB
+Loading k to DB
+Loading it2 to DB
+Loading cc to DB from cache (cache=46 cols)
+Loading cct2 to DB
+Loading cct1 to DB
+Building takes 0.0000025
+Running join with 2 tables
+n instructions: 1
+Join took 0.003225458
+Iter takes 0.0032605
+Building takes 0.000003166
+Running join with 2 tables
+n instructions: 1
+Join took 0.003364458
+Iter takes 0.003385041
+Building takes 0.00139175
+Running join with 3 tables
+n instructions: 2
+Join took 0.010961416
+Iter takes 0.01240375
+Building takes 0.000003791
+Running join with 2 tables
+n instructions: 1
+Join took 0.9661234
+Iter takes 0.9661625
+Building takes 0.2656501
+Running join with 3 tables
+n instructions: 2
+Join took 0.54325163
+Iter takes 0.8089625
+Building takes 0.000003625
+Running join with 2 tables
+n instructions: 1
+Join took 0.17294592
+Iter takes 0.17298262
+Building takes 0.0389625
+Running join with 2 tables
+n instructions: 1
+Join took 0.037120294
+Iter takes 0.07614021
+Building takes 0.023653459
+Running join with 3 tables
+n instructions: 2
+Join took 0.023402331
+Iter takes 0.047114752
+Bushy join takes 2.090447
+out rows: 1728
+output [Str("'Agua' Man"), Str("7.1"), Str("Acereda, Hermie"), Str("3:10 to Yuma")]
+Total building takes 0.32967088
+Total joining takes 1.7603949
+Total takes 2.0905874
+running query 26b 
+DUCKDB total time: 1.383271
+DUCKDB filter time: 0.042685
+DUCKDB join time: 1.3405859999999998
+Loading ci to DB from cache (cache=46 cols)
+Loading n to DB from cache (cache=46 cols)
+Loading chn to DB
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading t to DB
+Loading kt to DB
+Loading cc to DB from cache (cache=46 cols)
+Loading cct2 to DB
+Loading cct1 to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Building takes 0.000002708
+Running join with 2 tables
+n instructions: 1
+Join took 0.00045875
+Iter takes 0.000475375
+Building takes 0.000000875
+Running join with 2 tables
+n instructions: 1
+Join took 0.002812375
+Iter takes 0.002824416
+Building takes 0.000570083
+Running join with 3 tables
+n instructions: 2
+Join took 0.003951541
+Iter takes 0.00454925
+Building takes 0.000003375
+Running join with 2 tables
+n instructions: 1
+Join took 0.59374404
+Iter takes 0.5937902
+Building takes 0.13105555
+Running join with 3 tables
+n instructions: 2
+Join took 0.5176006
+Iter takes 0.64870757
+Building takes 0.000003625
+Running join with 2 tables
+n instructions: 1
+Join took 0.13154845
+Iter takes 0.1315847
+Building takes 0.024819292
+Running join with 2 tables
+n instructions: 1
+Join took 0.024624376
+Iter takes 0.049495082
+Building takes 0.013640666
+Running join with 3 tables
+n instructions: 2
+Join took 0.014421125
+Iter takes 0.028115625
+Bushy join takes 1.4595779
+out rows: 93
+output [Str("Bank Manager"), Str("8.2"), Str("Inception")]
+Total building takes 0.17009616
+Total joining takes 1.2891612
+Total takes 1.4596112
+running query 26c 
+DUCKDB total time: 1.880202
+DUCKDB filter time: 0.031231
+DUCKDB join time: 1.848971
+Loading ci to DB from cache (cache=46 cols)
+Loading n to DB from cache (cache=46 cols)
+Loading chn to DB
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading t to DB
+Loading kt to DB
+Loading mi_idx to DB from cache (cache=46 cols)
+Loading it2 to DB
+Loading cc to DB from cache (cache=46 cols)
+Loading cct1 to DB
+Loading cct2 to DB
+Building takes 0.0000025
+Running join with 2 tables
+n instructions: 1
+Join took 0.015997833
+Iter takes 0.016037041
+Building takes 0.000003666
+Running join with 2 tables
+n instructions: 1
+Join took 0.003700083
+Iter takes 0.003719291
+Building takes 0.008665583
+Running join with 3 tables
+n instructions: 2
+Join took 0.039621294
+Iter takes 0.048339292
+Building takes 0.000003666
+Running join with 2 tables
+n instructions: 1
+Join took 0.5891414
+Iter takes 0.58918333
+Building takes 0.13437787
+Running join with 3 tables
+n instructions: 2
+Join took 0.5523525
+Iter takes 0.6868086
+Building takes 0.000003375
+Running join with 2 tables
+n instructions: 1
+Join took 0.17861988
+Iter takes 0.17865483
+Building takes 0.036275662
+Running join with 2 tables
+n instructions: 1
+Join took 0.040699124
+Iter takes 0.07703017
+Building takes 0.02566725
+Running join with 3 tables
+n instructions: 2
+Join took 0.0259335
+Iter takes 0.05167021
+Bushy join takes 1.6514801
+out rows: 5400
+output [Str("'Agua' Man"), Str("1.9"), Str("12 Rounds")]
+Total building takes 0.20499958
+Total joining takes 1.4460657
+Total takes 1.6517203
+running query 27a 
+DUCKDB total time: 0.993754
+DUCKDB filter time: 0.035899
+DUCKDB join time: 0.957855
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading t to DB
+Loading cc to DB from cache (cache=46 cols)
+Loading cct2 to DB
+Loading cct1 to DB
+Loading mi to DB
+Loading ml to DB from cache (cache=46 cols)
+Loading lt to DB
+Building takes 0.000002791
+Running join with 2 tables
+n instructions: 1
+Join took 0.02701425
+Iter takes 0.027051125
+Building takes 0.012901375
+Running join with 2 tables
+n instructions: 1
+Join took 0.035749123
+Iter takes 0.048706874
+Building takes 0.000003791
+Running join with 2 tables
+n instructions: 1
+Join took 0.005201791
+Iter takes 0.005223958
+Building takes 0.004319083
+Running join with 3 tables
+n instructions: 2
+Join took 0.015296083
+Iter takes 0.019671584
+Building takes 0.000371041
+Running join with 3 tables
+n instructions: 1
+Join took 0.02226504
+Iter takes 0.022677584
+Building takes 0.000003125
+Running join with 2 tables
+n instructions: 1
+Join took 0.039585248
+Iter takes 0.039618123
+Building takes 0.003028208
+Running join with 2 tables
+n instructions: 1
+Join took 0.001511875
+Iter takes 0.004572791
+Building takes 0.000394541
+Running join with 3 tables
+n instructions: 2
+Join took 0.000324666
+Iter takes 0.000748708
+Bushy join takes 0.16830896
+out rows: 477
+output [Str("Det Danske Filminstitut"), Str("followed by"), Str("Spår i mörker")]
+Total building takes 0.021023955
+Total joining takes 0.14694808
+Total takes 0.168346
+running query 27b 
+DUCKDB total time: 0.954894
+DUCKDB filter time: 0.025620999999999998
+DUCKDB join time: 0.929273
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading cc to DB from cache (cache=46 cols)
+Loading cct1 to DB
+Loading ml to DB from cache (cache=46 cols)
+Loading cct2 to DB
+Loading t to DB
+Loading mi to DB
+Loading lt to DB
+Building takes 0.000002916
+Running join with 2 tables
+n instructions: 1
+Join took 0.024798876
+Iter takes 0.024835125
+Building takes 0.013023583
+Running join with 2 tables
+n instructions: 1
+Join took 0.035445247
+Iter takes 0.04852317
+Building takes 0.00000325
+Running join with 2 tables
+n instructions: 1
+Join took 0.004710208
+Iter takes 0.004731833
+Building takes 0.004419125
+Running join with 3 tables
+n instructions: 2
+Join took 0.014349291
+Iter takes 0.01882754
+Building takes 0.000349666
+Running join with 3 tables
+n instructions: 1
+Join took 0.002601833
+Iter takes 0.002976791
+Building takes 0.000001958
+Running join with 2 tables
+n instructions: 1
+Join took 0.039658874
+Iter takes 0.03969096
+Building takes 0.003332208
+Running join with 2 tables
+n instructions: 1
+Join took 0.00138075
+Iter takes 0.004743208
+Building takes 0.000177375
+Running join with 3 tables
+n instructions: 2
+Join took 0.000260125
+Iter takes 0.000468166
+Bushy join takes 0.14483441
+out rows: 247
+output [Str("Filmlance International AB"), Str("followed by"), Str("Vita nätter")]
+Total building takes 0.02131008
+Total joining takes 0.12320521
+Total takes 0.14486608
+running query 27c 
+DUCKDB total time: 1.187493
+DUCKDB filter time: 0.03268999999999999
+DUCKDB join time: 1.154803
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading t to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB
+Loading mi to DB
+Loading cc to DB from cache (cache=46 cols)
+Loading ml to DB from cache (cache=46 cols)
+Loading cct2 to DB
+Loading cct1 to DB
+Loading lt to DB
+Building takes 0.000002375
+Running join with 2 tables
+n instructions: 1
+Join took 0.025749791
+Iter takes 0.025794208
+Building takes 0.013843708
+Running join with 2 tables
+n instructions: 1
+Join took 0.03583625
+Iter takes 0.049736753
+Building takes 0.000004125
+Running join with 2 tables
+n instructions: 1
+Join took 0.0034005
+Iter takes 0.003419083
+Building takes 0.003850458
+Running join with 3 tables
+n instructions: 2
+Join took 0.0145295
+Iter takes 0.018440915
+Building takes 0.000382791
+Running join with 3 tables
+n instructions: 1
+Join took 0.06948658
+Iter takes 0.069916286
+Building takes 0.000003416
+Running join with 2 tables
+n instructions: 1
+Join took 0.03966775
+Iter takes 0.039702293
+Building takes 0.003444041
+Running join with 2 tables
+n instructions: 1
+Join took 0.001429666
+Iter takes 0.004899208
+Building takes 0.001049916
+Running join with 3 tables
+n instructions: 2
+Join took 0.000569708
+Iter takes 0.001648791
+Bushy join takes 0.21359304
+out rows: 743
+output [Str("Det Danske Filminstitut"), Str("followed by"), Str("Spår i mörker")]
+Total building takes 0.02258083
+Total joining takes 0.19066975
+Total takes 0.21363662
+running query 28a 
+DUCKDB total time: 1.393293
+DUCKDB filter time: 0.04296
+DUCKDB join time: 1.350333
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading t to DB
+Loading kt to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mi to DB
+Loading it1 to DB
+Loading mc to DB
+Loading ct to DB from cache (cache=46 cols)
+Loading cn to DB
+Loading cc to DB from cache (cache=46 cols)
+Loading cct1 to DB
+Loading cct2 to DB
+Building takes 0.00000325
+Running join with 2 tables
+n instructions: 1
+Join took 0.059970833
+Iter takes 0.060040917
+Building takes 0.014232041
+Running join with 2 tables
+n instructions: 1
+Join took 0.013589458
+Iter takes 0.02788704
+Building takes 0.007160708
+Running join with 2 tables
+n instructions: 1
+Join took 0.008354291
+Iter takes 0.015570541
+Building takes 0.000014625
+Running join with 2 tables
+n instructions: 1
+Join took 0.012448083
+Iter takes 0.012507708
+Building takes 0.00372975
+Running join with 2 tables
+n instructions: 1
+Join took 0.006497125
+Iter takes 0.010276333
+Building takes 0.000003583
+Running join with 2 tables
+n instructions: 1
+Join took 0.002417916
+Iter takes 0.002436541
+Building takes 0.00901775
+Running join with 4 tables
+n instructions: 3
+Join took 0.017221084
+Iter takes 0.02630875
+Building takes 0.000003791
+Running join with 2 tables
+n instructions: 1
+Join took 0.16391636
+Iter takes 0.16395888
+Building takes 0.03486921
+Running join with 2 tables
+n instructions: 1
+Join took 0.04504525
+Iter takes 0.079970375
+Building takes 0.02453854
+Running join with 3 tables
+n instructions: 2
+Join took 0.022895584
+Iter takes 0.04749783
+Bushy join takes 0.44650263
+out rows: 4803
+output [Str("01 Distribuzione"), Str("2.9"), Str("(#1.1)")]
+Total building takes 0.09357325
+Total joining takes 0.352356
+Total takes 0.44664666
+running query 28b 
+DUCKDB total time: 0.792148
+DUCKDB filter time: 0.045477000000000004
+DUCKDB join time: 0.746671
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading t to DB
+Loading kt to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading mc to DB
+Loading ct to DB from cache (cache=46 cols)
+Loading cn to DB
+Loading cc to DB from cache (cache=46 cols)
+Loading cct2 to DB
+Loading cct1 to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000003041
+Running join with 2 tables
+n instructions: 1
+Join took 0.011493916
+Iter takes 0.011534041
+Building takes 0.000279958
+Running join with 2 tables
+n instructions: 1
+Join took 0.000324541
+Iter takes 0.00062175
+Building takes 0.000133166
+Running join with 2 tables
+n instructions: 1
+Join took 0.0001495
+Iter takes 0.000295625
+Building takes 0.000001708
+Running join with 2 tables
+n instructions: 1
+Join took 0.012414708
+Iter takes 0.012460166
+Building takes 0.005132583
+Running join with 2 tables
+n instructions: 1
+Join took 0.007212208
+Iter takes 0.012403916
+Building takes 0.00000325
+Running join with 2 tables
+n instructions: 1
+Join took 0.00406525
+Iter takes 0.004091791
+Building takes 0.004018833
+Running join with 4 tables
+n instructions: 3
+Join took 0.0102785
+Iter takes 0.014350875
+Building takes 0.000003125
+Running join with 2 tables
+n instructions: 1
+Join took 0.128477
+Iter takes 0.12852587
+Building takes 0.02391954
+Running join with 2 tables
+n instructions: 1
+Join took 0.033135083
+Iter takes 0.057111625
+Building takes 0.017604832
+Running join with 3 tables
+n instructions: 2
+Join took 0.01604125
+Iter takes 0.033703167
+Bushy join takes 0.27515134
+out rows: 148
+output [Str("20th Century Fox"), Str("6.6"), Str("(#1.1)")]
+Total building takes 0.05110004
+Total joining takes 0.22359195
+Total takes 0.27518705
+running query 28c 
+DUCKDB total time: 1.225176
+DUCKDB filter time: 0.04284
+DUCKDB join time: 1.182336
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading mi_idx to DB
+Loading it2 to DB
+Loading t to DB
+Loading kt to DB
+Loading mi to DB
+Loading it1 to DB
+Loading cc to DB from cache (cache=46 cols)
+Loading cct2 to DB
+Loading mc to DB
+Loading cn to DB
+Loading ct to DB from cache (cache=46 cols)
+Loading cct1 to DB
+Building takes 0.000002416
+Running join with 2 tables
+n instructions: 1
+Join took 0.062315624
+Iter takes 0.06236025
+Building takes 0.016179541
+Running join with 2 tables
+n instructions: 1
+Join took 0.013040166
+Iter takes 0.02927204
+Building takes 0.007438208
+Running join with 2 tables
+n instructions: 1
+Join took 0.009105333
+Iter takes 0.0165955
+Building takes 0.000004416
+Running join with 2 tables
+n instructions: 1
+Join took 0.013499875
+Iter takes 0.013541333
+Building takes 0.004519583
+Running join with 2 tables
+n instructions: 1
+Join took 0.007104375
+Iter takes 0.011669958
+Building takes 0.000003458
+Running join with 2 tables
+n instructions: 1
+Join took 0.003939625
+Iter takes 0.003959375
+Building takes 0.00964225
+Running join with 4 tables
+n instructions: 3
+Join took 0.02187154
+Iter takes 0.031572625
+Building takes 0.000003208
+Running join with 2 tables
+n instructions: 1
+Join took 0.12693687
+Iter takes 0.126979
+Building takes 0.023035292
+Running join with 2 tables
+n instructions: 1
+Join took 0.03063504
+Iter takes 0.05372304
+Building takes 0.019082123
+Running join with 3 tables
+n instructions: 2
+Join took 0.017556459
+Iter takes 0.036704876
+Bushy join takes 0.38642606
+out rows: 8373
+output [Str("01 Distribuzione"), Str("1.9"), Str("(#1.1)")]
+Total building takes 0.079910494
+Total joining takes 0.30600494
+Total takes 0.38665006
+running query 29a 
+DUCKDB total time: 1.862892
+DUCKDB filter time: 0.113506
+DUCKDB join time: 1.7493859999999999
+Loading mk to DB from cache (cache=46 cols)
+Loading k to DB
+Loading pi to DB
+Loading it3 to DB
+Loading mc to DB from cache (cache=48 cols)
+Loading cn to DB
+Loading an to DB from cache (cache=48 cols)
+Loading ci to DB
+Loading n to DB
+Loading chn to DB
+Loading rt to DB
+Loading mi to DB
+Loading it to DB
+Loading cc to DB from cache (cache=48 cols)
+Loading t to DB
+Loading cct2 to DB
+Loading cct1 to DB
+Building takes 0.000002291
+Running join with 2 tables
+n instructions: 1
+Join took 0.0502125
+Iter takes 0.050252125
+Building takes 0.021518877
+Running join with 2 tables
+n instructions: 1
+Join took 0.020322459
+Iter takes 0.041887917
+Building takes 0.000010833
+Running join with 2 tables
+n instructions: 1
+Join took 0.000397291
+Iter takes 0.000423875
+Building takes 0.000003583
+Running join with 2 tables
+n instructions: 1
+Join took 5.333e-6
+Iter takes 2.3333e-5
+Building takes 0.000004041
+Running join with 3 tables
+n instructions: 2
+Join took 0.0205135
+Iter takes 0.020556292
+Building takes 0.000002791
+Running join with 2 tables
+n instructions: 1
+Join took 0.06799296
+Iter takes 0.068028755
+Building takes 0.009422875
+Running join with 2 tables
+n instructions: 1
+Join took 0.020759959
+Iter takes 0.030232457
+Building takes 0.008312583
+Running join with 3 tables
+n instructions: 2
+Join took 0.028014708
+Iter takes 0.036389377
+Building takes 0.000003125
+Running join with 2 tables
+n instructions: 1
+Join took 0.003129083
+Iter takes 0.003147625
+Building takes 0.000636458
+Running join with 2 tables
+n instructions: 1
+Join took 0.000598375
+Iter takes 0.001250458
+Building takes 0.000119541
+Running join with 2 tables
+n instructions: 1
+Join took 0.000340458
+Iter takes 0.0004725
+Building takes 0.000012208
+Running join with 4 tables
+n instructions: 3
+Join took 0.059540752
+Iter takes 0.059591
+Bushy join takes 0.31230706
+out rows: 30
+output [Str("Queen"), Str("Andrews, Julie"), Str("Shrek 2")]
+Total building takes 0.040049203
+Total joining takes 0.27182737
+Total takes 0.31234178
+running query 29b 
+DUCKDB total time: 1.397539
+DUCKDB filter time: 0.20737800000000003
+DUCKDB join time: 1.190161
+Loading mk to DB from cache (cache=48 cols)
+Loading k to DB
+Loading pi to DB from cache (cache=48 cols)
+Loading it3 to DB
+Loading mc to DB from cache (cache=48 cols)
+Loading cn to DB
+Loading an to DB from cache (cache=48 cols)
+Loading ci to DB
+Loading chn to DB
+Loading n to DB
+Loading rt to DB
+Loading mi to DB
+Loading t to DB
+Loading it to DB
+Loading cc to DB from cache (cache=48 cols)
+Loading cct1 to DB
+Loading cct2 to DB
+Building takes 0.000002458
+Running join with 2 tables
+n instructions: 1
+Join took 0.047996208
+Iter takes 0.048032664
+Building takes 0.0226045
+Running join with 2 tables
+n instructions: 1
+Join took 0.019832958
+Iter takes 0.042491123
+Building takes 0.000012083
+Running join with 2 tables
+n instructions: 1
+Join took 0.000409291
+Iter takes 0.000439666
+Building takes 0.000003333
+Running join with 2 tables
+n instructions: 1
+Join took 5.875e-6
+Iter takes 2.4e-5
+Building takes 0.000004041
+Running join with 3 tables
+n instructions: 2
+Join took 0.0154035
+Iter takes 0.015443166
+Building takes 0.000002625
+Running join with 2 tables
+n instructions: 1
+Join took 0.0594575
+Iter takes 0.059492085
+Building takes 0.008049833
+Running join with 2 tables
+n instructions: 1
+Join took 0.017234376
+Iter takes 0.025332665
+Building takes 0.007135916
+Running join with 3 tables
+n instructions: 2
+Join took 0.025528332
+Iter takes 0.032722585
+Building takes 0.000002875
+Running join with 2 tables
+n instructions: 1
+Join took 0.003032958
+Iter takes 0.003052083
+Building takes 0.000543791
+Running join with 2 tables
+n instructions: 1
+Join took 0.000607666
+Iter takes 0.001164791
+Building takes 0.00012175
+Running join with 2 tables
+n instructions: 1
+Join took 0.00035025
+Iter takes 0.00048575
+Building takes 0.000010041
+Running join with 4 tables
+n instructions: 3
+Join took 0.058796085
+Iter takes 0.058855124
+Bushy join takes 0.2875823
+out rows: 15
+output [Str("Queen"), Str("Andrews, Julie"), Str("Shrek 2")]
+Total building takes 0.03849325
+Total joining takes 0.24865499
+Total takes 0.28761297
+running query 29c 
+DUCKDB total time: 2.424137
+DUCKDB filter time: 0.04688
+DUCKDB join time: 2.377257
+Loading mk to DB from cache (cache=48 cols)
+Loading k to DB
+Loading chn to DB from cache (cache=48 cols)
+Loading pi to DB from cache (cache=48 cols)
+Loading it3 to DB
+Loading mc to DB from cache (cache=48 cols)
+Loading cn to DB
+Loading t to DB
+Loading an to DB from cache (cache=48 cols)
+Loading ci to DB
+Loading rt to DB
+Loading n to DB
+Loading mi to DB
+Loading it to DB
+Loading cc to DB from cache (cache=48 cols)
+Loading cct2 to DB
+Loading cct1 to DB
+Building takes 0.000002291
+Running join with 2 tables
+n instructions: 1
+Join took 0.049492333
+Iter takes 0.04953233
+Building takes 0.024547458
+Running join with 2 tables
+n instructions: 1
+Join took 0.14228013
+Iter takes 0.1668875
+Building takes 0.038110375
+Running join with 2 tables
+n instructions: 1
+Join took 0.013877541
+Iter takes 0.05204204
+Building takes 0.000169541
+Running join with 2 tables
+n instructions: 1
+Join took 0.000416083
+Iter takes 0.000606125
+Building takes 0.000139125
+Running join with 3 tables
+n instructions: 2
+Join took 0.019342959
+Iter takes 0.019517208
+Building takes 0.000002458
+Running join with 2 tables
+n instructions: 1
+Join took 0.06508604
+Iter takes 0.06511945
+Building takes 0.009090125
+Running join with 2 tables
+n instructions: 1
+Join took 0.020741832
+Iter takes 0.02988104
+Building takes 0.009099041
+Running join with 3 tables
+n instructions: 2
+Join took 0.032661293
+Iter takes 0.0418315
+Building takes 0.000002833
+Running join with 2 tables
+n instructions: 1
+Join took 0.003011916
+Iter takes 0.00303025
+Building takes 0.000569833
+Running join with 2 tables
+n instructions: 1
+Join took 0.000619875
+Iter takes 0.001203625
+Building takes 0.000113083
+Running join with 2 tables
+n instructions: 1
+Join took 0.009516291
+Iter takes 0.009663291
+Building takes 0.000196666
+Running join with 4 tables
+n instructions: 3
+Join took 0.065017
+Iter takes 0.06525666
+Bushy join takes 0.50462216
+out rows: 189
+output [Str("Lola"), Str("Andrews, Julie"), Str("Hoodwinked!")]
+Total building takes 0.082042836
+Total joining takes 0.4220633
+Total takes 0.5046701
+running query 30a 
+DUCKDB total time: 1.319034
+DUCKDB filter time: 0.047103
+DUCKDB join time: 1.2719310000000001
+Loading mk to DB from cache (cache=48 cols)
+Loading k to DB
+Loading n to DB
+Loading t to DB
+Loading mi_idx to DB from cache (cache=48 cols)
+Loading it2 to DB
+Loading ci to DB
+Loading cc to DB from cache (cache=48 cols)
+Loading cct1 to DB
+Loading cct2 to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000002291
+Running join with 2 tables
+n instructions: 1
+Join took 0.003915416
+Iter takes 0.003934791
+Building takes 0.0012745
+Running join with 2 tables
+n instructions: 1
+Join took 0.000998083
+Iter takes 0.002288166
+Building takes 0.000148916
+Running join with 2 tables
+n instructions: 1
+Join took 0.013752333
+Iter takes 0.013938541
+Building takes 0.00000375
+Running join with 2 tables
+n instructions: 1
+Join took 0.001449708
+Iter takes 0.001471583
+Building takes 0.000683
+Running join with 4 tables
+n instructions: 1
+Join took 0.048002664
+Iter takes 0.048726376
+Building takes 0.000003708
+Running join with 2 tables
+n instructions: 1
+Join took 0.2735157
+Iter takes 0.27398607
+Building takes 0.13777317
+Running join with 2 tables
+n instructions: 1
+Join took 0.15016258
+Iter takes 0.28799018
+Building takes 0.006308083
+Running join with 3 tables
+n instructions: 2
+Join took 0.003118375
+Iter takes 0.009473291
+Bushy join takes 0.6418479
+out rows: 757
+output [Str("Horror"), Str("100356"), Str("Abrams, J.J."), Str("16 Blocks")]
+Total building takes 0.14619741
+Total joining takes 0.4949149
+Total takes 0.641917
+running query 30b 
+DUCKDB total time: 1.335466
+DUCKDB filter time: 0.047164
+DUCKDB join time: 1.288302
+Loading mk to DB from cache (cache=48 cols)
+Loading k to DB
+Loading n to DB
+Loading mi_idx to DB from cache (cache=48 cols)
+Loading it2 to DB
+Loading ci to DB
+Loading cc to DB from cache (cache=48 cols)
+Loading cct2 to DB
+Loading cct1 to DB
+Loading t to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000002041
+Running join with 2 tables
+n instructions: 1
+Join took 0.004263
+Iter takes 0.004285208
+Building takes 0.001004625
+Running join with 2 tables
+n instructions: 1
+Join took 0.0010635
+Iter takes 0.002090291
+Building takes 0.000156416
+Running join with 2 tables
+n instructions: 1
+Join took 0.000396583
+Iter takes 0.000568875
+Building takes 0.000001125
+Running join with 2 tables
+n instructions: 1
+Join took 0.001802583
+Iter takes 0.001822333
+Building takes 0.000659416
+Running join with 4 tables
+n instructions: 1
+Join took 0.04884729
+Iter takes 0.04955083
+Building takes 0.000003666
+Running join with 2 tables
+n instructions: 1
+Join took 0.27199364
+Iter takes 0.2720307
+Building takes 0.14697854
+Running join with 2 tables
+n instructions: 1
+Join took 0.13939299
+Iter takes 0.28642547
+Building takes 0.005283166
+Running join with 3 tables
+n instructions: 2
+Join took 0.002577458
+Iter takes 0.007904958
+Bushy join takes 0.6247147
+out rows: 28
+output [Str("Horror"), Str("194782"), Str("Shannon, Damian"), Str("Freddy vs. Jason")]
+Total building takes 0.15408899
+Total joining takes 0.47033703
+Total takes 0.6247451
+running query 30c 
+DUCKDB total time: 1.536758
+DUCKDB filter time: 0.016115000000000004
+DUCKDB join time: 1.520643
+Loading mk to DB from cache (cache=48 cols)
+Loading k to DB
+Loading t to DB from cache (cache=48 cols)
+Loading n to DB
+Loading mi_idx to DB from cache (cache=48 cols)
+Loading it2 to DB
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Loading cc to DB from cache (cache=48 cols)
+Loading cct2 to DB
+Loading cct1 to DB
+Building takes 0.000002083
+Running join with 2 tables
+n instructions: 1
+Join took 0.003259333
+Iter takes 0.003276666
+Building takes 0.000524791
+Running join with 2 tables
+n instructions: 1
+Join took 0.000651
+Iter takes 0.001192
+Building takes 0.00011175
+Running join with 2 tables
+n instructions: 1
+Join took 0.02325454
+Iter takes 0.023397958
+Building takes 0.000003583
+Running join with 2 tables
+n instructions: 1
+Join took 0.004147416
+Iter takes 0.004180416
+Building takes 0.004973
+Running join with 4 tables
+n instructions: 1
+Join took 0.05909196
+Iter takes 0.06412471
+Building takes 0.000004708
+Running join with 2 tables
+n instructions: 1
+Join took 0.27405274
+Iter takes 0.27409202
+Building takes 0.143496
+Running join with 2 tables
+n instructions: 1
+Join took 0.13766153
+Iter takes 0.28121865
+Building takes 0.005912875
+Running join with 3 tables
+n instructions: 2
+Join took 0.005906416
+Iter takes 0.011870416
+Bushy join takes 0.66338587
+out rows: 8023
+output [Str("Action"), Str("100356"), Str("Abernathy, Lewis"), Str("$")]
+Total building takes 0.15502879
+Total joining takes 0.50802493
+Total takes 0.6637759
+running query 31a 
+DUCKDB total time: 1.416192
+DUCKDB filter time: 0.019252
+DUCKDB join time: 1.3969399999999998
+Loading mk to DB from cache (cache=48 cols)
+Loading k to DB
+Loading mc to DB from cache (cache=48 cols)
+Loading cn to DB
+Loading t to DB from cache (cache=48 cols)
+Loading n to DB
+Loading mi_idx to DB from cache (cache=48 cols)
+Loading it2 to DB
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000002708
+Running join with 2 tables
+n instructions: 1
+Join took 0.07107746
+Iter takes 0.07111887
+Building takes 0.002480333
+Running join with 2 tables
+n instructions: 1
+Join took 0.003950166
+Iter takes 0.006472541
+Building takes 0.000003
+Running join with 2 tables
+n instructions: 1
+Join took 0.17186546
+Iter takes 0.17189679
+Building takes 0.01549875
+Running join with 2 tables
+n instructions: 1
+Join took 0.019404331
+Iter takes 0.034959
+Building takes 0.002964958
+Running join with 3 tables
+n instructions: 2
+Join took 0.017092459
+Iter takes 0.020113332
+Building takes 0.000003416
+Running join with 2 tables
+n instructions: 1
+Join took 0.2711266
+Iter takes 0.27116305
+Building takes 0.14170046
+Running join with 2 tables
+n instructions: 1
+Join took 0.13815479
+Iter takes 0.2800317
+Building takes 0.006317625
+Running join with 3 tables
+n instructions: 2
+Join took 0.003144083
+Iter takes 0.009511291
+Bushy join takes 0.8653022
+out rows: 1273
+output [Str("Horror"), Str("1040"), Str("Agnew, Jim"), Str("2001 Maniacs")]
+Total building takes 0.16897126
+Total joining takes 0.6958154
+Total takes 0.8653775
+running query 31b 
+DUCKDB total time: 1.265353
+DUCKDB filter time: 0.050214999999999996
+DUCKDB join time: 1.215138
+Loading mk to DB from cache (cache=48 cols)
+Loading k to DB
+Loading n to DB
+Loading mi_idx to DB from cache (cache=48 cols)
+Loading it2 to DB
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Loading mc to DB
+Loading t to DB
+Loading cn to DB
+Building takes 0.000002791
+Running join with 2 tables
+n instructions: 1
+Join took 0.000774708
+Iter takes 0.000791458
+Building takes 0.000003041
+Running join with 2 tables
+n instructions: 1
+Join took 6.083e-6
+Iter takes 2.05e-5
+Building takes 0.000000791
+Running join with 2 tables
+n instructions: 1
+Join took 0.00978425
+Iter takes 0.009806
+Building takes 0.000049041
+Running join with 2 tables
+n instructions: 1
+Join took 8.3791e-5
+Iter takes 0.000147791
+Building takes 0.000006125
+Running join with 3 tables
+n instructions: 2
+Join took 0.018355375
+Iter takes 0.018402
+Building takes 0.000003541
+Running join with 2 tables
+n instructions: 1
+Join took 0.275872
+Iter takes 0.27590922
+Building takes 0.13310054
+Running join with 2 tables
+n instructions: 1
+Join took 0.1410952
+Iter takes 0.27425465
+Building takes 0.005375833
+Running join with 3 tables
+n instructions: 2
+Join took 0.002629083
+Iter takes 0.008051833
+Bushy join takes 0.5874201
+out rows: 84
+output [Str("Horror"), Str("129755"), Str("Bousman, Darren Lynn"), Str("Saw")]
+Total building takes 0.1385417
+Total joining takes 0.4486005
+Total takes 0.5874526
+running query 31c 
+DUCKDB total time: 1.665141
+DUCKDB filter time: 0.0032259999999999997
+DUCKDB join time: 1.661915
+Loading mk to DB from cache (cache=48 cols)
+Loading k to DB
+Loading n to DB from cache (cache=48 cols)
+Loading mc to DB from cache (cache=48 cols)
+Loading cn to DB
+Loading t to DB from cache (cache=48 cols)
+Loading mi_idx to DB from cache (cache=48 cols)
+Loading it2 to DB
+Loading ci to DB
+Loading mi to DB
+Loading it1 to DB
+Building takes 0.000002375
+Running join with 2 tables
+n instructions: 1
+Join took 0.095577165
+Iter takes 0.09561596
+Building takes 0.009093416
+Running join with 2 tables
+n instructions: 1
+Join took 0.011688875
+Iter takes 0.020836458
+Building takes 0.000004458
+Running join with 2 tables
+n instructions: 1
+Join took 0.18348488
+Iter takes 0.18351984
+Building takes 0.017657291
+Running join with 2 tables
+n instructions: 1
+Join took 0.018906085
+Iter takes 0.03661221
+Building takes 0.007292166
+Running join with 3 tables
+n instructions: 2
+Join took 0.040615454
+Iter takes 0.047968622
+Building takes 0.000003708
+Running join with 2 tables
+n instructions: 1
+Join took 0.2720955
+Iter takes 0.27213654
+Building takes 0.16149263
+Running join with 2 tables
+n instructions: 1
+Join took 0.14711942
+Iter takes 0.3086623
+Building takes 0.006392708
+Running join with 3 tables
+n instructions: 2
+Join took 0.003297541
+Iter takes 0.009736458
+Bushy join takes 0.9751283
+out rows: 2825
+output [Str("Action"), Str("1008"), Str("Abraham, Brad"), Str("11:14")]
+Total building takes 0.20193875
+Total joining takes 0.7727849
+Total takes 0.97524005
+running query 32b 
+DUCKDB total time: 0.380857
+DUCKDB filter time: 0.001417
+DUCKDB join time: 0.37944
+Loading mk to DB from cache (cache=48 cols)
+Loading k to DB
+Loading t1 to DB
+Loading t2 to DB
+Loading ml to DB from cache (cache=52 cols)
+Loading lt to DB
+Building takes 0.000002458
+Running join with 3 tables
+n instructions: 1
+Join took 0.13771574
+Iter takes 0.1377557
+Building takes 0.003095458
+Running join with 2 tables
+n instructions: 1
+Join took 0.04404696
+Iter takes 0.04718079
+Building takes 0.009035166
+Running join with 2 tables
+n instructions: 1
+Join took 0.01324175
+Iter takes 0.022336915
+Building takes 0.012087416
+Running join with 2 tables
+n instructions: 1
+Join took 0.002640708
+Iter takes 0.014764083
+Bushy join takes 0.22205696
+out rows: 4388
+output [Str("alternate language version of"), Str("12 oz. Mouse"), Str("'Angel': Season 2 Overview")]
+Total building takes 0.024220498
+Total joining takes 0.19764517
+Total takes 0.22278154
+running query 33a 
+DUCKDB total time: 1.163826
+DUCKDB filter time: 0.052947999999999995
+DUCKDB join time: 1.110878
+Loading mc2 to DB
+Loading mc1 to DB
+Loading cn2 to DB
+Loading cn1 to DB
+Loading t1 to DB
+Loading kt1 to DB
+Loading mi_idx1 to DB
+Loading it1 to DB
+Loading mi_idx2 to DB
+Loading it2 to DB
+Loading t2 to DB
+Loading kt2 to DB
+Loading ml to DB from cache (cache=63 cols)
+Loading lt to DB
+Building takes 0.000002375
+Running join with 2 tables
+n instructions: 1
+Join took 0.000174125
+Iter takes 0.000191125
+Building takes 0.000018458
+Running join with 3 tables
+n instructions: 2
+Join took 0.013877375
+Iter takes 0.013928541
+Building takes 0.000002916
+Running join with 2 tables
+n instructions: 1
+Join took 0.017785667
+Iter takes 0.01782575
+Building takes 0.011053583
+Running join with 4 tables
+n instructions: 3
+Join took 0.155779
+Iter takes 0.16690055
+Building takes 0.0000035
+Running join with 2 tables
+n instructions: 1
+Join took 0.004840291
+Iter takes 0.0048685
+Building takes 0.000248166
+Running join with 3 tables
+n instructions: 2
+Join took 0.2042832
+Iter takes 0.20456629
+Building takes 0.001843208
+Running join with 4 tables
+n instructions: 3
+Join took 0.003743833
+Iter takes 0.00562
+Bushy join takes 0.41393486
+out rows: 8
+output [Str("495 Productions"), Str("495 Productions"), Str("3.3"), Str("2.7"), Str("A Double Shot at Love"), Str("A Shot at Love with Tila Tequila")]
+Total building takes 0.013172206
+Total joining takes 0.4004835
+Total takes 0.41396412
+running query 33b 
+DUCKDB total time: 0.865106
+DUCKDB filter time: 0.041251
+DUCKDB join time: 0.823855
+Loading mc2 to DB from cache (cache=63 cols)
+Loading mc1 to DB from cache (cache=63 cols)
+Loading cn1 to DB
+Loading cn2 to DB from cache (cache=63 cols)
+Loading t1 to DB from cache (cache=63 cols)
+Loading kt1 to DB
+Loading mi_idx1 to DB from cache (cache=63 cols)
+Loading it1 to DB
+Loading mi_idx2 to DB
+Loading it2 to DB
+Loading t2 to DB
+Loading kt2 to DB
+Loading ml to DB from cache (cache=63 cols)
+Loading lt to DB
+Building takes 0.000002375
+Running join with 2 tables
+n instructions: 1
+Join took 0.000173166
+Iter takes 0.000189666
+Building takes 0.00001925
+Running join with 3 tables
+n instructions: 2
+Join took 0.012787583
+Iter takes 0.012838291
+Building takes 0.000003041
+Running join with 2 tables
+n instructions: 1
+Join took 0.01559325
+Iter takes 0.015630292
+Building takes 0.011040166
+Running join with 4 tables
+n instructions: 3
+Join took 0.051708084
+Iter takes 0.062804416
+Building takes 0.000003416
+Running join with 2 tables
+n instructions: 1
+Join took 0.004473375
+Iter takes 0.004504291
+Building takes 0.00024625
+Running join with 3 tables
+n instructions: 2
+Join took 0.20634592
+Iter takes 0.2066262
+Building takes 0.001797666
+Running join with 4 tables
+n instructions: 3
+Join took 0.001437958
+Iter takes 0.003268208
+Bushy join takes 0.30588987
+out rows: 4
+output [Str("MTV Netherlands"), Str("495 Productions"), Str("3.3"), Str("2.7"), Str("A Double Shot at Love"), Str("A Shot at Love with Tila Tequila")]
+Total building takes 0.013112164
+Total joining takes 0.29251933
+Total takes 0.30591846
+running query 33c 
+DUCKDB total time: 1.727636
+DUCKDB filter time: 0.048612
+DUCKDB join time: 1.6790239999999998
+Loading mc2 to DB from cache (cache=63 cols)
+Loading mc1 to DB from cache (cache=63 cols)
+Loading cn2 to DB from cache (cache=63 cols)
+Loading cn1 to DB
+Loading t1 to DB from cache (cache=63 cols)
+Loading kt1 to DB
+Loading mi_idx1 to DB from cache (cache=63 cols)
+Loading it1 to DB
+Loading t2 to DB
+Loading kt2 to DB
+Loading mi_idx2 to DB
+Loading it2 to DB
+Loading ml to DB from cache (cache=63 cols)
+Loading lt to DB
+Building takes 0.000002333
+Running join with 2 tables
+n instructions: 1
+Join took 0.0001785
+Iter takes 0.000195083
+Building takes 0.000019125
+Running join with 3 tables
+n instructions: 2
+Join took 0.042531457
+Iter takes 0.042583168
+Building takes 0.000002958
+Running join with 2 tables
+n instructions: 1
+Join took 0.017243875
+Iter takes 0.01727925
+Building takes 0.011399375
+Running join with 4 tables
+n instructions: 3
+Join took 0.19157633
+Iter takes 0.20302945
+Building takes 0.000002833
+Running join with 2 tables
+n instructions: 1
+Join took 0.004898083
+Iter takes 0.004927
+Building takes 0.000482958
+Running join with 3 tables
+n instructions: 2
+Join took 0.20216642
+Iter takes 0.2026853
+Building takes 0.003285541
+Running join with 4 tables
+n instructions: 3
+Join took 0.0217275
+Iter takes 0.025071416
+Bushy join takes 0.49580893
+out rows: 96
+output [Str("2BE"), Str("495 Productions"), Str("1.3"), Str("1.0"), Str("A Double Shot at Love"), Str("A Double Shot at Love")]
+Total building takes 0.015195123
+Total joining takes 0.48032218
+Total takes 0.4958672

@@ -1,0 +1,126 @@
+{
+   "name":  "Query", 
+   "result": 0.742898,
+   "timing": 0.742898,
+   "cardinality": 1,
+   "extra_info": "SELECT MIN(t.title) AS movie_title\nFROM company_name AS cn,\n     keyword AS k,\n     movie_companies AS mc,\n     movie_keyword AS mk,\n     title AS t\nWHERE cn.country_code ='[us]'\n  AND k.keyword ='character-name-in-title'\n  AND cn.id = mc.company_id\n  AND mc.movie_id = t.id\n  AND t.id = mk.movie_id\n  AND mk.keyword_id = k.id\n  AND mc.movie_id = mk.movie_id;", 
+   "timings": [
+
+   ],
+   "children": [
+    {
+      "name": "SIMPLE_AGGREGATE",
+      "timing":0.000791,
+      "cardinality":1,
+      "extra_info": "min(#0)",
+      "timings": [
+      ],
+      "children": [
+       {
+         "name": "PROJECTION",
+         "timing":0.000011,
+         "cardinality":68316,
+         "extra_info": "t.title\n",
+         "timings": [
+         ],
+         "children": [
+          {
+            "name": "HASH_JOIN",
+            "timing":0.001849,
+            "cardinality":68316,
+            "extra_info": "INNER\nmc.company_id = cn.id\n",
+            "timings": [
+            ],
+            "children": [
+             {
+               "name": "HASH_JOIN",
+               "timing":0.082777,
+               "cardinality":148552,
+               "extra_info": "INNER\nmk.keyword_id = k.id\n",
+               "timings": [
+               ],
+               "children": [
+                {
+                  "name": "HASH_JOIN",
+                  "timing":0.382511,
+                  "cardinality":34863638,
+                  "extra_info": "INNER\nt.id = mc.movie_id\nmk.movie_id = mc.movie_id\n",
+                  "timings": [
+                  ],
+                  "children": [
+                   {
+                     "name": "HASH_JOIN",
+                     "timing":0.091157,
+                     "cardinality":4523930,
+                     "extra_info": "INNER\nmk.movie_id = t.id\n",
+                     "timings": [
+                     ],
+                     "children": [
+                      {
+                        "name": "SEQ_SCAN",
+                        "timing":0.001532,
+                        "cardinality":4523930,
+                        "extra_info": "movie_keyword\n[INFOSEPARATOR]\nmovie_id\nkeyword_id",
+                        "timings": [
+                        ],
+                        "children": [
+                        ]
+                      }
+,
+                      {
+                        "name": "SEQ_SCAN",
+                        "timing":0.020746,
+                        "cardinality":2528312,
+                        "extra_info": "title\n[INFOSEPARATOR]\nid\ntitle",
+                        "timings": [
+                        ],
+                        "children": [
+                        ]
+                      }
+                     ]
+                   }
+,
+                   {
+                     "name": "SEQ_SCAN",
+                     "timing":0.000492,
+                     "cardinality":2609129,
+                     "extra_info": "movie_companies\n[INFOSEPARATOR]\ncompany_id\nmovie_id",
+                     "timings": [
+                     ],
+                     "children": [
+                     ]
+                   }
+                  ]
+                }
+,
+                {
+                  "name": "SEQ_SCAN",
+                  "timing":0.001424,
+                  "cardinality":1,
+                  "extra_info": "keyword\n[INFOSEPARATOR]\nkeyword\nid\n[INFOSEPARATOR]\nFilters: keyword=character-name-in-title AND keyword IS NOT NULL\n",
+                  "timings": [
+                  ],
+                  "children": [
+                  ]
+                }
+               ]
+             }
+,
+             {
+               "name": "SEQ_SCAN",
+               "timing":0.002339,
+               "cardinality":84843,
+               "extra_info": "company_name\n[INFOSEPARATOR]\ncountry_code\nid\n[INFOSEPARATOR]\nFilters: country_code=[us] AND country_code IS NOT NULL\n",
+               "timings": [
+               ],
+               "children": [
+               ]
+             }
+            ]
+          }
+         ]
+       }
+      ]
+    }
+   ]
+}
