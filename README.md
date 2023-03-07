@@ -1,6 +1,6 @@
 # Free Join
 
-This is the artifact for SIGMOD 2023 paper #561. 
+This is the artifact for [Free Join: Unifying Worst-Case Optimal and Traditional Joins](https://arxiv.org/abs/2301.10841). 
 Due to time constraints, we provide instructions to run only one set of experiments. 
 
 # Requirements
