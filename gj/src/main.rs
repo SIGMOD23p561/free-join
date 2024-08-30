@@ -93,25 +93,25 @@ fn main() {
         //     });
         // }
 
+        // ecords.push(Record {
+        //    query: q.into(),
+        //    vectorize: 1000,
+        //    optimize: 1,
+        //    strategy: 2,
+        //    time: (0..1)
+        //        .map(|_| run_query(&plan_tree, 1000, 1, BuildStrategy::COLT, &db, &payload))
+        //        .collect(),
+        // );
+
         records.push(Record {
             query: q.into(),
-            vectorize: 1000,
-            optimize: 1,
-            strategy: 2,
+            vectorize: 1,
+            optimize: 0,
+            strategy: 0,
             time: (0..1)
-                .map(|_| run_query(&plan_tree, 1000, 1, BuildStrategy::COLT, &db, &payload))
+                .map(|_| run_query(&plan_tree, 1, 0, BuildStrategy::Full, &db, &payload))
                 .collect(),
         });
-
-        // records.push(Record {
-        //     query: q.into(),
-        //     vectorize: 1,
-        //     optimize: 0,
-        //     strategy: 0,
-        //     time: (0..args.n_trials)
-        //         .map(|_| run_query(&plan_tree, 1, 0, BuildStrategy::Full, &db, &payload))
-        //         .collect(),
-        // });
     }
 
     serde_json::to_writer_pretty(
